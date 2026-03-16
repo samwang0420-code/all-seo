@@ -14,7 +14,9 @@
     "livability_score": 7.1,
     "type": "metropolis",
     "lat": 40.7128,
-    "lng": -74.006
+    "lng": -74.006,
+    "ai_introduction": "New York City, the largest city in the United States, stands as a global icon of ambition, diversity, and cultural revolution. From the towering skyscrapers of Manhattan to the artistic enclaves of Brooklyn, the city pulses with an energy found nowhere else on Earth. As the financial capital of the world and home to Broadway's glittering theaters, NYC attracts dreamers from every corner of the globe. The city's five boroughs each offer distinct personalities\u2014from the bohemian spirit of Greenwich Village to the sleek modernity of Hudson Yards. With world-renowned museums, unmatched culinary scenes, and a history spanning centuries, New York remains the ultimate destination for those seeking opportunity and excitement.",
+    "intro_word_count": 110
   },
   {
     "city": "Los Angeles",
@@ -31,7 +33,9 @@
     "livability_score": 6.5,
     "type": "metropolis",
     "lat": 34.0522,
-    "lng": -118.2437
+    "lng": -118.2437,
+    "ai_introduction": "Los Angeles, the entertainment capital of the world, stretches along the Pacific coast like a dreamscape of palm trees and cinematic magic. Home to Hollywood's legendary studios, LA transforms aspirations into household names across film, music, and technology. The city's sprawling landscape encompasses beach communities from Santa Monica to Malibu, mountain retreats in the Hollywood Hills, and vibrant multicultural neighborhoods serving cuisines from Mexico to Korea. Los Angeles enjoys nearly year-round sunshine, drawing outdoor enthusiasts to hiking trails, surfing spots, and legendary road trips along the Pacific Coast Highway.",
+    "intro_word_count": 89
   },
   {
     "city": "Chicago",
@@ -48,7 +52,9 @@
     "livability_score": 6.4,
     "type": "major city",
     "lat": 41.8781,
-    "lng": -87.6298
+    "lng": -87.6298,
+    "ai_introduction": "Chicago, the Windy City, rises from the shores of Lake Michigan as a testament to American resilience and innovation. Famous for its breathtaking architecture that pioneered the modern skyscraper, Chi-town balances bold modernity with deep-rooted traditions. The city's legendary blues clubs and comedy scene gave birth to artists who shaped American culture. Chicago's deep-dish pizza and Italian beef sandwiches are culinary pilgrimages for food lovers. With world-class museums, beautiful urban beaches, and a transit system that connects diverse neighborhoods, Chicago offers big-city excitement with Midwestern warmth.",
+    "intro_word_count": 86
   },
   {
     "city": "Houston",
@@ -65,7 +71,9 @@
     "livability_score": 6.8,
     "type": "major city",
     "lat": 29.7604,
-    "lng": -95.3698
+    "lng": -95.3698,
+    "ai_introduction": "Houston, the energy capital of the world, powers the global oil industry while also emerging as a hub for space exploration through NASA missions. This sprawling Texas metropolis blends Southern hospitality with cutting-edge technology and international cuisine. The city's Museum District houses collections rivaling major capitals, while its diverse population has created neighborhoods celebrating Vietnamese, Nigerian, Mexican, and countless other cultures. Houston's lack of zoning laws has created an unexpectedly vibrant urban landscape where skyscrapers stand beside modest homes.",
+    "intro_word_count": 79
   },
   {
     "city": "Phoenix",
@@ -82,7 +90,9 @@
     "livability_score": 7.2,
     "type": "desert city",
     "lat": 33.4484,
-    "lng": -112.074
+    "lng": -112.074,
+    "ai_introduction": "Phoenix, the Valley of the Sun, basks in sunshine over 300 days yearly, making it America's premier desert metropolis. Rising from the Sonoran Desert, this innovative city has transformed arid plains into a thriving hub of technology, healthcare, and retirement paradise. Phoenix's architecture embraces desert aesthetics, while its restaurants showcase Southwestern and Mexican cuisines at their finest. Outdoor enthusiasts flock to nearby mountains for skiing and hiking, while the city's vibrant arts scene and professional sports teams provide year-round entertainment.",
+    "intro_word_count": 80
   },
   {
     "city": "Philadelphia",
@@ -99,7 +109,9 @@
     "livability_score": 6.6,
     "type": "major city",
     "lat": 39.9526,
-    "lng": -75.1652
+    "lng": -75.1652,
+    "ai_introduction": "Philadelphia, the City of Brotherly Love, carries American independence in its historic streets where Founding Fathers debated and signed documents creating a nation. The Liberty Bell rings in Independence Hall, while cheesesteaks fuel explorations of murals, museums, and vibrant neighborhoods. Philadelphia has transformed into a biotech hub while preserving its working-class soul. The Schuylkill River provides scenic running paths, and the city's diverse populations have created one of America's great food cities.",
+    "intro_word_count": 72
   },
   {
     "city": "San Antonio",
@@ -116,7 +128,9 @@
     "livability_score": 7.0,
     "type": "major city",
     "lat": 29.4241,
-    "lng": -98.4936
+    "lng": -98.4936,
+    "ai_introduction": "In Texas, San Antonio serves as a major metropolitan area in Bexar County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define San Antonio, Texas. With convenient access to transportation networks and regional amenities, San Antonio provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "San Diego",
@@ -133,7 +147,9 @@
     "livability_score": 7.6,
     "type": "coastal city",
     "lat": 32.7157,
-    "lng": -117.1611
+    "lng": -117.1611,
+    "ai_introduction": "San Diego, America's Finest City, basks on California's coast where perfect weather meets stunning beaches and world-class attractions. The city blends military heritage with surf culture and Mexican traditions, creating an effortlessly laid-back vibe. Balboa Park houses museums and the San Diego Zoo, while Old Town preserves California origins. Marine Corps Recruit Depot reminds visitors of the city's military importance, and the bay offers sailing and waterfront dining. With 70 miles of coastline, San Diego lives up to its reputation as a paradise for outdoor enthusiasts.",
+    "intro_word_count": 86
   },
   {
     "city": "Dallas",
@@ -150,7 +166,9 @@
     "livability_score": 6.9,
     "type": "major city",
     "lat": 32.7767,
-    "lng": -96.797
+    "lng": -96.797,
+    "ai_introduction": "Dallas, Big D, swagger onto the Texas scene as a cultural and economic powerhouse blending Western heritage with cosmopolitan sophistication. The city rose from oil riches to corporate headquarters, while Dealey Plaza marks a pivotal moment in American history. Dallas arts district rivals major cities, and its restaurants showcase Texas-Asian and smoked-meat fusion. The Katy Trail draws runners and cyclists through neighborhoods, while football Sundays ignite passions throughout the metro.",
+    "intro_word_count": 70
   },
   {
     "city": "San Jose",
@@ -167,7 +185,9 @@
     "livability_score": 8.0,
     "type": "tech hub",
     "lat": 37.3382,
-    "lng": -121.8863
+    "lng": -121.8863,
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, San Jose serves as a major metropolitan area in Santa Clara County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define San Jose, California. With convenient access to transportation networks and regional amenities, San Jose provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 68
   },
   {
     "city": "Austin",
@@ -184,7 +204,9 @@
     "livability_score": 8.2,
     "type": "capital city",
     "lat": 30.2672,
-    "lng": -97.7431
+    "lng": -97.7431,
+    "ai_introduction": "Austin, the Live Music Capital of the World, pulses with creative energy that attracts musicians, entrepreneurs, and free spirits alike. The Texas state capital balances government business with an irreverent culture that embraces weirdness and welcomes all. South by Southwest transforms the city into a global festival of music, film, and technology annually. Austin's BBQ joints smoke brisket to perfection, while its tacos rank among America's best. The University of Texas brings college-town energy, and Barton Springs Pool offers refreshing respite from Texas heat.",
+    "intro_word_count": 84
   },
   {
     "city": "Jacksonville",
@@ -201,7 +223,9 @@
     "livability_score": 7.1,
     "type": "coastal city",
     "lat": 30.3322,
-    "lng": -81.6557
+    "lng": -81.6557,
+    "ai_introduction": "Nestled along the coast, Jacksonville serves as a major metropolitan area in Duval County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Jacksonville, Florida. With convenient access to transportation networks and regional amenities, Jacksonville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "San Francisco",
@@ -218,7 +242,9 @@
     "livability_score": 6.9,
     "type": "tech hub",
     "lat": 37.7749,
-    "lng": -122.4194
+    "lng": -122.4194,
+    "ai_introduction": "San Francisco, the City by the Bay, perches on hilly peninsulas overlooking the Pacific and one of the world's greatest harbors. The Golden Gate Bridge remains perhaps America's most photographed landmark, while Alcatraz tells tales of infamous prisoners. San Francisco's Tech Corridor in Silicon Valley has produced companies that revolutionized how humanity communicates and works. The city's Victorian Painted Ladies, cable cars, and fog-shrouded mornings create a charm found nowhere else. Despite its challenges, San Francisco remains a beacon for innovators, artists, and dreamers worldwide.",
+    "intro_word_count": 85
   },
   {
     "city": "Columbus",
@@ -235,7 +261,9 @@
     "livability_score": 7.4,
     "type": "college city",
     "lat": 39.9612,
-    "lng": -82.9988
+    "lng": -82.9988,
+    "ai_introduction": "In Ohio, Columbus serves as a major metropolitan area in Franklin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Columbus, Ohio. With convenient access to transportation networks and regional amenities, Columbus provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Fort Worth",
@@ -252,7 +280,9 @@
     "livability_score": 7.3,
     "type": "major city",
     "lat": 32.7555,
-    "lng": -97.3308
+    "lng": -97.3308,
+    "ai_introduction": "In Texas, Fort Worth serves as a major metropolitan area in Tarrant County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fort Worth, Texas. With convenient access to transportation networks and regional amenities, Fort Worth provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Indianapolis",
@@ -269,7 +299,9 @@
     "livability_score": 6.8,
     "type": "midwest city",
     "lat": 39.7684,
-    "lng": -86.1581
+    "lng": -86.1581,
+    "ai_introduction": "In Indiana, Indianapolis serves as a major metropolitan area in Marion County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Indianapolis, Indiana. With convenient access to transportation networks and regional amenities, Indianapolis provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Charlotte",
@@ -286,7 +318,9 @@
     "livability_score": 7.5,
     "type": "banking hub",
     "lat": 35.2271,
-    "lng": -80.8431
+    "lng": -80.8431,
+    "ai_introduction": "Charlotte, the Queen City, has grown from banking hub into a diverse southern metropolis where skyscrapers rise alongside historic neighborhoods. Bank of America's headquarters anchors a financial district, while the city's transplant population has created excellent restaurants and breweries. Charlotte's NASCAR heritage and Carolina Panthers provide sports excitement, while the nearby mountains and beaches offer weekend escapes. The city's welcoming vibe makes newcomers feel at home quickly.",
+    "intro_word_count": 67
   },
   {
     "city": "Seattle",
@@ -303,7 +337,9 @@
     "livability_score": 8.1,
     "type": "tech hub",
     "lat": 47.6062,
-    "lng": -122.3321
+    "lng": -122.3321,
+    "ai_introduction": "Seattle, the Emerald City, nestles between Puget Sound and snow-capped mountains, offering natural beauty that inspires its residents daily. Home to Amazon, Microsoft, and Starbucks' founding store, Seattle has transformed from logging town to tech powerhouse. The city's legendary music scene produced Nirvana and countless grunge legends, while Pike Place Market has served fresh catches and local crafts since 1907. Rainy winters nurture the lush greenery that gives Seattle its nickname, while summer brings kayakers to Lake Union and hikers to surrounding peaks.",
+    "intro_word_count": 83
   },
   {
     "city": "Denver",
@@ -320,7 +356,9 @@
     "livability_score": 7.8,
     "type": "mountain city",
     "lat": 39.7392,
-    "lng": -104.9903
+    "lng": -104.9903,
+    "ai_introduction": "Denver, the Mile-High City, sits exactly one mile above sea level, giving visitors a slight breathlessness and stunning mountain views from downtown. This gateway to the Rockies combines outdoor adventure with sophisticated urban culture. Denver's craft beer scene thrives with more breweries per capita than anywhere else, while its food scene has evolved into a culinary destination. Professional sports fans cheer for teams across all major leagues, and the city's sunny days draw hikers, skiers, and cyclists to surrounding peaks year-round.",
+    "intro_word_count": 81
   },
   {
     "city": "Washington",
@@ -337,7 +375,9 @@
     "livability_score": 7.0,
     "type": "capital city",
     "lat": 38.9072,
-    "lng": -77.0369
+    "lng": -77.0369,
+    "ai_introduction": "As the state capital of District of Columbia, Washington serves as a major metropolitan area in District of Columbia County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Washington, District of Columbia. With convenient access to transportation networks and regional amenities, Washington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Boston",
@@ -354,7 +394,9 @@
     "livability_score": 7.7,
     "type": "historic city",
     "lat": 42.3601,
-    "lng": -71.0589
+    "lng": -71.0589,
+    "ai_introduction": "Boston, America's oldest major city, weaves colonial history into a modern tapestry of world-class universities and cutting-edge biotechnology. The Freedom Trail guides visitors through revolutionary sites where American independence was forged, while Harvard and MIT across the river in Cambridge shape global innovation. Boston's accent and bean-eating culture give the city distinct New England character. Fenway Park's green monster has watched baseball since 1912, and the city's waterfront transforms into summer festival grounds.",
+    "intro_word_count": 73
   },
   {
     "city": "Nashville",
@@ -371,7 +413,9 @@
     "livability_score": 7.6,
     "type": "music city",
     "lat": 36.1627,
-    "lng": -86.7816
+    "lng": -86.7816,
+    "ai_introduction": "Nashville, Music City, resonates with guitars and harmonies that have shaped American popular music for over a century. From Grand Ole Opry broadcasts to the recording studios where Elvis and Dolly recorded hits, Nashville celebrates its musical heritage while embracing new artists. The city has transformed from country music capital into a diverse cultural destination with excellent restaurants, craft breweries, and thriving tech scene. Honky-tonks on Broadway spill live music onto streets where pedestrians wander between bars and boots shops.",
+    "intro_word_count": 80
   },
   {
     "city": "Detroit",
@@ -388,7 +432,9 @@
     "livability_score": 5.8,
     "type": "motor city",
     "lat": 42.3314,
-    "lng": -83.0458
+    "lng": -83.0458,
+    "ai_introduction": "Detroit, the Motor City, is rebuilding from industrial decline with resilience and reinvention. Once the Arsenal of Democracy powering WWII efforts and home to American automotive giants, Detroit faced economic challenges but never lost its creative spirit. The city's music legacy spans Motown, techno, and rock, while chefs and entrepreneurs are creating a new culinary scene. Detroit's architecture tells stories of boom and bust, while its people are writing a comeback story written in startups, murals, and community gardens.",
+    "intro_word_count": 79
   },
   {
     "city": "Portland",
@@ -405,7 +451,9 @@
     "livability_score": 7.8,
     "type": "pacific city",
     "lat": 45.5155,
-    "lng": -122.6789
+    "lng": -122.6789,
+    "ai_introduction": "Portland, the City of Roses, blooms in the Pacific Northwest with quirky creativity and environmental consciousness. This bike-friendly metropolis boasts more breweries than any American city and a food scene celebrating local, sustainable ingredients. Portland's neighborhoods\u2014from the Victorian charm of the Alphabet District to the counterculture energy of Hawthorne\u2014offer distinct personalities. Mount Hood provides year-round skiing, while the Oregon coast and Columbia River Gorge offer breathtaking day trips. The city's famous weirdness includes a naked bike ride and a mall with an active volcano.",
+    "intro_word_count": 84
   },
   {
     "city": "Las Vegas",
@@ -422,7 +470,9 @@
     "livability_score": 6.7,
     "type": "entertainment hub",
     "lat": 36.1699,
-    "lng": -115.1398
+    "lng": -115.1398,
+    "ai_introduction": "Las Vegas, Sin City, glitters through the desert with lights visible from space, promising entertainment and excitement beyond imagination. The Strip hosts themed resorts replicating Paris, Venice, and ancient Rome, while casinos gamble billions annually. Beyond gambling, Vegas offers world-class entertainment, celebrity-chef restaurants, and nightlife that never sleeps. The surrounding desert provides hiking in Red Rock Canyon and Lake Mead adventures, while the city has reinvented itself as a convention and sports destination beyond gambling.",
+    "intro_word_count": 75
   },
   {
     "city": "Memphis",
@@ -439,7 +489,9 @@
     "livability_score": 6.0,
     "type": "blues city",
     "lat": 35.1495,
-    "lng": -90.049
+    "lng": -90.049,
+    "ai_introduction": "In Tennessee, Memphis serves as a major metropolitan area in Shelby County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Memphis, Tennessee. With convenient access to transportation networks and regional amenities, Memphis provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Louisville",
@@ -456,7 +508,9 @@
     "livability_score": 6.9,
     "type": "river city",
     "lat": 38.2527,
-    "lng": -85.7585
+    "lng": -85.7585,
+    "ai_introduction": "In Kentucky, Louisville serves as a major metropolitan area in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Louisville, Kentucky. With convenient access to transportation networks and regional amenities, Louisville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Baltimore",
@@ -473,7 +527,9 @@
     "livability_score": 6.2,
     "type": "charm city",
     "lat": 39.2904,
-    "lng": -76.6122
+    "lng": -76.6122,
+    "ai_introduction": "In Maryland, Baltimore serves as a major metropolitan area in Baltimore County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Baltimore, Maryland. With convenient access to transportation networks and regional amenities, Baltimore provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Milwaukee",
@@ -490,7 +546,9 @@
     "livability_score": 6.5,
     "type": "brew city",
     "lat": 43.0389,
-    "lng": -87.9065
+    "lng": -87.9065,
+    "ai_introduction": "In Wisconsin, Milwaukee serves as a major metropolitan area in Milwaukee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Milwaukee, Wisconsin. With convenient access to transportation networks and regional amenities, Milwaukee provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Albuquerque",
@@ -507,7 +565,9 @@
     "livability_score": 6.8,
     "type": "desert city",
     "lat": 35.0844,
-    "lng": -106.6504
+    "lng": -106.6504,
+    "ai_introduction": "Emerging from the desert landscape, Albuquerque serves as a major metropolitan area in Bernalillo County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Albuquerque, New Mexico. With convenient access to transportation networks and regional amenities, Albuquerque provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Tucson",
@@ -524,7 +584,9 @@
     "livability_score": 7.0,
     "type": "desert city",
     "lat": 32.2226,
-    "lng": -110.9747
+    "lng": -110.9747,
+    "ai_introduction": "Emerging from the desert landscape, Tucson serves as a major metropolitan area in Pima County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Tucson, Arizona. With convenient access to transportation networks and regional amenities, Tucson provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Fresno",
@@ -541,7 +603,9 @@
     "livability_score": 6.5,
     "type": "central valley",
     "lat": 36.7378,
-    "lng": -119.7871
+    "lng": -119.7871,
+    "ai_introduction": "In California, Fresno serves as a major metropolitan area in Fresno County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fresno, California. With convenient access to transportation networks and regional amenities, Fresno provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Sacramento",
@@ -558,7 +622,9 @@
     "livability_score": 7.2,
     "type": "capitol city",
     "lat": 38.5816,
-    "lng": -121.4944
+    "lng": -121.4944,
+    "ai_introduction": "In California, Sacramento serves as a major metropolitan area in Sacramento County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Sacramento, California. With convenient access to transportation networks and regional amenities, Sacramento provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Mesa",
@@ -575,7 +641,9 @@
     "livability_score": 7.4,
     "type": "suburb city",
     "lat": 33.4152,
-    "lng": -111.8315
+    "lng": -111.8315,
+    "ai_introduction": "In Arizona, Mesa serves as a major metropolitan area in Maricopa County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Mesa, Arizona. With convenient access to transportation networks and regional amenities, Mesa provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Kansas City",
@@ -592,7 +660,9 @@
     "livability_score": 7.1,
     "type": "bbq city",
     "lat": 39.0997,
-    "lng": -94.5786
+    "lng": -94.5786,
+    "ai_introduction": "In Missouri, Kansas City serves as a mid-sized city in Jackson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Kansas City, Missouri. With convenient access to transportation networks and regional amenities, Kansas City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Atlanta",
@@ -609,7 +679,9 @@
     "livability_score": 7.3,
     "type": "peach city",
     "lat": 33.749,
-    "lng": -84.388
+    "lng": -84.388,
+    "ai_introduction": "Atlanta, the Gate City of the South, has transformed from Civil War railroad hub to a nexus of civil rights history, Hollywood production, and corporate headquarters. The city where Dr. Martin Luther King Jr. was born and led movements now boasts museums honoring that legacy alongside gleaming skyscrapers. Atlanta's film industry has exploded, earning it the nickname \"Hollywood of the South.\" Hartsfield-Jackson is the world's busiest airport, connecting Atlanta to every corner of the globe. The city's diverse food scene ranges from classic Southern cooking to innovative contemporary cuisine.",
+    "intro_word_count": 89
   },
   {
     "city": "Miami",
@@ -626,7 +698,9 @@
     "livability_score": 6.9,
     "type": "coastal city",
     "lat": 25.7617,
-    "lng": -80.1918
+    "lng": -80.1918,
+    "ai_introduction": "Miami, where American culture meets Latin American flair in a dazzling tropical setting. South Beach's Art Deco historic district lines beaches where models and locals alike soak up sunshine, while Little Havana transports visitors to Cuba with domino games and cafecito. Miami's global population creates neighborhoods celebrating Haitian, Venezuelan, Brazilian, and countless other heritages. The city's nightlife scene and Art Basel festival attract international jetset, while Biscayne Bay offers sailing and waterfront living that defines the Florida dream.",
+    "intro_word_count": 78
   },
   {
     "city": "Cleveland",
@@ -643,7 +717,9 @@
     "livability_score": 6.1,
     "type": "rock city",
     "lat": 41.4993,
-    "lng": -81.6944
+    "lng": -81.6944,
+    "ai_introduction": "In Ohio, Cleveland serves as a mid-sized city in Cuyahoga County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Cleveland, Ohio. With convenient access to transportation networks and regional amenities, Cleveland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Minneapolis",
@@ -660,7 +736,9 @@
     "livability_score": 7.9,
     "type": "twin city",
     "lat": 44.9778,
-    "lng": -93.265
+    "lng": -93.265,
+    "ai_introduction": "Minneapolis-St. Paul, the Twin Cities, combine Scandinavian heritage with cutting-edge creativity in the Land of 10,000 Lakes. Minneapolis built its reputation on milling and manufacturing, then reinvented itself through technology and the University of Minnesota. The Walker Art Center and First Avenue music venue showcase the city's creative spirit. Despite brutal winters, residents embrace the cold with ice fishing, ski clubs, and the beloved St. Paul Winter Carnival. The Mississippi River divides but unites these complementary cities.",
+    "intro_word_count": 77
   },
   {
     "city": "New Orleans",
@@ -677,7 +755,9 @@
     "livability_score": 6.4,
     "type": "big easy",
     "lat": 29.9511,
-    "lng": -90.0715
+    "lng": -90.0715,
+    "ai_introduction": "In Louisiana, New Orleans serves as a mid-sized city in Orleans County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define New Orleans, Louisiana. With convenient access to transportation networks and regional amenities, New Orleans provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Tampa",
@@ -694,7 +774,9 @@
     "livability_score": 7.4,
     "type": "coastal city",
     "lat": 27.9506,
-    "lng": -82.4572
+    "lng": -82.4572,
+    "ai_introduction": "Tampa, the cigar city that grew from Cuban immigration into a Gulf Coast metropolis, offers beaches, breweries, and business. Ybor City preserves Latin heritage with cobblestone streets and famous cafes, while the Riverwalk connects downtown attractions. Tampa's sports teams unite communities, and its growing tech scene attracts young professionals. Nearby beaches provide island getaways, and the city's subtropical climate keeps outdoor activities year-round.",
+    "intro_word_count": 63
   },
   {
     "city": "Pittsburgh",
@@ -711,7 +793,9 @@
     "livability_score": 7.2,
     "type": "steel city",
     "lat": 40.4406,
-    "lng": -79.9959
+    "lng": -79.9959,
+    "ai_introduction": "In Pennsylvania, Pittsburgh serves as a mid-sized city in Allegheny County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Pittsburgh, Pennsylvania. With convenient access to transportation networks and regional amenities, Pittsburgh provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Cincinnati",
@@ -728,7 +812,9 @@
     "livability_score": 7.2,
     "type": "queen city",
     "lat": 39.1031,
-    "lng": -84.512
+    "lng": -84.512,
+    "ai_introduction": "In Ohio, Cincinnati serves as a mid-sized city in Hamilton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Cincinnati, Ohio. With convenient access to transportation networks and regional amenities, Cincinnati provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "St. Louis",
@@ -745,7 +831,9 @@
     "livability_score": 6.3,
     "type": "gateway city",
     "lat": 38.627,
-    "lng": -90.1994
+    "lng": -90.1994,
+    "ai_introduction": "In Missouri, St. Louis serves as a mid-sized city in St. Louis City County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define St. Louis, Missouri. With convenient access to transportation networks and regional amenities, St. Louis provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Buffalo",
@@ -762,7 +850,9 @@
     "livability_score": 6.8,
     "type": "nickel city",
     "lat": 42.8864,
-    "lng": -78.8784
+    "lng": -78.8784,
+    "ai_introduction": "In New York, Buffalo serves as a mid-sized city in Erie County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Buffalo, New York. With convenient access to transportation networks and regional amenities, Buffalo provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Riverside",
@@ -779,7 +869,9 @@
     "livability_score": 7.2,
     "type": "inland empire",
     "lat": 33.9806,
-    "lng": -117.3755
+    "lng": -117.3755,
+    "ai_introduction": "In California, Riverside serves as a mid-sized city in Riverside County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Riverside, California. With convenient access to transportation networks and regional amenities, Riverside provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Santa Ana",
@@ -796,7 +888,9 @@
     "livability_score": 7.0,
     "type": "orange county",
     "lat": 33.7455,
-    "lng": -117.8677
+    "lng": -117.8677,
+    "ai_introduction": "In California, Santa Ana serves as a mid-sized city in Orange County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Santa Ana, California. With convenient access to transportation networks and regional amenities, Santa Ana provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Anaheim",
@@ -813,7 +907,9 @@
     "livability_score": 7.3,
     "type": "disney city",
     "lat": 33.8366,
-    "lng": -117.9143
+    "lng": -117.9143,
+    "ai_introduction": "In California, Anaheim serves as a mid-sized city in Orange County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Anaheim, California. With convenient access to transportation networks and regional amenities, Anaheim provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Honolulu",
@@ -830,7 +926,9 @@
     "livability_score": 7.8,
     "type": "aloha city",
     "lat": 21.3069,
-    "lng": -157.8583
+    "lng": -157.8583,
+    "ai_introduction": "In Hawaii, Honolulu serves as a mid-sized city in Honolulu County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Honolulu, Hawaii. With convenient access to transportation networks and regional amenities, Honolulu provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Tulsa",
@@ -847,7 +945,9 @@
     "livability_score": 7.0,
     "type": "oil city",
     "lat": 36.154,
-    "lng": -95.9928
+    "lng": -95.9928,
+    "ai_introduction": "In Oklahoma, Tulsa serves as a mid-sized city in Tulsa County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Tulsa, Oklahoma. With convenient access to transportation networks and regional amenities, Tulsa provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Oklahoma City",
@@ -864,7 +964,9 @@
     "livability_score": 7.2,
     "type": "sooners city",
     "lat": 35.4676,
-    "lng": -97.5164
+    "lng": -97.5164,
+    "ai_introduction": "In Oklahoma, Oklahoma City serves as a major metropolitan area in Oklahoma County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Oklahoma City, Oklahoma. With convenient access to transportation networks and regional amenities, Oklahoma City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Bridgeport",
@@ -881,7 +983,9 @@
     "livability_score": 6.5,
     "type": "park city",
     "lat": 41.1865,
-    "lng": -73.1952
+    "lng": -73.1952,
+    "ai_introduction": "In Connecticut, Bridgeport serves as a growing community in Fairfield County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bridgeport, Connecticut. With convenient access to transportation networks and regional amenities, Bridgeport provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Newark",
@@ -898,7 +1002,9 @@
     "livability_score": 6.3,
     "type": "gateway city",
     "lat": 40.7357,
-    "lng": -74.1724
+    "lng": -74.1724,
+    "ai_introduction": "In New Jersey, Newark serves as a mid-sized city in Essex County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Newark, New Jersey. With convenient access to transportation networks and regional amenities, Newark provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Lincoln",
@@ -915,7 +1021,9 @@
     "livability_score": 7.8,
     "type": "cornhusker city",
     "lat": 40.8136,
-    "lng": -96.7026
+    "lng": -96.7026,
+    "ai_introduction": "In Nebraska, Lincoln serves as a mid-sized city in Lancaster County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lincoln, Nebraska. With convenient access to transportation networks and regional amenities, Lincoln provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Plano",
@@ -932,7 +1040,9 @@
     "livability_score": 8.5,
     "type": "suburb city",
     "lat": 33.0198,
-    "lng": -96.6989
+    "lng": -96.6989,
+    "ai_introduction": "In Texas, Plano serves as a mid-sized city in Collin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Plano, Texas. With convenient access to transportation networks and regional amenities, Plano provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Raleigh",
@@ -949,7 +1059,9 @@
     "livability_score": 8.0,
     "type": "research triangle",
     "lat": 35.7796,
-    "lng": -78.6382
+    "lng": -78.6382,
+    "ai_introduction": "In North Carolina, Raleigh serves as a mid-sized city in Wake County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Raleigh, North Carolina. With convenient access to transportation networks and regional amenities, Raleigh provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Scottsdale",
@@ -966,7 +1078,9 @@
     "livability_score": 8.4,
     "type": "desert resort",
     "lat": 33.4942,
-    "lng": -111.9261
+    "lng": -111.9261,
+    "ai_introduction": "In Arizona, Scottsdale serves as a mid-sized city in Maricopa County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Scottsdale, Arizona. With convenient access to transportation networks and regional amenities, Scottsdale provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Salt Lake City",
@@ -983,7 +1097,9 @@
     "livability_score": 7.7,
     "type": "mormon city",
     "lat": 40.7608,
-    "lng": -111.891
+    "lng": -111.891,
+    "ai_introduction": "In Utah, Salt Lake City serves as a mid-sized city in Salt Lake County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Salt Lake City, Utah. With convenient access to transportation networks and regional amenities, Salt Lake City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Des Moines",
@@ -1000,7 +1116,9 @@
     "livability_score": 7.5,
     "type": "corn city",
     "lat": 41.5868,
-    "lng": -93.625
+    "lng": -93.625,
+    "ai_introduction": "In Iowa, Des Moines serves as a mid-sized city in Polk County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Des Moines, Iowa. With convenient access to transportation networks and regional amenities, Des Moines provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Madison",
@@ -1017,7 +1135,9 @@
     "livability_score": 8.2,
     "type": "college town",
     "lat": 43.0731,
-    "lng": -89.4012
+    "lng": -89.4012,
+    "ai_introduction": "In Wisconsin, Madison serves as a mid-sized city in Dane County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Madison, Wisconsin. With convenient access to transportation networks and regional amenities, Madison provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Wichita",
@@ -1034,7 +1154,9 @@
     "livability_score": 7.2,
     "type": "air capital",
     "lat": 37.6872,
-    "lng": -97.3301
+    "lng": -97.3301,
+    "ai_introduction": "In Kansas, Wichita serves as a mid-sized city in Sedgwick County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Wichita, Kansas. With convenient access to transportation networks and regional amenities, Wichita provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Charleston",
@@ -1051,7 +1173,9 @@
     "livability_score": 7.9,
     "type": "historic city",
     "lat": 32.7765,
-    "lng": -79.9311
+    "lng": -79.9311,
+    "ai_introduction": "In South Carolina, Charleston serves as a growing community in Charleston County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Charleston, South Carolina. With convenient access to transportation networks and regional amenities, Charleston provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "El Paso",
@@ -1068,7 +1192,9 @@
     "median_age": 34,
     "livability_score": 6.4,
     "type": "major city",
-    "zip_codes": "20597,21478"
+    "zip_codes": "20597,21478",
+    "ai_introduction": "In Texas, El Paso serves as a major metropolitan area in El Paso County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define El Paso, Texas. With convenient access to transportation networks and regional amenities, El Paso provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Anchorage",
@@ -1085,7 +1211,9 @@
     "median_age": 29,
     "livability_score": 9.2,
     "type": "city",
-    "zip_codes": "75316,75882"
+    "zip_codes": "75316,75882",
+    "ai_introduction": "In Alaska, Anchorage serves as a mid-sized city in Anchorage County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Anchorage, Alaska. With convenient access to transportation networks and regional amenities, Anchorage provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Fremont",
@@ -1102,7 +1230,9 @@
     "median_age": 44,
     "livability_score": 8.0,
     "type": "tech hub",
-    "zip_codes": "14093,14605"
+    "zip_codes": "14093,14605",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Fremont serves as a mid-sized city in Alameda County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fremont, California. With convenient access to transportation networks and regional amenities, Fremont provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Santa Rosa",
@@ -1119,7 +1249,9 @@
     "median_age": 28,
     "livability_score": 7.4,
     "type": "tech hub",
-    "zip_codes": "27393,28302"
+    "zip_codes": "27393,28302",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Santa Rosa serves as a growing community in Sonoma County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Santa Rosa, California. With convenient access to transportation networks and regional amenities, Santa Rosa provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 66
   },
   {
     "city": "Vancouver",
@@ -1136,7 +1268,9 @@
     "median_age": 28,
     "livability_score": 6.9,
     "type": "tech hub",
-    "zip_codes": "24056,24548"
+    "zip_codes": "24056,24548",
+    "ai_introduction": "As a thriving tech hub in Washington's technology corridor, Vancouver serves as a growing community in Clark County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Vancouver, Washington. With convenient access to transportation networks and regional amenities, Vancouver provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Cape Coral",
@@ -1153,7 +1287,9 @@
     "median_age": 29,
     "livability_score": 6.5,
     "type": "coastal city",
-    "zip_codes": "50245,50685"
+    "zip_codes": "50245,50685",
+    "ai_introduction": "Nestled along the coast, Cape Coral serves as a growing community in Lee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Cape Coral, Florida. With convenient access to transportation networks and regional amenities, Cape Coral provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Sioux Falls",
@@ -1170,7 +1306,9 @@
     "median_age": 29,
     "livability_score": 7.8,
     "type": "city",
-    "zip_codes": "63928,64126"
+    "zip_codes": "63928,64126",
+    "ai_introduction": "In South Dakota, Sioux Falls serves as a growing community in Minnehaha County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Sioux Falls, South Dakota. With convenient access to transportation networks and regional amenities, Sioux Falls provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Port St. Lucie",
@@ -1187,7 +1325,9 @@
     "median_age": 41,
     "livability_score": 6.9,
     "type": "coastal city",
-    "zip_codes": "98378,98783"
+    "zip_codes": "98378,98783",
+    "ai_introduction": "Nestled along the coast, Port St. Lucie serves as a mid-sized city in St. Lucie County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Port St. Lucie, Florida. With convenient access to transportation networks and regional amenities, Port St. Lucie provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 65
   },
   {
     "city": "Chattanooga",
@@ -1204,7 +1344,9 @@
     "median_age": 31,
     "livability_score": 8.8,
     "type": "music city",
-    "zip_codes": "80638,81397"
+    "zip_codes": "80638,81397",
+    "ai_introduction": "In Tennessee, Chattanooga serves as a growing community in Hamilton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Chattanooga, Tennessee. With convenient access to transportation networks and regional amenities, Chattanooga provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Salem",
@@ -1221,7 +1363,9 @@
     "median_age": 35,
     "livability_score": 8.9,
     "type": "pacific city",
-    "zip_codes": "35591,36293"
+    "zip_codes": "35591,36293",
+    "ai_introduction": "In Oregon, Salem serves as a growing community in Marion County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Salem, Oregon. With convenient access to transportation networks and regional amenities, Salem provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Tallahassee",
@@ -1238,7 +1382,9 @@
     "median_age": 40,
     "livability_score": 7.0,
     "type": "coastal city",
-    "zip_codes": "33124,33678"
+    "zip_codes": "33124,33678",
+    "ai_introduction": "Nestled along the coast, Tallahassee serves as a growing community in Leon County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Tallahassee, Florida. With convenient access to transportation networks and regional amenities, Tallahassee provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Pensacola",
@@ -1255,7 +1401,9 @@
     "median_age": 44,
     "livability_score": 7.8,
     "type": "coastal city",
-    "zip_codes": "98253,98524"
+    "zip_codes": "98253,98524",
+    "ai_introduction": "Nestled along the coast, Pensacola serves as a growing community in Escambia County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Pensacola, Florida. With convenient access to transportation networks and regional amenities, Pensacola provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Fort Myers",
@@ -1272,7 +1420,9 @@
     "median_age": 36,
     "livability_score": 8.7,
     "type": "coastal city",
-    "zip_codes": "82717,83264"
+    "zip_codes": "82717,83264",
+    "ai_introduction": "Nestled along the coast, Fort Myers serves as a growing community in Lee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fort Myers, Florida. With convenient access to transportation networks and regional amenities, Fort Myers provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Lakeland",
@@ -1289,7 +1439,9 @@
     "median_age": 29,
     "livability_score": 7.0,
     "type": "coastal city",
-    "zip_codes": "90840,91182"
+    "zip_codes": "90840,91182",
+    "ai_introduction": "Nestled along the coast, Lakeland serves as a growing community in Polk County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lakeland, Florida. With convenient access to transportation networks and regional amenities, Lakeland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Naples",
@@ -1306,7 +1458,9 @@
     "median_age": 43,
     "livability_score": 8.8,
     "type": "coastal city",
-    "zip_codes": "34421,34706"
+    "zip_codes": "34421,34706",
+    "ai_introduction": "Nestled along the coast, Naples serves as a growing community in Collier County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Naples, Florida. With convenient access to transportation networks and regional amenities, Naples provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Sarasota",
@@ -1323,7 +1477,9 @@
     "median_age": 37,
     "livability_score": 8.7,
     "type": "coastal city",
-    "zip_codes": "65628,65748"
+    "zip_codes": "65628,65748",
+    "ai_introduction": "Nestled along the coast, Sarasota serves as a growing community in Sarasota County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Sarasota, Florida. With convenient access to transportation networks and regional amenities, Sarasota provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Ocala",
@@ -1340,7 +1496,9 @@
     "median_age": 38,
     "livability_score": 7.4,
     "type": "coastal city",
-    "zip_codes": "88423,89024"
+    "zip_codes": "88423,89024",
+    "ai_introduction": "Nestled along the coast, Ocala serves as a growing community in Marion County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Ocala, Florida. With convenient access to transportation networks and regional amenities, Ocala provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Gainesville",
@@ -1357,7 +1515,9 @@
     "median_age": 39,
     "livability_score": 8.6,
     "type": "coastal city",
-    "zip_codes": "48541,48781"
+    "zip_codes": "48541,48781",
+    "ai_introduction": "Nestled along the coast, Gainesville serves as a growing community in Alachua County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Gainesville, Florida. With convenient access to transportation networks and regional amenities, Gainesville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Amarillo",
@@ -1374,7 +1534,9 @@
     "median_age": 32,
     "livability_score": 9.1,
     "type": "major city",
-    "zip_codes": "31396,31527"
+    "zip_codes": "31396,31527",
+    "ai_introduction": "In Texas, Amarillo serves as a growing community in Potter County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Amarillo, Texas. With convenient access to transportation networks and regional amenities, Amarillo provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Waco",
@@ -1391,7 +1553,9 @@
     "median_age": 35,
     "livability_score": 6.6,
     "type": "major city",
-    "zip_codes": "90942,91595"
+    "zip_codes": "90942,91595",
+    "ai_introduction": "In Texas, Waco serves as a growing community in McLennan County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Waco, Texas. With convenient access to transportation networks and regional amenities, Waco provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Kerrville",
@@ -1408,7 +1572,9 @@
     "median_age": 31,
     "livability_score": 6.5,
     "type": "major city",
-    "zip_codes": "82973,83828"
+    "zip_codes": "82973,83828",
+    "ai_introduction": "In Texas, Kerrville serves as a growing community in Kerr County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Kerrville, Texas. With convenient access to transportation networks and regional amenities, Kerrville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lubbock",
@@ -1425,7 +1591,9 @@
     "median_age": 32,
     "livability_score": 6.4,
     "type": "major city",
-    "zip_codes": "95754,96661"
+    "zip_codes": "95754,96661",
+    "ai_introduction": "In Texas, Lubbock serves as a mid-sized city in Lubbock County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lubbock, Texas. With convenient access to transportation networks and regional amenities, Lubbock provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Wichita Falls",
@@ -1442,7 +1610,9 @@
     "median_age": 35,
     "livability_score": 8.9,
     "type": "major city",
-    "zip_codes": "78260,78421"
+    "zip_codes": "78260,78421",
+    "ai_introduction": "In Texas, Wichita Falls serves as a growing community in Wichita County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Wichita Falls, Texas. With convenient access to transportation networks and regional amenities, Wichita Falls provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Beaumont",
@@ -1459,7 +1629,9 @@
     "median_age": 33,
     "livability_score": 7.0,
     "type": "major city",
-    "zip_codes": "44708,44844"
+    "zip_codes": "44708,44844",
+    "ai_introduction": "In Texas, Beaumont serves as a growing community in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Beaumont, Texas. With convenient access to transportation networks and regional amenities, Beaumont provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Tyler",
@@ -1476,7 +1648,9 @@
     "median_age": 30,
     "livability_score": 6.7,
     "type": "major city",
-    "zip_codes": "77315,78114"
+    "zip_codes": "77315,78114",
+    "ai_introduction": "In Texas, Tyler serves as a growing community in Smith County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Tyler, Texas. With convenient access to transportation networks and regional amenities, Tyler provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Midland",
@@ -1493,7 +1667,9 @@
     "median_age": 38,
     "livability_score": 6.6,
     "type": "major city",
-    "zip_codes": "91724,92418"
+    "zip_codes": "91724,92418",
+    "ai_introduction": "In Texas, Midland serves as a growing community in Midland County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Midland, Texas. With convenient access to transportation networks and regional amenities, Midland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Odessa",
@@ -1510,7 +1686,9 @@
     "median_age": 40,
     "livability_score": 7.5,
     "type": "major city",
-    "zip_codes": "26800,27449"
+    "zip_codes": "26800,27449",
+    "ai_introduction": "In Texas, Odessa serves as a growing community in Ector County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Odessa, Texas. With convenient access to transportation networks and regional amenities, Odessa provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "College Station",
@@ -1527,7 +1705,9 @@
     "median_age": 30,
     "livability_score": 9.0,
     "type": "major city",
-    "zip_codes": "64686,65457"
+    "zip_codes": "64686,65457",
+    "ai_introduction": "In Texas, College Station serves as a growing community in Brazos County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define College Station, Texas. With convenient access to transportation networks and regional amenities, College Station provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Bryan",
@@ -1544,7 +1724,9 @@
     "median_age": 40,
     "livability_score": 7.1,
     "type": "major city",
-    "zip_codes": "99648,100478"
+    "zip_codes": "99648,100478",
+    "ai_introduction": "In Texas, Bryan serves as a growing community in Brazos County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bryan, Texas. With convenient access to transportation networks and regional amenities, Bryan provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Kileen",
@@ -1561,7 +1743,9 @@
     "median_age": 32,
     "livability_score": 9.0,
     "type": "major city",
-    "zip_codes": "96062,96461"
+    "zip_codes": "96062,96461",
+    "ai_introduction": "In Texas, Kileen serves as a growing community in Bell County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Kileen, Texas. With convenient access to transportation networks and regional amenities, Kileen provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Corpus Christi",
@@ -1578,7 +1762,9 @@
     "median_age": 36,
     "livability_score": 8.2,
     "type": "major city",
-    "zip_codes": "75964,76300"
+    "zip_codes": "75964,76300",
+    "ai_introduction": "In Texas, Corpus Christi serves as a mid-sized city in Nueces County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Corpus Christi, Texas. With convenient access to transportation networks and regional amenities, Corpus Christi provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Brownsville",
@@ -1595,7 +1781,9 @@
     "median_age": 32,
     "livability_score": 8.3,
     "type": "major city",
-    "zip_codes": "79623,80243"
+    "zip_codes": "79623,80243",
+    "ai_introduction": "In Texas, Brownsville serves as a growing community in Cameron County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Brownsville, Texas. With convenient access to transportation networks and regional amenities, Brownsville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "McAllen",
@@ -1612,7 +1800,9 @@
     "median_age": 40,
     "livability_score": 7.1,
     "type": "major city",
-    "zip_codes": "55377,55536"
+    "zip_codes": "55377,55536",
+    "ai_introduction": "In Texas, McAllen serves as a growing community in Hidalgo County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define McAllen, Texas. With convenient access to transportation networks and regional amenities, McAllen provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Harlingen",
@@ -1629,7 +1819,9 @@
     "median_age": 35,
     "livability_score": 9.1,
     "type": "major city",
-    "zip_codes": "37723,37937"
+    "zip_codes": "37723,37937",
+    "ai_introduction": "In Texas, Harlingen serves as a growing community in Cameron County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Harlingen, Texas. With convenient access to transportation networks and regional amenities, Harlingen provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Laredo",
@@ -1646,7 +1838,9 @@
     "median_age": 41,
     "livability_score": 8.9,
     "type": "major city",
-    "zip_codes": "79318,79853"
+    "zip_codes": "79318,79853",
+    "ai_introduction": "In Texas, Laredo serves as a mid-sized city in Webb County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Laredo, Texas. With convenient access to transportation networks and regional amenities, Laredo provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bakersfield",
@@ -1663,7 +1857,9 @@
     "median_age": 40,
     "livability_score": 8.2,
     "type": "tech hub",
-    "zip_codes": "84775,85698"
+    "zip_codes": "84775,85698",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Bakersfield serves as a mid-sized city in Kern County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bakersfield, California. With convenient access to transportation networks and regional amenities, Bakersfield provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Oxnard",
@@ -1680,7 +1876,9 @@
     "median_age": 34,
     "livability_score": 6.9,
     "type": "tech hub",
-    "zip_codes": "54442,54585"
+    "zip_codes": "54442,54585",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Oxnard serves as a mid-sized city in Ventura County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Oxnard, California. With convenient access to transportation networks and regional amenities, Oxnard provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Visalia",
@@ -1697,7 +1895,9 @@
     "median_age": 43,
     "livability_score": 7.5,
     "type": "tech hub",
-    "zip_codes": "32816,33081"
+    "zip_codes": "32816,33081",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Visalia serves as a growing community in Tulare County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Visalia, California. With convenient access to transportation networks and regional amenities, Visalia provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Modesto",
@@ -1714,7 +1914,9 @@
     "median_age": 42,
     "livability_score": 7.2,
     "type": "tech hub",
-    "zip_codes": "52734,52887"
+    "zip_codes": "52734,52887",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Modesto serves as a mid-sized city in Stanislaus County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Modesto, California. With convenient access to transportation networks and regional amenities, Modesto provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Stockton",
@@ -1731,7 +1933,9 @@
     "median_age": 42,
     "livability_score": 7.5,
     "type": "tech hub",
-    "zip_codes": "59340,60065"
+    "zip_codes": "59340,60065",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Stockton serves as a mid-sized city in San Joaquin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Stockton, California. With convenient access to transportation networks and regional amenities, Stockton provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 64
   },
   {
     "city": "San Bernardino",
@@ -1748,7 +1952,9 @@
     "median_age": 38,
     "livability_score": 9.3,
     "type": "tech hub",
-    "zip_codes": "82435,82963"
+    "zip_codes": "82435,82963",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, San Bernardino serves as a mid-sized city in San Bernardino County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define San Bernardino, California. With convenient access to transportation networks and regional amenities, San Bernardino provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Ontario",
@@ -1765,7 +1971,9 @@
     "median_age": 41,
     "livability_score": 9.0,
     "type": "tech hub",
-    "zip_codes": "33776,34476"
+    "zip_codes": "33776,34476",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Ontario serves as a growing community in San Bernardino County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Ontario, California. With convenient access to transportation networks and regional amenities, Ontario provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 64
   },
   {
     "city": "Rancho Cucamonga",
@@ -1782,7 +1990,9 @@
     "median_age": 42,
     "livability_score": 8.3,
     "type": "tech hub",
-    "zip_codes": "76004,76649"
+    "zip_codes": "76004,76649",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Rancho Cucamonga serves as a growing community in San Bernardino County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Rancho Cucamonga, California. With convenient access to transportation networks and regional amenities, Rancho Cucamonga provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Irvine",
@@ -1799,7 +2009,9 @@
     "median_age": 29,
     "livability_score": 6.4,
     "type": "tech hub",
-    "zip_codes": "12545,13296"
+    "zip_codes": "12545,13296",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Irvine serves as a mid-sized city in Orange County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Irvine, California. With convenient access to transportation networks and regional amenities, Irvine provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Huntington Beach",
@@ -1816,7 +2028,9 @@
     "median_age": 42,
     "livability_score": 8.4,
     "type": "tech hub",
-    "zip_codes": "10696,11560"
+    "zip_codes": "10696,11560",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Huntington Beach serves as a mid-sized city in Orange County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Huntington Beach, California. With convenient access to transportation networks and regional amenities, Huntington Beach provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 66
   },
   {
     "city": "Long Beach",
@@ -1833,7 +2047,9 @@
     "median_age": 42,
     "livability_score": 9.1,
     "type": "tech hub",
-    "zip_codes": "12602,12904"
+    "zip_codes": "12602,12904",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Long Beach serves as a mid-sized city in Los Angeles County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Long Beach, California. With convenient access to transportation networks and regional amenities, Long Beach provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Oakland",
@@ -1850,7 +2066,9 @@
     "median_age": 45,
     "livability_score": 7.7,
     "type": "tech hub",
-    "zip_codes": "39272,39420"
+    "zip_codes": "39272,39420",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Oakland serves as a mid-sized city in Alameda County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Oakland, California. With convenient access to transportation networks and regional amenities, Oakland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Berkeley",
@@ -1867,7 +2085,9 @@
     "median_age": 44,
     "livability_score": 6.6,
     "type": "tech hub",
-    "zip_codes": "63391,64122"
+    "zip_codes": "63391,64122",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Berkeley serves as a growing community in Alameda County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Berkeley, California. With convenient access to transportation networks and regional amenities, Berkeley provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 63
   },
   {
     "city": "Palo Alto",
@@ -1884,7 +2104,9 @@
     "median_age": 41,
     "livability_score": 8.7,
     "type": "tech hub",
-    "zip_codes": "86954,87195"
+    "zip_codes": "86954,87195",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Palo Alto serves as a growing community in Santa Clara County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Palo Alto, California. With convenient access to transportation networks and regional amenities, Palo Alto provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Santa Monica",
@@ -1901,7 +2123,9 @@
     "median_age": 28,
     "livability_score": 7.5,
     "type": "tech hub",
-    "zip_codes": "38031,38211"
+    "zip_codes": "38031,38211",
+    "ai_introduction": "As a thriving tech hub in California's technology corridor, Santa Monica serves as a growing community in Los Angeles County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Santa Monica, California. With convenient access to transportation networks and regional amenities, Santa Monica provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 67
   },
   {
     "city": "Brooklyn",
@@ -1918,7 +2142,9 @@
     "median_age": 29,
     "livability_score": 6.8,
     "type": "metropolis",
-    "zip_codes": "10557,10976"
+    "zip_codes": "10557,10976",
+    "ai_introduction": "In New York, Brooklyn serves as a major metropolitan area in Kings County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Brooklyn, New York. With convenient access to transportation networks and regional amenities, Brooklyn provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Queens",
@@ -1935,7 +2161,9 @@
     "median_age": 28,
     "livability_score": 8.2,
     "type": "metropolis",
-    "zip_codes": "68419,68853"
+    "zip_codes": "68419,68853",
+    "ai_introduction": "In New York, Queens serves as a major metropolitan area in Queens County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Queens, New York. With convenient access to transportation networks and regional amenities, Queens provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Bronx",
@@ -1952,7 +2180,9 @@
     "median_age": 30,
     "livability_score": 9.3,
     "type": "metropolis",
-    "zip_codes": "58816,58977"
+    "zip_codes": "58816,58977",
+    "ai_introduction": "In New York, Bronx serves as a major metropolitan area in Bronx County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bronx, New York. With convenient access to transportation networks and regional amenities, Bronx provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Manhattan",
@@ -1969,7 +2199,9 @@
     "median_age": 28,
     "livability_score": 7.4,
     "type": "metropolis",
-    "zip_codes": "35943,36354"
+    "zip_codes": "35943,36354",
+    "ai_introduction": "In New York, Manhattan serves as a major metropolitan area in New York County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Manhattan, New York. With convenient access to transportation networks and regional amenities, Manhattan provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Rochester",
@@ -1986,7 +2218,9 @@
     "median_age": 42,
     "livability_score": 6.7,
     "type": "metropolis",
-    "zip_codes": "36286,36776"
+    "zip_codes": "36286,36776",
+    "ai_introduction": "In New York, Rochester serves as a mid-sized city in Monroe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Rochester, New York. With convenient access to transportation networks and regional amenities, Rochester provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Yonkers",
@@ -2003,7 +2237,9 @@
     "median_age": 41,
     "livability_score": 6.8,
     "type": "metropolis",
-    "zip_codes": "42401,43174"
+    "zip_codes": "42401,43174",
+    "ai_introduction": "In New York, Yonkers serves as a mid-sized city in Westchester County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Yonkers, New York. With convenient access to transportation networks and regional amenities, Yonkers provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Syracuse",
@@ -2020,7 +2256,9 @@
     "median_age": 39,
     "livability_score": 8.7,
     "type": "metropolis",
-    "zip_codes": "46955,47497"
+    "zip_codes": "46955,47497",
+    "ai_introduction": "In New York, Syracuse serves as a growing community in Onondaga County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Syracuse, New York. With convenient access to transportation networks and regional amenities, Syracuse provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Albany",
@@ -2037,7 +2275,9 @@
     "median_age": 28,
     "livability_score": 7.9,
     "type": "metropolis",
-    "zip_codes": "49926,50102"
+    "zip_codes": "49926,50102",
+    "ai_introduction": "In New York, Albany serves as a growing community in Albany County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Albany, New York. With convenient access to transportation networks and regional amenities, Albany provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Allentown",
@@ -2054,7 +2294,9 @@
     "median_age": 38,
     "livability_score": 7.0,
     "type": "keystone state",
-    "zip_codes": "17626,18459"
+    "zip_codes": "17626,18459",
+    "ai_introduction": "In Pennsylvania, Allentown serves as a growing community in Lehigh County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Allentown, Pennsylvania. With convenient access to transportation networks and regional amenities, Allentown provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Erie",
@@ -2071,7 +2313,9 @@
     "median_age": 36,
     "livability_score": 8.3,
     "type": "keystone state",
-    "zip_codes": "11625,12307"
+    "zip_codes": "11625,12307",
+    "ai_introduction": "In Pennsylvania, Erie serves as a growing community in Erie County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Erie, Pennsylvania. With convenient access to transportation networks and regional amenities, Erie provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Reading",
@@ -2088,7 +2332,9 @@
     "median_age": 39,
     "livability_score": 9.0,
     "type": "keystone state",
-    "zip_codes": "12238,12730"
+    "zip_codes": "12238,12730",
+    "ai_introduction": "In Pennsylvania, Reading serves as a growing community in Berks County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Reading, Pennsylvania. With convenient access to transportation networks and regional amenities, Reading provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Toledo",
@@ -2105,7 +2351,9 @@
     "median_age": 45,
     "livability_score": 6.7,
     "type": "midwest city",
-    "zip_codes": "76849,77146"
+    "zip_codes": "76849,77146",
+    "ai_introduction": "In Ohio, Toledo serves as a mid-sized city in Lucas County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Toledo, Ohio. With convenient access to transportation networks and regional amenities, Toledo provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Akron",
@@ -2122,7 +2370,9 @@
     "median_age": 28,
     "livability_score": 7.5,
     "type": "midwest city",
-    "zip_codes": "54712,55265"
+    "zip_codes": "54712,55265",
+    "ai_introduction": "In Ohio, Akron serves as a growing community in Summit County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Akron, Ohio. With convenient access to transportation networks and regional amenities, Akron provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Dayton",
@@ -2139,7 +2389,9 @@
     "median_age": 43,
     "livability_score": 7.1,
     "type": "midwest city",
-    "zip_codes": "20142,21047"
+    "zip_codes": "20142,21047",
+    "ai_introduction": "In Ohio, Dayton serves as a growing community in Montgomery County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Dayton, Ohio. With convenient access to transportation networks and regional amenities, Dayton provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Grand Rapids",
@@ -2156,7 +2408,9 @@
     "median_age": 41,
     "livability_score": 6.6,
     "type": "motor city",
-    "zip_codes": "69361,69814"
+    "zip_codes": "69361,69814",
+    "ai_introduction": "In Michigan, Grand Rapids serves as a mid-sized city in Kent County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Grand Rapids, Michigan. With convenient access to transportation networks and regional amenities, Grand Rapids provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Ann Arbor",
@@ -2173,7 +2427,9 @@
     "median_age": 44,
     "livability_score": 8.6,
     "type": "motor city",
-    "zip_codes": "82818,83717"
+    "zip_codes": "82818,83717",
+    "ai_introduction": "In Michigan, Ann Arbor serves as a growing community in Washtenaw County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Ann Arbor, Michigan. With convenient access to transportation networks and regional amenities, Ann Arbor provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Lansing",
@@ -2190,7 +2446,9 @@
     "median_age": 42,
     "livability_score": 7.0,
     "type": "motor city",
-    "zip_codes": "84092,84907"
+    "zip_codes": "84092,84907",
+    "ai_introduction": "In Michigan, Lansing serves as a growing community in Ingham County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lansing, Michigan. With convenient access to transportation networks and regional amenities, Lansing provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Flint",
@@ -2207,7 +2465,9 @@
     "median_age": 37,
     "livability_score": 7.9,
     "type": "motor city",
-    "zip_codes": "89709,90063"
+    "zip_codes": "89709,90063",
+    "ai_introduction": "In Michigan, Flint serves as a growing community in Genesee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Flint, Michigan. With convenient access to transportation networks and regional amenities, Flint provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Aurora",
@@ -2224,7 +2484,9 @@
     "median_age": 37,
     "livability_score": 9.0,
     "type": "midwest city",
-    "zip_codes": "54613,54872"
+    "zip_codes": "54613,54872",
+    "ai_introduction": "In Illinois, Aurora serves as a mid-sized city in Kane County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Aurora, Illinois. With convenient access to transportation networks and regional amenities, Aurora provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Naperville",
@@ -2241,7 +2503,9 @@
     "median_age": 34,
     "livability_score": 6.8,
     "type": "midwest city",
-    "zip_codes": "26931,27287"
+    "zip_codes": "26931,27287",
+    "ai_introduction": "In Illinois, Naperville serves as a growing community in DuPage County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Naperville, Illinois. With convenient access to transportation networks and regional amenities, Naperville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Rockford",
@@ -2258,7 +2522,9 @@
     "median_age": 45,
     "livability_score": 8.6,
     "type": "midwest city",
-    "zip_codes": "24315,24500"
+    "zip_codes": "24315,24500",
+    "ai_introduction": "In Illinois, Rockford serves as a growing community in Winnebago County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Rockford, Illinois. With convenient access to transportation networks and regional amenities, Rockford provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Joliet",
@@ -2275,7 +2541,9 @@
     "median_age": 31,
     "livability_score": 7.4,
     "type": "midwest city",
-    "zip_codes": "59661,60160"
+    "zip_codes": "59661,60160",
+    "ai_introduction": "In Illinois, Joliet serves as a growing community in Will County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Joliet, Illinois. With convenient access to transportation networks and regional amenities, Joliet provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Augusta",
@@ -2292,7 +2560,9 @@
     "median_age": 35,
     "livability_score": 8.2,
     "type": "peach city",
-    "zip_codes": "82948,83497"
+    "zip_codes": "82948,83497",
+    "ai_introduction": "In Georgia, Augusta serves as a mid-sized city in Richmond County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Augusta, Georgia. With convenient access to transportation networks and regional amenities, Augusta provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Savannah",
@@ -2309,7 +2579,9 @@
     "median_age": 41,
     "livability_score": 6.4,
     "type": "peach city",
-    "zip_codes": "78771,79652"
+    "zip_codes": "78771,79652",
+    "ai_introduction": "In Georgia, Savannah serves as a growing community in Chatham County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Savannah, Georgia. With convenient access to transportation networks and regional amenities, Savannah provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Columbus",
@@ -2326,7 +2598,9 @@
     "median_age": 45,
     "livability_score": 7.2,
     "type": "peach city",
-    "zip_codes": "47621,48300"
+    "zip_codes": "47621,48300",
+    "ai_introduction": "In Georgia, Columbus serves as a mid-sized city in Muscogee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Columbus, Georgia. With convenient access to transportation networks and regional amenities, Columbus provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Macon",
@@ -2343,7 +2617,9 @@
     "median_age": 41,
     "livability_score": 8.4,
     "type": "peach city",
-    "zip_codes": "56261,56591"
+    "zip_codes": "56261,56591",
+    "ai_introduction": "In Georgia, Macon serves as a growing community in Bibb County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Macon, Georgia. With convenient access to transportation networks and regional amenities, Macon provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Greensboro",
@@ -2360,7 +2636,9 @@
     "median_age": 45,
     "livability_score": 7.8,
     "type": "research triangle",
-    "zip_codes": "67726,67879"
+    "zip_codes": "67726,67879",
+    "ai_introduction": "In North Carolina, Greensboro serves as a mid-sized city in Guilford County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Greensboro, North Carolina. With convenient access to transportation networks and regional amenities, Greensboro provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Durham",
@@ -2377,7 +2655,9 @@
     "median_age": 35,
     "livability_score": 6.3,
     "type": "research triangle",
-    "zip_codes": "60657,60945"
+    "zip_codes": "60657,60945",
+    "ai_introduction": "In North Carolina, Durham serves as a mid-sized city in Durham County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Durham, North Carolina. With convenient access to transportation networks and regional amenities, Durham provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Winston-Salem",
@@ -2394,7 +2674,9 @@
     "median_age": 38,
     "livability_score": 8.0,
     "type": "research triangle",
-    "zip_codes": "77507,77954"
+    "zip_codes": "77507,77954",
+    "ai_introduction": "In North Carolina, Winston-Salem serves as a mid-sized city in Forsyth County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Winston-Salem, North Carolina. With convenient access to transportation networks and regional amenities, Winston-Salem provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Fayetteville",
@@ -2411,7 +2693,9 @@
     "median_age": 31,
     "livability_score": 6.7,
     "type": "research triangle",
-    "zip_codes": "93484,94360"
+    "zip_codes": "93484,94360",
+    "ai_introduction": "In North Carolina, Fayetteville serves as a mid-sized city in Cumberland County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fayetteville, North Carolina. With convenient access to transportation networks and regional amenities, Fayetteville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Virginia Beach",
@@ -2428,7 +2712,9 @@
     "median_age": 36,
     "livability_score": 6.5,
     "type": "city",
-    "zip_codes": "70430,71367"
+    "zip_codes": "70430,71367",
+    "ai_introduction": "In Virginia, Virginia Beach serves as a mid-sized city in Virginia Beach County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Virginia Beach, Virginia. With convenient access to transportation networks and regional amenities, Virginia Beach provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Norfolk",
@@ -2445,7 +2731,9 @@
     "median_age": 40,
     "livability_score": 6.9,
     "type": "city",
-    "zip_codes": "67202,68142"
+    "zip_codes": "67202,68142",
+    "ai_introduction": "In Virginia, Norfolk serves as a mid-sized city in Norfolk County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Norfolk, Virginia. With convenient access to transportation networks and regional amenities, Norfolk provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Chesapeake",
@@ -2462,7 +2750,9 @@
     "median_age": 38,
     "livability_score": 8.9,
     "type": "city",
-    "zip_codes": "65044,65877"
+    "zip_codes": "65044,65877",
+    "ai_introduction": "In Virginia, Chesapeake serves as a mid-sized city in Chesapeake County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Chesapeake, Virginia. With convenient access to transportation networks and regional amenities, Chesapeake provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Richmond",
@@ -2479,7 +2769,9 @@
     "median_age": 44,
     "livability_score": 6.7,
     "type": "city",
-    "zip_codes": "43547,44235"
+    "zip_codes": "43547,44235",
+    "ai_introduction": "In Virginia, Richmond serves as a mid-sized city in Richmond County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Richmond, Virginia. With convenient access to transportation networks and regional amenities, Richmond provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Newport News",
@@ -2496,7 +2788,9 @@
     "median_age": 36,
     "livability_score": 8.4,
     "type": "city",
-    "zip_codes": "41801,42277"
+    "zip_codes": "41801,42277",
+    "ai_introduction": "In Virginia, Newport News serves as a growing community in Newport News County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Newport News, Virginia. With convenient access to transportation networks and regional amenities, Newport News provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Arlington",
@@ -2513,7 +2807,9 @@
     "median_age": 44,
     "livability_score": 7.1,
     "type": "city",
-    "zip_codes": "77391,78037"
+    "zip_codes": "77391,78037",
+    "ai_introduction": "In Virginia, Arlington serves as a mid-sized city in Arlington County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Arlington, Virginia. With convenient access to transportation networks and regional amenities, Arlington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Alexandria",
@@ -2530,7 +2826,9 @@
     "median_age": 34,
     "livability_score": 6.9,
     "type": "city",
-    "zip_codes": "81968,82108"
+    "zip_codes": "81968,82108",
+    "ai_introduction": "In Virginia, Alexandria serves as a growing community in Alexandria County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Alexandria, Virginia. With convenient access to transportation networks and regional amenities, Alexandria provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Birmingham",
@@ -2547,7 +2845,9 @@
     "median_age": 44,
     "livability_score": 7.0,
     "type": "heart of dixie",
-    "zip_codes": "60808,60921"
+    "zip_codes": "60808,60921",
+    "ai_introduction": "In Alabama, Birmingham serves as a growing community in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Birmingham, Alabama. With convenient access to transportation networks and regional amenities, Birmingham provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Montgomery",
@@ -2564,7 +2864,9 @@
     "median_age": 43,
     "livability_score": 8.2,
     "type": "heart of dixie",
-    "zip_codes": "66664,67357"
+    "zip_codes": "66664,67357",
+    "ai_introduction": "In Alabama, Montgomery serves as a growing community in Montgomery County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Montgomery, Alabama. With convenient access to transportation networks and regional amenities, Montgomery provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Mobile",
@@ -2581,7 +2883,9 @@
     "median_age": 44,
     "livability_score": 6.3,
     "type": "heart of dixie",
-    "zip_codes": "55692,56631"
+    "zip_codes": "55692,56631",
+    "ai_introduction": "In Alabama, Mobile serves as a mid-sized city in Mobile County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Mobile, Alabama. With convenient access to transportation networks and regional amenities, Mobile provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Huntsville",
@@ -2598,7 +2902,9 @@
     "median_age": 42,
     "livability_score": 8.2,
     "type": "heart of dixie",
-    "zip_codes": "15445,16384"
+    "zip_codes": "15445,16384",
+    "ai_introduction": "In Alabama, Huntsville serves as a mid-sized city in Madison County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Huntsville, Alabama. With convenient access to transportation networks and regional amenities, Huntsville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Little Rock",
@@ -2615,7 +2921,9 @@
     "median_age": 37,
     "livability_score": 6.4,
     "type": "natural state",
-    "zip_codes": "90876,91064"
+    "zip_codes": "90876,91064",
+    "ai_introduction": "In Arkansas, Little Rock serves as a mid-sized city in Pulaski County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Little Rock, Arkansas. With convenient access to transportation networks and regional amenities, Little Rock provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Fort Smith",
@@ -2632,7 +2940,9 @@
     "median_age": 40,
     "livability_score": 6.4,
     "type": "natural state",
-    "zip_codes": "42555,43286"
+    "zip_codes": "42555,43286",
+    "ai_introduction": "In Arkansas, Fort Smith serves as a growing community in Sebastian County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fort Smith, Arkansas. With convenient access to transportation networks and regional amenities, Fort Smith provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Fayetteville",
@@ -2649,7 +2959,9 @@
     "median_age": 31,
     "livability_score": 8.0,
     "type": "natural state",
-    "zip_codes": "74101,74322"
+    "zip_codes": "74101,74322",
+    "ai_introduction": "In Arkansas, Fayetteville serves as a mid-sized city in Washington County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fayetteville, Arkansas. With convenient access to transportation networks and regional amenities, Fayetteville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Springdale",
@@ -2666,7 +2978,9 @@
     "median_age": 34,
     "livability_score": 8.3,
     "type": "natural state",
-    "zip_codes": "39437,39973"
+    "zip_codes": "39437,39973",
+    "ai_introduction": "In Arkansas, Springdale serves as a growing community in Washington County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Springdale, Arkansas. With convenient access to transportation networks and regional amenities, Springdale provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Rogers",
@@ -2683,7 +2997,9 @@
     "median_age": 38,
     "livability_score": 6.6,
     "type": "natural state",
-    "zip_codes": "11476,12275"
+    "zip_codes": "11476,12275",
+    "ai_introduction": "In Arkansas, Rogers serves as a growing community in Benton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Rogers, Arkansas. With convenient access to transportation networks and regional amenities, Rogers provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Aurora",
@@ -2700,7 +3016,9 @@
     "median_age": 43,
     "livability_score": 7.7,
     "type": "mountain city",
-    "zip_codes": "63588,63768"
+    "zip_codes": "63588,63768",
+    "ai_introduction": "Surrounded by majestic mountains, Aurora serves as a mid-sized city in Arapahoe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Aurora, Colorado. With convenient access to transportation networks and regional amenities, Aurora provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Lakewood",
@@ -2717,7 +3035,9 @@
     "median_age": 41,
     "livability_score": 6.8,
     "type": "mountain city",
-    "zip_codes": "18225,18368"
+    "zip_codes": "18225,18368",
+    "ai_introduction": "Surrounded by majestic mountains, Lakewood serves as a growing community in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lakewood, Colorado. With convenient access to transportation networks and regional amenities, Lakewood provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Thornton",
@@ -2734,7 +3054,9 @@
     "median_age": 38,
     "livability_score": 9.0,
     "type": "mountain city",
-    "zip_codes": "43696,43839"
+    "zip_codes": "43696,43839",
+    "ai_introduction": "Surrounded by majestic mountains, Thornton serves as a growing community in Adams County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Thornton, Colorado. With convenient access to transportation networks and regional amenities, Thornton provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Arvada",
@@ -2751,7 +3073,9 @@
     "median_age": 42,
     "livability_score": 8.4,
     "type": "mountain city",
-    "zip_codes": "89325,90264"
+    "zip_codes": "89325,90264",
+    "ai_introduction": "Surrounded by majestic mountains, Arvada serves as a growing community in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Arvada, Colorado. With convenient access to transportation networks and regional amenities, Arvada provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Westminster",
@@ -2768,7 +3092,9 @@
     "median_age": 35,
     "livability_score": 8.4,
     "type": "mountain city",
-    "zip_codes": "30362,30802"
+    "zip_codes": "30362,30802",
+    "ai_introduction": "Surrounded by majestic mountains, Westminster serves as a growing community in Adams County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Westminster, Colorado. With convenient access to transportation networks and regional amenities, Westminster provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Centennial",
@@ -2785,7 +3111,9 @@
     "median_age": 33,
     "livability_score": 9.2,
     "type": "mountain city",
-    "zip_codes": "70587,71153"
+    "zip_codes": "70587,71153",
+    "ai_introduction": "Surrounded by majestic mountains, Centennial serves as a growing community in Arapahoe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Centennial, Colorado. With convenient access to transportation networks and regional amenities, Centennial provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Boulder",
@@ -2802,7 +3130,9 @@
     "median_age": 29,
     "livability_score": 9.3,
     "type": "mountain city",
-    "zip_codes": "71508,72328"
+    "zip_codes": "71508,72328",
+    "ai_introduction": "Surrounded by majestic mountains, Boulder serves as a growing community in Boulder County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Boulder, Colorado. With convenient access to transportation networks and regional amenities, Boulder provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Fort Collins",
@@ -2819,7 +3149,9 @@
     "median_age": 37,
     "livability_score": 7.2,
     "type": "mountain city",
-    "zip_codes": "96859,97577"
+    "zip_codes": "96859,97577",
+    "ai_introduction": "Surrounded by majestic mountains, Fort Collins serves as a growing community in Larimer County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fort Collins, Colorado. With convenient access to transportation networks and regional amenities, Fort Collins provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Greeley",
@@ -2836,7 +3168,9 @@
     "median_age": 44,
     "livability_score": 8.5,
     "type": "mountain city",
-    "zip_codes": "94542,95473"
+    "zip_codes": "94542,95473",
+    "ai_introduction": "Surrounded by majestic mountains, Greeley serves as a growing community in Weld County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Greeley, Colorado. With convenient access to transportation networks and regional amenities, Greeley provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Pueblo",
@@ -2853,7 +3187,9 @@
     "median_age": 42,
     "livability_score": 9.1,
     "type": "mountain city",
-    "zip_codes": "24273,24839"
+    "zip_codes": "24273,24839",
+    "ai_introduction": "Surrounded by majestic mountains, Pueblo serves as a growing community in Pueblo County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Pueblo, Colorado. With convenient access to transportation networks and regional amenities, Pueblo provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "Loveland",
@@ -2870,7 +3206,9 @@
     "median_age": 37,
     "livability_score": 9.3,
     "type": "mountain city",
-    "zip_codes": "32054,32634"
+    "zip_codes": "32054,32634",
+    "ai_introduction": "Surrounded by majestic mountains, Loveland serves as a growing community in Larimer County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Loveland, Colorado. With convenient access to transportation networks and regional amenities, Loveland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 58
   },
   {
     "city": "New Haven",
@@ -2887,7 +3225,9 @@
     "median_age": 29,
     "livability_score": 8.4,
     "type": "city",
-    "zip_codes": "85188,85571"
+    "zip_codes": "85188,85571",
+    "ai_introduction": "In Connecticut, New Haven serves as a growing community in New Haven County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define New Haven, Connecticut. With convenient access to transportation networks and regional amenities, New Haven provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Stamford",
@@ -2904,7 +3244,9 @@
     "median_age": 37,
     "livability_score": 7.3,
     "type": "city",
-    "zip_codes": "40956,41545"
+    "zip_codes": "40956,41545",
+    "ai_introduction": "In Connecticut, Stamford serves as a growing community in Fairfield County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Stamford, Connecticut. With convenient access to transportation networks and regional amenities, Stamford provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Hartford",
@@ -2921,7 +3263,9 @@
     "median_age": 30,
     "livability_score": 6.5,
     "type": "city",
-    "zip_codes": "23151,23585"
+    "zip_codes": "23151,23585",
+    "ai_introduction": "In Connecticut, Hartford serves as a growing community in Hartford County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Hartford, Connecticut. With convenient access to transportation networks and regional amenities, Hartford provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Waterbury",
@@ -2938,7 +3282,9 @@
     "median_age": 43,
     "livability_score": 8.2,
     "type": "city",
-    "zip_codes": "49622,49962"
+    "zip_codes": "49622,49962",
+    "ai_introduction": "In Connecticut, Waterbury serves as a growing community in New Haven County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Waterbury, Connecticut. With convenient access to transportation networks and regional amenities, Waterbury provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Norwalk",
@@ -2955,7 +3301,9 @@
     "median_age": 30,
     "livability_score": 8.4,
     "type": "city",
-    "zip_codes": "97875,98227"
+    "zip_codes": "97875,98227",
+    "ai_introduction": "In Connecticut, Norwalk serves as a growing community in Fairfield County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Norwalk, Connecticut. With convenient access to transportation networks and regional amenities, Norwalk provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Danbury",
@@ -2972,7 +3320,9 @@
     "median_age": 38,
     "livability_score": 7.1,
     "type": "city",
-    "zip_codes": "31214,31857"
+    "zip_codes": "31214,31857",
+    "ai_introduction": "In Connecticut, Danbury serves as a growing community in Fairfield County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Danbury, Connecticut. With convenient access to transportation networks and regional amenities, Danbury provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "New Britain",
@@ -2989,7 +3339,9 @@
     "median_age": 28,
     "livability_score": 7.1,
     "type": "city",
-    "zip_codes": "13136,13271"
+    "zip_codes": "13136,13271",
+    "ai_introduction": "In Connecticut, New Britain serves as a growing community in Hartford County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define New Britain, Connecticut. With convenient access to transportation networks and regional amenities, New Britain provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Wilmington",
@@ -3006,7 +3358,9 @@
     "median_age": 32,
     "livability_score": 9.1,
     "type": "first state",
-    "zip_codes": "68513,69309"
+    "zip_codes": "68513,69309",
+    "ai_introduction": "In Delaware, Wilmington serves as a growing community in New Castle County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Wilmington, Delaware. With convenient access to transportation networks and regional amenities, Wilmington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Newark",
@@ -3023,7 +3377,9 @@
     "median_age": 32,
     "livability_score": 7.0,
     "type": "first state",
-    "zip_codes": "61780,61962"
+    "zip_codes": "61780,61962",
+    "ai_introduction": "In Delaware, Newark serves as a growing community in New Castle County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Newark, Delaware. With convenient access to transportation networks and regional amenities, Newark provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Dover",
@@ -3040,7 +3396,9 @@
     "median_age": 43,
     "livability_score": 8.1,
     "type": "first state",
-    "zip_codes": "84564,84710"
+    "zip_codes": "84564,84710",
+    "ai_introduction": "In Delaware, Dover serves as a growing community in Kent County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Dover, Delaware. With convenient access to transportation networks and regional amenities, Dover provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Boise",
@@ -3057,7 +3415,9 @@
     "median_age": 38,
     "livability_score": 7.7,
     "type": "gem state",
-    "zip_codes": "63702,63998"
+    "zip_codes": "63702,63998",
+    "ai_introduction": "In Idaho, Boise serves as a mid-sized city in Ada County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Boise, Idaho. With convenient access to transportation networks and regional amenities, Boise provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Meridian",
@@ -3074,7 +3434,9 @@
     "median_age": 34,
     "livability_score": 7.2,
     "type": "gem state",
-    "zip_codes": "13183,13486"
+    "zip_codes": "13183,13486",
+    "ai_introduction": "In Idaho, Meridian serves as a growing community in Ada County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Meridian, Idaho. With convenient access to transportation networks and regional amenities, Meridian provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Nampa",
@@ -3091,7 +3453,9 @@
     "median_age": 32,
     "livability_score": 6.8,
     "type": "gem state",
-    "zip_codes": "70232,70401"
+    "zip_codes": "70232,70401",
+    "ai_introduction": "In Idaho, Nampa serves as a growing community in Canyon County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Nampa, Idaho. With convenient access to transportation networks and regional amenities, Nampa provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Idaho Falls",
@@ -3108,7 +3472,9 @@
     "median_age": 44,
     "livability_score": 8.2,
     "type": "gem state",
-    "zip_codes": "77986,78671"
+    "zip_codes": "77986,78671",
+    "ai_introduction": "In Idaho, Idaho Falls serves as a growing community in Bonneville County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Idaho Falls, Idaho. With convenient access to transportation networks and regional amenities, Idaho Falls provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Pocatello",
@@ -3125,7 +3491,9 @@
     "median_age": 41,
     "livability_score": 7.3,
     "type": "gem state",
-    "zip_codes": "61125,61618"
+    "zip_codes": "61125,61618",
+    "ai_introduction": "In Idaho, Pocatello serves as a growing community in Bannock County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Pocatello, Idaho. With convenient access to transportation networks and regional amenities, Pocatello provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Caldwell",
@@ -3142,7 +3510,9 @@
     "median_age": 37,
     "livability_score": 7.0,
     "type": "gem state",
-    "zip_codes": "24804,25398"
+    "zip_codes": "24804,25398",
+    "ai_introduction": "In Idaho, Caldwell serves as a growing community in Canyon County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Caldwell, Idaho. With convenient access to transportation networks and regional amenities, Caldwell provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Fort Wayne",
@@ -3159,7 +3529,9 @@
     "median_age": 34,
     "livability_score": 6.7,
     "type": "hoosier state",
-    "zip_codes": "33551,33959"
+    "zip_codes": "33551,33959",
+    "ai_introduction": "In Indiana, Fort Wayne serves as a mid-sized city in Allen County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fort Wayne, Indiana. With convenient access to transportation networks and regional amenities, Fort Wayne provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Evansville",
@@ -3176,7 +3548,9 @@
     "median_age": 40,
     "livability_score": 8.1,
     "type": "hoosier state",
-    "zip_codes": "43680,44389"
+    "zip_codes": "43680,44389",
+    "ai_introduction": "In Indiana, Evansville serves as a growing community in Vanderburgh County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Evansville, Indiana. With convenient access to transportation networks and regional amenities, Evansville provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "South Bend",
@@ -3193,7 +3567,9 @@
     "median_age": 36,
     "livability_score": 7.8,
     "type": "hoosier state",
-    "zip_codes": "89390,90379"
+    "zip_codes": "89390,90379",
+    "ai_introduction": "In Indiana, South Bend serves as a growing community in St. Joseph County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define South Bend, Indiana. With convenient access to transportation networks and regional amenities, South Bend provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   },
   {
     "city": "Carmel",
@@ -3210,7 +3586,9 @@
     "median_age": 44,
     "livability_score": 8.7,
     "type": "hoosier state",
-    "zip_codes": "30929,31701"
+    "zip_codes": "30929,31701",
+    "ai_introduction": "In Indiana, Carmel serves as a growing community in Hamilton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Carmel, Indiana. With convenient access to transportation networks and regional amenities, Carmel provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Fishers",
@@ -3227,7 +3605,9 @@
     "median_age": 29,
     "livability_score": 8.6,
     "type": "hoosier state",
-    "zip_codes": "46758,47452"
+    "zip_codes": "46758,47452",
+    "ai_introduction": "In Indiana, Fishers serves as a growing community in Hamilton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Fishers, Indiana. With convenient access to transportation networks and regional amenities, Fishers provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bloomington",
@@ -3244,7 +3624,9 @@
     "median_age": 44,
     "livability_score": 7.9,
     "type": "hoosier state",
-    "zip_codes": "35147,35292"
+    "zip_codes": "35147,35292",
+    "ai_introduction": "In Indiana, Bloomington serves as a growing community in Monroe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bloomington, Indiana. With convenient access to transportation networks and regional amenities, Bloomington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Hammond",
@@ -3261,7 +3643,9 @@
     "median_age": 32,
     "livability_score": 6.2,
     "type": "hoosier state",
-    "zip_codes": "15728,16528"
+    "zip_codes": "15728,16528",
+    "ai_introduction": "In Indiana, Hammond serves as a growing community in Lake County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Hammond, Indiana. With convenient access to transportation networks and regional amenities, Hammond provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Overland Park",
@@ -3278,7 +3662,9 @@
     "median_age": 44,
     "livability_score": 6.9,
     "type": "sunflower state",
-    "zip_codes": "62504,63176"
+    "zip_codes": "62504,63176",
+    "ai_introduction": "In Kansas, Overland Park serves as a growing community in Johnson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Overland Park, Kansas. With convenient access to transportation networks and regional amenities, Overland Park provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Kansas City",
@@ -3295,7 +3681,9 @@
     "median_age": 33,
     "livability_score": 7.9,
     "type": "sunflower state",
-    "zip_codes": "67760,68514"
+    "zip_codes": "67760,68514",
+    "ai_introduction": "In Kansas, Kansas City serves as a growing community in Wyandotte County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Kansas City, Kansas. With convenient access to transportation networks and regional amenities, Kansas City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Olathe",
@@ -3312,7 +3700,9 @@
     "median_age": 45,
     "livability_score": 7.9,
     "type": "sunflower state",
-    "zip_codes": "49577,50010"
+    "zip_codes": "49577,50010",
+    "ai_introduction": "In Kansas, Olathe serves as a growing community in Johnson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Olathe, Kansas. With convenient access to transportation networks and regional amenities, Olathe provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Topeka",
@@ -3329,7 +3719,9 @@
     "median_age": 38,
     "livability_score": 6.9,
     "type": "sunflower state",
-    "zip_codes": "14704,14876"
+    "zip_codes": "14704,14876",
+    "ai_introduction": "In Kansas, Topeka serves as a growing community in Shawnee County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Topeka, Kansas. With convenient access to transportation networks and regional amenities, Topeka provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lawrence",
@@ -3346,7 +3738,9 @@
     "median_age": 32,
     "livability_score": 7.0,
     "type": "sunflower state",
-    "zip_codes": "43868,44666"
+    "zip_codes": "43868,44666",
+    "ai_introduction": "In Kansas, Lawrence serves as a growing community in Douglas County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lawrence, Kansas. With convenient access to transportation networks and regional amenities, Lawrence provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lexington",
@@ -3363,7 +3757,9 @@
     "median_age": 36,
     "livability_score": 6.2,
     "type": "horse city",
-    "zip_codes": "64057,64464"
+    "zip_codes": "64057,64464",
+    "ai_introduction": "In Kentucky, Lexington serves as a mid-sized city in Fayette County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lexington, Kentucky. With convenient access to transportation networks and regional amenities, Lexington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bowling Green",
@@ -3380,7 +3776,9 @@
     "median_age": 40,
     "livability_score": 7.1,
     "type": "horse city",
-    "zip_codes": "25664,26114"
+    "zip_codes": "25664,26114",
+    "ai_introduction": "In Kentucky, Bowling Green serves as a growing community in Warren County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bowling Green, Kentucky. With convenient access to transportation networks and regional amenities, Bowling Green provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Owensboro",
@@ -3397,7 +3795,9 @@
     "median_age": 42,
     "livability_score": 6.5,
     "type": "horse city",
-    "zip_codes": "85883,86836"
+    "zip_codes": "85883,86836",
+    "ai_introduction": "In Kentucky, Owensboro serves as a growing community in Daviess County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Owensboro, Kentucky. With convenient access to transportation networks and regional amenities, Owensboro provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Covington",
@@ -3414,7 +3814,9 @@
     "median_age": 39,
     "livability_score": 6.4,
     "type": "horse city",
-    "zip_codes": "43063,43931"
+    "zip_codes": "43063,43931",
+    "ai_introduction": "In Kentucky, Covington serves as a growing community in Kenton County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Covington, Kentucky. With convenient access to transportation networks and regional amenities, Covington provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Baton Rouge",
@@ -3431,7 +3833,9 @@
     "median_age": 40,
     "livability_score": 7.8,
     "type": "bayou city",
-    "zip_codes": "21952,22684"
+    "zip_codes": "21952,22684",
+    "ai_introduction": "In Louisiana, Baton Rouge serves as a mid-sized city in East Baton Rouge County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Baton Rouge, Louisiana. With convenient access to transportation networks and regional amenities, Baton Rouge provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 61
   },
   {
     "city": "Shreveport",
@@ -3448,7 +3852,9 @@
     "median_age": 45,
     "livability_score": 7.3,
     "type": "bayou city",
-    "zip_codes": "66004,66205"
+    "zip_codes": "66004,66205",
+    "ai_introduction": "In Louisiana, Shreveport serves as a growing community in Caddo County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Shreveport, Louisiana. With convenient access to transportation networks and regional amenities, Shreveport provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Metairie",
@@ -3465,7 +3871,9 @@
     "median_age": 34,
     "livability_score": 9.2,
     "type": "bayou city",
-    "zip_codes": "14419,15269"
+    "zip_codes": "14419,15269",
+    "ai_introduction": "In Louisiana, Metairie serves as a growing community in Jefferson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Metairie, Louisiana. With convenient access to transportation networks and regional amenities, Metairie provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lafayette",
@@ -3482,7 +3890,9 @@
     "median_age": 30,
     "livability_score": 8.5,
     "type": "bayou city",
-    "zip_codes": "41688,41986"
+    "zip_codes": "41688,41986",
+    "ai_introduction": "In Louisiana, Lafayette serves as a growing community in Lafayette County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lafayette, Louisiana. With convenient access to transportation networks and regional amenities, Lafayette provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lake Charles",
@@ -3499,7 +3909,9 @@
     "median_age": 30,
     "livability_score": 9.2,
     "type": "bayou city",
-    "zip_codes": "83351,83845"
+    "zip_codes": "83351,83845",
+    "ai_introduction": "In Louisiana, Lake Charles serves as a growing community in Calcasieu County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lake Charles, Louisiana. With convenient access to transportation networks and regional amenities, Lake Charles provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Bossier City",
@@ -3516,7 +3928,9 @@
     "median_age": 39,
     "livability_score": 7.5,
     "type": "bayou city",
-    "zip_codes": "51058,52014"
+    "zip_codes": "51058,52014",
+    "ai_introduction": "In Louisiana, Bossier City serves as a growing community in Bossier County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bossier City, Louisiana. With convenient access to transportation networks and regional amenities, Bossier City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Portland",
@@ -3533,7 +3947,9 @@
     "median_age": 45,
     "livability_score": 9.2,
     "type": "pine tree state",
-    "zip_codes": "15610,15785"
+    "zip_codes": "15610,15785",
+    "ai_introduction": "In Maine, Portland serves as a growing community in Cumberland County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Portland, Maine. With convenient access to transportation networks and regional amenities, Portland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lewiston",
@@ -3550,7 +3966,9 @@
     "median_age": 34,
     "livability_score": 8.7,
     "type": "pine tree state",
-    "zip_codes": "64976,65951"
+    "zip_codes": "64976,65951",
+    "ai_introduction": "In Maine, Lewiston serves as a growing community in Androscoggin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lewiston, Maine. With convenient access to transportation networks and regional amenities, Lewiston provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bangor",
@@ -3567,7 +3985,9 @@
     "median_age": 40,
     "livability_score": 7.5,
     "type": "pine tree state",
-    "zip_codes": "72859,72979"
+    "zip_codes": "72859,72979",
+    "ai_introduction": "In Maine, Bangor serves as a growing community in Penobscot County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bangor, Maine. With convenient access to transportation networks and regional amenities, Bangor provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "South Portland",
@@ -3584,7 +4004,9 @@
     "median_age": 29,
     "livability_score": 6.7,
     "type": "pine tree state",
-    "zip_codes": "32070,32504"
+    "zip_codes": "32070,32504",
+    "ai_introduction": "In Maine, South Portland serves as a growing community in Cumberland County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define South Portland, Maine. With convenient access to transportation networks and regional amenities, South Portland provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Columbia",
@@ -3601,7 +4023,9 @@
     "median_age": 43,
     "livability_score": 6.9,
     "type": "city",
-    "zip_codes": "81134,81479"
+    "zip_codes": "81134,81479",
+    "ai_introduction": "In Maryland, Columbia serves as a growing community in Howard County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Columbia, Maryland. With convenient access to transportation networks and regional amenities, Columbia provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Germantown",
@@ -3618,7 +4042,9 @@
     "median_age": 31,
     "livability_score": 7.7,
     "type": "city",
-    "zip_codes": "76711,77510"
+    "zip_codes": "76711,77510",
+    "ai_introduction": "In Maryland, Germantown serves as a growing community in Montgomery County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Germantown, Maryland. With convenient access to transportation networks and regional amenities, Germantown provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Silver Spring",
@@ -3635,7 +4061,9 @@
     "median_age": 33,
     "livability_score": 6.6,
     "type": "city",
-    "zip_codes": "27391,27646"
+    "zip_codes": "27391,27646",
+    "ai_introduction": "In Maryland, Silver Spring serves as a growing community in Montgomery County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Silver Spring, Maryland. With convenient access to transportation networks and regional amenities, Silver Spring provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Waldorf",
@@ -3652,7 +4080,9 @@
     "median_age": 38,
     "livability_score": 8.7,
     "type": "city",
-    "zip_codes": "31230,31525"
+    "zip_codes": "31230,31525",
+    "ai_introduction": "In Maryland, Waldorf serves as a growing community in Charles County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Waldorf, Maryland. With convenient access to transportation networks and regional amenities, Waldorf provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bethesda",
@@ -3669,7 +4099,9 @@
     "median_age": 43,
     "livability_score": 7.5,
     "type": "city",
-    "zip_codes": "40927,41311"
+    "zip_codes": "40927,41311",
+    "ai_introduction": "In Maryland, Bethesda serves as a growing community in Montgomery County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bethesda, Maryland. With convenient access to transportation networks and regional amenities, Bethesda provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Worcester",
@@ -3686,7 +4118,9 @@
     "median_age": 36,
     "livability_score": 9.3,
     "type": "historic city",
-    "zip_codes": "61546,62523"
+    "zip_codes": "61546,62523",
+    "ai_introduction": "In Massachusetts, Worcester serves as a growing community in Worcester County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Worcester, Massachusetts. With convenient access to transportation networks and regional amenities, Worcester provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Springfield",
@@ -3703,7 +4137,9 @@
     "median_age": 34,
     "livability_score": 6.5,
     "type": "historic city",
-    "zip_codes": "30289,30888"
+    "zip_codes": "30289,30888",
+    "ai_introduction": "In Massachusetts, Springfield serves as a growing community in Hampden County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Springfield, Massachusetts. With convenient access to transportation networks and regional amenities, Springfield provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Cambridge",
@@ -3720,7 +4156,9 @@
     "median_age": 31,
     "livability_score": 7.8,
     "type": "historic city",
-    "zip_codes": "29677,29945"
+    "zip_codes": "29677,29945",
+    "ai_introduction": "In Massachusetts, Cambridge serves as a growing community in Middlesex County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Cambridge, Massachusetts. With convenient access to transportation networks and regional amenities, Cambridge provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lowell",
@@ -3737,7 +4175,9 @@
     "median_age": 33,
     "livability_score": 8.8,
     "type": "historic city",
-    "zip_codes": "59968,60839"
+    "zip_codes": "59968,60839",
+    "ai_introduction": "In Massachusetts, Lowell serves as a growing community in Middlesex County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lowell, Massachusetts. With convenient access to transportation networks and regional amenities, Lowell provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Brockton",
@@ -3754,7 +4194,9 @@
     "median_age": 36,
     "livability_score": 8.5,
     "type": "historic city",
-    "zip_codes": "31074,31506"
+    "zip_codes": "31074,31506",
+    "ai_introduction": "In Massachusetts, Brockton serves as a growing community in Plymouth County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Brockton, Massachusetts. With convenient access to transportation networks and regional amenities, Brockton provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "New Bedford",
@@ -3771,7 +4213,9 @@
     "median_age": 33,
     "livability_score": 8.3,
     "type": "historic city",
-    "zip_codes": "25582,26145"
+    "zip_codes": "25582,26145",
+    "ai_introduction": "In Massachusetts, New Bedford serves as a growing community in Bristol County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define New Bedford, Massachusetts. With convenient access to transportation networks and regional amenities, New Bedford provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Quincy",
@@ -3788,7 +4232,9 @@
     "median_age": 41,
     "livability_score": 6.7,
     "type": "historic city",
-    "zip_codes": "62112,62807"
+    "zip_codes": "62112,62807",
+    "ai_introduction": "In Massachusetts, Quincy serves as a growing community in Norfolk County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Quincy, Massachusetts. With convenient access to transportation networks and regional amenities, Quincy provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "St. Paul",
@@ -3805,7 +4251,9 @@
     "median_age": 32,
     "livability_score": 6.5,
     "type": "city",
-    "zip_codes": "28204,28857"
+    "zip_codes": "28204,28857",
+    "ai_introduction": "In Minnesota, St. Paul serves as a mid-sized city in Ramsey County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define St. Paul, Minnesota. With convenient access to transportation networks and regional amenities, St. Paul provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Rochester",
@@ -3822,7 +4270,9 @@
     "median_age": 38,
     "livability_score": 8.0,
     "type": "city",
-    "zip_codes": "73568,73989"
+    "zip_codes": "73568,73989",
+    "ai_introduction": "In Minnesota, Rochester serves as a growing community in Olmsted County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Rochester, Minnesota. With convenient access to transportation networks and regional amenities, Rochester provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Duluth",
@@ -3839,7 +4289,9 @@
     "median_age": 36,
     "livability_score": 9.0,
     "type": "city",
-    "zip_codes": "48381,49182"
+    "zip_codes": "48381,49182",
+    "ai_introduction": "In Minnesota, Duluth serves as a growing community in St. Louis County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Duluth, Minnesota. With convenient access to transportation networks and regional amenities, Duluth provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Bloomington",
@@ -3873,7 +4325,9 @@
     "median_age": 41,
     "livability_score": 6.5,
     "type": "city",
-    "zip_codes": "34786,35169"
+    "zip_codes": "34786,35169",
+    "ai_introduction": "In Minnesota, Eden Prairie serves as a growing community in Hennepin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Eden Prairie, Minnesota. With convenient access to transportation networks and regional amenities, Eden Prairie provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Maple Grove",
@@ -3890,7 +4344,9 @@
     "median_age": 42,
     "livability_score": 8.7,
     "type": "city",
-    "zip_codes": "92202,92966"
+    "zip_codes": "92202,92966",
+    "ai_introduction": "In Minnesota, Maple Grove serves as a growing community in Hennepin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Maple Grove, Minnesota. With convenient access to transportation networks and regional amenities, Maple Grove provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Jackson",
@@ -3907,7 +4363,9 @@
     "median_age": 45,
     "livability_score": 6.6,
     "type": "magnolia state",
-    "zip_codes": "44395,44714"
+    "zip_codes": "44395,44714",
+    "ai_introduction": "In Mississippi, Jackson serves as a growing community in Hinds County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Jackson, Mississippi. With convenient access to transportation networks and regional amenities, Jackson provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Gulfport",
@@ -3924,7 +4382,9 @@
     "median_age": 28,
     "livability_score": 6.4,
     "type": "magnolia state",
-    "zip_codes": "13129,13324"
+    "zip_codes": "13129,13324",
+    "ai_introduction": "In Mississippi, Gulfport serves as a mid-sized city in Harrison County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Gulfport, Mississippi. With convenient access to transportation networks and regional amenities, Gulfport provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Southaven",
@@ -3941,7 +4401,9 @@
     "median_age": 41,
     "livability_score": 7.3,
     "type": "magnolia state",
-    "zip_codes": "32758,33090"
+    "zip_codes": "32758,33090",
+    "ai_introduction": "In Mississippi, Southaven serves as a growing community in DeSoto County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Southaven, Mississippi. With convenient access to transportation networks and regional amenities, Southaven provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Hattiesburg",
@@ -3958,7 +4420,9 @@
     "median_age": 39,
     "livability_score": 6.2,
     "type": "magnolia state",
-    "zip_codes": "35184,36100"
+    "zip_codes": "35184,36100",
+    "ai_introduction": "In Mississippi, Hattiesburg serves as a growing community in Forrest County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Hattiesburg, Mississippi. With convenient access to transportation networks and regional amenities, Hattiesburg provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Biloxi",
@@ -3975,7 +4439,9 @@
     "median_age": 44,
     "livability_score": 7.5,
     "type": "magnolia state",
-    "zip_codes": "41776,42378"
+    "zip_codes": "41776,42378",
+    "ai_introduction": "In Mississippi, Biloxi serves as a growing community in Harrison County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Biloxi, Mississippi. With convenient access to transportation networks and regional amenities, Biloxi provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Springfield",
@@ -3992,7 +4458,9 @@
     "median_age": 43,
     "livability_score": 7.8,
     "type": "gateway city",
-    "zip_codes": "24488,25366"
+    "zip_codes": "24488,25366",
+    "ai_introduction": "In Missouri, Springfield serves as a growing community in Greene County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Springfield, Missouri. With convenient access to transportation networks and regional amenities, Springfield provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Columbia",
@@ -4009,7 +4477,9 @@
     "median_age": 35,
     "livability_score": 7.6,
     "type": "gateway city",
-    "zip_codes": "67411,68025"
+    "zip_codes": "67411,68025",
+    "ai_introduction": "In Missouri, Columbia serves as a growing community in Boone County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Columbia, Missouri. With convenient access to transportation networks and regional amenities, Columbia provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Independence",
@@ -4026,7 +4496,9 @@
     "median_age": 44,
     "livability_score": 6.5,
     "type": "gateway city",
-    "zip_codes": "54662,54864"
+    "zip_codes": "54662,54864",
+    "ai_introduction": "In Missouri, Independence serves as a growing community in Jackson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Independence, Missouri. With convenient access to transportation networks and regional amenities, Independence provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Lee's Summit",
@@ -4043,7 +4515,9 @@
     "median_age": 30,
     "livability_score": 7.2,
     "type": "gateway city",
-    "zip_codes": "21324,22019"
+    "zip_codes": "21324,22019",
+    "ai_introduction": "In Missouri, Lee's Summit serves as a growing community in Jackson County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Lee's Summit, Missouri. With convenient access to transportation networks and regional amenities, Lee's Summit provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "O'Fallon",
@@ -4060,7 +4534,9 @@
     "median_age": 30,
     "livability_score": 7.3,
     "type": "gateway city",
-    "zip_codes": "32802,33296"
+    "zip_codes": "32802,33296",
+    "ai_introduction": "In Missouri, O'Fallon serves as a growing community in St. Charles County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define O'Fallon, Missouri. With convenient access to transportation networks and regional amenities, O'Fallon provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Billings",
@@ -4077,7 +4553,9 @@
     "median_age": 45,
     "livability_score": 6.9,
     "type": "big sky country",
-    "zip_codes": "38427,38926"
+    "zip_codes": "38427,38926",
+    "ai_introduction": "In Montana, Billings serves as a growing community in Yellowstone County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Billings, Montana. With convenient access to transportation networks and regional amenities, Billings provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Missoula",
@@ -4094,7 +4572,9 @@
     "median_age": 37,
     "livability_score": 8.9,
     "type": "big sky country",
-    "zip_codes": "75694,76448"
+    "zip_codes": "75694,76448",
+    "ai_introduction": "In Montana, Missoula serves as a growing community in Missoula County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Missoula, Montana. With convenient access to transportation networks and regional amenities, Missoula provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Great Falls",
@@ -4111,7 +4591,9 @@
     "median_age": 37,
     "livability_score": 7.6,
     "type": "big sky country",
-    "zip_codes": "90767,91277"
+    "zip_codes": "90767,91277",
+    "ai_introduction": "In Montana, Great Falls serves as a growing community in Cascade County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Great Falls, Montana. With convenient access to transportation networks and regional amenities, Great Falls provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Bozeman",
@@ -4128,7 +4610,9 @@
     "median_age": 38,
     "livability_score": 7.5,
     "type": "big sky country",
-    "zip_codes": "53838,54184"
+    "zip_codes": "53838,54184",
+    "ai_introduction": "In Montana, Bozeman serves as a growing community in Gallatin County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bozeman, Montana. With convenient access to transportation networks and regional amenities, Bozeman provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Butte",
@@ -4145,7 +4629,9 @@
     "median_age": 38,
     "livability_score": 8.4,
     "type": "big sky country",
-    "zip_codes": "68459,68956"
+    "zip_codes": "68459,68956",
+    "ai_introduction": "In Montana, Butte serves as a growing community in Silver Bow County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Butte, Montana. With convenient access to transportation networks and regional amenities, Butte provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 57
   },
   {
     "city": "Omaha",
@@ -4162,7 +4648,9 @@
     "median_age": 35,
     "livability_score": 8.1,
     "type": "cornhusker state",
-    "zip_codes": "36878,37006"
+    "zip_codes": "36878,37006",
+    "ai_introduction": "In Nebraska, Omaha serves as a mid-sized city in Douglas County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Omaha, Nebraska. With convenient access to transportation networks and regional amenities, Omaha provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Bellevue",
@@ -4179,7 +4667,9 @@
     "median_age": 29,
     "livability_score": 6.6,
     "type": "cornhusker state",
-    "zip_codes": "84310,85193"
+    "zip_codes": "84310,85193",
+    "ai_introduction": "In Nebraska, Bellevue serves as a growing community in Sarpy County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Bellevue, Nebraska. With convenient access to transportation networks and regional amenities, Bellevue provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Grand Island",
@@ -4196,7 +4686,9 @@
     "median_age": 30,
     "livability_score": 7.9,
     "type": "cornhusker state",
-    "zip_codes": "25951,26606"
+    "zip_codes": "25951,26606",
+    "ai_introduction": "In Nebraska, Grand Island serves as a growing community in Hall County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Grand Island, Nebraska. With convenient access to transportation networks and regional amenities, Grand Island provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 59
   },
   {
     "city": "Henderson",
@@ -4213,7 +4705,9 @@
     "median_age": 29,
     "livability_score": 9.2,
     "type": "entertainment hub",
-    "zip_codes": "75713,76383"
+    "zip_codes": "75713,76383",
+    "ai_introduction": "In Nevada, Henderson serves as a mid-sized city in Clark County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Henderson, Nevada. With convenient access to transportation networks and regional amenities, Henderson provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Reno",
@@ -4230,7 +4724,9 @@
     "median_age": 40,
     "livability_score": 7.1,
     "type": "entertainment hub",
-    "zip_codes": "55613,55842"
+    "zip_codes": "55613,55842",
+    "ai_introduction": "In Nevada, Reno serves as a mid-sized city in Washoe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Reno, Nevada. With convenient access to transportation networks and regional amenities, Reno provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "North Las Vegas",
@@ -4247,7 +4743,9 @@
     "median_age": 30,
     "livability_score": 7.4,
     "type": "entertainment hub",
-    "zip_codes": "17773,18060"
+    "zip_codes": "17773,18060",
+    "ai_introduction": "In Nevada, North Las Vegas serves as a mid-sized city in Clark County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define North Las Vegas, Nevada. With convenient access to transportation networks and regional amenities, North Las Vegas provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 62
   },
   {
     "city": "Sparks",
@@ -4264,7 +4762,9 @@
     "median_age": 33,
     "livability_score": 9.0,
     "type": "entertainment hub",
-    "zip_codes": "31072,31727"
+    "zip_codes": "31072,31727",
+    "ai_introduction": "In Nevada, Sparks serves as a growing community in Washoe County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Sparks, Nevada. With convenient access to transportation networks and regional amenities, Sparks provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 56
   },
   {
     "city": "Carson City",
@@ -4281,6 +4781,8 @@
     "median_age": 34,
     "livability_score": 7.6,
     "type": "entertainment hub",
-    "zip_codes": "38777,39579"
+    "zip_codes": "38777,39579",
+    "ai_introduction": "In Nevada, Carson City serves as a growing community in Carson City County with its own unique character and charm. The city offers residents and visitors diverse neighborhoods, local businesses, and community events that define Carson City, Nevada. With convenient access to transportation networks and regional amenities, Carson City provides quality of life that attracts families, professionals, and retirees alike.",
+    "intro_word_count": 60
   }
 ]

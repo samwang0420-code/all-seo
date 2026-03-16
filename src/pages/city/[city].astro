@@ -24,7 +24,7 @@ export function getStaticPaths() {
 }
 
 const { cityData } = Astro.props;
-const { city, state, state_abbr, county, population, median_income, median_rent, median_home_value, crime_index, median_age, zip_codes, livability_score, type, lat, lng } = cityData;
+const { city, state, state_abbr, county, population, median_income, median_rent, median_home_value, crime_index, median_age, zip_codes, livability_score, type, lat, lng, ai_introduction } = cityData;
 
 const crimeMessage = crime_index < 30 ? "It is exceptionally safe." : crime_index > 80 ? "Caution is advised." : "Crime rates are moderate.";
 const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score >= 7 ? "great" : livability_score >= 6 ? "good" : "moderate";
@@ -260,6 +260,9 @@ const faqs = [
     <!-- Header -->
     <header class="mb-8">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">{city}, {state_abbr}</h1>
+      {ai_introduction && (
+        <p class="text-lg text-gray-700 mb-4 leading-relaxed">{ai_introduction}</p>
+      )}
       <p class="text-xl text-gray-600">
         {city} is a {type} located in <strong>{county} County</strong>, {state}. 
         Population: <strong>{population.toLocaleString()}</strong> | 
