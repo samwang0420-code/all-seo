@@ -29,6 +29,85 @@ const { city, state, state_abbr, county, population, median_income, median_rent,
 const crimeMessage = crime_index < 30 ? "It is exceptionally safe." : crime_index > 80 ? "Caution is advised." : "Crime rates are moderate.";
 const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score >= 7 ? "great" : livability_score >= 6 ? "good" : "moderate";
 
+// Entity Data - Comprehensive offline entities
+const entityData = {
+  // Time Zones
+  "HI": { timezone: "Hawaii-Aleutian", areaCodes: ["808"], airport: "Honolulu International Airport (HNL)", majorHighways: ["H-1", "H-2", "H-3"] },
+  "AK": { timezone: "Alaska", areaCodes: ["907"], airport: "Ted Stevens Anchorage International Airport (ANC)", majorHighways: [] },
+  "CA": { timezone: "Pacific", areaCodes: ["209", "213", "310", "323", "408", "415", "510", "530", "559", "562", "619", "626", "650", "657", "661", "707", "714", "760", "805", "818", "831", "858", "909", "935"], 
+    airports: ["Los Angeles International (LAX)", "San Francisco International (SFO)", "San Diego International (SAN)", "Sacramento International (SMF)"],
+    majorHighways: ["I-5", "I-80", "US-101", "I-10", "I-15"] },
+  "WA": { timezone: "Pacific", areaCodes: ["206", "253", "360", "425", "509"], airport: "Seattle-Tacoma International Airport (SEA)", majorHighways: ["I-5", "I-90", "I-82"] },
+  "OR": { timezone: "Pacific", areaCodes: ["503", "541", "971"], airport: "Portland International Airport (PDX)", majorHighways: ["I-5", "I-84", "US-101"] },
+  "NV": { timezone: "Pacific", areaCodes: ["702", "725", "775"], airport: "Harry Reid International Airport (LAS)", majorHighways: ["I-15", "I-80", "US-95"] },
+  "AZ": { timezone: "Mountain", areaCodes: ["480", "520", "602", "623", "928"], airport: "Phoenix Sky Harbor International Airport (PHX)", majorHighways: ["I-10", "I-17", "I-40", "US-60"] },
+  "CO": { timezone: "Mountain", areaCodes: ["303", "719", "720", "970"], airport: "Denver International Airport (DEN)", majorHighways: ["I-25", "I-70", "I-76", "US-36"] },
+  "UT": { timezone: "Mountain", areaCodes: ["385", "435", "801"], airport: "Salt Lake City International Airport (SLC)", majorHighways: ["I-15", "I-80", "I-84"] },
+  "NM": { timezone: "Mountain", areaCodes: ["505", "575"], airport: "Albuquerque International Sunport (ABQ)", majorHighways: ["I-10", "I-25", "I-40"] },
+  "TX": { timezone: "Central", areaCodes: ["210", "214", "254", "281", "325", "361", "409", "430", "432", "469", "512", "682", "713", "737", "806", "817", "830", "903", "915", "936", "940", "956", "972", "979"], 
+    airports: ["Dallas/Fort Worth International (DFW)", "George Bush Intercontinental (IAH)", "San Antonio International (SAT)", "Austin-Bergstrom (AUS)"],
+    majorHighways: ["I-10", "I-20", "I-35", "I-45", "US-59", "US-290"] },
+  "OK": { timezone: "Central", areaCodes: ["405", "539", "580", "918"], airport: "Will Rogers World Airport (OKC)", majorHighways: ["I-35", "I-40", "I-44"] },
+  "KS": { timezone: "Central", areaCodes: ["316", "620", "785", "913"], airport: "Wichita Dwight D. Eisenhower National Airport (ICT)", majorHighways: ["I-35", "I-70", "I-135"] },
+  "NE": { timezone: "Central", areaCodes: ["308", "402", "531"], airport: "Eppley Airfield (OMA)", majorHighways: ["I-80", "I-29", "I-76"] },
+  "IA": { timezone: "Central", areaCodes: ["319", "515", "563", "641", "712"], airport: "Des Moines International Airport (DSM)", majorHighways: ["I-35", "I-80", "I-380"] },
+  "MO": { timezone: "Central", areaCodes: ["314", "417", "573", "636", "660", "816"], airport: "St. Louis Lambert International Airport (STL)", majorHighways: ["I-44", "I-55", "I-70", "I-35"] },
+  "AR": { timezone: "Central", areaCodes: ["479", "501", "870"], airport: "Bill and Hillary Clinton National Airport (LIT)", majorHighways: ["I-30", "I-40", "I-55"] },
+  "LA": { timezone: "Central", areaCodes: ["225", "318", "337", "504", "985"], airport: "Louisiana Armstrong International Airport (MSY)", majorHighways: ["I-10", "I-20", "I-55"] },
+  "MS": { timezone: "Central", areaCodes: ["228", "601", "662", "769"], airport: "Jackson-Medgar Wiley Evers International Airport (JAN)", majorHighways: ["I-10", "I-20", "I-55", "I-59"] },
+  "AL": { timezone: "Central", areaCodes: ["205", "251", "256", "334", "938"], airport: "Birmingham-Shuttlesworth International Airport (BHM)", majorHighways: ["I-20", "I-59", "I-65", "I-85"] },
+  "TN": { timezone: "Central/Eastern", areaCodes: ["423", "615", "629", "731", "865", "901", "931"], 
+    airports: ["Nashville International (BNA)", "Memphis International (MEM)", "Knoxville McGhee Tyson (TYS)"],
+    majorHighways: ["I-24", "I-40", "I-65", "I-75", "I-81"] },
+  "KY": { timezone: "Eastern", areaCodes: ["270", "502", "606", "859"], airport: "Louisville International Airport (SDF)", majorHighways: ["I-24", "I-64", "I-65", "I-75"] },
+  "OH": { timezone: "Eastern", areaCodes: ["216", "234", "330", "380", "419", "440", "513", "567", "614", "740", "937"], 
+    airports: ["Cleveland Hopkins International (CLE)", "John Glenn Columbus International (CMH)", "Cincinnati/Northern Kentucky International (CVG)"],
+    majorHighways: ["I-70", "I-71", "I-75", "I-80", "I-90"] },
+  "IN": { timezone: "Eastern", areaCodes: ["219", "260", "317", "463", "574", "765", "812", "930"], airport: "Indianapolis International Airport (IND)", majorHighways: ["I-64", "I-65", "I-70", "I-74", "I-90"] },
+  "IL": { timezone: "Central", areaCodes: ["217", "224", "312", "331", "618", "630", "708", "773", "779", "815", "847", "872"], 
+    airports: ["O'Hare International (ORD)", "Chicago Midway International (MDW)"],
+    majorHighways: ["I-24", "I-39", "I-55", "I-57", "I-64", "I-70", "I-74", "I-80", "I-88", "I-90"] },
+  "WI": { timezone: "Central", areaCodes: ["262", "414", "534", "608", "715", "920"], airport: "Milwaukee Mitchell International Airport (MKE)", majorHighways: ["I-39", "I-41", "I-43", "I-90", "I-94"] },
+  "MN": { timezone: "Central", areaCodes: ["218", "320", "507", "612", "651", "763", "952"], airport: "Minneapolis-St. Paul International Airport (MSP)", majorHighways: ["I-35", "I-90", "I-94"] },
+  "MI": { timezone: "Eastern", areaCodes: ["231", "248", "269", "313", "517", "586", "616", "734", "810", "906", "989"], 
+    airports: ["Detroit Metropolitan Wayne County (DTW)", "Gerald R. Ford International (GRR)"],
+    majorHighways: ["I-69", "I-75", "I-94", "I-96"] },
+  "GA": { timezone: "Eastern", areaCodes: ["229", "404", "470", "478", "678", "706", "770", "912"], 
+    airports: ["Hartsfield-Jackson Atlanta International (ATL)"],
+    majorHighways: ["I-16", "I-20", "I-59", "I-75", "I-85", "I-95"] },
+  "FL": { timezone: "Eastern", areaCodes: ["239", "305", "321", "352", "386", "407", "561", "727", "754", "772", "786", "813", "850", "863", "904", "941", "954"], 
+    airports: ["Miami International (MCO)", "Fort Lauderdale-Hollywood International (FLL)", "Tampa International (TPA)", "Orlando International (MCO)"],
+    majorHighways: ["I-10", "I-4", "I-75", "I-95", "Florida's Turnpike"] },
+  "SC": { timezone: "Eastern", areaCodes: ["803", "843", "854", "864"], airport: "Charleston International Airport (CHS)", majorHighways: ["I-20", "I-26", "I-77", "I-85", "I-95"] },
+  "NC": { timezone: "Eastern", areaCodes: ["252", "336", "704", "828", "910", "919", "980", "984"], 
+    airports: ["Charlotte Douglas International (CLT)", "Raleigh-Durham International (RDU)"],
+    majorHighways: ["I-26", "I-40", "I-73", "I-74", "I-77", "I-85", "I-95"] },
+  "VA": { timezone: "Eastern", areaCodes: ["276", "434", "540", "571", "703", "757", "804"], 
+    airports: ["Washington Dulles International (IAD)", "Ronald Reagan Washington National (DCA)", "Richmond International (RIC)"],
+    majorHighways: ["I-64", "I-66", "I-77", "I-81", "I-85", "I-95"] },
+  "WV": { timezone: "Eastern", areaCodes: ["304", "681"], airport: "Charleston Yeager Airport (CRW)", majorHighways: ["I-64", "I-77", "I-79", "I-81"] },
+  "DC": { timezone: "Eastern", areaCodes: ["202"], airport: "Ronald Reagan Washington National Airport (DCA)", majorHighways: ["I-66", "I-95"] },
+  "MD": { timezone: "Eastern", areaCodes: ["227", "240", "301", "410", "443", "667"], airport: "Baltimore/Washington International (BWI)", majorHighways: ["I-70", "I-81", "I-95", "US-50"] },
+  "DE": { timezone: "Eastern", areaCodes: ["302"], airport: "Philadelphia International Airport (PHL)", majorHighways: ["I-95", "US-13"] },
+  "PA": { timezone: "Eastern", areaCodes: ["215", "267", "412", "484", "570", "610", "717", "724", "814", "878"], 
+    airports: ["Philadelphia International (PHL)", "Pittsburgh International (PIT)"],
+    majorHighways: ["I-70", "I-76", "I-78", "I-79", "I-80", "I-81", "I-83", "I-84", "I-90", "I-95"] },
+  "NJ": { timezone: "Eastern", areaCodes: ["201", "551", "609", "640", "732", "848", "856", "862", "908", "973"], airport: "Newark Liberty International Airport (EWR)", majorHighways: ["I-78", "I-80", "I-95", "NJ Turnpike"] },
+  "NY": { timezone: "Eastern", areaCodes: ["212", "315", "347", "516", "518", "585", "607", "631", "646", "716", "718", "845", "914", "917", "929"], 
+    airports: ["John F. Kennedy International (JFK)", "LaGuardia (LGA)", "Newark Liberty (EWR)", "Buffalo Niagara International (BUF)"],
+    majorHighways: ["I-84", "I-87", "I-88", "I-90", "I-95", "NY State Thruway"] },
+  "CT": { timezone: "Eastern", areaCodes: ["203", "475", "860", "959"], airport: "Bradley International Airport (BDL)", majorHighways: ["I-84", "I-90", "I-95"] },
+  "RI": { timezone: "Eastern", areaCodes: ["401"], airport: "Theodore Francis Green Airport (PVD)", majorHighways: ["I-95", "I-195"] },
+  "MA": { timezone: "Eastern", areaCodes: ["339", "351", "413", "508", "617", "774", "781", "857", "978"], 
+    airports: ["Logan International (BOS)"],
+    majorHighways: ["I-84", "I-90", "I-93", "I-95"] },
+  "VT": { timezone: "Eastern", areaCodes: ["802"], airport: "Burlington International Airport (BTV)", majorHighways: ["I-89", "I-91"] },
+  "NH": { timezone: "Eastern", areaCodes: ["603"], airport: "Manchester-Boston Regional Airport (MHT)", majorHighways: ["I-89", "I-93", "I-95"] },
+  "ME": { timezone: "Eastern", areaCodes: ["207"], airport: "Portland International Jetport (PWM)", majorHighways: ["I-95"] },
+};
+
+const entity = entityData[state_abbr] || { timezone: "Eastern", areaCodes: ["555"], airport: "Local Airport", majorHighways: [] };
+
 // Find nearby cities (within 150 miles)
 const nearbyCities = cities
   .filter(c => c.city !== city || c.state_abbr !== state_abbr)
@@ -49,13 +128,11 @@ const similarCities = cities
   })
   .slice(0, 4);
 
-// Cost comparison helpers
+// Cost comparison
 const nationalMedianRent = 1470;
 const nationalMedianHome = 416100;
-const rentComparison = median_rent > nationalMedianRent ? "above" : "below";
-const homeComparison = median_home_value > nationalMedianHome ? "above" : "below";
 
-// Weather/climate data (simulated - in real app would come from data)
+// Climate data
 const climateData = {
   "WA": { climate: "Marine", avgHigh: 59, avgLow: 45, rainfall: 38 },
   "CA": { climate: "Mediterranean", avgHigh: 75, avgLow: 55, rainfall: 15 },
@@ -68,66 +145,107 @@ const climateData = {
   "IL": { climate: "Humid Continental", avgHigh: 64, avgLow: 46, rainfall: 36 },
   "GA": { climate: "Humid Subtropical", avgHigh: 77, avgLow: 58, rainfall: 48 },
 };
-
 const climate = climateData[state_abbr] || { climate: "Moderate", avgHigh: 70, avgLow: 50, rainfall: 35 };
 
-// JSON-LD Knowledge Graph
+// Comprehensive JSON-LD Knowledge Graph
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "City",
   "name": `${city}, ${state_abbr}`,
-  "description": `Comprehensive guide to ${city}, ${state} including cost of living, demographics, climate, education, healthcare, and employment. Population: ${population.toLocaleString()}.`,
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": city,
-    "addressRegion": state_abbr,
-    "addressCountry": "US"
-  },
-  "population": population,
+  "description": `Comprehensive guide to ${city}, ${state} including cost of living, demographics, geography, transportation, and local information.`,
+  "url": `https://getuscompliance.com/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`,
+  
+  // Geographic Entities
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": lat,
     "longitude": lng
   },
-  "url": `https://getuscompliance.com/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`,
+  
+  // Administrative Entities
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": state_abbr,
+    "addressCountry": "US",
+    "postalCode": zip_codes.split(',')[0]
+  },
+  
+  // Entity Relationships
   "containedInPlace": {
     "@type": "State",
-    "name": state
+    "name": state,
+    "url": `https://getuscompliance.com/state/${state.toLowerCase().replace(/\s+/g, '-')}`
   },
   "partOf": {
     "@type": "County",
-    "name": county + " County"
-  }
+    name: `${county} County`
+  },
+  
+  // Population & Demographics
+  "population": population,
+  
+  // Additional Entities
+  "url": `https://getuscompliance.com/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`,
+  
+  // Related Entities
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "County",
+      "value": `${county} County`
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "TimeZone",
+      "value": entity.timezone
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "AreaCode",
+      "value": entity.areaCodes.join(', ')
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ZIPCodes",
+      "value": zip_codes
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "MedianHouseholdIncome",
+      "value": median_income
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "MedianHomeValue",
+      "value": median_home_value
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CrimeIndex",
+      "value": crime_index
+    }
+  ]
 };
 
-// FAQ data for People Also Ask
+// FAQ for People Also Ask
 const faqs = [
-  {
-    question: `What is the cost of living in ${city}, ${state_abbr}?`,
-    answer: `The cost of living in ${city} is ${median_rent > nationalMedianRent ? 'higher' : 'lower'} than the national average. Median rent is $${median_rent}/month and median home value is $${median_home_value.toLocaleString()}.`
-  },
-  {
-    question: `Is ${city}, ${state_abbr} safe?`,
-    answer: `${city} has a crime index of ${crime_index}. ${crimeMessage}`
-  },
-  {
-    question: `What is the population of ${city}, ${state_abbr}?`,
-    answer: `The population of ${city} is ${population.toLocaleString()}.`
-  },
-  {
-    question: `What is the median income in ${city}, ${state_abbr}?`,
-    answer: `The median household income in ${city} is $${median_income.toLocaleString()}.`
-  },
-  {
-    question: `What is the weather like in ${city}, ${state_abbr}?`,
-    answer: `${city} has a ${climate.climate} climate with average high of ${climate.avgHigh}°F and low of ${climate.avgLow}°F.`
-  }
+  { question: `What is ${city}, ${state_abbr} known for?`, answer: `${city} is a ${type} known for its ${type.includes('tech') ? 'technology industry' : type.includes('coastal') ? 'coastal location and beaches' : 'unique character and attractions'}.` },
+  { question: `What is the cost of living in ${city}, ${state_abbr}?`, answer: `Median rent is $${median_rent}/month and median home value is $${median_home_value.toLocaleString()}.` },
+  { question: `Is ${city}, ${state_abbr} safe?`, answer: `Crime index is ${crime_index}. ${crimeMessage}` },
+  { question: `What is the population of ${city}, ${state_abbr}?`, answer: `Population is ${population.toLocaleString()}.` },
+  { question: `What is the weather like in ${city}, ${state_abbr}?`, answer: `${city} has a ${climate.climate} climate with average highs of ${climate.avgHigh}°F.` },
+  { question: `What are the main highways in ${city}, ${state_abbr}?`, answer: `Major highways include: ${entity.majorHighways.join(', ') || 'Various local highways'}.` },
+  { question: `What is the major airport serving ${city}, ${state_abbr}?`, answer: `The main airport is ${entity.airport}.` },
+  { question: `What time zone is ${city}, ${state_abbr} in?`, answer: `${city} is in the ${entity.timezone} time zone.` },
+  { question: `What are the area codes for ${city}, ${state_abbr}?`, answer: `Area codes include: ${entity.areaCodes.join(', ')}.` },
+  { question: `What county is ${city}, ${state_abbr} in?`, answer: `${city} is located in ${county} County.` }
 ];
 ---
 
 <Layout 
-  title={`${city}, ${state_abbr} Cost of Living, Crime Rate, Demographics & Complete Guide (2026)`}
-  description={`Complete guide to ${city}, ${state}. Discover cost of living, housing prices, crime rates, demographics, climate, schools, healthcare, employment and more.`}
+  title={`${city}, ${state_abbr} Complete Guide: Cost of Living, Demographics, Geography, Transportation & More (2026)`}
+  description={`Ultimate guide to ${city}, ${state}. Comprehensive data on cost of living, population, geography, transportation, area codes, airports, highways, weather, and local information.`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   
@@ -143,13 +261,13 @@ const faqs = [
     <header class="mb-8">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">{city}, {state_abbr}</h1>
       <p class="text-xl text-gray-600">
-        {city} is a {type} located in {county} County, {state}. 
-        With a population of <strong>{population.toLocaleString()}</strong>, it offers an urban feel. 
-        The median household income is <strong>${median_income.toLocaleString()}</strong>.
+        {city} is a {type} located in <strong>{county} County</strong>, {state}. 
+        Population: <strong>{population.toLocaleString()}</strong> | 
+        Time Zone: <strong>{entity.timezone}</strong>
       </p>
     </header>
 
-    <!-- Quick Stats Cards -->
+    <!-- Quick Stats -->
     <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       <div class="bg-blue-50 p-4 rounded-lg text-center">
         <p class="text-sm text-gray-600">Population</p>
@@ -169,42 +287,51 @@ const faqs = [
       </div>
     </section>
 
+    <!-- Geographic & Location Entity -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">📍 Geographic & Location Information</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold mb-3">🗺️ Location Details</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>City:</strong> {city}</li>
+            <li><strong>State:</strong> <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:underline">{state}</a></li>
+            <li><strong>County:</strong> {county} County</li>
+            <li><strong>Coordinates:</strong> {lat.toFixed(4)}°N, {Math.abs(lng).toFixed(4)}°{lng < 0 ? 'W' : 'E'}</li>
+            <li><strong>ZIP Codes:</strong> {zip_codes}</li>
+            <li><strong>Area Codes:</strong> {entity.areaCodes.join(', ')}</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-3">🌐 Time & Transportation</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>Time Zone:</strong> {entity.timezone}</li>
+            <li><strong>Major Airport:</strong> {entity.airport}</li>
+            <li><strong>Major Highways:</strong> {entity.majorHighways.join(', ') || 'Various'}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- Cost of Living -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
       <h2 class="text-2xl font-bold mb-4">💰 Cost of Living in {city}</h2>
-      <p class="text-gray-600 mb-6">
-        Understanding the cost of living is essential when considering a move to {city}, {state}. 
-        Here's a detailed breakdown of housing costs compared to national averages.
-      </p>
       <div class="grid md:grid-cols-2 gap-6">
         <div class="p-6 bg-blue-50 rounded-lg">
           <p class="text-gray-600 mb-1">Median Rent</p>
           <p class="text-4xl font-bold text-blue-600">${median_rent}<span class="text-lg font-normal">/month</span></p>
-          <p class="text-sm mt-2">
-            {rentComparison === "above" ? "📈" : "📉"} {rentComparison === "above" ? "Higher" : "Lower"} than national average (${nationalMedianRent})
-          </p>
         </div>
         <div class="p-6 bg-green-50 rounded-lg">
           <p class="text-gray-600 mb-1">Median Home Value</p>
           <p class="text-4xl font-bold text-green-600">${median_home_value.toLocaleString()}</p>
-          <p class="text-sm mt-2">
-            {homeComparison === "above" ? "📈" : "📉"} {homeComparison === "above" ? "Higher" : "Lower"} than national average (${nationalMedianHome.toLocaleString()})
-          </p>
         </div>
-      </div>
-      <div class="mt-6 p-4 bg-gray-50 rounded-lg">
-        <h3 class="font-semibold mb-2">💡 Cost of Living Summary</h3>
-        <p class="text-gray-600">
-          {city} is generally considered {median_home_value > nationalMedianHome ? "an expensive" : "an affordable"} place to live. 
-          Housing costs are {homeComparison} the national average, while rent prices follow a similar trend.
-        </p>
       </div>
     </section>
 
     <!-- Crime & Safety -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
       <h2 class="text-2xl font-bold mb-4">🔒 Crime & Safety in {city}</h2>
-      <div class="flex items-center gap-4 mb-4">
+      <div class="flex items-center gap-4">
         <div class="text-5xl font-bold text-{crime_index < 40 ? 'green' : crime_index > 70 ? 'red' : 'yellow'}-600">
           {crime_index}
         </div>
@@ -213,119 +340,38 @@ const faqs = [
           <p class="text-gray-600">{crimeMessage}</p>
         </div>
       </div>
-      <p class="text-gray-600">
-        The crime rate in {city} is {crime_index < 40 ? "relatively low" : crime_index > 70 ? "relatively high" : "moderate"} compared to other US cities. 
-        When considering safety, it's important to look at both violent crime and property crime rates specific to neighborhoods within {city}.
-      </p>
     </section>
 
     <!-- Demographics -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">👥 Demographics & Population</h2>
-      <div class="grid md:grid-cols-3 gap-6 mb-6">
-        <div>
-          <p class="text-gray-600">Population</p>
-          <p class="text-3xl font-bold">{population.toLocaleString()}</p>
-        </div>
-        <div>
-          <p class="text-gray-600">Median Age</p>
-          <p class="text-3xl font-bold">{median_age}</p>
-        </div>
-        <div>
-          <p class="text-gray-600">Median Household Income</p>
-          <p class="text-3xl font-bold">${median_income.toLocaleString()}</p>
-        </div>
+      <h2 class="text-2xl font-bold mb-4">👥 Demographics</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div><p class="text-gray-600">Population</p><p class="text-3xl font-bold">{population.toLocaleString()}</p></div>
+        <div><p class="text-gray-600">Median Age</p><p class="text-3xl font-bold">{median_age}</p></div>
+        <div><p class="text-gray-600">Median Income</p><p class="text-3xl font-bold">${median_income.toLocaleString()}</p></div>
       </div>
-      <p class="text-gray-600">
-        {city} has a diverse population with a median age of {median_age}. 
-        The city attracts residents from various backgrounds, contributing to its vibrant community.
-      </p>
     </section>
 
-    <!-- Climate & Weather -->
+    <!-- Climate -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">🌤️ Climate & Weather in {city}</h2>
-      <div class="grid md:grid-cols-4 gap-4 mb-6">
+      <h2 class="text-2xl font-bold mb-4">🌤️ Climate & Weather</h2>
+      <div class="grid md:grid-cols-4 gap-4">
         <div class="text-center p-4 bg-yellow-50 rounded-lg">
-          <p class="text-3xl mb-2">☀️</p>
-          <p class="text-gray-600">Climate</p>
-          <p class="font-bold">{climate.climate}</p>
+          <p class="text-3xl mb-2">☀️</p><p class="text-gray-600">Climate</p><p class="font-bold">{climate.climate}</p>
         </div>
         <div class="text-center p-4 bg-red-50 rounded-lg">
-          <p class="text-3xl mb-2">📈</p>
-          <p class="text-gray-600">Avg High</p>
-          <p class="font-bold">{climate.avgHigh}°F</p>
+          <p class="text-3xl mb-2">📈</p><p class="text-gray-600">Avg High</p><p class="font-bold">{climate.avgHigh}°F</p>
         </div>
         <div class="text-center p-4 bg-blue-50 rounded-lg">
-          <p class="text-3xl mb-2">📉</p>
-          <p class="text-gray-600">Avg Low</p>
-          <p class="font-bold">{climate.avgLow}°F</p>
+          <p class="text-3xl mb-2">📉</p><p class="text-gray-600">Avg Low</p><p class="font-bold">{climate.avgLow}°F</p>
         </div>
         <div class="text-center p-4 bg-gray-50 rounded-lg">
-          <p class="text-3xl mb-2">🌧️</p>
-          <p class="text-gray-600">Rainfall</p>
-          <p class="font-bold">{climate.rainfall} in/year</p>
-        </div>
-      </div>
-      <p class="text-gray-600">
-        {city} features a {climate.climate.toLowerCase()} climate, making it attractive for those who enjoy {climate.climate.includes("Sunny") || climate.climate.includes("Desert") ? "year-round sunshine" : "varied seasonal weather"}. 
-        Consider your climate preferences when choosing {city} as your new home.
-      </p>
-    </section>
-
-    <!-- Employment & Economy -->
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">💼 Employment & Economy</h2>
-      <p class="text-gray-600 mb-4">
-        {city} offers a diverse economy with opportunities in various sectors. The median household income of 
-        <strong>${median_income.toLocaleString()}</strong> reflects the economic opportunities available.
-      </p>
-      <div class="p-4 bg-green-50 rounded-lg">
-        <p class="font-semibold mb-2">💡 Economic Insight</p>
-        <p class="text-gray-600">
-          {median_income > 75000 ? "This city has a strong economy with above-average income levels." : "This city offers affordable living with moderate income levels."}
-        </p>
-      </div>
-    </section>
-
-    <!-- Education -->
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">🎓 Education & Schools</h2>
-      <p class="text-gray-600 mb-4">
-        Education quality is a crucial factor for families considering relocation to {city}. 
-        The median age of {median_age} suggests a mix of young families and established residents.
-      </p>
-      <div class="grid md:grid-cols-2 gap-4">
-        <div class="p-4 border rounded-lg">
-          <h3 class="font-semibold mb-2">🏫 K-12 Education</h3>
-          <p class="text-gray-600">Local school districts serve students from kindergarten through high school.</p>
-        </div>
-        <div class="p-4 border rounded-lg">
-          <h3 class="font-semibold mb-2">🎓 Higher Education</h3>
-          <p class="text-gray-600">{city} has access to colleges and universities in the greater {state} area.</p>
+          <p class="text-3xl mb-2">🌧️</p><p class="text-gray-600">Rainfall</p><p class="font-bold">{climate.rainfall} in/year</p>
         </div>
       </div>
     </section>
 
-    <!-- Healthcare -->
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">🏥 Healthcare</h2>
-      <p class="text-gray-600">
-        Access to quality healthcare is essential. {city} offers various healthcare facilities and medical services 
-        to meet the needs of its residents.
-      </p>
-    </section>
-
-    <!-- Transportation -->
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-bold mb-4">🚗 Transportation</h2>
-      <p class="text-gray-600">
-        Getting around {city} is facilitated by major highways and transportation infrastructure. 
-        The city's layout offers various options for commuters and residents.
-      </p>
-    </section>
-
-    <!-- FAQ (People Also Ask) -->
+    <!-- FAQ -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
       <h2 class="text-2xl font-bold mb-4">❓ Frequently Asked Questions</h2>
       <div class="space-y-6">
@@ -335,67 +381,28 @@ const faqs = [
             <p class="text-gray-600">{faq.answer}</p>
           </div>
         ))}
-        <div class="border-b pb-4">
-          <h3 class="font-semibold mb-2">What are the zip codes for {city}, {state_abbr}?</h3>
-          <p class="text-gray-600">The zip codes for {city} include: {zip_codes}.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-2">Is {city} a good place to live?</h3>
-          <p class="text-gray-600">
-            Based on a livability score of {livability_score}/10, {city} is considered a {livabilityMessage} place to live. 
-            Factors like cost of living, safety, and amenities contribute to this rating.
-          </p>
-        </div>
       </div>
     </section>
 
-    <!-- Nearby Cities (GEO) -->
+    <!-- Nearby Cities -->
     {nearbyCities.length > 0 && (
       <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <h2 class="text-2xl font-bold mb-4">📍 Nearby Cities</h2>
-        <p class="text-gray-600 mb-4">Explore cities within 150 miles of {city}:</p>
+        <h2 class="text-2xl font-bold mb-4">📍 Nearby Cities (GEO)</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {nearbyCities.map((nearby) => (
-            <a 
-              href={`/city/${nearby.city.toLowerCase().replace(/\s+/g, '-')}-${nearby.state_abbr.toLowerCase()}`}
-              class="block p-4 border rounded-lg hover:border-blue-500 hover:bg-blue-50 transition"
-            >
+            <a href={`/city/${nearby.city.toLowerCase().replace(/\s+/g, '-')}-${nearby.state_abbr.toLowerCase()}`} class="block p-4 border rounded-lg hover:border-blue-500 hover:bg-blue-50">
               <h3 class="font-semibold text-blue-600">{nearby.city}, {nearby.state_abbr}</h3>
-              <p class="text-sm text-gray-600">{Math.round(nearby.distance)} miles away</p>
-              <p class="text-sm text-gray-500">Pop: {nearby.population.toLocaleString()}</p>
+              <p class="text-sm text-gray-600">{Math.round(nearby.distance)} miles</p>
             </a>
           ))}
         </div>
       </section>
     )}
 
-    <!-- Similar Cities -->
-    {similarCities.length > 0 && (
-      <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <h2 class="text-2xl font-bold mb-4">🔄 Similar Cities</h2>
-        <p class="text-gray-600 mb-4">Cities with similar population sizes:</p>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {similarCities.map((similar) => (
-            <a 
-              href={`/city/${similar.city.toLowerCase().replace(/\s+/g, '-')}-${similar.state_abbr.toLowerCase()}`}
-              class="block p-4 border rounded-lg hover:border-green-500 hover:bg-green-50 transition"
-            >
-              <h3 class="font-semibold text-green-600">{similar.city}, {similar.state_abbr}</h3>
-              <p class="text-sm text-gray-600">Pop: {similar.population.toLocaleString()}</p>
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- Related State -->
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+    <!-- More Cities in State -->
+    <section class="bg-white rounded-lg shadow-md p-6">
       <h2 class="text-2xl font-bold mb-4">🗺️ More Cities in {state}</h2>
-      <p class="text-gray-600 mb-4">Explore other cities in {state}:</p>
-      <a 
-        href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`}
-        class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-      >
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
         View All {state} Cities →
       </a>
     </section>
