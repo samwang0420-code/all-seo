@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const states = [...new Set(cities.map(c => c.state))].sort();
+const popularCities = cities.slice(0, 6);
+---
+
+<Layout title="US City Data Hub - Cost of Living, Crime Rates & Demographics">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        Search Any US City for Cost of Living, Crime Rates & Demographics
+      </h1>
+      <p class="text-xl mb-8 text-blue-100">
+        Comprehensive data for over 30,000 US cities to help you make informed decisions about where to live.
+      </p>
+      
+      <!-- Search Box -->
+      <div class="max-w-2xl mx-auto">
+        <input 
+          type="text" 
+          placeholder="Enter city name..." 
+          class="w-full px-6 py-4 rounded-lg text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-blue-300"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Cities -->
+  <section class="py-16 max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Popular Cities</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {popularCities.map((city) => (
+        <a 
+          href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`}
+          class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+        >
+          <h3 class="text-xl font-semibold text-blue-600">{city.city}, {city.state_abbr}</h3>
+          <p class="text-gray-600 mt-2">Population: {city.population.toLocaleString()}</p>
+          <p class="text-gray-600">Median Home: ${city.median_home_value.toLocaleString()}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Top States -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Browse by State</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        {states.map((state) => (
+          <a 
+            href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`}
+            class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition-shadow"
+          >
+            <span class="font-medium text-blue-600">{state}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

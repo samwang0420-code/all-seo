@@ -1,0 +1,55 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Discover cost of living, crime rates, and demographics for any US city." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-gray-50 text-gray-900 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-2xl font-bold text-blue-600">USCityHub</a>
+        <nav class="hidden md:flex space-x-6">
+          <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="/states" class="text-gray-600 hover:text-blue-600">All States</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Ad: Header Banner (728x90) -->
+    <div class="bg-gray-100 py-2 text-center">
+      <div class="max-w-728 mx-auto h-90 bg-gray-200 flex items-center justify-center text-gray-400 text-sm">
+        Ad: 728x90 Banner
+      </div>
+    </div>
+
+    <main>
+      <slot />
+    </main>
+
+    <!-- Sticky Footer Ad (Mobile) -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg md:hidden">
+      <div class="h-50 flex items-center justify-center text-gray-400 text-sm">
+        Ad: Sticky Footer
+      </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <p>&copy; 2026 USCityHub. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

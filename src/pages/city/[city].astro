@@ -1,0 +1,112 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import cities from '../../data/cities.json';
+
+export function getStaticPaths() {
+  return cities.map(city => ({
+    params: { 
+      city: `${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}` 
+    },
+    props: { cityData: city }
+  }));
+}
+
+const { cityData } = Astro.props;
+const { city, state, state_abbr, county, population, median_income, median_rent, median_home_value, crime_index, median_age, zip_codes, livability_score, type } = cityData;
+
+const crimeMessage = crime_index < 30 ? "It is exceptionally safe." : crime_index > 80 ? "Caution is advised." : "Crime rates are moderate.";
+const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score >= 7 ? "great" : livability_score >= 6 ? "good" : "moderate";
+---
+
+<Layout 
+  title={`Cost of Living, Crime Rate & Demographics in ${city}, ${state_abbr} (2026)`}
+  description={`Thinking of moving to ${city}? Discover the latest cost of living, housing prices, crime rates, and population data for ${city}, ${state}.`}
+>
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-600 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a> / 
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="hover:text-blue-600">{state}</a> / 
+      <span class="text-gray-900">{city}</span>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-4">{city}, {state_abbr}</h1>
+    <p class="text-xl text-gray-600 mb-8">
+      {city} is a {type} located in {county} County, {state}. 
+      With a population of {population.toLocaleString()}, it offers an urban feel. 
+      The median household income is ${median_income.toLocaleString()}.
+    </p>
+
+    <!-- Ad: In-content -->
+    <div class="my-8">
+      <div class="h-90 bg-gray-200 flex items-center justify-center text-gray-400 text-sm mb-8">
+        Ad: In-content Banner
+      </div>
+    </div>
+
+    <!-- Cost of Living -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">How much does it cost to live in {city}?</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="p-4 bg-blue-50 rounded-lg">
+          <p class="text-gray-600">Median Rent</p>
+          <p class="text-3xl font-bold text-blue-600">${median_rent}/mo</p>
+        </div>
+        <div class="p-4 bg-green-50 rounded-lg">
+          <p class="text-gray-600">Median Home Value</p>
+          <p class="text-3xl font-bold text-green-600">${median_home_value.toLocaleString()}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Crime & Safety -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">Is {city}, {state_abbr} Safe?</h2>
+      <p class="text-lg">
+        The crime rate in {city} is <strong>{crime_index}</strong>. 
+        {crimeMessage}
+      </p>
+    </section>
+
+    <!-- Demographics -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">{city} Population & Schools</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div>
+          <p class="text-gray-600">Population</p>
+          <p class="text-2xl font-bold">{population.toLocaleString()}</p>
+        </div>
+        <div>
+          <p class="text-gray-600">Median Age</p>
+          <p class="text-2xl font-bold">{median_age}</p>
+        </div>
+        <div>
+          <p class="text-gray-600">Median Household Income</p>
+          <p class="text-2xl font-bold">${median_income.toLocaleString()}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold">What is the zip code for {city}?</h3>
+          <p class="text-gray-600">The zip codes are {zip_codes}.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Is {city} a good place to live?</h3>
+          <p class="text-gray-600">Based on an overall livability score of {livability_score}, {city} is a {livabilityMessage} place to live.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sidebar Ad (Desktop) -->
+    <div class="hidden md:block fixed right-4 top-32">
+      <div class="w-300 h-250 bg-gray-200 flex items-center justify-center text-gray-400 text-sm">
+        Ad: Sidebar 300x250
+      </div>
+    </div>
+  </div>
+</Layout>
