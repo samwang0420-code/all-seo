@@ -2,6 +2,18 @@
 import Layout from '../../layouts/Layout.astro';
 import cities from '../../data/cities.json';
 
+// Calculate distance between two cities using Haversine formula
+function getDistance(lat1: number, lng1: number, lat2: number, lng2: number) {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng/2) * Math.sin(dLng/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+}
+
 export function getStaticPaths() {
   return cities.map(city => ({
     params: { 
@@ -12,17 +24,51 @@ export function getStaticPaths() {
 }
 
 const { cityData } = Astro.props;
-const { city, state, state_abbr, county, population, median_income, median_rent, median_home_value, crime_index, median_age, zip_codes, livability_score, type } = cityData;
+const { city, state, state_abbr, county, population, median_income, median_rent, median_home_value, crime_index, median_age, zip_codes, livability_score, type, lat, lng } = cityData;
 
 const crimeMessage = crime_index < 30 ? "It is exceptionally safe." : crime_index > 80 ? "Caution is advised." : "Crime rates are moderate.";
 const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score >= 7 ? "great" : livability_score >= 6 ? "good" : "moderate";
+
+// Find nearby cities (within 100 miles)
+const nearbyCities = cities
+  .filter(c => c.city !== city || c.state_abbr !== state_abbr)
+  .map(c => ({
+    ...c,
+    distance: getDistance(lat, lng, c.lat, c.lng)
+  }))
+  .filter(c => c.distance < 100)
+  .sort((a, b) => a.distance - b.distance)
+  .slice(0, 5);
+
+// JSON-LD Structured Data
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "City",
+  "name": `${city}, ${state_abbr}`,
+  "description": `Cost of living, crime rates, and demographics for ${city}, ${state}. Population: ${population.toLocaleString()}.`,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": state_abbr,
+    "addressCountry": "US"
+  },
+  "population": population,
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": lat,
+    "longitude": lng
+  },
+  "url": `https://all-seo.pages.dev/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`
+};
 ---
 
 <Layout 
   title={`Cost of Living, Crime Rate & Demographics in ${city}, ${state_abbr} (2026)`}
   description={`Thinking of moving to ${city}? Discover the latest cost of living, housing prices, crime rates, and population data for ${city}, ${state}.`}
 >
-  <div class="max-w-7xl mx-auto px-4 py-12">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-4xl mx-auto px-4 py-8">
     <!-- Breadcrumb -->
     <nav class="text-sm text-gray-600 mb-6">
       <a href="/" class="hover:text-blue-600">Home</a> / 
@@ -36,13 +82,6 @@ const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score
       With a population of {population.toLocaleString()}, it offers an urban feel. 
       The median household income is ${median_income.toLocaleString()}.
     </p>
-
-    <!-- Ad: In-content -->
-    <div class="my-8">
-      <div class="h-90 bg-gray-200 flex items-center justify-center text-gray-400 text-sm mb-8">
-        Ad: In-content Banner
-      </div>
-    </div>
 
     <!-- Cost of Living -->
     <section class="bg-white rounded-lg shadow-md p-6 mb-8">
@@ -102,11 +141,23 @@ const livabilityMessage = livability_score >= 8 ? "excellent" : livability_score
       </div>
     </section>
 
-    <!-- Sidebar Ad (Desktop) -->
-    <div class="hidden md:block fixed right-4 top-32">
-      <div class="w-300 h-250 bg-gray-200 flex items-center justify-center text-gray-400 text-sm">
-        Ad: Sidebar 300x250
-      </div>
-    </div>
+    <!-- Nearby Cities (GEO Internal Linking) -->
+    {nearbyCities.length > 0 && (
+      <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <h2 class="text-2xl font-bold mb-4">Nearby Cities</h2>
+        <p class="text-gray-600 mb-4">Cities within 100 miles of {city}:</p>
+        <div class="grid md:grid-cols-2 gap-4">
+          {nearbyCities.map((nearby) => (
+            <a 
+              href={`/city/${nearby.city.toLowerCase().replace(/\s+/g, '-')}-${nearby.state_abbr.toLowerCase()}`}
+              class="block p-4 border rounded-lg hover:border-blue-500 hover:bg-blue-50 transition"
+            >
+              <h3 class="font-semibold text-blue-600">{nearby.city}, {nearby.state_abbr}</h3>
+              <p class="text-sm text-gray-600">{Math.round(nearby.distance)} miles away</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </div>
 </Layout>

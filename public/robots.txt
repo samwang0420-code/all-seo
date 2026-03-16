@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://all-seo.pages.dev/sitemap.xml
