@@ -1,0 +1,12 @@
+{
+  "brand": "kenmore",
+  "category": "washer",
+  "code": "OE",
+  "url": "https://uscomplianceguard.com/error/kenmore/washer/OE/",
+  "description": "Drain Error (OE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/washer/OE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/washer/OE_manifest.json"
+}

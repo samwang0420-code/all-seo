@@ -1,0 +1,12 @@
+{
+  "brand": "bosch",
+  "category": "dryer",
+  "code": "TE",
+  "url": "https://uscomplianceguard.com/error/bosch/dryer/TE/",
+  "description": "Temperature Sensor Error (tE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dryer/TE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dryer/TE_manifest.json"
+}

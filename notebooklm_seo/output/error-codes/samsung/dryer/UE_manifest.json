@@ -1,0 +1,12 @@
+{
+  "brand": "samsung",
+  "category": "dryer",
+  "code": "UE",
+  "url": "https://uscomplianceguard.com/error/samsung/dryer/UE/",
+  "description": "Unbalanced Load Error (UE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/UE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/UE_manifest.json"
+}

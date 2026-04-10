@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "washer",
+  "code": "LE1",
+  "url": "https://uscomplianceguard.com/error/hisense/washer/LE1/",
+  "description": "Motor Lock Error (LE1)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "high",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/LE1.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/LE1_manifest.json"
+}

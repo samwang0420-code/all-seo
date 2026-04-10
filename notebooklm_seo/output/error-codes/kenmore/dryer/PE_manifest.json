@@ -1,0 +1,12 @@
+{
+  "brand": "kenmore",
+  "category": "dryer",
+  "code": "PE",
+  "url": "https://uscomplianceguard.com/error/kenmore/dryer/PE/",
+  "description": "Pressure Sensor Error (PE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/dryer/PE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/dryer/PE_manifest.json"
+}

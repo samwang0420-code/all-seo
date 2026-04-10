@@ -1,0 +1,12 @@
+{
+  "brand": "samsung",
+  "category": "dryer",
+  "code": "HE",
+  "url": "https://uscomplianceguard.com/error/samsung/dryer/HE/",
+  "description": "Heating Error (HE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/HE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/HE_manifest.json"
+}

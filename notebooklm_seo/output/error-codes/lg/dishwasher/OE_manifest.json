@@ -1,0 +1,12 @@
+{
+  "brand": "lg",
+  "category": "dishwasher",
+  "code": "OE",
+  "url": "https://uscomplianceguard.com/error/lg/dishwasher/OE/",
+  "description": "Drain Error (OE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/lg/dishwasher/OE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/lg/dishwasher/OE_manifest.json"
+}

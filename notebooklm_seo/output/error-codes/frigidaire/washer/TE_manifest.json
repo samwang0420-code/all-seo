@@ -1,0 +1,12 @@
+{
+  "brand": "frigidaire",
+  "category": "washer",
+  "code": "TE",
+  "url": "https://uscomplianceguard.com/error/frigidaire/washer/TE/",
+  "description": "Temperature Sensor Error (tE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/TE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/TE_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "amana",
+  "category": "dryer",
+  "code": "IE",
+  "url": "https://uscomplianceguard.com/error/amana/dryer/IE/",
+  "description": "Water Inlet Error (IE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/amana/dryer/IE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/amana/dryer/IE_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "electrolux",
+  "category": "washer",
+  "code": "E8",
+  "url": "https://uscomplianceguard.com/error/electrolux/washer/E8/",
+  "description": "Water Temperature Error (E8)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/washer/E8.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/washer/E8_manifest.json"
+}

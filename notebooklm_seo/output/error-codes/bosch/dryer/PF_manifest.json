@@ -1,0 +1,12 @@
+{
+  "brand": "bosch",
+  "category": "dryer",
+  "code": "PF",
+  "url": "https://uscomplianceguard.com/error/bosch/dryer/PF/",
+  "description": "Power Failure",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dryer/PF.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dryer/PF_manifest.json"
+}

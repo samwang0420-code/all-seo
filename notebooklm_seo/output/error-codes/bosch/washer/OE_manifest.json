@@ -1,0 +1,12 @@
+{
+  "brand": "bosch",
+  "category": "washer",
+  "code": "OE",
+  "url": "https://uscomplianceguard.com/error/bosch/washer/OE/",
+  "description": "Drain Error (OE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/washer/OE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/washer/OE_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "maytag",
+  "category": "washer",
+  "code": "HE",
+  "url": "https://uscomplianceguard.com/error/maytag/washer/HE/",
+  "description": "Heating Error (HE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/HE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/HE_manifest.json"
+}

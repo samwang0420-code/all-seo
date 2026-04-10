@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "washer",
+  "code": "PF",
+  "url": "https://uscomplianceguard.com/error/hisense/washer/PF/",
+  "description": "Power Failure",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/PF.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/PF_manifest.json"
+}

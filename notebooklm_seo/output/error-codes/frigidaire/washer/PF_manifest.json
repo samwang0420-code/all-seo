@@ -1,0 +1,12 @@
+{
+  "brand": "frigidaire",
+  "category": "washer",
+  "code": "PF",
+  "url": "https://uscomplianceguard.com/error/frigidaire/washer/PF/",
+  "description": "Power Failure",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/PF.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/PF_manifest.json"
+}

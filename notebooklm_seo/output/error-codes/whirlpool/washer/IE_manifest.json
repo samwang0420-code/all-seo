@@ -1,0 +1,12 @@
+{
+  "brand": "whirlpool",
+  "category": "washer",
+  "code": "IE",
+  "url": "https://uscomplianceguard.com/error/whirlpool/washer/IE/",
+  "description": "Water Inlet Error (IE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/whirlpool/washer/IE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/whirlpool/washer/IE_manifest.json"
+}

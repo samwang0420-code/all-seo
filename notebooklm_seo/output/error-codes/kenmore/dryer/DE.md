@@ -1,0 +1,61 @@
+---
+title: "Kenmore DE Error Code - Door Error (DE)"
+description: "Troubleshoot Kenmore DE error code on dryer. Causes and step-by-step fix guide."
+brand: kenmore
+category: dryer
+code: DE
+date: 2026-04-10
+difficulty: medium
+diy: true
+canonical: https://uscomplianceguard.com/error/kenmore/dryer/DE/
+---
+
+# Kenmore DE Error Code
+
+## Door Error (DE)
+
+**Category:** Dryer | **Severity:** Low | **DIY:** Yes | **Time:** 30-60 min
+
+---
+
+## Quick Summary
+
+Door Error (DE). This error can typically be resolved with basic DIY steps.
+
+---
+
+## Common Causes
+
+1. Door not latched
+2. Door switch issue
+3. Laundry blocking door
+4. Worn door catch
+
+## Step-by-Step Solutions
+
+### Step 1: Close door completely
+
+### Step 2: Remove obstruction
+
+### Step 3: Test door switch
+
+### Step 4: Replace door catch
+
+
+## FAQ
+
+**Q: What does DE mean on Kenmore?**
+A: It indicates door error (de) on your dryer.
+
+**Q: Can I fix this myself?**
+A: Yes - DIY-level fix.
+
+**Q: How do I reset the error?**
+A: Unplug the appliance for 60 seconds, then plug back in. If error persists, address the underlying cause.
+
+**Q: What does repair cost?**
+A: DIY parts $10-$50 / Professional $100-$300.
+
+---
+
+*Related: [Kenmore error codes](/brand/kenmore/) | [Dryer error codes](/category/dryer/)*

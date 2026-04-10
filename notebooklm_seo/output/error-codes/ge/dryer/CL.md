@@ -1,0 +1,61 @@
+---
+title: "GE Appliances CL Error Code - Child Lock Active"
+description: "Troubleshoot GE Appliances CL error code on dryer. Causes and step-by-step fix guide."
+brand: ge
+category: dryer
+code: CL
+date: 2026-04-10
+difficulty: medium
+diy: true
+canonical: https://uscomplianceguard.com/error/ge/dryer/CL/
+---
+
+# GE Appliances CL Error Code
+
+## Child Lock Active
+
+**Category:** Dryer | **Severity:** Low | **DIY:** Yes | **Time:** 30-60 min
+
+---
+
+## Quick Summary
+
+Child Lock Active. This error can typically be resolved with basic DIY steps.
+
+---
+
+## Common Causes
+
+1. Child lock accidentally enabled
+2. Control lock engaged
+3. Control panel locked
+4. Function lock set
+
+## Step-by-Step Solutions
+
+### Step 1: Hold Lock button for 3 seconds
+
+### Step 2: Check user manual for lock button
+
+### Step 3: Power cycle to reset
+
+### Step 4: Disable in settings
+
+
+## FAQ
+
+**Q: What does CL mean on GE Appliances?**
+A: It indicates child lock active on your dryer.
+
+**Q: Can I fix this myself?**
+A: Yes - DIY-level fix.
+
+**Q: How do I reset the error?**
+A: Unplug the appliance for 60 seconds, then plug back in. If error persists, address the underlying cause.
+
+**Q: What does repair cost?**
+A: DIY parts $10-$50 / Professional $100-$300.
+
+---
+
+*Related: [GE Appliances error codes](/brand/ge/) | [Dryer error codes](/category/dryer/)*

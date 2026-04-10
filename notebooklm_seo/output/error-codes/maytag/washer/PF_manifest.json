@@ -1,0 +1,12 @@
+{
+  "brand": "maytag",
+  "category": "washer",
+  "code": "PF",
+  "url": "https://uscomplianceguard.com/error/maytag/washer/PF/",
+  "description": "Power Failure",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/PF.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/PF_manifest.json"
+}

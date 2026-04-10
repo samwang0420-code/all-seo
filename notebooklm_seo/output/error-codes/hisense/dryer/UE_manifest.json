@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "dryer",
+  "code": "UE",
+  "url": "https://uscomplianceguard.com/error/hisense/dryer/UE/",
+  "description": "Unbalanced Load Error (UE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/dryer/UE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/dryer/UE_manifest.json"
+}

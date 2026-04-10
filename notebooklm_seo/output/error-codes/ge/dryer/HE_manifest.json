@@ -1,0 +1,12 @@
+{
+  "brand": "ge",
+  "category": "dryer",
+  "code": "HE",
+  "url": "https://uscomplianceguard.com/error/ge/dryer/HE/",
+  "description": "Heating Error (HE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/ge/dryer/HE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/ge/dryer/HE_manifest.json"
+}

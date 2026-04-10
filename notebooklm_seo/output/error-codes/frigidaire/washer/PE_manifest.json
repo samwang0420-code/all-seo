@@ -1,0 +1,12 @@
+{
+  "brand": "frigidaire",
+  "category": "washer",
+  "code": "PE",
+  "url": "https://uscomplianceguard.com/error/frigidaire/washer/PE/",
+  "description": "Pressure Sensor Error (PE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/PE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/PE_manifest.json"
+}

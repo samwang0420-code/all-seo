@@ -1,0 +1,12 @@
+{
+  "brand": "electrolux",
+  "category": "dryer",
+  "code": "HE2",
+  "url": "https://uscomplianceguard.com/error/electrolux/dryer/HE2/",
+  "description": "Water Heating Error (HE2)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/dryer/HE2.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/dryer/HE2_manifest.json"
+}

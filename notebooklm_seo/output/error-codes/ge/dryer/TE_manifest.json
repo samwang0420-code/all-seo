@@ -1,0 +1,12 @@
+{
+  "brand": "ge",
+  "category": "dryer",
+  "code": "TE",
+  "url": "https://uscomplianceguard.com/error/ge/dryer/TE/",
+  "description": "Temperature Sensor Error (tE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/ge/dryer/TE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/ge/dryer/TE_manifest.json"
+}

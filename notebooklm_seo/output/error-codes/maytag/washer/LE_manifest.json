@@ -1,0 +1,12 @@
+{
+  "brand": "maytag",
+  "category": "washer",
+  "code": "LE",
+  "url": "https://uscomplianceguard.com/error/maytag/washer/LE/",
+  "description": "Lock Error (LE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/LE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/LE_manifest.json"
+}

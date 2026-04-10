@@ -1,0 +1,12 @@
+{
+  "brand": "samsung",
+  "category": "dryer",
+  "code": "LE1",
+  "url": "https://uscomplianceguard.com/error/samsung/dryer/LE1/",
+  "description": "Motor Lock Error (LE1)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "high",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/LE1.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/samsung/dryer/LE1_manifest.json"
+}

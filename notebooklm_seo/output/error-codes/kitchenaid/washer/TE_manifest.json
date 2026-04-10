@@ -1,0 +1,12 @@
+{
+  "brand": "kitchenaid",
+  "category": "washer",
+  "code": "TE",
+  "url": "https://uscomplianceguard.com/error/kitchenaid/washer/TE/",
+  "description": "Temperature Sensor Error (tE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kitchenaid/washer/TE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kitchenaid/washer/TE_manifest.json"
+}

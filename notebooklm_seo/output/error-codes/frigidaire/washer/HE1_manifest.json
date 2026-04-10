@@ -1,0 +1,12 @@
+{
+  "brand": "frigidaire",
+  "category": "washer",
+  "code": "HE1",
+  "url": "https://uscomplianceguard.com/error/frigidaire/washer/HE1/",
+  "description": "Water Heating Error (HE1)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/HE1.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/washer/HE1_manifest.json"
+}

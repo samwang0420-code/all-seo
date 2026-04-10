@@ -1,0 +1,12 @@
+{
+  "brand": "whirlpool",
+  "category": "dryer",
+  "code": "E1",
+  "url": "https://uscomplianceguard.com/error/whirlpool/dryer/E1/",
+  "description": "Water Inlet Error",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/whirlpool/dryer/E1.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/whirlpool/dryer/E1_manifest.json"
+}

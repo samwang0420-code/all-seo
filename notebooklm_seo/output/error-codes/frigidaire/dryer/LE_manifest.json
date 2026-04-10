@@ -1,0 +1,12 @@
+{
+  "brand": "frigidaire",
+  "category": "dryer",
+  "code": "LE",
+  "url": "https://uscomplianceguard.com/error/frigidaire/dryer/LE/",
+  "description": "Lock Error (LE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/dryer/LE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/frigidaire/dryer/LE_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "kenmore",
+  "category": "dryer",
+  "code": "LE",
+  "url": "https://uscomplianceguard.com/error/kenmore/dryer/LE/",
+  "description": "Lock Error (LE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/dryer/LE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/dryer/LE_manifest.json"
+}

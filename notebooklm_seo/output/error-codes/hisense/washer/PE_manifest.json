@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "washer",
+  "code": "PE",
+  "url": "https://uscomplianceguard.com/error/hisense/washer/PE/",
+  "description": "Pressure Sensor Error (PE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/PE.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/PE_manifest.json"
+}

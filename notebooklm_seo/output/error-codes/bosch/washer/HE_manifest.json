@@ -1,0 +1,12 @@
+{
+  "brand": "bosch",
+  "category": "washer",
+  "code": "HE",
+  "url": "https://uscomplianceguard.com/error/bosch/washer/HE/",
+  "description": "Heating Error (HE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/washer/HE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/washer/HE_manifest.json"
+}

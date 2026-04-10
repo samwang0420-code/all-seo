@@ -1,0 +1,12 @@
+{
+  "brand": "electrolux",
+  "category": "washer",
+  "code": "E7",
+  "url": "https://uscomplianceguard.com/error/electrolux/washer/E7/",
+  "description": "Motor Overheating Error",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "high",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/washer/E7.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/washer/E7_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "maytag",
+  "category": "washer",
+  "code": "E1",
+  "url": "https://uscomplianceguard.com/error/maytag/washer/E1/",
+  "description": "Water Inlet Error",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/E1.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/maytag/washer/E1_manifest.json"
+}

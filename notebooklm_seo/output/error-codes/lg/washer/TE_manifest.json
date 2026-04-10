@@ -1,0 +1,12 @@
+{
+  "brand": "lg",
+  "category": "washer",
+  "code": "TE",
+  "url": "https://uscomplianceguard.com/error/lg/washer/TE/",
+  "description": "Temperature Sensor Error (tE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/lg/washer/TE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/lg/washer/TE_manifest.json"
+}

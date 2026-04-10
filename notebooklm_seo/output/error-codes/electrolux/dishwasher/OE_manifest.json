@@ -1,0 +1,12 @@
+{
+  "brand": "electrolux",
+  "category": "dishwasher",
+  "code": "OE",
+  "url": "https://uscomplianceguard.com/error/electrolux/dishwasher/OE/",
+  "description": "Drain Error (OE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/dishwasher/OE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/electrolux/dishwasher/OE_manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "brand": "kenmore",
+  "category": "washer",
+  "code": "LE1",
+  "url": "https://uscomplianceguard.com/error/kenmore/washer/LE1/",
+  "description": "Motor Lock Error (LE1)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "high",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/washer/LE1.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/kenmore/washer/LE1_manifest.json"
+}

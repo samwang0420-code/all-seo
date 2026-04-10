@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "washer",
+  "code": "E8",
+  "url": "https://uscomplianceguard.com/error/hisense/washer/E8/",
+  "description": "Water Temperature Error (E8)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "low",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/E8.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/E8_manifest.json"
+}

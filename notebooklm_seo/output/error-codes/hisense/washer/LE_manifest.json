@@ -1,0 +1,12 @@
+{
+  "brand": "hisense",
+  "category": "washer",
+  "code": "LE",
+  "url": "https://uscomplianceguard.com/error/hisense/washer/LE/",
+  "description": "Lock Error (LE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "md": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/LE.md",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/hisense/washer/LE_manifest.json"
+}

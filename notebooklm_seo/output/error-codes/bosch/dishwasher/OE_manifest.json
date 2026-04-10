@@ -1,0 +1,12 @@
+{
+  "brand": "bosch",
+  "category": "dishwasher",
+  "code": "OE",
+  "url": "https://uscomplianceguard.com/error/bosch/dishwasher/OE/",
+  "description": "Drain Error (OE)",
+  "difficulty": "medium",
+  "diy": true,
+  "severity": "medium",
+  "html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dishwasher/OE.html",
+  "_manifest.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/bosch/dishwasher/OE_manifest.json"
+}
