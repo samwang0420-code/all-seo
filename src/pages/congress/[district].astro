@@ -1,0 +1,114 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import districts from '../../data/congress_districts.json';
+import cities from '../../data/cities.json';
+
+export function getStaticPaths() {
+  return districts.map(district => ({
+    params: { 
+      district: String(district['id']).toLowerCase().replace(/ /g, '-')
+    },
+    props: { districtData: district }
+  }));
+}
+
+const { districtData } = Astro.props;
+const { id, name, fips, state, lat, lng } = districtData;
+
+// JSON-LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "GovernmentBuilding",
+  "name": name,
+  "description": `U.S. Congressional District ${id}. Located in ${state}.`,
+  "url": `https://getuscompliance.com/congress/${id.toLowerCase()}`,
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": lat,
+    "longitude": lng
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": state,
+    "addressCountry": "US"
+  }
+};
+
+const stateNames: Record<string, string> = {
+  "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+  "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
+  "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+  "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+  "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+  "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+  "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+  "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+  "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+  "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+  "DC": "District of Columbia"
+};
+
+const stateName = stateNames[state] || state;
+---
+
+<Layout 
+  title={`${name} - Congressional District - ${stateName} (2026)`}
+  description={`U.S. Congressional District ${id} covering parts of ${stateName}. Geographic coordinates, cities, and local information.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-600 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a> / 
+      <span class="text-gray-900">Congressional District {id}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Congressional District {id}</h1>
+      <p class="text-xl text-gray-600">
+        <strong>{stateName}</strong> | 
+        FIPS: <strong>{fips}</strong> |
+        Coordinates: <strong>{lat}°, {lng}°</strong>
+      </p>
+    </header>
+
+    <!-- Quick Stats -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="bg-blue-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">District ID</p>
+        <p class="text-2xl font-bold text-blue-600">{id}</p>
+      </div>
+      <div class="bg-green-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">State</p>
+        <p class="text-2xl font-bold text-green-600">{stateName}</p>
+      </div>
+      <div class="bg-purple-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">FIPS Code</p>
+        <p class="text-2xl font-bold text-purple-600">{fips}</p>
+      </div>
+      <div class="bg-orange-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">Congress</p>
+        <p class="text-2xl font-bold text-orange-600">119th</p>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">📍 Geographic Location</h2>
+      <p class="text-gray-600 mb-4">
+        Congressional District {id} is located in <strong>{stateName}</strong>.
+        Center coordinates: <strong>{lat.toFixed(4)}°N, {Math.abs(lng).toFixed(4)}°{lng < 0 ? 'W' : 'E'}</strong>.
+      </p>
+    </section>
+
+    <!-- State Link -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">🗺️ {stateName}</h2>
+      <a href={`/state/${stateName.toLowerCase().replace(/\s+/g, '-')}`} class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+        View All {stateName} →
+      </a>
+    </section>
+  </div>
+</Layout>

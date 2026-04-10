@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const type = "Bachelor's Degree or Higher";
+const topCities = cities.filter(c => c.bachelor).sort((a, b) => (b.bachelor || 0) - (a.bachelor || 0)).slice(0, 40);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Most Educated Cities in US - Highest College Graduation Rates",
+  "description": "Top US cities with highest percentage of college graduates. See education levels across America."
+};
+---
+
+<Layout title="Most Educated Cities in US (2026) - Highest College Graduation Rates" description="Most educated US cities with highest percentage of bachelor's degree holders.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Most Educated Cities in US</h1>
+      <p class="text-xl text-gray-600">Cities with highest percentage of college graduates</p>
+    </header>
+
+    <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <p class="text-lg"><strong>📚 Education Metrics:</strong> Percentage of residents with {type}</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-yellow-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">High School+</th>
+            <th class="p-4 text-right">Bachelor's+</th>
+            <th class="p-4 text-right">Graduate+</th>
+          </tr>
+        </thead>
+        <tbody>
+          {topCities.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.high_school || 'N/A'}%</td>
+              <td class="p-4 text-right font-bold text-green-600">{city.bachelor || 'N/A'}%</td>
+              <td class="p-4 text-right">{city.graduate || 'N/A'}%</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

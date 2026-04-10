@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import cities from '../../data/cities.json';
+import countiesByState from '../../data/counties_by_state.json';
 
 export function getStaticPaths() {
   const states = [...new Set(cities.map(c => c.state))];
@@ -12,29 +13,72 @@ export function getStaticPaths() {
 
 const { stateName } = Astro.props;
 const stateCities = cities.filter(c => c.state === stateName).sort((a, b) => a.city.localeCompare(b.city));
+
+// Get state abbreviation
+const stateAbbrs: Record<string, string> = {
+  "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA",
+  "Colorado": "CO", "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA",
+  "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA",
+  "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD",
+  "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS", "Missouri": "MO",
+  "Montana": "MT", "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH", "New Jersey": "NJ",
+  "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", "North Dakota": "ND", "Ohio": "OH",
+  "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA", "Rhode Island": "RI", "South Carolina": "SC",
+  "South Dakota": "SD", "Tennessee": "TN", "Texas": "TX", "Utah": "UT", "Vermont": "VT",
+  "Virginia": "VA", "Washington": "WA", "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY",
+  "District of Columbia": "DC"
+};
+const abbr = stateAbbrs[stateName] || stateName.substring(0, 2).toUpperCase();
+const stateCounties = countiesByState[abbr] || [];
 ---
 
-<Layout title={`Cost of Living & Statistics in ${stateName}`}>
+<Layout title={`${stateName} Complete Guide: Cities, Counties, Cost of Living & More (2026)`}>
   <div class="max-w-7xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">Cost of Living & Statistics in {stateName}</h1>
+    <nav class="text-sm text-gray-600 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a> / 
+      <span class="text-gray-900">{stateName}</span>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-4">{stateName}</h1>
+    <p class="text-xl text-gray-600 mb-8">
+      {stateCities.length} cities | {stateCounties.length} counties | {abbr}
+    </p>
     
+    <!-- Counties Section -->
+    {stateCounties.length > 0 && (
     <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 class="text-2xl font-semibold mb-4">Overview</h2>
-      <p class="text-gray-600">
-        {stateName} has {stateCities.length} cities in our database. 
-        Browse through to find detailed information about cost of living, crime rates, and demographics.
-      </p>
+      <h2 class="text-2xl font-semibold mb-4">🏛️ Counties in {stateName}</h2>
+      <p class="text-gray-600 mb-4">{stateCounties.length} counties in {stateName}</p>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        {stateCounties.slice(0, 20).map((county: any) => (
+          <a href={`/county/${county.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}-${abbr.toLowerCase()}`} 
+             class="block p-3 border rounded-lg hover:border-blue-500 hover:bg-blue-50">
+            <span class="font-medium">{county.name}</span>
+            <span class="text-sm text-gray-500 block">{county.population?.toLocaleString()}</span>
+          </a>
+        ))}
+      </div>
+      {stateCounties.length > 20 && (
+        <p class="text-gray-500 mt-3">+{stateCounties.length - 20} more counties</p>
+      )}
+    </div>
+    )}
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-semibold mb-4">🏙️ Cities in {stateName}</h2>
+      <p class="text-gray-600 mb-4">{stateCities.length} cities with detailed data</p>
     </div>
 
-    <h2 class="text-2xl font-bold mb-6">Cities in {stateName} (A-Z)</h2>
+    <h2 class="text-2xl font-bold mb-6">All Cities in {stateName}</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {stateCities.map((city) => (
-        <a 
-          href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`}
-          class="block bg-white rounded-lg shadow p-4 hover:shadow-md transition-shadow"
-        >
-          <h3 class="text-lg font-semibold text-blue-600">{city.city}</h3>
-          <p class="text-sm text-gray-600">Population: {city.population.toLocaleString()}</p>
+      {stateCities.map((city: any) => (
+        <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} 
+           class="block p-4 border rounded-lg hover:border-blue-500 hover:bg-blue-50">
+          <h3 class="font-semibold text-lg">{city.city}</h3>
+          <p class="text-gray-600">Population: {city.population?.toLocaleString()}</p>
+          {city.median_home_value && (
+            <p class="text-green-600">Median Home: ${(city.median_home_value/1000).toFixed(0)}K</p>
+          )}
         </a>
       ))}
     </div>

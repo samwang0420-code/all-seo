@@ -13,10 +13,30 @@ const { title, description = "Discover cost of living, crime rates, and demograp
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
     <meta name="description" content={description} />
+    <meta name="format-detection" content="telephone=no" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    
+    <!-- Organization Schema for E-E-A-T -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "US City Data Hub",
+      "url": "https://getuscompliance.com",
+      "description": "Comprehensive US city data platform with population, cost of living, demographics, and real estate information for 9,000+ cities.",
+      "sameAs": [
+        "https://uscomplianceguard.com",
+        "https://uscompliance-team.com",
+        "https://stackmatrices.com",
+        "https://jianfacv.com"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service"
+      }
+    })} />
   </head>
   <body class="bg-gray-50 text-gray-900 min-h-screen">
     <!-- Header -->
@@ -25,7 +45,24 @@ const { title, description = "Discover cost of living, crime rates, and demograp
         <a href="/" class="text-2xl font-bold text-blue-600">USCityHub</a>
         <nav class="hidden md:flex space-x-6">
           <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
-          <a href="/states" class="text-gray-600 hover:text-blue-600">All States</a>
+          <a href="/states" class="text-gray-600 hover:text-blue-600">States</a>
+          <a href="/rankings" class="text-gray-600 hover:text-blue-600">Rankings</a>
+          <a href="/top-cities" class="text-gray-600 hover:text-blue-600">Top Cities</a>
+          <a href="/climate" class="text-gray-600 hover:text-blue-600">Climate</a>
+          <a href="/cost-of-living" class="text-gray-600 hover:text-blue-600">Cost of Living</a>
+          <a href="/home-prices" class="text-gray-600 hover:text-blue-600">Home Prices</a>
+          <a href="/most-educated" class="text-gray-600 hover:text-blue-600">Education</a>
+          <a href="/tech-jobs" class="text-gray-600 hover:text-blue-600">Tech Jobs</a>
+          <a href="/best-places-to-move" class="text-gray-600 hover:text-blue-600">Best to Move</a>
+          <a href="/retirement" class="text-gray-600 hover:text-blue-600">Retirement</a>
+          <a href="/safest-cities" class="text-gray-600 hover:text-blue-600">Safest</a>
+          <a href="/most-affordable" class="text-gray-600 hover:text-blue-600">Affordable</a>
+          <a href="/most-livable" class="text-gray-600 hover:text-blue-600">Livable</a>
+          <a href="/wealthiest-cities" class="text-gray-600 hover:text-blue-600">Wealthy</a>
+          <a href="/young-professionals" class="text-gray-600 hover:text-blue-600">Young Pros</a>
+          <a href="/family-friendly" class="text-gray-600 hover:text-blue-600">Families</a>
+          <a href="/startup-hubs" class="text-gray-600 hover:text-blue-600">Startups</a>
+          <a href="/faq" class="text-gray-600 hover:text-blue-600">FAQ</a>
         </nav>
       </div>
     </header>
@@ -35,15 +72,24 @@ const { title, description = "Discover cost of living, crime rates, and demograp
     </main>
 
     <!-- Sticky Footer Ad (Mobile) -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg md:hidden">
-      <div class="h-50 flex items-center justify-center text-gray-400 text-sm">
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg md:hidden" style="padding-bottom: env(safe-area-inset-bottom);">
+      <div class="h-14 flex items-center justify-center text-gray-400 text-xs">
         Ad: Sticky Footer
       </div>
-    </main>
+    </div>
 
-    <footer class="bg-gray-800 text-white py-8 mt-16">
+    <footer class="bg-gray-800 text-white py-8 mt-16 pb-16 md:pb-8">
       <div class="max-w-7xl mx-auto px-4 text-center">
         <p>&copy; 2026 USCityHub. All rights reserved.</p>
+        <div class="mt-4 pt-4 border-t border-gray-700">
+          <p class="text-sm text-gray-400 mb-2">Related Sites</p>
+          <div class="flex flex-wrap justify-center gap-4 text-sm">
+            <a href="https://uscomplianceguard.com" class="hover:text-blue-300">ErrorCodeHub</a>
+            <a href="https://uscompliance-team.com" class="hover:text-blue-300">China Procurement</a>
+            <a href="https://stackmatrices.com" class="hover:text-blue-300">Medical SEO</a>
+            <a href="https://jianfacv.com" class="hover:text-blue-300">SAAS Reviews</a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

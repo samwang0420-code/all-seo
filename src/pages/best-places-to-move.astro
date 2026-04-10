@@ -1,0 +1,79 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Best综合排名 - 安全、负担能力、教育、就业
+const scored = cities.filter(c => c.population > 50000).map(city => {
+    // Normalize scores (lower is better for crime, higher for others)
+    const safetyScore = 100 - (city.crime_index || 50);
+    const affordabilityScore = 100 - ((city.median_home_value || 300000) / 10000);
+    const educationScore = (city.bachelor || 25) * 2;
+    const jobScore = ((city.tech || 5) + (city.healthcare || 5)) * 3;
+    const overall = (safetyScore * 0.25 + affordabilityScore * 0.25 + educationScore * 0.25 + jobScore * 0.25);
+    return { ...city, overall };
+}).sort((a, b) => b.overall - a.overall).slice(0, 40);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Places to Move in US -综合排名",
+  "description": "Top US cities for moving. 综合评估安全、负担能力、教育和就业机会."
+};
+---
+
+<Layout title="Best Places to Move in US (2026) - 综合排名" description="Best US cities to move to based on safety, affordability, education, and jobs.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Places to Move in US</h1>
+      <p class="text-xl text-gray-600">综合评估安全、负担能力、教育和就业机会</p>
+    </header>
+
+    <div class="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg mb-8">
+      <h2 class="text-lg font-bold mb-2">📊 评分标准</h2>
+      <div class="grid md:grid-cols-4 gap-4 text-center">
+        <div><span class="text-2xl">🛡️</span><p class="text-sm">安全 25%</p></div>
+        <div><span class="text-2xl">🏠</span><p class="text-sm">负担能力 25%</p></div>
+        <div><span class="text-2xl">🎓</span><p class="text-sm">教育 25%</p></div>
+        <div><span class="text-2xl">💼</span><p class="text-sm">就业 25%</p></div>
+      </div>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-gradient-to-r from-green-600 to-blue-600 text-white">
+          <tr>
+            <th class="p-4 text-center">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Score</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Crime Index</th>
+          </tr>
+        </thead>
+        <tbody>
+          {scored.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 text-center font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-green-600">{Math.round(city.overall)}/100</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.crime_index || 'N/A'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-yellow-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">🏆 Best Places to Move - Methodology</h2>
+      <p class="text-gray-600">Our ranking combines four key factors: safety (crime rates), affordability (home prices), education (college graduate rates), and employment (tech and healthcare job markets). Each factor is weighted equally at 25%.</p>
+    </div>
+  </div>
+</Layout>

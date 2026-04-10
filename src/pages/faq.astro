@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqs = [
+  {
+    category: "Cost of Living",
+    questions: [
+      { q: "What is the cost of living in US cities?", a: "The cost of living varies significantly by city. Our database covers over 9,000 US cities with median home values, rent prices, and income data." },
+      { q: "How are living expenses calculated?", a: "We use real data from Census Bureau, Zillow, and other verified sources including median rent, home values, and household income." },
+      { q: "Which US cities have the lowest cost of living?", a: "Cities in the Midwest and Southern states typically have lower costs. Check our city rankings for detailed comparisons." }
+    ]
+  },
+  {
+    category: "Population & Demographics",
+    questions: [
+      { q: "What is the population of US cities?", a: "We provide population data for 9,000+ US cities from official Census sources." },
+      { q: "How is population density calculated?", a: "Population density is population divided by land area in square miles, sourced from SimpleMaps." }
+    ]
+  },
+  {
+    category: "Safety & Crime",
+    questions: [
+      { q: "How safe is each city?", a: "We provide crime indices for each city based on FBI data. Lower numbers indicate safer areas." },
+      { q: "What do crime index numbers mean?", a: "Our crime index uses a 100-point scale where lower scores indicate safer areas." }
+    ]
+  },
+  {
+    category: "Housing & Real Estate",
+    questions: [
+      { q: "What is the median home value?", a: "Median home values are sourced from Zillow Research and updated regularly." },
+      { q: "How much does rent cost in US cities?", a: "We provide median rent prices from Census and Zillow data for major US cities." }
+    ]
+  },
+  {
+    category: "Geography & Location",
+    questions: [
+      { q: "What counties are in each state?", a: "We have detailed data on 3,138 US counties with population and geographic information." },
+      { q: "What ZIP codes are in each city?", a: "Our database includes 3,500+ major ZIP codes with population and location data." }
+    ]
+  },
+  {
+    category: "Business & Commerce",
+    questions: [
+      { q: "What businesses are in each city?", a: "We show major retail chains including Walmart, Costco, CVS, Chipotle, and Dollar General locations." },
+      { q: "How do I find businesses near me?", a: "Each city page lists major chain stores and businesses located in that area." }
+    ]
+  }
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Frequently Asked Questions",
+  "description": "Common questions about US cities, cost of living, demographics, and real estate data."
+};
+---
+
+<Layout 
+  title="FAQ - Frequently Asked Questions | US City Data Hub"
+  description="Frequently asked questions about US cities, cost of living, population, demographics, housing, and more."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h1>
+      <p class="text-xl text-gray-600">Find answers about US cities, cost of living, demographics, and more.</p>
+    </header>
+
+    {faqs.map(category => (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 text-blue-600">{category.category}</h2>
+        <div class="space-y-6">
+          {category.questions.map(faq => (
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-lg font-semibold mb-2">{faq.q}</h3>
+              <p class="text-gray-600">{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="bg-blue-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">Still Have Questions?</h2>
+      <p class="mb-4">Browse our city database for detailed information:</p>
+      <div class="flex flex-wrap gap-4">
+        <a href="/city/new-york-ny" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">New York</a>
+        <a href="/city/los-angeles-ca" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Los Angeles</a>
+        <a href="/city/chicago-il" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Chicago</a>
+        <a href="/city/houston-tx" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Houston</a>
+      </div>
+    </section>
+  </div>
+</Layout>

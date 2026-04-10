@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const largeCities = cities.filter(c => c.population > 100000).slice(0, 50);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Largest US Cities by Population - Major Metro Areas",
+  "description": "Complete list of largest US cities by population. See metro area sizes and growth."
+};
+---
+
+<Layout title="Largest US Cities by Population (2026) - Major Metro Areas" description="Largest US cities by population. Complete list of major metropolitan areas.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Largest US Cities by Population</h1>
+      <p class="text-xl text-gray-600">Major metropolitan areas and their populations</p>
+    </header>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-indigo-600 text-white">
+          <tr>
+            <th class="p-4 text-center">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Median Income</th>
+          </tr>
+        </thead>
+        <tbody>
+          {largeCities.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 text-center font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_income || 0).toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">📊 Key Statistics</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="text-center">
+          <p class="text-3xl font-bold">{largeCities.length}</p>
+          <p class="text-gray-600">Cities Listed</p>
+        </div>
+        <div class="text-center">
+          <p class="text-3xl font-bold">{largeCities.reduce((a, c) => a + (c.population || 0), 0).toLocaleString()}</p>
+          <p class="text-gray-600">Total Population</p>
+        </div>
+        <div class="text-center">
+          <p class="text-3xl font-bold">${Math.round(largeCities.reduce((a, c) => a + (c.median_home_value || 0), 0) / largeCities.length).toLocaleString()}</p>
+          <p class="text-gray-600">Avg Home Price</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

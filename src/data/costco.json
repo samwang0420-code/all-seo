@@ -1,0 +1,4307 @@
+[
+  {
+    "name": "Costco Wholesale",
+    "city": "Hoover",
+    "state": "AL",
+    "lat": 33.379,
+    "lng": -86.813
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.648,
+    "lng": -88.119
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Madison",
+    "state": "AL",
+    "lat": 34.752,
+    "lng": -86.753
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Huntsville",
+    "state": "AL",
+    "lat": 34.744,
+    "lng": -86.603
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Montgomery",
+    "state": "AL",
+    "lat": 32.364,
+    "lng": -86.15
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.145,
+    "lng": -149.886
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.143,
+    "lng": -149.88
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Juneau",
+    "state": "AK",
+    "lat": 58.359,
+    "lng": -134.483
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fairbanks",
+    "state": "AK",
+    "lat": 64.853,
+    "lng": -147.708
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.21,
+    "lng": -149.806
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Avondale",
+    "state": "AZ",
+    "lat": 33.468,
+    "lng": -112.275
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.671,
+    "lng": -112.028
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chandler",
+    "state": "AZ",
+    "lat": 33.294,
+    "lng": -111.899
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gilbert",
+    "state": "AZ",
+    "lat": 33.376,
+    "lng": -111.841
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Buckeye",
+    "state": "AZ",
+    "lat": 33.46,
+    "lng": -112.502
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mesa",
+    "state": "AZ",
+    "lat": 33.389,
+    "lng": -111.669
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.66,
+    "lng": -112.116
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glendale",
+    "state": "AZ",
+    "lat": 33.643,
+    "lng": -112.233
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.604,
+    "lng": -111.986
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.326,
+    "lng": -111.05
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Prescott",
+    "state": "AZ",
+    "lat": 34.548,
+    "lng": -112.397
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "lat": 33.265,
+    "lng": -111.637
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.18,
+    "lng": -110.947
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tempe",
+    "state": "AZ",
+    "lat": 33.347,
+    "lng": -111.962
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "lat": 33.623,
+    "lng": -111.901
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Surprise",
+    "state": "AZ",
+    "lat": 33.608,
+    "lng": -112.411
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gilbert",
+    "state": "AZ",
+    "lat": 33.296,
+    "lng": -111.745
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.474,
+    "lng": -111.985
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Alhambra",
+    "state": "CA",
+    "lat": 34.088,
+    "lng": -118.148
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.252,
+    "lng": -110.859
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.253,
+    "lng": -121.88
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.757,
+    "lng": -92.454
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Azusa",
+    "state": "CA",
+    "lat": 34.132,
+    "lng": -117.926
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Burbank",
+    "state": "CA",
+    "lat": 34.186,
+    "lng": -118.324
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brentwood",
+    "state": "CA",
+    "lat": 37.958,
+    "lng": -121.751
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Antioch",
+    "state": "CA",
+    "lat": 38.009,
+    "lng": -121.835
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bakersfield",
+    "state": "CA",
+    "lat": 35.386,
+    "lng": -119.05
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.988,
+    "lng": -117.078
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Carlsbad",
+    "state": "CA",
+    "lat": 33.121,
+    "lng": -117.315
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.597,
+    "lng": -121.453
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chico",
+    "state": "CA",
+    "lat": 39.721,
+    "lng": -121.81
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chino Hills",
+    "state": "CA",
+    "lat": 34.014,
+    "lng": -117.742
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Citrus Heights",
+    "state": "CA",
+    "lat": 38.69,
+    "lng": -121.297
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chula Vista",
+    "state": "CA",
+    "lat": 32.607,
+    "lng": -117.081
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "City of Industry",
+    "state": "CA",
+    "lat": 33.995,
+    "lng": -117.922
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Concord",
+    "state": "CA",
+    "lat": 37.958,
+    "lng": -122.033
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clovis",
+    "state": "CA",
+    "lat": 36.806,
+    "lng": -119.703
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Marina Del Rey",
+    "state": "CA",
+    "lat": 33.993,
+    "lng": -118.446
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cypress",
+    "state": "CA",
+    "lat": 33.804,
+    "lng": -118.038
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Corona",
+    "state": "CA",
+    "lat": 33.887,
+    "lng": -117.524
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eastvale",
+    "state": "CA",
+    "lat": 33.997,
+    "lng": -117.556
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Elk Grove",
+    "state": "CA",
+    "lat": 38.406,
+    "lng": -121.413
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Danville",
+    "state": "CA",
+    "lat": 37.782,
+    "lng": -121.973
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "South San Francisco",
+    "state": "CA",
+    "lat": 37.665,
+    "lng": -122.449
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "El Centro",
+    "state": "CA",
+    "lat": 32.812,
+    "lng": -115.573
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fairfield",
+    "state": "CA",
+    "lat": 38.214,
+    "lng": -122.145
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Folsom",
+    "state": "CA",
+    "lat": 38.645,
+    "lng": -121.111
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eureka",
+    "state": "CA",
+    "lat": 40.792,
+    "lng": -124.181
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Foster City",
+    "state": "CA",
+    "lat": 37.562,
+    "lng": -122.274
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fremont",
+    "state": "CA",
+    "lat": 37.502,
+    "lng": -121.972
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "lat": 33.703,
+    "lng": -117.932
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fresno",
+    "state": "CA",
+    "lat": 36.81,
+    "lng": -119.874
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fontana",
+    "state": "CA",
+    "lat": 34.138,
+    "lng": -117.443
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Garden Grove",
+    "state": "CA",
+    "lat": 33.773,
+    "lng": -117.941
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gilroy",
+    "state": "CA",
+    "lat": 37.008,
+    "lng": -121.556
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fullerton",
+    "state": "CA",
+    "lat": 33.862,
+    "lng": -117.922
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.244,
+    "lng": -121.786
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Goleta",
+    "state": "CA",
+    "lat": 34.428,
+    "lng": -119.874
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hanford",
+    "state": "CA",
+    "lat": 36.327,
+    "lng": -119.607
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hayward",
+    "state": "CA",
+    "lat": 37.615,
+    "lng": -122.088
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hawthorne",
+    "state": "CA",
+    "lat": 33.899,
+    "lng": -118.373
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "lat": 33.733,
+    "lng": -117.996
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Highland",
+    "state": "CA",
+    "lat": 34.109,
+    "lng": -117.193
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "La Habra",
+    "state": "CA",
+    "lat": 33.933,
+    "lng": -117.97
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Inglewood",
+    "state": "CA",
+    "lat": 33.943,
+    "lng": -118.334
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Irvine",
+    "state": "CA",
+    "lat": 33.66,
+    "lng": -117.745
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "La Mesa",
+    "state": "CA",
+    "lat": 32.774,
+    "lng": -117.025
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "La Quinta",
+    "state": "CA",
+    "lat": 33.704,
+    "lng": -116.273
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Laguna Niguel",
+    "state": "CA",
+    "lat": 33.567,
+    "lng": -117.711
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lake Elsinore",
+    "state": "CA",
+    "lat": 33.697,
+    "lng": -117.339
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lakewood",
+    "state": "CA",
+    "lat": 33.85,
+    "lng": -118.137
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Livermore",
+    "state": "CA",
+    "lat": 37.703,
+    "lng": -121.812
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Laguna Niguel",
+    "state": "CA",
+    "lat": 33.555,
+    "lng": -117.677
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lancaster",
+    "state": "CA",
+    "lat": 34.662,
+    "lng": -118.152
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.129,
+    "lng": -118.264
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lodi",
+    "state": "CA",
+    "lat": 38.1,
+    "lng": -121.264
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Manteca",
+    "state": "CA",
+    "lat": 37.786,
+    "lng": -121.26
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Loomis",
+    "state": "CA",
+    "lat": 38.809,
+    "lng": -121.205
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.78,
+    "lng": -117.129
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Linda",
+    "state": "CA",
+    "lat": 39.125,
+    "lng": -121.57
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Merced",
+    "state": "CA",
+    "lat": 37.303,
+    "lng": -120.498
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Montclair",
+    "state": "CA",
+    "lat": 34.083,
+    "lng": -117.691
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Modesto",
+    "state": "CA",
+    "lat": 37.702,
+    "lng": -121.067
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Monterey Park",
+    "state": "CA",
+    "lat": 34.037,
+    "lng": -118.104
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "lat": 33.936,
+    "lng": -117.276
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.822,
+    "lng": -117.225
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Murrieta",
+    "state": "CA",
+    "lat": 33.6,
+    "lng": -117.171
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Napa",
+    "state": "CA",
+    "lat": 38.249,
+    "lng": -122.278
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fresno",
+    "state": "CA",
+    "lat": 36.839,
+    "lng": -119.788
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mountain View",
+    "state": "CA",
+    "lat": 37.421,
+    "lng": -122.095
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.391,
+    "lng": -121.885
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.64,
+    "lng": -121.522
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Newark",
+    "state": "CA",
+    "lat": 37.526,
+    "lng": -122.0
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Novato",
+    "state": "CA",
+    "lat": 38.089,
+    "lng": -122.552
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Norwalk",
+    "state": "CA",
+    "lat": 33.92,
+    "lng": -118.102
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ontario",
+    "state": "CA",
+    "lat": 34.063,
+    "lng": -117.528
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Northridge",
+    "state": "CA",
+    "lat": 34.23,
+    "lng": -118.551
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Palm Desert",
+    "state": "CA",
+    "lat": 33.804,
+    "lng": -116.39
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pacoima",
+    "state": "CA",
+    "lat": 34.272,
+    "lng": -118.426
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Oxnard",
+    "state": "CA",
+    "lat": 34.225,
+    "lng": -119.148
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Poway",
+    "state": "CA",
+    "lat": 32.936,
+    "lng": -117.034
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pleasanton",
+    "state": "CA",
+    "lat": 37.695,
+    "lng": -121.918
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rancho Cucamonga",
+    "state": "CA",
+    "lat": 34.079,
+    "lng": -117.548
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chula Vista",
+    "state": "CA",
+    "lat": 32.638,
+    "lng": -117.022
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rancho Cordova",
+    "state": "CA",
+    "lat": 38.59,
+    "lng": -121.264
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Redding",
+    "state": "CA",
+    "lat": 40.541,
+    "lng": -122.354
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Redwood City",
+    "state": "CA",
+    "lat": 37.478,
+    "lng": -122.216
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Riverbank",
+    "state": "CA",
+    "lat": 37.711,
+    "lng": -120.954
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rohnert Park",
+    "state": "CA",
+    "lat": 38.352,
+    "lng": -122.716
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Richmond",
+    "state": "CA",
+    "lat": 37.899,
+    "lng": -122.32
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "South San Francisco",
+    "state": "CA",
+    "lat": 37.642,
+    "lng": -122.401
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Roseville",
+    "state": "CA",
+    "lat": 38.781,
+    "lng": -121.266
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.468,
+    "lng": -121.415
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Salinas",
+    "state": "CA",
+    "lat": 36.704,
+    "lng": -121.669
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Bernardino",
+    "state": "CA",
+    "lat": 34.068,
+    "lng": -117.263
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.77,
+    "lng": -122.411
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Dimas",
+    "state": "CA",
+    "lat": 34.112,
+    "lng": -117.826
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.31,
+    "lng": -121.852
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Marcos",
+    "state": "CA",
+    "lat": 33.135,
+    "lng": -117.125
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Juan Capistrano",
+    "state": "CA",
+    "lat": 33.47,
+    "lng": -117.678
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "lat": 35.252,
+    "lng": -120.691
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Leandro",
+    "state": "CA",
+    "lat": 37.72,
+    "lng": -122.182
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santa Clara",
+    "state": "CA",
+    "lat": 37.356,
+    "lng": -121.939
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sand City",
+    "state": "CA",
+    "lat": 36.617,
+    "lng": -121.845
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "lat": 34.404,
+    "lng": -118.461
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.984,
+    "lng": -122.034
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.713,
+    "lng": -117.114
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santee",
+    "state": "CA",
+    "lat": 32.84,
+    "lng": -116.988
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santa Maria",
+    "state": "CA",
+    "lat": 34.927,
+    "lng": -120.419
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "lat": 38.42,
+    "lng": -122.712
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Signal Hill",
+    "state": "CA",
+    "lat": 33.805,
+    "lng": -118.166
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Stockton",
+    "state": "CA",
+    "lat": 38.019,
+    "lng": -121.293
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Simi Valley",
+    "state": "CA",
+    "lat": 34.283,
+    "lng": -118.796
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "lat": 37.372,
+    "lng": -121.995
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Temecula",
+    "state": "CA",
+    "lat": 33.522,
+    "lng": -117.155
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Torrance",
+    "state": "CA",
+    "lat": 33.807,
+    "lng": -118.334
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bakersfield",
+    "state": "CA",
+    "lat": 35.298,
+    "lng": -119.058
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Turlock",
+    "state": "CA",
+    "lat": 37.519,
+    "lng": -120.888
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tracy",
+    "state": "CA",
+    "lat": 37.752,
+    "lng": -121.475
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tustin",
+    "state": "CA",
+    "lat": 33.7,
+    "lng": -117.823
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Vacaville",
+    "state": "CA",
+    "lat": 38.351,
+    "lng": -121.98
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tustin",
+    "state": "CA",
+    "lat": 33.728,
+    "lng": -117.796
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Vallejo",
+    "state": "CA",
+    "lat": 38.133,
+    "lng": -122.213
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ukiah",
+    "state": "CA",
+    "lat": 39.127,
+    "lng": -123.197
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Van Nuys",
+    "state": "CA",
+    "lat": 34.182,
+    "lng": -118.464
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Victorville",
+    "state": "CA",
+    "lat": 34.516,
+    "lng": -117.318
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Roseville",
+    "state": "CA",
+    "lat": 38.753,
+    "lng": -121.366
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Vista",
+    "state": "CA",
+    "lat": 33.188,
+    "lng": -117.276
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Visalia",
+    "state": "CA",
+    "lat": 36.293,
+    "lng": -119.307
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodland",
+    "state": "CA",
+    "lat": 38.672,
+    "lng": -121.723
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodland Hills",
+    "state": "CA",
+    "lat": 34.187,
+    "lng": -118.604
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Westlake Village",
+    "state": "CA",
+    "lat": 34.152,
+    "lng": -118.797
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.691,
+    "lng": -104.866
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Yorba Linda",
+    "state": "CA",
+    "lat": 33.876,
+    "lng": -117.744
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Arvada",
+    "state": "CO",
+    "lat": 39.79,
+    "lng": -105.083
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.893,
+    "lng": -104.718
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Littleton",
+    "state": "CO",
+    "lat": 39.558,
+    "lng": -104.877
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.893,
+    "lng": -104.718
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.78,
+    "lng": -104.795
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Parker",
+    "state": "CO",
+    "lat": 39.556,
+    "lng": -104.776
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gypsum",
+    "state": "CO",
+    "lat": 39.64,
+    "lng": -106.904
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Longmont",
+    "state": "CO",
+    "lat": 40.151,
+    "lng": -105.087
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Superior",
+    "state": "CO",
+    "lat": 39.961,
+    "lng": -105.175
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sheridan",
+    "state": "CO",
+    "lat": 39.644,
+    "lng": -105.006
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Timnath",
+    "state": "CO",
+    "lat": 40.521,
+    "lng": -104.99
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Thornton",
+    "state": "CO",
+    "lat": 39.991,
+    "lng": -104.983
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Littleton",
+    "state": "CO",
+    "lat": 39.638,
+    "lng": -105.087
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.905,
+    "lng": -104.822
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Westminster",
+    "state": "CO",
+    "lat": 39.862,
+    "lng": -105.066
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Enfield",
+    "state": "CT",
+    "lat": 41.994,
+    "lng": -72.576
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Milford",
+    "state": "CT",
+    "lat": 41.251,
+    "lng": -73.025
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brookfield",
+    "state": "CT",
+    "lat": 41.442,
+    "lng": -73.406
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "East Lyme",
+    "state": "CT",
+    "lat": 41.36,
+    "lng": -72.213
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "New Britain",
+    "state": "CT",
+    "lat": 41.709,
+    "lng": -72.763
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Norwalk",
+    "state": "CT",
+    "lat": 41.092,
+    "lng": -73.451
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "South Windsor",
+    "state": "CT",
+    "lat": 41.817,
+    "lng": -72.556
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Waterbury",
+    "state": "CT",
+    "lat": 41.54,
+    "lng": -72.968
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Newark",
+    "state": "DE",
+    "lat": 39.676,
+    "lng": -75.65
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Altamonte Springs",
+    "state": "FL",
+    "lat": 28.661,
+    "lng": -81.418
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.413,
+    "lng": -80.1
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bradenton",
+    "state": "FL",
+    "lat": 27.495,
+    "lng": -82.47
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brandon",
+    "state": "FL",
+    "lat": 27.922,
+    "lng": -82.331
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Coral Springs",
+    "state": "FL",
+    "lat": 26.288,
+    "lng": -80.279
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clearwater",
+    "state": "FL",
+    "lat": 27.956,
+    "lng": -82.728
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Davie",
+    "state": "FL",
+    "lat": 26.097,
+    "lng": -80.251
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clermont",
+    "state": "FL",
+    "lat": 28.549,
+    "lng": -81.667
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "lat": 29.196,
+    "lng": -81.076
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.49,
+    "lng": -81.786
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.252,
+    "lng": -81.534
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Winter Park",
+    "state": "FL",
+    "lat": 28.599,
+    "lng": -81.3
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.653,
+    "lng": -80.412
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.544,
+    "lng": -81.874
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Melbourne",
+    "state": "FL",
+    "lat": 28.19,
+    "lng": -80.719
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lantana",
+    "state": "FL",
+    "lat": 26.589,
+    "lng": -80.071
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.77,
+    "lng": -80.323
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Miami",
+    "state": "FL",
+    "lat": 25.913,
+    "lng": -80.155
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Miami Lakes",
+    "state": "FL",
+    "lat": 25.923,
+    "lng": -80.299
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Naples",
+    "state": "FL",
+    "lat": 26.22,
+    "lng": -81.775
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pompano Beach",
+    "state": "FL",
+    "lat": 26.273,
+    "lng": -80.15
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Palm Beach Gardens",
+    "state": "FL",
+    "lat": 26.807,
+    "lng": -80.088
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Port",
+    "state": "FL",
+    "lat": 27.044,
+    "lng": -82.312
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "lat": 26.008,
+    "lng": -80.361
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Royal Palm Beach",
+    "state": "FL",
+    "lat": 26.683,
+    "lng": -80.225
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.496,
+    "lng": -81.425
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "St. Augustine",
+    "state": "FL",
+    "lat": 29.983,
+    "lng": -81.464
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sarasota",
+    "state": "FL",
+    "lat": 27.235,
+    "lng": -82.493
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Stuart",
+    "state": "FL",
+    "lat": 27.165,
+    "lng": -80.247
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "The Villages",
+    "state": "FL",
+    "lat": 28.93,
+    "lng": -82.023
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tallahassee",
+    "state": "FL",
+    "lat": 30.461,
+    "lng": -84.213
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 28.042,
+    "lng": -82.581
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.201,
+    "lng": -81.757
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lutz",
+    "state": "FL",
+    "lat": 28.189,
+    "lng": -82.394
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Athens",
+    "state": "GA",
+    "lat": 33.92,
+    "lng": -83.457
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Alpharetta",
+    "state": "GA",
+    "lat": 34.091,
+    "lng": -84.278
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.525,
+    "lng": -82.02
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.873,
+    "lng": -84.336
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Dallas",
+    "state": "GA",
+    "lat": 33.921,
+    "lng": -84.764
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cumming",
+    "state": "GA",
+    "lat": 34.214,
+    "lng": -84.116
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.882,
+    "lng": -84.47
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Duluth",
+    "state": "GA",
+    "lat": 33.948,
+    "lng": -84.143
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ringgold",
+    "state": "GA",
+    "lat": 34.969,
+    "lng": -85.195
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Buford",
+    "state": "GA",
+    "lat": 34.062,
+    "lng": -83.995
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.929,
+    "lng": -84.355
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mcdonough",
+    "state": "GA",
+    "lat": 33.48,
+    "lng": -84.221
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sharpsburg",
+    "state": "GA",
+    "lat": 33.397,
+    "lng": -84.619
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pooler",
+    "state": "GA",
+    "lat": 32.081,
+    "lng": -81.277
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.283,
+    "lng": -157.712
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kapolei",
+    "state": "HI",
+    "lat": 21.327,
+    "lng": -158.088
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kennesaw",
+    "state": "GA",
+    "lat": 34.006,
+    "lng": -84.57
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodstock",
+    "state": "GA",
+    "lat": 34.12,
+    "lng": -84.515
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.319,
+    "lng": -157.872
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lihue",
+    "state": "HI",
+    "lat": 21.967,
+    "lng": -159.383
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Waipahu",
+    "state": "HI",
+    "lat": 21.427,
+    "lng": -158.0
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pearl City",
+    "state": "HI",
+    "lat": 21.392,
+    "lng": -157.963
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kailua Kona",
+    "state": "HI",
+    "lat": 19.686,
+    "lng": -156.017
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kahului",
+    "state": "HI",
+    "lat": 20.888,
+    "lng": -156.448
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.585,
+    "lng": -116.276
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Coeur D' Alene",
+    "state": "ID",
+    "lat": 47.709,
+    "lng": -116.783
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Nampa",
+    "state": "ID",
+    "lat": 43.615,
+    "lng": -116.59
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Meridian",
+    "state": "ID",
+    "lat": 43.661,
+    "lng": -116.437
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "lat": 43.514,
+    "lng": -111.985
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pocatello",
+    "state": "ID",
+    "lat": 42.905,
+    "lng": -112.455
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Twin Falls",
+    "state": "ID",
+    "lat": 42.593,
+    "lng": -114.463
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Champaign",
+    "state": "IL",
+    "lat": 40.142,
+    "lng": -88.247
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bloomingdale",
+    "state": "IL",
+    "lat": 41.941,
+    "lng": -88.133
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bolingbrook",
+    "state": "IL",
+    "lat": 41.727,
+    "lng": -88.033
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.863,
+    "lng": -87.668
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "East Peoria",
+    "state": "IL",
+    "lat": 40.669,
+    "lng": -89.585
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lake in the Hills",
+    "state": "IL",
+    "lat": 42.179,
+    "lng": -88.337
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lake Zurich",
+    "state": "IL",
+    "lat": 42.187,
+    "lng": -88.094
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Loves Park",
+    "state": "IL",
+    "lat": 42.322,
+    "lng": -88.962
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glenview",
+    "state": "IL",
+    "lat": 42.107,
+    "lng": -87.821
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.93,
+    "lng": -87.677
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mount Prospect",
+    "state": "IL",
+    "lat": 42.083,
+    "lng": -87.932
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mettawa",
+    "state": "IL",
+    "lat": 42.236,
+    "lng": -87.902
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Melrose Park",
+    "state": "IL",
+    "lat": 41.909,
+    "lng": -87.837
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Naperville",
+    "state": "IL",
+    "lat": 41.796,
+    "lng": -88.123
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Naperville",
+    "state": "IL",
+    "lat": 41.746,
+    "lng": -88.204
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Niles",
+    "state": "IL",
+    "lat": 42.015,
+    "lng": -87.781
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Oak Brook",
+    "state": "IL",
+    "lat": 41.846,
+    "lng": -87.961
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Riverside",
+    "state": "IL",
+    "lat": 41.845,
+    "lng": -87.806
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Orland Park",
+    "state": "IL",
+    "lat": 41.6,
+    "lng": -87.862
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Schaumburg",
+    "state": "IL",
+    "lat": 42.055,
+    "lng": -88.043
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Charles",
+    "state": "IL",
+    "lat": 41.909,
+    "lng": -88.343
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Plainfield",
+    "state": "IL",
+    "lat": 41.588,
+    "lng": -88.168
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Yorkville",
+    "state": "IL",
+    "lat": 41.656,
+    "lng": -88.438
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Avon",
+    "state": "IN",
+    "lat": 39.766,
+    "lng": -86.366
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Evansville",
+    "state": "IN",
+    "lat": 37.988,
+    "lng": -87.463
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.913,
+    "lng": -86.061
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.917,
+    "lng": -86.227
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "lat": 41.126,
+    "lng": -85.158
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Merrillville",
+    "state": "IN",
+    "lat": 41.475,
+    "lng": -87.322
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Noblesville",
+    "state": "IN",
+    "lat": 40.004,
+    "lng": -86.003
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Granger",
+    "state": "IN",
+    "lat": 41.719,
+    "lng": -86.171
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.638,
+    "lng": -86.09
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Coralville",
+    "state": "IA",
+    "lat": 41.697,
+    "lng": -91.617
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ankeny",
+    "state": "IA",
+    "lat": 41.764,
+    "lng": -93.567
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Davenport",
+    "state": "IA",
+    "lat": 41.577,
+    "lng": -90.534
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "West Des Moines",
+    "state": "IA",
+    "lat": 41.562,
+    "lng": -93.806
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lenexa",
+    "state": "KS",
+    "lat": 38.959,
+    "lng": -94.734
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Overland Park",
+    "state": "KS",
+    "lat": 38.907,
+    "lng": -94.671
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.68,
+    "lng": -97.224
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Florence",
+    "state": "KY",
+    "lat": 38.989,
+    "lng": -84.646
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.204,
+    "lng": -85.669
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.316,
+    "lng": -85.573
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.024,
+    "lng": -84.41
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "lat": 30.419,
+    "lng": -91.073
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Covington",
+    "state": "LA",
+    "lat": 30.447,
+    "lng": -90.132
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.968,
+    "lng": -90.11
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Scarborough",
+    "state": "ME",
+    "lat": 43.609,
+    "lng": -70.358
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lafayette",
+    "state": "LA",
+    "lat": 30.156,
+    "lng": -92.042
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hanover",
+    "state": "MD",
+    "lat": 39.156,
+    "lng": -76.731
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Beltsville",
+    "state": "MD",
+    "lat": 39.033,
+    "lng": -76.909
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Frederick",
+    "state": "MD",
+    "lat": 39.402,
+    "lng": -77.408
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brandywine",
+    "state": "MD",
+    "lat": 38.67,
+    "lng": -76.873
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Elkridge",
+    "state": "MD",
+    "lat": 39.187,
+    "lng": -76.794
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "lat": 39.157,
+    "lng": -77.213
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "lat": 39.197,
+    "lng": -76.6
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wheaton",
+    "state": "MD",
+    "lat": 39.037,
+    "lng": -77.053
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.358,
+    "lng": -76.445
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Owings Mills",
+    "state": "MD",
+    "lat": 39.407,
+    "lng": -76.789
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glenarden",
+    "state": "MD",
+    "lat": 38.923,
+    "lng": -76.851
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Avon",
+    "state": "MA",
+    "lat": 42.137,
+    "lng": -71.066
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Dedham",
+    "state": "MA",
+    "lat": 42.232,
+    "lng": -71.173
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Danvers",
+    "state": "MA",
+    "lat": 42.556,
+    "lng": -70.977
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Everett",
+    "state": "MA",
+    "lat": 42.397,
+    "lng": -71.071
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sharon",
+    "state": "MA",
+    "lat": 42.105,
+    "lng": -71.225
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Waltham",
+    "state": "MA",
+    "lat": 42.394,
+    "lng": -71.266
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "West Springfield",
+    "state": "MA",
+    "lat": 42.132,
+    "lng": -72.621
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Auburn Hills",
+    "state": "MI",
+    "lat": 42.706,
+    "lng": -83.294
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bloomfield",
+    "state": "MI",
+    "lat": 42.607,
+    "lng": -83.293
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Commerce Township",
+    "state": "MI",
+    "lat": 42.535,
+    "lng": -83.445
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "East Lansing",
+    "state": "MI",
+    "lat": 42.752,
+    "lng": -84.444
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fruitport",
+    "state": "MI",
+    "lat": 43.142,
+    "lng": -86.206
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Flint",
+    "state": "MI",
+    "lat": 42.938,
+    "lng": -83.722
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.911,
+    "lng": -85.543
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Livonia",
+    "state": "MI",
+    "lat": 42.433,
+    "lng": -83.43
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brighton",
+    "state": "MI",
+    "lat": 42.504,
+    "lng": -83.762
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "lat": 42.272,
+    "lng": -85.651
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Shelby Township",
+    "state": "MI",
+    "lat": 42.63,
+    "lng": -82.98
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Madison Heights",
+    "state": "MI",
+    "lat": 42.516,
+    "lng": -83.118
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Livonia",
+    "state": "MI",
+    "lat": 42.382,
+    "lng": -83.332
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.231,
+    "lng": -83.743
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Midland",
+    "state": "MI",
+    "lat": 43.604,
+    "lng": -84.169
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Traverse City",
+    "state": "MI",
+    "lat": 44.734,
+    "lng": -85.573
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Roseville",
+    "state": "MI",
+    "lat": 42.496,
+    "lng": -82.936
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Burnsville",
+    "state": "MN",
+    "lat": 44.75,
+    "lng": -93.294
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wyoming",
+    "state": "MI",
+    "lat": 42.876,
+    "lng": -85.764
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Baxter",
+    "state": "MN",
+    "lat": 46.349,
+    "lng": -94.248
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 45.199,
+    "lng": -93.348
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chaska",
+    "state": "MN",
+    "lat": 44.84,
+    "lng": -93.602
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Duluth",
+    "state": "MN",
+    "lat": 46.824,
+    "lng": -92.172
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eagan",
+    "state": "MN",
+    "lat": 44.86,
+    "lng": -93.14
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eden Prairie",
+    "state": "MN",
+    "lat": 44.861,
+    "lng": -93.436
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Maplewood",
+    "state": "MN",
+    "lat": 45.029,
+    "lng": -93.04
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Maple Grove",
+    "state": "MN",
+    "lat": 45.093,
+    "lng": -93.424
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Cloud",
+    "state": "MN",
+    "lat": 45.548,
+    "lng": -94.199
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Louis Park",
+    "state": "MN",
+    "lat": 44.967,
+    "lng": -93.354
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.047,
+    "lng": -92.517
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodbury",
+    "state": "MN",
+    "lat": 44.937,
+    "lng": -92.963
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ridgeland",
+    "state": "MS",
+    "lat": 32.423,
+    "lng": -90.147
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Independence",
+    "state": "MO",
+    "lat": 39.036,
+    "lng": -94.357
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.068,
+    "lng": -94.581
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Manchester",
+    "state": "MO",
+    "lat": 38.598,
+    "lng": -90.508
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.254,
+    "lng": -94.598
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Louis",
+    "state": "MO",
+    "lat": 38.509,
+    "lng": -90.339
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Peters",
+    "state": "MO",
+    "lat": 38.797,
+    "lng": -90.609
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Springfield",
+    "state": "MO",
+    "lat": 37.207,
+    "lng": -93.224
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Helena",
+    "state": "MT",
+    "lat": 46.615,
+    "lng": -112.002
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint Louis",
+    "state": "MO",
+    "lat": 38.676,
+    "lng": -90.359
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Billings",
+    "state": "MT",
+    "lat": 45.734,
+    "lng": -108.614
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bozeman",
+    "state": "MT",
+    "lat": 45.712,
+    "lng": -111.071
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kalispell",
+    "state": "MT",
+    "lat": 48.252,
+    "lng": -114.328
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.29,
+    "lng": -96.191
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lincoln",
+    "state": "NE",
+    "lat": 40.739,
+    "lng": -96.697
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "La Vista",
+    "state": "NE",
+    "lat": 41.177,
+    "lng": -96.109
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.896,
+    "lng": -114.038
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Henderson",
+    "state": "NV",
+    "lat": 36.069,
+    "lng": -115.038
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Carson City",
+    "state": "NV",
+    "lat": 39.116,
+    "lng": -119.778
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.265,
+    "lng": -96.106
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.279,
+    "lng": -115.21
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sparks",
+    "state": "NV",
+    "lat": 39.579,
+    "lng": -119.739
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Reno",
+    "state": "NV",
+    "lat": 39.503,
+    "lng": -119.785
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.163,
+    "lng": -115.333
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Henderson",
+    "state": "NV",
+    "lat": 35.987,
+    "lng": -115.138
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Nashua",
+    "state": "NH",
+    "lat": 42.703,
+    "lng": -71.443
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.063,
+    "lng": -115.258
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bayonne",
+    "state": "NJ",
+    "lat": 40.674,
+    "lng": -74.104
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bridgewater",
+    "state": "NJ",
+    "lat": 40.563,
+    "lng": -74.558
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brick",
+    "state": "NJ",
+    "lat": 40.055,
+    "lng": -74.158
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clifton",
+    "state": "NJ",
+    "lat": 40.831,
+    "lng": -74.137
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cherry Hill",
+    "state": "NJ",
+    "lat": 39.926,
+    "lng": -75.041
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "East Hanover",
+    "state": "NJ",
+    "lat": 40.809,
+    "lng": -74.381
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Flemington",
+    "state": "NJ",
+    "lat": 40.523,
+    "lng": -74.853
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hazlet",
+    "state": "NJ",
+    "lat": 40.42,
+    "lng": -74.171
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Edison",
+    "state": "NJ",
+    "lat": 40.529,
+    "lng": -74.377
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Stafford Township",
+    "state": "NJ",
+    "lat": 39.707,
+    "lng": -74.288
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Morganville",
+    "state": "NJ",
+    "lat": 40.361,
+    "lng": -74.304
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ocean",
+    "state": "NJ",
+    "lat": 40.233,
+    "lng": -74.046
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mount Laurel",
+    "state": "NJ",
+    "lat": 39.969,
+    "lng": -74.911
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Plainfield",
+    "state": "NJ",
+    "lat": 40.612,
+    "lng": -74.459
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Brunswick",
+    "state": "NJ",
+    "lat": 40.436,
+    "lng": -74.506
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lawrence Township",
+    "state": "NJ",
+    "lat": 40.282,
+    "lng": -74.675
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Teterboro",
+    "state": "NJ",
+    "lat": 40.861,
+    "lng": -74.064
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Union",
+    "state": "NJ",
+    "lat": 40.694,
+    "lng": -74.288
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wayne",
+    "state": "NJ",
+    "lat": 40.892,
+    "lng": -74.251
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.137,
+    "lng": -106.614
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wharton",
+    "state": "NJ",
+    "lat": 40.907,
+    "lng": -74.568
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.196,
+    "lng": -106.662
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Commack",
+    "state": "NY",
+    "lat": 40.807,
+    "lng": -73.287
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Holbrook",
+    "state": "NY",
+    "lat": 40.773,
+    "lng": -73.051
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.656,
+    "lng": -74.009
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.068,
+    "lng": -106.531
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lawrence",
+    "state": "NY",
+    "lat": 40.63,
+    "lng": -73.74
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.795,
+    "lng": -73.932
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "New Rochelle",
+    "state": "NY",
+    "lat": 40.896,
+    "lng": -73.794
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Melville",
+    "state": "NY",
+    "lat": 40.758,
+    "lng": -73.42
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Nanuet",
+    "state": "NY",
+    "lat": 41.107,
+    "lng": -74.025
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Nesconset",
+    "state": "NY",
+    "lat": 40.859,
+    "lng": -73.13
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Oceanside",
+    "state": "NY",
+    "lat": 40.619,
+    "lng": -73.652
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.114,
+    "lng": -77.613
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Port Chester",
+    "state": "NY",
+    "lat": 40.999,
+    "lng": -73.662
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Long Island City",
+    "state": "NY",
+    "lat": 40.761,
+    "lng": -73.943
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rego Park",
+    "state": "NY",
+    "lat": 40.734,
+    "lng": -73.863
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Riverhead",
+    "state": "NY",
+    "lat": 40.923,
+    "lng": -72.703
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Yonkers",
+    "state": "NY",
+    "lat": 40.975,
+    "lng": -73.861
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Camillus",
+    "state": "NY",
+    "lat": 43.039,
+    "lng": -76.281
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Staten Island",
+    "state": "NY",
+    "lat": 40.573,
+    "lng": -74.168
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Westbury",
+    "state": "NY",
+    "lat": 40.744,
+    "lng": -73.598
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Apex",
+    "state": "NC",
+    "lat": 35.746,
+    "lng": -78.828
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 36.029,
+    "lng": -78.914
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.162,
+    "lng": -80.885
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.668,
+    "lng": -78.699
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Greensboro",
+    "state": "NC",
+    "lat": 36.057,
+    "lng": -79.883
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Matthews",
+    "state": "NC",
+    "lat": 35.13,
+    "lng": -80.705
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mooresville",
+    "state": "NC",
+    "lat": 35.583,
+    "lng": -80.854
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.818,
+    "lng": -78.622
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wilmington",
+    "state": "NC",
+    "lat": 34.248,
+    "lng": -77.873
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Winston Salem",
+    "state": "NC",
+    "lat": 36.064,
+    "lng": -80.318
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bismarck",
+    "state": "ND",
+    "lat": 46.865,
+    "lng": -100.769
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Avon",
+    "state": "OH",
+    "lat": 41.461,
+    "lng": -82.012
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "West Fargo",
+    "state": "ND",
+    "lat": 46.845,
+    "lng": -96.887
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Boston Heights",
+    "state": "OH",
+    "lat": 41.266,
+    "lng": -81.507
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 40.149,
+    "lng": -82.976
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Centerville",
+    "state": "OH",
+    "lat": 39.662,
+    "lng": -84.106
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Liberty Township",
+    "state": "OH",
+    "lat": 39.37,
+    "lng": -84.357
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 40.053,
+    "lng": -82.905
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.296,
+    "lng": -84.303
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.526,
+    "lng": -81.447
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Canton",
+    "state": "OH",
+    "lat": 40.886,
+    "lng": -81.44
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Strongsville",
+    "state": "OH",
+    "lat": 41.317,
+    "lng": -81.816
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Perrysburg",
+    "state": "OH",
+    "lat": 41.535,
+    "lng": -83.635
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Toledo",
+    "state": "OH",
+    "lat": 41.676,
+    "lng": -83.625
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Plain City",
+    "state": "OH",
+    "lat": 40.107,
+    "lng": -83.256
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Moore",
+    "state": "OK",
+    "lat": 35.313,
+    "lng": -97.496
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.223,
+    "lng": -95.85
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.604,
+    "lng": -97.53
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Aloha",
+    "state": "OR",
+    "lat": 45.509,
+    "lng": -122.842
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Albany",
+    "state": "OR",
+    "lat": 44.639,
+    "lng": -123.065
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.014,
+    "lng": -95.889
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Central Point",
+    "state": "OR",
+    "lat": 42.374,
+    "lng": -122.888
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clackamas",
+    "state": "OR",
+    "lat": 45.428,
+    "lng": -122.575
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bend",
+    "state": "OR",
+    "lat": 44.106,
+    "lng": -121.305
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eugene",
+    "state": "OR",
+    "lat": 44.089,
+    "lng": -123.067
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hillsboro",
+    "state": "OR",
+    "lat": 45.536,
+    "lng": -122.936
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.56,
+    "lng": -122.525
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Roseburg",
+    "state": "OR",
+    "lat": 43.261,
+    "lng": -123.35
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Salem",
+    "state": "OR",
+    "lat": 44.884,
+    "lng": -123.007
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tigard",
+    "state": "OR",
+    "lat": 45.435,
+    "lng": -122.758
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Warrenton",
+    "state": "OR",
+    "lat": 46.147,
+    "lng": -123.914
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glen Mills",
+    "state": "PA",
+    "lat": 39.89,
+    "lng": -75.533
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Warminster",
+    "state": "PA",
+    "lat": 40.197,
+    "lng": -75.08
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.567,
+    "lng": -75.558
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Wilsonville",
+    "state": "OR",
+    "lat": 45.333,
+    "lng": -122.764
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cranberry Township",
+    "state": "PA",
+    "lat": 40.691,
+    "lng": -80.108
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Homestead",
+    "state": "PA",
+    "lat": 40.403,
+    "lng": -79.921
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "King of Prussia",
+    "state": "PA",
+    "lat": 40.091,
+    "lng": -75.386
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Harrisburg",
+    "state": "PA",
+    "lat": 40.312,
+    "lng": -76.799
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lancaster",
+    "state": "PA",
+    "lat": 40.052,
+    "lng": -76.257
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mechanicsburg",
+    "state": "PA",
+    "lat": 40.239,
+    "lng": -77.056
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.46,
+    "lng": -80.165
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pottstown",
+    "state": "PA",
+    "lat": 40.239,
+    "lng": -75.576
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Wales",
+    "state": "PA",
+    "lat": 40.237,
+    "lng": -75.234
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Caguas Bairoa Ward",
+    "state": "PR",
+    "lat": 18.248,
+    "lng": -66.018
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Juan",
+    "state": "PR",
+    "lat": 18.402,
+    "lng": -65.996
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bayamon",
+    "state": "PR",
+    "lat": 18.394,
+    "lng": -66.165
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Juan",
+    "state": "PR",
+    "lat": -31.533,
+    "lng": -68.515
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.796,
+    "lng": -80.036
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bayamon",
+    "state": "PR",
+    "lat": 18.394,
+    "lng": -66.147
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Greenville",
+    "state": "SC",
+    "lat": 34.836,
+    "lng": -82.311
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Columbia",
+    "state": "SC",
+    "lat": 34.069,
+    "lng": -81.139
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mount Pleasant",
+    "state": "SC",
+    "lat": 32.882,
+    "lng": -79.769
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Indian Land",
+    "state": "SC",
+    "lat": 34.969,
+    "lng": -80.853
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Spartanburg",
+    "state": "SC",
+    "lat": 34.94,
+    "lng": -81.998
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "lat": 33.706,
+    "lng": -78.915
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.514,
+    "lng": -96.741
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brentwood",
+    "state": "TN",
+    "lat": 35.964,
+    "lng": -86.816
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.896,
+    "lng": -84.141
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Brentwood",
+    "state": "TN",
+    "lat": 35.964,
+    "lng": -86.816
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Hendersonville",
+    "state": "TN",
+    "lat": 36.328,
+    "lng": -86.625
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mt. Juliet",
+    "state": "TN",
+    "lat": 36.183,
+    "lng": -86.463
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Nashville",
+    "state": "TN",
+    "lat": 36.14,
+    "lng": -86.885
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "lat": 35.827,
+    "lng": -86.42
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cordova",
+    "state": "TN",
+    "lat": 35.191,
+    "lng": -89.793
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.046,
+    "lng": -89.797
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Allen",
+    "state": "TX",
+    "lat": 33.141,
+    "lng": -96.686
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.684,
+    "lng": -97.113
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.396,
+    "lng": -97.744
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.788,
+    "lng": -95.53
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cedar Park",
+    "state": "TX",
+    "lat": 30.527,
+    "lng": -97.819
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.92,
+    "lng": -96.767
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "College Station",
+    "state": "TX",
+    "lat": 30.567,
+    "lng": -96.263
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Cypress",
+    "state": "TX",
+    "lat": 29.979,
+    "lng": -95.712
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.782,
+    "lng": -106.411
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Plano",
+    "state": "TX",
+    "lat": 33.045,
+    "lng": -96.7
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Duncanville",
+    "state": "TX",
+    "lat": 32.621,
+    "lng": -96.911
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Forney",
+    "state": "TX",
+    "lat": 32.775,
+    "lng": -96.482
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.677,
+    "lng": -97.409
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Frisco",
+    "state": "TX",
+    "lat": 33.172,
+    "lng": -96.837
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.734,
+    "lng": -95.439
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Humble",
+    "state": "TX",
+    "lat": 30.022,
+    "lng": -95.267
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Georgetown",
+    "state": "TX",
+    "lat": 30.652,
+    "lng": -97.679
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kyle",
+    "state": "TX",
+    "lat": 30.032,
+    "lng": -97.851
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lewisville",
+    "state": "TX",
+    "lat": 32.998,
+    "lng": -96.964
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lubbock",
+    "state": "TX",
+    "lat": 33.564,
+    "lng": -101.948
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Liberty Hill",
+    "state": "TX",
+    "lat": 30.691,
+    "lng": -97.885
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Mckinney",
+    "state": "TX",
+    "lat": 33.219,
+    "lng": -96.66
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.899,
+    "lng": -97.32
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Midland",
+    "state": "TX",
+    "lat": 31.995,
+    "lng": -102.178
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.576,
+    "lng": -98.597
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pearland",
+    "state": "TX",
+    "lat": 29.544,
+    "lng": -95.391
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Prosper",
+    "state": "TX",
+    "lat": 33.218,
+    "lng": -96.689
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pflugerville",
+    "state": "TX",
+    "lat": 30.47,
+    "lng": -97.591
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pharr",
+    "state": "TX",
+    "lat": 26.193,
+    "lng": -98.203
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Richmond",
+    "state": "TX",
+    "lat": 29.646,
+    "lng": -95.707
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.219,
+    "lng": -97.842
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Rockwall",
+    "state": "TX",
+    "lat": 32.908,
+    "lng": -96.446
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.612,
+    "lng": -98.476
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Selma",
+    "state": "TX",
+    "lat": 29.576,
+    "lng": -98.319
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Southlake",
+    "state": "TX",
+    "lat": 32.942,
+    "lng": -97.112
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sugar Land",
+    "state": "TX",
+    "lat": 29.584,
+    "lng": -95.645
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tomball",
+    "state": "TX",
+    "lat": 30.069,
+    "lng": -95.623
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Conroe",
+    "state": "TX",
+    "lat": 30.209,
+    "lng": -95.453
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Katy",
+    "state": "TX",
+    "lat": 29.783,
+    "lng": -95.781
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Plano",
+    "state": "TX",
+    "lat": 33.024,
+    "lng": -96.832
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.432,
+    "lng": -98.715
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.955,
+    "lng": -95.548
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Webster",
+    "state": "TX",
+    "lat": 29.534,
+    "lng": -95.14
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Weatherford",
+    "state": "TX",
+    "lat": 32.75,
+    "lng": -97.73
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "West Bountiful",
+    "state": "UT",
+    "lat": 40.89,
+    "lng": -111.895
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lehi",
+    "state": "UT",
+    "lat": 40.389,
+    "lng": -111.823
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Logan",
+    "state": "UT",
+    "lat": 41.753,
+    "lng": -111.857
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Riverton",
+    "state": "UT",
+    "lat": 40.513,
+    "lng": -112.002
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Orem",
+    "state": "UT",
+    "lat": 40.28,
+    "lng": -111.68
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Murray",
+    "state": "UT",
+    "lat": 40.658,
+    "lng": -111.89
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sandy",
+    "state": "UT",
+    "lat": 40.55,
+    "lng": -111.894
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "lat": 40.382,
+    "lng": -111.919
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.731,
+    "lng": -111.901
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ogden",
+    "state": "UT",
+    "lat": 41.197,
+    "lng": -111.978
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "South Jordan",
+    "state": "UT",
+    "lat": 40.56,
+    "lng": -111.976
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Spanish Fork",
+    "state": "UT",
+    "lat": 40.123,
+    "lng": -111.648
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Saint George",
+    "state": "UT",
+    "lat": 37.123,
+    "lng": -113.521
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.69,
+    "lng": -111.954
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Charlottesville",
+    "state": "VA",
+    "lat": 38.069,
+    "lng": -78.49
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Chantilly",
+    "state": "VA",
+    "lat": 38.896,
+    "lng": -77.442
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Colchester",
+    "state": "VT",
+    "lat": 44.504,
+    "lng": -73.174
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "North Chesterfield",
+    "state": "VA",
+    "lat": 37.513,
+    "lng": -77.607
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fairfax",
+    "state": "VA",
+    "lat": 38.85,
+    "lng": -77.372
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Fredericksburg",
+    "state": "VA",
+    "lat": 38.291,
+    "lng": -77.515
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Leesburg",
+    "state": "VA",
+    "lat": 39.114,
+    "lng": -77.534
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "lat": 38.428,
+    "lng": -78.858
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Manassas",
+    "state": "VA",
+    "lat": 38.785,
+    "lng": -77.516
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Alexandria",
+    "state": "VA",
+    "lat": 38.742,
+    "lng": -77.088
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Springfield",
+    "state": "VA",
+    "lat": 38.739,
+    "lng": -77.197
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Arlington",
+    "state": "VA",
+    "lat": 38.861,
+    "lng": -77.057
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.108,
+    "lng": -76.498
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodbridge",
+    "state": "VA",
+    "lat": 38.641,
+    "lng": -77.293
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Norfolk",
+    "state": "VA",
+    "lat": 36.852,
+    "lng": -76.2
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sterling",
+    "state": "VA",
+    "lat": 39.023,
+    "lng": -77.401
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Shoreline",
+    "state": "WA",
+    "lat": 47.775,
+    "lng": -122.345
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Glen Allen",
+    "state": "VA",
+    "lat": 37.642,
+    "lng": -77.561
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Winchester",
+    "state": "VA",
+    "lat": 39.158,
+    "lng": -78.157
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bellingham",
+    "state": "WA",
+    "lat": 48.792,
+    "lng": -122.515
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bonney Lake",
+    "state": "WA",
+    "lat": 47.167,
+    "lng": -122.158
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Clarkston",
+    "state": "WA",
+    "lat": 46.423,
+    "lng": -117.043
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Camas",
+    "state": "WA",
+    "lat": 45.622,
+    "lng": -122.473
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Burlington",
+    "state": "WA",
+    "lat": 48.454,
+    "lng": -122.338
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Covington",
+    "state": "WA",
+    "lat": 47.355,
+    "lng": -122.121
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Everett",
+    "state": "WA",
+    "lat": 47.904,
+    "lng": -122.208
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Gig Harbor",
+    "state": "WA",
+    "lat": 47.358,
+    "lng": -122.604
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kennewick",
+    "state": "WA",
+    "lat": 46.225,
+    "lng": -119.237
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Issaquah",
+    "state": "WA",
+    "lat": 47.551,
+    "lng": -122.052
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Federal Way",
+    "state": "WA",
+    "lat": 47.287,
+    "lng": -122.312
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lacey",
+    "state": "WA",
+    "lat": 47.06,
+    "lng": -122.761
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Kirkland",
+    "state": "WA",
+    "lat": 47.681,
+    "lng": -122.181
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Marysville",
+    "state": "WA",
+    "lat": 48.148,
+    "lng": -122.191
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lake Stevens",
+    "state": "WA",
+    "lat": 47.975,
+    "lng": -122.092
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Lynnwood",
+    "state": "WA",
+    "lat": 47.834,
+    "lng": -122.273
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.767,
+    "lng": -117.383
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Redmond",
+    "state": "WA",
+    "lat": 47.674,
+    "lng": -122.091
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Richland",
+    "state": "WA",
+    "lat": 46.26,
+    "lng": -119.313
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Puyallup",
+    "state": "WA",
+    "lat": 47.156,
+    "lng": -122.308
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.565,
+    "lng": -122.331
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sequim",
+    "state": "WA",
+    "lat": 48.077,
+    "lng": -123.126
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Ridgefield",
+    "state": "WA",
+    "lat": 45.82,
+    "lng": -122.69
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.225,
+    "lng": -122.467
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.658,
+    "lng": -117.333
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Silverdale",
+    "state": "WA",
+    "lat": 47.657,
+    "lng": -122.681
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tukwila",
+    "state": "WA",
+    "lat": 47.444,
+    "lng": -122.248
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Tumwater",
+    "state": "WA",
+    "lat": 46.996,
+    "lng": -122.917
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Woodinville",
+    "state": "WA",
+    "lat": 47.794,
+    "lng": -122.134
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Vancouver",
+    "state": "WA",
+    "lat": 45.685,
+    "lng": -122.604
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Union Gap",
+    "state": "WA",
+    "lat": 46.562,
+    "lng": -120.5
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "East Wenatchee",
+    "state": "WA",
+    "lat": 47.401,
+    "lng": -120.28
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Bellevue",
+    "state": "WI",
+    "lat": 44.459,
+    "lng": -87.986
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Grand Chute",
+    "state": "WI",
+    "lat": 44.27,
+    "lng": -88.489
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Grafton",
+    "state": "WI",
+    "lat": 43.311,
+    "lng": -87.925
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Eau Claire",
+    "state": "WI",
+    "lat": 44.831,
+    "lng": -91.449
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Menomonee Falls",
+    "state": "WI",
+    "lat": 43.185,
+    "lng": -88.112
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Middleton",
+    "state": "WI",
+    "lat": 43.1,
+    "lng": -89.523
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "New Berlin",
+    "state": "WI",
+    "lat": 42.946,
+    "lng": -88.105
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pleasant Prairie",
+    "state": "WI",
+    "lat": 42.565,
+    "lng": -87.921
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Sun Prairie",
+    "state": "WI",
+    "lat": 43.168,
+    "lng": -89.274
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Pewaukee",
+    "state": "WI",
+    "lat": 43.089,
+    "lng": -88.231
+  },
+  {
+    "name": "Costco Wholesale",
+    "city": "Verona",
+    "state": "WI",
+    "lat": 42.996,
+    "lng": -89.516
+  }
+]

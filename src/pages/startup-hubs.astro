@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Startup hubs: tech jobs, young population, venture capital
+const startup = cities.filter(c => c.population > 100000 && c.tech && c.bachelor).sort((a, b) => ((b.tech || 0) * b.bachelor) - ((a.tech || 0) * a.bachelor)).slice(0, 25);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Top Startup Hubs in US - Best Cities for Entrepreneurs",
+  "description": "Top US startup hubs and tech ecosystems for entrepreneurs and startups."
+};
+---
+
+<Layout title="Top Startup Hubs in US (2026) - Best Cities for Entrepreneurs" description="Top US startup hubs and tech ecosystems for entrepreneurs and new businesses.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Top Startup Hubs in US</h1>
+      <p class="text-xl text-gray-600">Best cities for entrepreneurs and startup ecosystems</p>
+    </header>
+
+    <section class="bg-orange-50 p-6 rounded-lg mb-8">
+      <h2 class="text-xl font-bold mb-4">🚀 What Makes a Great Startup Hub?</h2>
+      <p class="text-gray-700">Successful startup ecosystems combine access to talent (tech jobs + college grads), venture capital, mentorship networks, and affordable operating costs. The best hubs offer both career opportunities and quality of life.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-orange-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Tech %</th>
+            <th class="p-4 text-right">College Grads</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Income</th>
+          </tr>
+        </thead>
+        <tbody>
+          {startup.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-orange-600">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.tech || 0}%</td>
+              <td class="p-4 text-right">{city.bachelor || 0}%</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_income || 0).toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-2xl font-bold mb-4">💼 Startup Resources</h2>
+      <p class="text-gray-700">When evaluating startup hubs, consider: accelerator programs (Y Combinator, Techstars), co-working spaces, local meetups, and investor networks. Cities with strong university presence often have better talent pipelines.</p>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const title = "Top 50 Most Populous US Cities (2026) - Population Ranking";
+const description = "Complete list of the 50 most populous cities in the United States with population, cost of living, and livability data.";
+
+// Top 50 by population
+const topCities = cities
+  .filter(c => c.population > 50000)
+  .sort((a, b) => (b.population || 0) - (a.population || 0))
+  .slice(0, 50);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description
+};
+---
+
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Top 50 Most Populous US Cities</h1>
+      <p class="text-xl text-gray-600">Population ranking with cost of living and livability data</p>
+    </header>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-blue-600 text-white">
+          <tr>
+            <th class="p-4 text-center">#</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Livability</th>
+          </tr>
+        </thead>
+        <tbody>
+          {topCities.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 text-center font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.livability_score || 'N/A'}/10</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

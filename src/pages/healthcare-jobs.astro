@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Cities with most healthcare employment
+const topHealthcare = cities.filter(c => c.healthcare).sort((a, b) => (b.healthcare || 0) - (a.healthcare || 0)).slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Healthcare Job Markets in US - Cities with Most Healthcare Jobs",
+  "description": "Top US cities for healthcare employment. See where healthcare professionals find the most opportunities."
+};
+---
+
+<Layout title="Best Healthcare Job Markets in US (2026) - Healthcare Employment by City" description="Top US cities for healthcare employment and medical jobs.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Healthcare Job Markets in US</h1>
+      <p class="text-xl text-gray-600">Cities with highest percentage of healthcare sector employment</p>
+    </header>
+
+    <div class="bg-red-50 p-6 rounded-lg mb-8">
+      <p class="text-lg">🏥 <strong>Healthcare Sector:</strong> Percentage of workforce in hospitals, clinics, and medical services</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-red-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Healthcare %</th>
+            <th class="p-4 text-right">Tech %</th>
+            <th class="p-4 text-right">Finance %</th>
+            <th class="p-4 text-right">Population</th>
+          </tr>
+        </thead>
+        <tbody>
+          {topHealthcare.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-red-600">{city.healthcare || 0}%</td>
+              <td class="p-4 text-right">{city.tech || 0}%</td>
+              <td class="p-4 text-right">{city.finance || 0}%</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">🏥 Healthcare Employment Overview</h2>
+      <p class="text-gray-600">Healthcare sector includes hospitals, physician offices, nursing facilities, and allied health services. Cities with higher healthcare percentages typically have major medical centers, research hospitals, and growing aging populations requiring more medical services.</p>
+    </div>
+  </div>
+</Layout>

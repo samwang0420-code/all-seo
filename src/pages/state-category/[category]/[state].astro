@@ -1,0 +1,132 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import states from '../../../data/states.json';
+import stateRankings from '../../../data/state_rankings.json';
+
+export function getStaticPaths() {
+  const pages = [];
+  
+  for (const ranking of stateRankings) {
+    const stateData = states.find(s => s.name === ranking.state);
+    if (!stateData) continue;
+    
+    const stateAbbr = stateData.abbr;
+    const slug = ranking.state.toLowerCase().replace(/\s+/g, '-');
+    
+    // Best places to live
+    pages.push({
+      params: { category: 'best-places', state: slug },
+      props: { 
+        state: ranking.state, 
+        stateAbbr,
+        cities: ranking.best_livability.slice(0, 15),
+        title: 'Best Places to Live',
+        description: `Top rated places to live in ${ranking.state} based on livability, safety, and amenities.`
+      }
+    });
+    
+    // Safest cities
+    pages.push({
+      params: { category: 'safest-cities', state: slug },
+      props: { 
+        state: ranking.state, 
+        stateAbbr,
+        cities: ranking.safest.slice(0, 15),
+        title: 'Safest Cities',
+        description: `The safest cities in ${ranking.state} with lowest crime rates.`
+      }
+    });
+    
+    // Most affordable
+    pages.push({
+      params: { category: 'affordable-cities', state: slug },
+      props: { 
+        state: ranking.state, 
+        stateAbbr,
+        cities: ranking.cheapest.slice(0, 15),
+        title: 'Most Affordable',
+        description: `Most affordable cities in ${ranking.state} with lowest cost of living.`
+      }
+    });
+    
+    // Most populous
+    pages.push({
+      params: { category: 'population', state: slug },
+      props: { 
+        state: ranking.state, 
+        stateAbbr,
+        cities: ranking.top_population.slice(0, 15),
+        title: 'Most Populous',
+        description: `Largest cities in ${ranking.state} by population.`
+      }
+    });
+  }
+  
+  return pages.map(p => ({
+    params: { category: p.params.category, state: p.params.state },
+    props: p.props
+  }));
+}
+
+const { state, stateAbbr, cities, title, description } = Astro.props;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": `${title} in ${state}`,
+  "description": description,
+  "url": Astro.url.href
+};
+---
+
+<Layout title={`${title} in ${state} (2026) - ${description}`} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-600 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a> / 
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="hover:text-blue-600">{state}</a> / 
+      <span class="text-gray-900">{title}</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">{title} in {state}</h1>
+      <p class="text-xl text-gray-600">{description}</p>
+    </header>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Livability</th>
+            <th class="p-4 text-right">Crime Index</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cities.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.population?.toLocaleString() || 'N/A'}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.livability_score || 'N/A'}/10</td>
+              <td class="p-4 text-right">{city.crime_index || 'N/A'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mt-8">
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+        ← Back to {state}
+      </a>
+    </section>
+  </div>
+</Layout>

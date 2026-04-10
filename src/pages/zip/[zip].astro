@@ -1,0 +1,119 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import zips from '../../data/zips.json';
+
+export function getStaticPaths() {
+  return zips.map(zip => ({
+    params: { zip: zip.zip },
+    props: { zipData: zip }
+  }));
+}
+
+const { zipData } = Astro.props;
+const { zip, city, state, state_abbr, lat, lng, population, county, timezone } = zipData;
+
+// JSON-LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "PostalCode",
+  "addressCountry": "US",
+  "postalCode": zip,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": state_abbr,
+    "postalCode": zip
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": lat,
+    "longitude": lng
+  },
+  "population": population
+};
+---
+
+<Layout 
+  title={`${zip} ZIP Code - ${city}, ${state_abbr} (2026)`}
+  description={`ZIP code ${zip} covers ${city}, ${state_abbr}. Population: ${population.toLocaleString()}. Location, map, and nearby areas.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-600 mb-6">
+      <a href="/" class="hover:text-blue-600">Home</a> / 
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="hover:text-blue-600">{state}</a> / 
+      <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`} class="hover:text-blue-600">{city}</a> / 
+      <span class="text-gray-900">{zip}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">ZIP Code {zip}</h1>
+      <p class="text-xl text-gray-600">
+        <strong>{city}, {state_abbr}</strong> | 
+        Population: <strong>{population.toLocaleString()}</strong>
+      </p>
+    </header>
+
+    <!-- Quick Stats -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="bg-blue-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">ZIP Code</p>
+        <p class="text-2xl font-bold text-blue-600">{zip}</p>
+      </div>
+      <div class="bg-green-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">City</p>
+        <p class="text-2xl font-bold text-green-600">{city}</p>
+      </div>
+      <div class="bg-purple-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">State</p>
+        <p class="text-2xl font-bold text-purple-600">{state_abbr}</p>
+      </div>
+      <div class="bg-orange-50 p-4 rounded-lg text-center">
+        <p class="text-sm text-gray-600">Population</p>
+        <p class="text-2xl font-bold text-orange-600">{population.toLocaleString()}</p>
+      </div>
+    </section>
+
+    <!-- Location Info -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">📍 Location Information</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold mb-3">🗺️ Details</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>City:</strong> {city}</li>
+            <li><strong>State:</strong> <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:underline">{state}</a></li>
+            <li><strong>County:</strong> {county || 'N/A'}</li>
+            <li><strong>Coordinates:</strong> {lat.toFixed(4)}°N, {Math.abs(lng).toFixed(4)}°{lng < 0 ? 'W' : 'E'}</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-3">🌐 Time & Area</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>Timezone:</strong> {timezone || 'N/A'}</li>
+            <li><strong>ZIP Code:</strong> {zip}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- City Link -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">🏙️ {city}, {state_abbr}</h2>
+      <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`} class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+        View City Profile →
+      </a>
+    </section>
+
+    <!-- State Link -->
+    <section class="bg-white rounded-lg shadow-md p-4 md:p-6">
+      <h2 class="text-xl md:text-2xl font-bold mb-4">🗺️ More in {state}</h2>
+      <a href={`/state/${state.toLowerCase().replace(/\s+/g, '-')}`} class="inline-block bg-blue-600 text-white px-5 py-3 md:px-6 md:py-3 rounded-lg hover:bg-blue-700 text-base md:text-lg w-full md:w-auto text-center no-select">
+        View All {state} →
+      </a>
+    </section>
+  </div>
+</Layout>

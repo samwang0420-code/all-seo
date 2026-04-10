@@ -1,0 +1,79 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Family-friendly: good schools, safety, affordability
+const family = cities
+  .filter(c => c.population > 30000 && c.crime_index && c.livability_score)
+  .map(c => ({
+    ...c,
+    score: (100 - c.crime_index) + (c.livability_score * 10) + ((c.bachelor || 20) * 2) - ((c.median_home_value || 300000) / 20000)
+  }))
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Cities for Families in US - Safe & Great Schools",
+  "description": "Top US cities for families. Safe neighborhoods, good schools, and family-friendly amenities."
+};
+---
+
+<Layout title="Best Cities for Families in US (2026) - Safe & Great Schools" description="Best US cities for families with safe neighborhoods and excellent schools.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Cities for Families in US</h1>
+      <p class="text-xl text-gray-600">Safe neighborhoods, great schools, and family-friendly communities</p>
+    </header>
+
+    <section class="bg-pink-50 p-6 rounded-lg mb-8">
+      <h2 class="text-xl font-bold mb-4">👨‍👩‍👧‍👦 What Makes a City Family-Friendly?</h2>
+      <p class="text-gray-700">Family-friendly cities prioritize safety, school quality, affordability, and access to parks, libraries, and community programs. Our ranking weighs crime rates (lower is better), livability scores, education levels, and housing costs.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-pink-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Safety Score</th>
+            <th class="p-4 text-right">Livability</th>
+            <th class="p-4 text-right">College Educ.</th>
+            <th class="p-4 text-right">Median Home</th>
+          </tr>
+        </thead>
+        <tbody>
+          {family.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-pink-600">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-green-600">{100 - (city.crime_index || 50)}</td>
+              <td class="p-4 text-right">{city.livability_score || 'N/A'}/10</td>
+              <td class="p-4 text-right">{city.bachelor || 'N/A'}%</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mt-8 bg-blue-50 p-6 rounded-lg">
+      <h2 class="text-2xl font-bold mb-4">🏫 Tips for Finding Family-Friendly Cities</h2>
+      <ul class="space-y-3 text-gray-700">
+        <li>📊 <strong>Check school ratings:</strong> GreatSchools and state education departments provide detailed data.</li>
+        <li>🚗 <strong>Consider commute:</strong> Shorter commutes mean more family time.</li>
+        <li>🌳 <strong>Look for parks:</strong> Parks and recreation facilities indicate family-friendly amenities.</li>
+        <li>👥 <strong>Research community:</strong> Local parent groups and family events show active communities.</li>
+        <li>💰 <strong>Plan for the future:</strong> Consider home value appreciation for long-term investment.</li>
+      </ul>
+    </section>
+  </div>
+</Layout>

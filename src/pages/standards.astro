@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const standards = [
+  {
+    category: "Data Sources",
+    items: [
+      { title: "Population Data", source: "U.S. Census Bureau", description: "Official population statistics from the 2020 Census and annual estimates." },
+      { title: "Housing Data", source: "Zillow Research", description: "Median home values and rent prices from Zillow's research database." },
+      { title: "Crime Statistics", source: "FBI Uniform Crime Reporting", description: "Crime index based on FBI UCR data for safety assessments." },
+      { title: "Geographic Data", source: "SimpleMaps", description: "Verified coordinates, timezones, and geographic boundaries." }
+    ]
+  },
+  {
+    category: "Standards Compliance",
+    items: [
+      { title: "JSON-LD Schema", source: "Schema.org", description: "All pages include structured data for search engines and AI." },
+      { title: "WCAG 2.1", source: "W3C", description: "Accessibility standards for visually impaired users." },
+      { title: "SEO Best Practices", source: "Google", description: "Following Google's SEO guidelines for discoverability." }
+    ]
+  },
+  {
+    category: "Data Accuracy",
+    items: [
+      { title: "Source Verification", description: "All data points cross-referenced with official government sources." },
+      { title: "Regular Updates", description: "Data refreshed periodically to ensure accuracy." },
+      { title: "Error Reporting", description: "Users can report inaccuracies for verification." }
+    ]
+  }
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Compliance & Standards",
+  "description": "Data sources, standards, and accuracy verification for US City Data Hub."
+};
+---
+
+<Layout 
+  title="Compliance & Standards | US City Data Hub"
+  description="Data sources, standards, and verification methods for our US city database."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Compliance & Standards</h1>
+      <p class="text-xl text-gray-600">Our commitment to data accuracy and industry standards</p>
+    </header>
+
+    <section class="mb-12">
+      <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded">
+        <h2 class="text-2xl font-bold mb-2">✅ Verified Data Sources</h2>
+        <p class="text-gray-700">All data is sourced from official government agencies and trusted research institutions.</p>
+      </div>
+    </section>
+
+    {standards.map(section => (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-6 text-blue-600">{section.category}</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          {section.items.map(item => (
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-lg font-semibold mb-2">{item.title}</h3>
+              {item.source && <p class="text-sm text-blue-600 mb-2">Source: {item.source}</p>}
+              <p class="text-gray-600">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="bg-gray-50 rounded-lg p-8 mt-12">
+      <h2 class="text-2xl font-bold mb-4">📊 E-E-A-T Principles</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="text-center">
+          <div class="text-3xl mb-2">💼</div>
+          <h3 class="font-semibold">Experience</h3>
+          <p class="text-sm text-gray-600">Real user data</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl mb-2">🎓</div>
+          <h3 class="font-semibold">Expertise</h3>
+          <p class="text-sm text-gray-600">Verified sources</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl mb-2">⭐</div>
+          <h3 class="font-semibold">Authoritativeness</h3>
+          <p class="text-sm text-gray-600">Official data</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl mb-2">🤝</div>
+          <h3 class="font-semibold">Trustworthiness</h3>
+          <p class="text-sm text-gray-600">Transparent methods</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

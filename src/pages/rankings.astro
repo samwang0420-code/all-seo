@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const rankings = {
+  safest: cities.filter(c => c.crime_index).sort((a, b) => a.crime_index - b.crime_index).slice(0, 30),
+  affordable: cities.filter(c => c.median_home_value).sort((a, b) => a.median_home_value - b.median_home_value).slice(0, 30),
+  most_livable: cities.filter(c => c.livability_score).sort((a, b) => b.livability_score - a.livability_score).slice(0, 30),
+  expensive: cities.filter(c => c.median_home_value).sort((a, b) => b.median_home_value - a.median_home_value).slice(0, 30)
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "US City Rankings - Best, Safest, Most Affordable",
+  "description": "Ranked lists of US cities by safety, affordability, livability, and cost."
+};
+---
+
+<Layout title="US City Rankings (2026) - Best, Safest, Most Affordable" description="Top ranked US cities by safety, cost of living, livability, and housing prices.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">US City Rankings</h1>
+      <p class="text-xl text-gray-600">Top cities by safety, affordability, and livability</p>
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Safest Cities -->
+      <section class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold mb-4 flex items-center">
+          <span class="text-2xl mr-2">🛡️</span> Safest Cities
+        </h2>
+        <ol class="space-y-3">
+          {rankings.safest.slice(0, 10).map((city, i) => (
+            <li class="flex justify-between items-center border-b pb-2">
+              <span class="font-medium">{i + 1}. {city.city}, {city.state_abbr}</span>
+              <span class="text-gray-500">Crime: {city.crime_index}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <!-- Most Affordable -->
+      <section class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold mb-4 flex items-center">
+          <span class="text-2xl mr-2">🏠</span> Most Affordable
+        </h2>
+        <ol class="space-y-3">
+          {rankings.affordable.slice(0, 10).map((city, i) => (
+            <li class="flex justify-between items-center border-b pb-2">
+              <span class="font-medium">{i + 1}. {city.city}, {city.state_abbr}</span>
+              <span class="text-gray-500">${city.median_home_value?.toLocaleString()}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <!-- Most Livable -->
+      <section class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold mb-4 flex items-center">
+          <span class="text-2xl mr-2">⭐</span> Most Livable
+        </h2>
+        <ol class="space-y-3">
+          {rankings.most_livable.slice(0, 10).map((city, i) => (
+            <li class="flex justify-between items-center border-b pb-2">
+              <span class="font-medium">{i + 1}. {city.city}, {city.state_abbr}</span>
+              <span class="text-gray-500">{city.livability_score}/10</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <!-- Most Expensive -->
+      <section class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold mb-4 flex items-center">
+          <span class="text-2xl mr-2">💰</span> Most Expensive
+        </h2>
+        <ol class="space-y-3">
+          {rankings.expensive.slice(0, 10).map((city, i) => (
+            <li class="flex justify-between items-center border-b pb-2">
+              <span class="font-medium">{i + 1}. {city.city}, {city.state_abbr}</span>
+              <span class="text-gray-500">${city.median_home_value?.toLocaleString()}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </div>
+  </div>
+</Layout>

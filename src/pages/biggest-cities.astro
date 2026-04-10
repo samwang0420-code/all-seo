@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Largest cities by population (growth proxy)
+const largest = cities.filter(c => c.population > 500000).sort((a, b) => b.population - a.population).slice(0, 20);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Biggest Cities in US by Population - Major Metros",
+  "description": "The biggest US cities by population. Complete list of major metropolitan areas."
+};
+---
+
+<Layout title="Biggest Cities in US by Population (2026) - Major Metro Areas" description="The biggest US cities by population. Major metropolitan areas.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Biggest Cities in US by Population</h1>
+      <p class="text-xl text-gray-600">Major metropolitan areas and their populations</p>
+    </header>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-blue-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-blue-600">{largest.length}</p>
+        <p class="text-gray-600">Cities Listed</p>
+      </div>
+      <div class="bg-green-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-green-600">{largest.reduce((a, c) => a + (c.population || 0), 0).toLocaleString()}</p>
+        <p class="text-gray-600">Total Population</p>
+      </div>
+      <div class="bg-purple-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-purple-600">{Math.round(largest.reduce((a, c) => a + (c.median_home_value || 0), 0) / largest.length / 1000)}K</p>
+        <p class="text-gray-600">Avg Home Price</p>
+      </div>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-purple-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Median Income</th>
+            <th class="p-4 text-right">Livability</th>
+          </tr>
+        </thead>
+        <tbody>
+          {largest.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_income || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.livability_score || 'N/A'}/10</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">🏙️ About Major Metros</h2>
+      <p class="text-gray-600">These are the 20 largest cities in the United States by population. Major metropolitan areas offer diverse economies, cultural amenities, and career opportunities. However, they also typically have higher costs of living. Consider your priorities when choosing a major city.</p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,48 @@
+# GetUSCompliance.com - US City Data Website
+
+## Website Overview
+- **URL**: https://getuscompliance.com
+- **Description**: Comprehensive US city data hub with cost of living, crime rates, demographics, and geographic information for 19,000+ US cities
+- **Purpose**: Help people research US cities for relocation, moving, and demographic insights
+
+## Site Structure
+
+### Homepage
+- URL: https://getuscompliance.com/
+- Content: Search functionality, popular cities, browse by state, statistics
+
+### City Pages
+- Pattern: `/city/{city-name}-{state-abbr}/`
+- Examples:
+  - /city/austin-tx/
+  - /city/new-york-ny/
+  - /city/los-angeles-ca/
+- Content: Cost of living, crime rates, demographics, climate, transportation, FAQs, nearby cities, regional comparisons
+
+### State Pages
+- Pattern: `/state/{state-name}/`
+- Examples:
+  - /state/texas/
+  - /state/california/
+  - /state/florida/
+- Content: List of all cities in that state
+
+## Data Available
+- Population
+- Median home values
+- Median rent prices
+- Crime indices
+- Livability scores
+- Climate information
+- Geographic coordinates
+- Area codes
+- Major highways
+- Airport information
+
+## Update Frequency
+- Data updated weekly
+- Sitemap regenerated with updates
+- Last update: 2026-03-16
+
+## Contact
+- Website: https://getuscompliance.com

@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Group by state and calculate averages
+const stateData = {};
+for (const city of cities) {
+    const state = city.state;
+    if (!stateData[state]) {
+        stateData[state] = { state, population: 0, cities: 0, avg_income: [], avg_home: [], avg_rent: [] };
+    }
+    stateData[state].population += city.population || 0;
+    stateData[state].cities += 1;
+    if (city.median_income) stateData[state].avg_income.push(city.median_income);
+    if (city.median_home_value) stateData[state].avg_home.push(city.median_home_value);
+    if (city.median_rent) stateData[state].avg_rent.push(city.median_rent);
+}
+
+const states = Object.values(stateData).map(s => ({
+    state: s.state,
+    population: s.population,
+    city_count: s.cities,
+    avg_income: Math.round(avg(s.avg_income)),
+    avg_home: Math.round(avg(s.avg_home)),
+    avg_rent: Math.round(avg(s.avg_rent))
+})).sort((a, b) => b.population - a.population);
+
+function avg(arr) { return arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0; }
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "US States Overview - Population, Income & Cost of Living",
+  "description": "Complete overview of all US states with population, median income, and housing costs."
+};
+---
+
+<Layout title="US States Overview (2026) - Population, Income & Cost of Living" description="Overview of all 50 US states with population, income, and cost of living data.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">US States Overview</h1>
+      <p class="text-xl text-gray-600">Population, income, and cost of living by state</p>
+    </header>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-blue-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-blue-600">50</p>
+        <p class="text-gray-600">States</p>
+      </div>
+      <div class="bg-green-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-green-600">{cities.length.toLocaleString()}</p>
+        <p class="text-gray-600">Cities</p>
+      </div>
+      <div class="bg-purple-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-purple-600">{states.reduce((a, s) => a + s.population, 0).toLocaleString()}</p>
+        <p class="text-gray-600">Total Population</p>
+      </div>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-purple-600 text-white">
+          <tr>
+            <th class="p-4 text-left">State</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Cities</th>
+            <th class="p-4 text-right">Median Income</th>
+            <th class="p-4 text-right">Median Home</th>
+          </tr>
+        </thead>
+        <tbody>
+          {states.map((s, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/state/${s.state.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:underline font-semibold">
+                  {s.state}
+                </a>
+              </td>
+              <td class="p-4 text-right">{s.population.toLocaleString()}</td>
+              <td class="p-4 text-right">{s.city_count}</td>
+              <td class="p-4 text-right">${s.avg_income.toLocaleString()}</td>
+              <td class="p-4 text-right">${s.avg_home.toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const topTech = cities.filter(c => c.tech).sort((a, b) => (b.tech || 0) - (a.tech || 0)).slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Tech Job Markets in US - Cities with Most Tech Jobs",
+  "description": "Top US cities for technology jobs and tech industry employment. See where tech workers are thriving."
+};
+---
+
+<Layout title="Best Tech Job Markets in US (2026) - Cities with Most Tech Jobs" description="Top US cities for technology jobs and tech industry employment.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Tech Job Markets in US</h1>
+      <p class="text-xl text-gray-600">Cities with highest percentage of tech sector employment</p>
+    </header>
+
+    <div class="bg-blue-50 p-6 rounded-lg mb-8">
+      <p class="text-lg">💼 <strong>Tech Sector:</strong> Percentage of workforce in technology companies</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-blue-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Tech %</th>
+            <th class="p-4 text-right">Healthcare %</th>
+            <th class="p-4 text-right">Finance %</th>
+            <th class="p-4 text-right">Population</th>
+          </tr>
+        </thead>
+        <tbody>
+          {topTech.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-gray-500">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-green-600">{city.tech || 0}%</td>
+              <td class="p-4 text-right">{city.healthcare || 0}%</td>
+              <td class="p-4 text-right">{city.finance || 0}%</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">📊 Tech Employment Insights</h2>
+      <p class="text-gray-600">Tech sector percentage based on employment data. Higher percentages indicate stronger tech job markets. These cities typically offer higher salaries and more career opportunities for technology professionals.</p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Retirement-friendly cities: affordable, safe, good weather
+const retirement = cities
+  .filter(c => c.population > 30000 && c.crime_index && c.median_home_value)
+  .map(c => ({
+    ...c,
+    score: (100 - c.crime_index) + (500000 - c.median_home_value) / 10000 + (c.livability_score || 5) * 10
+  }))
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Cities for Retirement in US - Affordable & Safe",
+  "description": "Top US cities for retirement. Affordable, safe, and high livability scores."
+};
+---
+
+<Layout title="Best Cities for Retirement in US (2026) - Affordable & Safe" description="Best US cities for retirement with affordable housing, low crime, and high livability.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Cities for Retirement in US</h1>
+      <p class="text-xl text-gray-600">Affordable, safe cities with high livability for retirees</p>
+    </header>
+
+    <div class="bg-amber-50 p-6 rounded-lg mb-8">
+      <p class="text-lg">🏖️ <strong>Retirement Score:</strong> Based on safety, affordability, and livability</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-amber-600 text-white">
+          <tr>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Crime Index</th>
+            <th class="p-4 text-right">Livability</th>
+          </tr>
+        </thead>
+        <tbody>
+          {retirement.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.crime_index || 'N/A'}</td>
+              <td class="p-4 text-right font-bold text-green-600">{city.livability_score || 'N/A'}/10</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

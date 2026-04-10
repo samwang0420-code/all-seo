@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Cities with highest income
+const wealthy = cities.filter(c => c.median_income && c.population > 30000).sort((a, b) => b.median_income - a.median_income).slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Wealthiest Cities in US - Highest Median Income",
+  "description": "US cities with highest median household income. Find affluent communities."
+};
+---
+
+<Layout title="Wealthiest Cities in US (2026) - Highest Median Income" description="US cities with highest median household income.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Wealthiest Cities in US</h1>
+      <p class="text-xl text-gray-600">Highest median household income - most affluent communities</p>
+    </header>
+
+    <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <p class="text-lg">💎 <strong>Wealth:</strong> Median household income. Higher means more affluent.</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-yellow-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Median Income</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Bachelor+</th>
+          </tr>
+        </thead>
+        <tbody>
+          {wealthy.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-yellow-600">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-yellow-600">${(city.median_income || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">{city.bachelor || 'N/A'}%</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

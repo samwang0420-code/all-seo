@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Young professional cities: good jobs, affordable, active lifestyle
+const youngPro = cities
+  .filter(c => c.population > 50000 && c.tech && c.bachelor)
+  .map(c => ({
+    ...c,
+    score: (c.tech * 5) + (c.bachelor * 2) + ((c.median_income || 50000) / 1000) - ((c.median_home_value || 300000) / 10000)
+  }))
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Cities for Young Professionals in US - Jobs & Lifestyle",
+  "description": "Top US cities for young professionals. Great jobs, affordability, and vibrant lifestyle."
+};
+---
+
+<Layout title="Best Cities for Young Professionals in US (2026) - Jobs & Lifestyle" description="Best US cities for young professionals with tech jobs, education, and affordability.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Best Cities for Young Professionals in US</h1>
+      <p class="text-xl text-gray-600">Top cities for career growth, affordability, and lifestyle</p>
+    </header>
+
+    <section class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg mb-8">
+      <h2 class="text-xl font-bold mb-4">🎯 What Makes a City Great for Young Professionals?</h2>
+      <p class="text-gray-700">The best cities for young professionals combine strong job markets, affordable housing, educational opportunities, and vibrant social scenes. Our ranking considers tech job availability, education levels, income growth potential, and cost of living.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-purple-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Tech Jobs</th>
+            <th class="p-4 text-right">College Grads</th>
+            <th class="p-4 text-right">Median Income</th>
+            <th class="p-4 text-right">Median Home</th>
+          </tr>
+        </thead>
+        <tbody>
+          {youngPro.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-purple-600">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{city.tech || 0}%</td>
+              <td class="p-4 text-right">{city.bachelor || 0}%</td>
+              <td class="p-4 text-right">${(city.median_income || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-2xl font-bold mb-4">💡 Tips for Young Professionals</h2>
+      <ul class="space-y-3 text-gray-700">
+        <li>🔍 <strong>Research job markets:</strong> Focus on cities with growing tech and healthcare sectors.</li>
+        <li>🏠 <strong>Consider roommate situations:</strong> Splitting rent in expensive cities can save thousands.</li>
+        <li>📈 <strong>Think long-term:</strong> Cities with lower costs now may offer better career growth.</li>
+        <li>🌆 <strong>Visit before moving:</strong> Get a feel for neighborhoods, commute times, and culture.</li>
+        <li>🤝 <strong>Network actively:</strong> Young professional meetups and industry events are valuable.</li>
+      </ul>
+    </section>
+
+    <section class="mt-8 bg-green-50 p-6 rounded-lg">
+      <h2 class="text-2xl font-bold mb-4">📊 Methodology</h2>
+      <p class="text-gray-700">Our ranking combines tech employment percentage (40%), college graduate rate (25%), median income (20%), and affordability (15%). Cities with populations over 50,000 are included for reliable statistical analysis.</p>
+    </section>
+  </div>
+</Layout>

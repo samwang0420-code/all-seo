@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Calculate average home price by state
+const stateData = {};
+for (const city of cities) {
+    const state = city.state;
+    if (!stateData[state]) stateData[state] = { homes: [], count: 0 };
+    if (city.median_home_value) stateData[state].homes.push(city.median_home_value);
+    stateData[state].count += 1;
+}
+
+const states = Object.entries(stateData).map(([state, d]) => ({
+    state,
+    avg_home: d.homes.length ? Math.round(d.homes.reduce((a, b) => a + b, 0) / d.homes.length) : 0,
+    cities: d.count
+})).sort((a, b) => b.avg_home - a.avg_home);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Average Home Prices by State - US Housing Market",
+  "description": "Average home prices across all US states. Compare housing costs by state."
+};
+---
+
+<Layout title="Average Home Prices by State (2026) - US Housing Market" description="Average home prices across US states. Compare housing costs and market trends.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Average Home Prices by State</h1>
+      <p class="text-xl text-gray-600">US housing market overview by state</p>
+    </header>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-green-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-green-600">${Math.round(states.reduce((a, s) => a + s.avg_home, 0) / states.length).toLocaleString()}</p>
+        <p class="text-gray-600">National Avg</p>
+      </div>
+      <div class="bg-red-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-red-600">${states[0].avg_home.toLocaleString()}</p>
+        <p class="text-gray-600">Highest ({states[0].state})</p>
+      </div>
+      <div class="bg-blue-50 p-6 rounded-lg text-center">
+        <p class="text-4xl font-bold text-blue-600">${states[states.length-1].avg_home.toLocaleString()}</p>
+        <p class="text-gray-600">Lowest ({states[states.length-1].state})</p>
+      </div>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-red-600 text-white">
+          <tr>
+            <th class="p-4 text-left">State</th>
+            <th class="p-4 text-right">Avg Home Price</th>
+            <th class="p-4 text-right">Cities Listed</th>
+          </tr>
+        </thead>
+        <tbody>
+          {states.map((s, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/state/${s.state.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:underline font-semibold">
+                  {s.state}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold">${s.avg_home.toLocaleString()}</td>
+              <td class="p-4 text-right">{s.cities}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

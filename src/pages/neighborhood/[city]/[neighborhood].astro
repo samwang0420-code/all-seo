@@ -1,0 +1,128 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import neighborhoods from '../../../data/neighborhoods.json';
+
+export function getStaticPaths() {
+  const paths = [];
+  
+  Object.entries(neighborhoods.cities).forEach(([cityKey, cityData]) => {
+    cityData.neighborhoods.forEach(n => {
+      paths.push({
+        params: { 
+          city: cityKey.toLowerCase().replace(/\s+/g, '-'),
+          neighborhood: n.url_name || n.name.toLowerCase().replace(/\s+/g, '-').replace(/\//g, '-')
+        },
+        props: { 
+          cityData, 
+          neighborhood: n 
+        }
+      });
+    });
+  });
+  
+  return paths;
+}
+
+const { cityData, neighborhood } = Astro.props;
+const { city, state, neighborhoods: allNeighborhoods } = cityData;
+
+// Calculate nearby neighborhoods (simple distance approximation)
+function getApproxDistance(lat1, lng1, lat2, lng2) {
+  const R = 3959; // miles
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng/2) * Math.sin(dLng/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+}
+
+const nearby = allNeighborhoods
+  .filter(n => n.name !== neighborhood.name)
+  .map(n => ({...n, distance: getApproxDistance(neighborhood.lat, neighborhood.lng, n.lat, n.lng)}))
+  .sort((a, b) => a.distance - b.distance)
+  .slice(0, 10);
+
+const pageTitle = `${neighborhood.name}, ${city}, ${state} - Neighborhood Guide`;
+const canonicalUrl = `https://getuscompliance.com/neighborhood/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}/${neighborhood.name.toLowerCase().replace(/\s+/g, '-')}`;
+---
+
+<Layout title={pageTitle} description={`Learn about ${neighborhood.name} in ${city}, ${state}. ZIP codes: ${neighborhood.zips}. County: ${neighborhood.county}.`}>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-600 mb-4">
+      <a href="/" class="hover:underline">Home</a> / 
+      <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}`} class="hover:underline">{city}, {state}</a> / 
+      <span class="text-gray-900">{neighborhood.name}</span>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-2">{neighborhood.name}</h1>
+    <p class="text-xl text-gray-600 mb-6">Neighborhood in {city}, {state}</p>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-lg font-semibold mb-4">Location Details</h2>
+        <dl class="space-y-2">
+          <div class="flex justify-between">
+            <dt class="text-gray-600">Coordinates:</dt>
+            <dd>{neighborhood.lat.toFixed(4)}, {neighborhood.lng.toFixed(4)}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">ZIP Codes:</dt>
+            <dd>{neighborhood.zips || 'N/A'}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">County:</dt>
+            <dd>{neighborhood.county || 'N/A'}</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-lg font-semibold mb-4">Statistics</h2>
+        <dl class="space-y-2">
+          <div class="flex justify-between">
+            <dt class="text-gray-600">Total Neighborhoods:</dt>
+            <dd>{allNeighborhoods.length}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt class="text-gray-600">This Neighborhood ID:</dt>
+            <dd class="text-xs">{neighborhood.id}</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <!-- Nearby Neighborhoods -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Nearby Neighborhoods</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {nearby.map(n => (
+          <a href={`/neighborhood/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}/${n.name.toLowerCase().replace(/\s+/g, '-')}`} 
+             class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+            <h3 class="font-semibold">{n.name}</h3>
+            <p class="text-sm text-gray-600">{n.distance.toFixed(1)} miles away</p>
+            {n.zips && <p class="text-xs text-gray-500 mt-1">ZIP: {n.zips}</p>}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- All Neighborhoods in City -->
+    <section>
+      <h2 class="text-2xl font-bold mb-4">All {city} Neighborhoods</h2>
+      <div class="flex flex-wrap gap-2">
+        {allNeighborhoods.slice(0, 50).map(n => (
+          <a href={`/neighborhood/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}/${n.name.toLowerCase().replace(/\s+/g, '-')}`}
+             class={`px-3 py-1 rounded-full text-sm ${n.name === neighborhood.name ? 'bg-blue-600 text-white' : 'bg-gray-200 hover:bg-gray-300'}`}>
+            {n.name}
+          </a>
+        ))}
+        {allNeighborhoods.length > 50 && (
+          <span class="px-3 py-1 text-sm text-gray-500">+{allNeighborhoods.length - 50} more</span>
+        )}
+      </div>
+    </section>
+  </main>
+</Layout>

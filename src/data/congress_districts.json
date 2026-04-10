@@ -1,0 +1,3908 @@
+[
+  {
+    "id": "WA01",
+    "name": "WA01 District",
+    "fips": "5301",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.8828,
+    "lng": -122.1426
+  },
+  {
+    "id": "WA10",
+    "name": "WA10 District",
+    "fips": "5310",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.0952,
+    "lng": -122.6898
+  },
+  {
+    "id": "WA02",
+    "name": "WA02 District",
+    "fips": "5302",
+    "congress": "119",
+    "state": "WA",
+    "lat": 48.4426,
+    "lng": -122.3761
+  },
+  {
+    "id": "WA03",
+    "name": "WA03 District",
+    "fips": "5303",
+    "congress": "119",
+    "state": "WA",
+    "lat": 46.3517,
+    "lng": -122.8402
+  },
+  {
+    "id": "WA04",
+    "name": "WA04 District",
+    "fips": "5304",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.0835,
+    "lng": -120.1965
+  },
+  {
+    "id": "WA05",
+    "name": "WA05 District",
+    "fips": "5305",
+    "congress": "119",
+    "state": "WA",
+    "lat": 46.9342,
+    "lng": -118.3989
+  },
+  {
+    "id": "WA06",
+    "name": "WA06 District",
+    "fips": "5306",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.5764,
+    "lng": -123.1876
+  },
+  {
+    "id": "WA07",
+    "name": "WA07 District",
+    "fips": "5307",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.5496,
+    "lng": -122.3774
+  },
+  {
+    "id": "WA08",
+    "name": "WA08 District",
+    "fips": "5308",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.5661,
+    "lng": -121.1306
+  },
+  {
+    "id": "WA09",
+    "name": "WA09 District",
+    "fips": "5309",
+    "congress": "119",
+    "state": "WA",
+    "lat": 47.4464,
+    "lng": -122.24
+  },
+  {
+    "id": "WI01",
+    "name": "WI01 District",
+    "fips": "5501",
+    "congress": "119",
+    "state": "WI",
+    "lat": 42.688,
+    "lng": -88.4495
+  },
+  {
+    "id": "WI02",
+    "name": "WI02 District",
+    "fips": "5502",
+    "congress": "119",
+    "state": "WI",
+    "lat": 42.9757,
+    "lng": -89.5976
+  },
+  {
+    "id": "WI03",
+    "name": "WI03 District",
+    "fips": "5503",
+    "congress": "119",
+    "state": "WI",
+    "lat": 44.0403,
+    "lng": -91.0028
+  },
+  {
+    "id": "WI04",
+    "name": "WI04 District",
+    "fips": "5504",
+    "congress": "119",
+    "state": "WI",
+    "lat": 43.0429,
+    "lng": -87.9367
+  },
+  {
+    "id": "WI05",
+    "name": "WI05 District",
+    "fips": "5505",
+    "congress": "119",
+    "state": "WI",
+    "lat": 43.1695,
+    "lng": -88.3751
+  },
+  {
+    "id": "WI06",
+    "name": "WI06 District",
+    "fips": "5506",
+    "congress": "119",
+    "state": "WI",
+    "lat": 43.7503,
+    "lng": -88.5029
+  },
+  {
+    "id": "WI07",
+    "name": "WI07 District",
+    "fips": "5507",
+    "congress": "119",
+    "state": "WI",
+    "lat": 45.76,
+    "lng": -90.7439
+  },
+  {
+    "id": "WI08",
+    "name": "WI08 District",
+    "fips": "5508",
+    "congress": "119",
+    "state": "WI",
+    "lat": 44.9758,
+    "lng": -87.8023
+  },
+  {
+    "id": "WV01",
+    "name": "WV01 District",
+    "fips": "5401",
+    "congress": "119",
+    "state": "WV",
+    "lat": 38.2581,
+    "lng": -81.0495
+  },
+  {
+    "id": "WV02",
+    "name": "WV02 District",
+    "fips": "5402",
+    "congress": "119",
+    "state": "WV",
+    "lat": 39.3606,
+    "lng": -79.7359
+  },
+  {
+    "id": "FL01",
+    "name": "FL01 District",
+    "fips": "1201",
+    "congress": "119",
+    "state": "FL",
+    "lat": 30.6027,
+    "lng": -86.8822
+  },
+  {
+    "id": "FL02",
+    "name": "FL02 District",
+    "fips": "1202",
+    "congress": "119",
+    "state": "FL",
+    "lat": 30.1596,
+    "lng": -84.6071
+  },
+  {
+    "id": "FL03",
+    "name": "FL03 District",
+    "fips": "1203",
+    "congress": "119",
+    "state": "FL",
+    "lat": 29.6729,
+    "lng": -82.7784
+  },
+  {
+    "id": "FL04",
+    "name": "FL04 District",
+    "fips": "1204",
+    "congress": "119",
+    "state": "FL",
+    "lat": 30.3644,
+    "lng": -81.7571
+  },
+  {
+    "id": "FL05",
+    "name": "FL05 District",
+    "fips": "1205",
+    "congress": "119",
+    "state": "FL",
+    "lat": 30.1125,
+    "lng": -81.5162
+  },
+  {
+    "id": "FL06",
+    "name": "FL06 District",
+    "fips": "1206",
+    "congress": "119",
+    "state": "FL",
+    "lat": 29.2569,
+    "lng": -81.6435
+  },
+  {
+    "id": "FL07",
+    "name": "FL07 District",
+    "fips": "1207",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.9027,
+    "lng": -81.1822
+  },
+  {
+    "id": "FL08",
+    "name": "FL08 District",
+    "fips": "1208",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.2112,
+    "lng": -80.7663
+  },
+  {
+    "id": "FL09",
+    "name": "FL09 District",
+    "fips": "1209",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.1316,
+    "lng": -81.2521
+  },
+  {
+    "id": "FL10",
+    "name": "FL10 District",
+    "fips": "1210",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.5272,
+    "lng": -81.3412
+  },
+  {
+    "id": "FL11",
+    "name": "FL11 District",
+    "fips": "1211",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.6071,
+    "lng": -81.825
+  },
+  {
+    "id": "FL12",
+    "name": "FL12 District",
+    "fips": "1212",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.5885,
+    "lng": -82.4844
+  },
+  {
+    "id": "FL13",
+    "name": "FL13 District",
+    "fips": "1213",
+    "congress": "119",
+    "state": "FL",
+    "lat": 27.8933,
+    "lng": -82.7196
+  },
+  {
+    "id": "FL14",
+    "name": "FL14 District",
+    "fips": "1214",
+    "congress": "119",
+    "state": "FL",
+    "lat": 27.8746,
+    "lng": -82.5309
+  },
+  {
+    "id": "FL15",
+    "name": "FL15 District",
+    "fips": "1215",
+    "congress": "119",
+    "state": "FL",
+    "lat": 28.1316,
+    "lng": -82.2467
+  },
+  {
+    "id": "FL16",
+    "name": "FL16 District",
+    "fips": "1216",
+    "congress": "119",
+    "state": "FL",
+    "lat": 27.6172,
+    "lng": -82.4202
+  },
+  {
+    "id": "FL17",
+    "name": "FL17 District",
+    "fips": "1217",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.9084,
+    "lng": -82.0903
+  },
+  {
+    "id": "FL18",
+    "name": "FL18 District",
+    "fips": "1218",
+    "congress": "119",
+    "state": "FL",
+    "lat": 27.5532,
+    "lng": -81.4576
+  },
+  {
+    "id": "FL19",
+    "name": "FL19 District",
+    "fips": "1219",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.4719,
+    "lng": -81.9377
+  },
+  {
+    "id": "FL20",
+    "name": "FL20 District",
+    "fips": "1220",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.4596,
+    "lng": -80.3227
+  },
+  {
+    "id": "FL21",
+    "name": "FL21 District",
+    "fips": "1221",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.9456,
+    "lng": -80.2761
+  },
+  {
+    "id": "FL22",
+    "name": "FL22 District",
+    "fips": "1222",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.5549,
+    "lng": -80.1679
+  },
+  {
+    "id": "FL23",
+    "name": "FL23 District",
+    "fips": "1223",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.285,
+    "lng": -80.1517
+  },
+  {
+    "id": "FL24",
+    "name": "FL24 District",
+    "fips": "1224",
+    "congress": "119",
+    "state": "FL",
+    "lat": 25.8754,
+    "lng": -80.2023
+  },
+  {
+    "id": "FL25",
+    "name": "FL25 District",
+    "fips": "1225",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.0493,
+    "lng": -80.2863
+  },
+  {
+    "id": "FL26",
+    "name": "FL26 District",
+    "fips": "1226",
+    "congress": "119",
+    "state": "FL",
+    "lat": 26.044,
+    "lng": -81.0426
+  },
+  {
+    "id": "FL27",
+    "name": "FL27 District",
+    "fips": "1227",
+    "congress": "119",
+    "state": "FL",
+    "lat": 25.6984,
+    "lng": -80.2763
+  },
+  {
+    "id": "FL28",
+    "name": "FL28 District",
+    "fips": "1228",
+    "congress": "119",
+    "state": "FL",
+    "lat": 25.1839,
+    "lng": -80.9628
+  },
+  {
+    "id": "WY00",
+    "name": "WY00 District",
+    "fips": "5600",
+    "congress": "119",
+    "state": "WY",
+    "lat": 43.2965,
+    "lng": -108.3859
+  },
+  {
+    "id": "NH01",
+    "name": "NH01 District",
+    "fips": "3301",
+    "congress": "119",
+    "state": "NH",
+    "lat": 43.4586,
+    "lng": -71.2186
+  },
+  {
+    "id": "NH02",
+    "name": "NH02 District",
+    "fips": "3302",
+    "congress": "119",
+    "state": "NH",
+    "lat": 43.6901,
+    "lng": -71.8791
+  },
+  {
+    "id": "NJ01",
+    "name": "NJ01 District",
+    "fips": "3401",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 39.8638,
+    "lng": -75.0875
+  },
+  {
+    "id": "NJ10",
+    "name": "NJ10 District",
+    "fips": "3410",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.7314,
+    "lng": -74.2062
+  },
+  {
+    "id": "NJ11",
+    "name": "NJ11 District",
+    "fips": "3411",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.8504,
+    "lng": -74.3655
+  },
+  {
+    "id": "NJ12",
+    "name": "NJ12 District",
+    "fips": "3412",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.4004,
+    "lng": -74.5983
+  },
+  {
+    "id": "NJ02",
+    "name": "NJ02 District",
+    "fips": "3402",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 39.5572,
+    "lng": -75.1562
+  },
+  {
+    "id": "NJ03",
+    "name": "NJ03 District",
+    "fips": "3403",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.0597,
+    "lng": -74.5993
+  },
+  {
+    "id": "NJ05",
+    "name": "NJ05 District",
+    "fips": "3405",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 41.044,
+    "lng": -74.3926
+  },
+  {
+    "id": "NJ06",
+    "name": "NJ06 District",
+    "fips": "3406",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.4285,
+    "lng": -74.1959
+  },
+  {
+    "id": "NJ07",
+    "name": "NJ07 District",
+    "fips": "3407",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.7339,
+    "lng": -74.7333
+  },
+  {
+    "id": "NJ08",
+    "name": "NJ08 District",
+    "fips": "3408",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.7179,
+    "lng": -74.1207
+  },
+  {
+    "id": "NJ09",
+    "name": "NJ09 District",
+    "fips": "3409",
+    "congress": "119",
+    "state": "NJ",
+    "lat": 40.8948,
+    "lng": -74.13
+  },
+  {
+    "id": "NM01",
+    "name": "NM01 District",
+    "fips": "3501",
+    "congress": "119",
+    "state": "NM",
+    "lat": 34.3852,
+    "lng": -105.7318
+  },
+  {
+    "id": "NM02",
+    "name": "NM02 District",
+    "fips": "3502",
+    "congress": "119",
+    "state": "NM",
+    "lat": 33.3598,
+    "lng": -106.381
+  },
+  {
+    "id": "NM03",
+    "name": "NM03 District",
+    "fips": "3503",
+    "congress": "119",
+    "state": "NM",
+    "lat": 34.758,
+    "lng": -105.227
+  },
+  {
+    "id": "NC01",
+    "name": "NC01 District",
+    "fips": "3701",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.9795,
+    "lng": -77.0113
+  },
+  {
+    "id": "NC10",
+    "name": "NC10 District",
+    "fips": "3710",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.8871,
+    "lng": -80.8215
+  },
+  {
+    "id": "NC11",
+    "name": "NC11 District",
+    "fips": "3711",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.6366,
+    "lng": -82.7374
+  },
+  {
+    "id": "NC12",
+    "name": "NC12 District",
+    "fips": "3712",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.2117,
+    "lng": -80.8121
+  },
+  {
+    "id": "NC13",
+    "name": "NC13 District",
+    "fips": "3713",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.8537,
+    "lng": -78.6449
+  },
+  {
+    "id": "NC14",
+    "name": "NC14 District",
+    "fips": "3714",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.4438,
+    "lng": -81.5167
+  },
+  {
+    "id": "NC02",
+    "name": "NC02 District",
+    "fips": "3702",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.8555,
+    "lng": -78.6096
+  },
+  {
+    "id": "NC03",
+    "name": "NC03 District",
+    "fips": "3703",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.3059,
+    "lng": -76.7829
+  },
+  {
+    "id": "NC04",
+    "name": "NC04 District",
+    "fips": "3704",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.8101,
+    "lng": -78.9631
+  },
+  {
+    "id": "NC05",
+    "name": "NC05 District",
+    "fips": "3705",
+    "congress": "119",
+    "state": "NC",
+    "lat": 36.1991,
+    "lng": -80.8209
+  },
+  {
+    "id": "NC06",
+    "name": "NC06 District",
+    "fips": "3706",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.8277,
+    "lng": -80.3173
+  },
+  {
+    "id": "NC07",
+    "name": "NC07 District",
+    "fips": "3707",
+    "congress": "119",
+    "state": "NC",
+    "lat": 34.7253,
+    "lng": -78.5214
+  },
+  {
+    "id": "NC08",
+    "name": "NC08 District",
+    "fips": "3708",
+    "congress": "119",
+    "state": "NC",
+    "lat": 34.984,
+    "lng": -79.9012
+  },
+  {
+    "id": "NC09",
+    "name": "NC09 District",
+    "fips": "3709",
+    "congress": "119",
+    "state": "NC",
+    "lat": 35.5589,
+    "lng": -79.3627
+  },
+  {
+    "id": "ND00",
+    "name": "ND00 District",
+    "fips": "3800",
+    "congress": "119",
+    "state": "ND",
+    "lat": 47.424,
+    "lng": -99.6594
+  },
+  {
+    "id": "NE01",
+    "name": "NE01 District",
+    "fips": "3101",
+    "congress": "119",
+    "state": "NE",
+    "lat": 41.1918,
+    "lng": -96.5311
+  },
+  {
+    "id": "NE03",
+    "name": "NE03 District",
+    "fips": "3103",
+    "congress": "119",
+    "state": "NE",
+    "lat": 41.5975,
+    "lng": -97.5612
+  },
+  {
+    "id": "NE02",
+    "name": "NE02 District",
+    "fips": "3102",
+    "congress": "119",
+    "state": "NE",
+    "lat": 41.2203,
+    "lng": -96.2703
+  },
+  {
+    "id": "NY01",
+    "name": "NY01 District",
+    "fips": "3601",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.9461,
+    "lng": -72.694
+  },
+  {
+    "id": "NY02",
+    "name": "NY02 District",
+    "fips": "3602",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.7507,
+    "lng": -73.1693
+  },
+  {
+    "id": "NY03",
+    "name": "NY03 District",
+    "fips": "3603",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.8313,
+    "lng": -73.5995
+  },
+  {
+    "id": "NY04",
+    "name": "NY04 District",
+    "fips": "3604",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.6581,
+    "lng": -73.6187
+  },
+  {
+    "id": "NY05",
+    "name": "NY05 District",
+    "fips": "3605",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.6618,
+    "lng": -73.7951
+  },
+  {
+    "id": "NY06",
+    "name": "NY06 District",
+    "fips": "3606",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.747,
+    "lng": -73.8268
+  },
+  {
+    "id": "NY07",
+    "name": "NY07 District",
+    "fips": "3607",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.7108,
+    "lng": -73.9101
+  },
+  {
+    "id": "NY08",
+    "name": "NY08 District",
+    "fips": "3608",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.6329,
+    "lng": -73.9205
+  },
+  {
+    "id": "NY09",
+    "name": "NY09 District",
+    "fips": "3609",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.6446,
+    "lng": -73.9567
+  },
+  {
+    "id": "NY10",
+    "name": "NY10 District",
+    "fips": "3610",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.6818,
+    "lng": -74.0155
+  },
+  {
+    "id": "NY11",
+    "name": "NY11 District",
+    "fips": "3611",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.5775,
+    "lng": -74.1253
+  },
+  {
+    "id": "NY12",
+    "name": "NY12 District",
+    "fips": "3612",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.7672,
+    "lng": -73.9754
+  },
+  {
+    "id": "NY13",
+    "name": "NY13 District",
+    "fips": "3613",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.8354,
+    "lng": -73.9367
+  },
+  {
+    "id": "NY14",
+    "name": "NY14 District",
+    "fips": "3614",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.8019,
+    "lng": -73.8561
+  },
+  {
+    "id": "NY15",
+    "name": "NY15 District",
+    "fips": "3615",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.8697,
+    "lng": -73.9027
+  },
+  {
+    "id": "NY16",
+    "name": "NY16 District",
+    "fips": "3616",
+    "congress": "119",
+    "state": "NY",
+    "lat": 40.9744,
+    "lng": -73.8001
+  },
+  {
+    "id": "NY17",
+    "name": "NY17 District",
+    "fips": "3617",
+    "congress": "119",
+    "state": "NY",
+    "lat": 41.3332,
+    "lng": -73.7897
+  },
+  {
+    "id": "NY18",
+    "name": "NY18 District",
+    "fips": "3618",
+    "congress": "119",
+    "state": "NY",
+    "lat": 41.6882,
+    "lng": -74.0756
+  },
+  {
+    "id": "NY19",
+    "name": "NY19 District",
+    "fips": "3619",
+    "congress": "119",
+    "state": "NY",
+    "lat": 42.2118,
+    "lng": -74.8682
+  },
+  {
+    "id": "NY20",
+    "name": "NY20 District",
+    "fips": "3620",
+    "congress": "119",
+    "state": "NY",
+    "lat": 42.7889,
+    "lng": -73.8362
+  },
+  {
+    "id": "NY21",
+    "name": "NY21 District",
+    "fips": "3621",
+    "congress": "119",
+    "state": "NY",
+    "lat": 43.6675,
+    "lng": -74.506
+  },
+  {
+    "id": "NY22",
+    "name": "NY22 District",
+    "fips": "3622",
+    "congress": "119",
+    "state": "NY",
+    "lat": 42.9373,
+    "lng": -75.9874
+  },
+  {
+    "id": "NY23",
+    "name": "NY23 District",
+    "fips": "3623",
+    "congress": "119",
+    "state": "NY",
+    "lat": 42.4803,
+    "lng": -77.8403
+  },
+  {
+    "id": "NY24",
+    "name": "NY24 District",
+    "fips": "3624",
+    "congress": "119",
+    "state": "NY",
+    "lat": 43.2942,
+    "lng": -76.9049
+  },
+  {
+    "id": "NY25",
+    "name": "NY25 District",
+    "fips": "3625",
+    "congress": "119",
+    "state": "NY",
+    "lat": 43.1197,
+    "lng": -77.6655
+  },
+  {
+    "id": "NY26",
+    "name": "NY26 District",
+    "fips": "3626",
+    "congress": "119",
+    "state": "NY",
+    "lat": 42.9272,
+    "lng": -78.8773
+  },
+  {
+    "id": "RI01",
+    "name": "RI01 District",
+    "fips": "4401",
+    "congress": "119",
+    "state": "RI",
+    "lat": 41.6911,
+    "lng": -71.3274
+  },
+  {
+    "id": "RI02",
+    "name": "RI02 District",
+    "fips": "4402",
+    "congress": "119",
+    "state": "RI",
+    "lat": 41.5424,
+    "lng": -71.5713
+  },
+  {
+    "id": "NV01",
+    "name": "NV01 District",
+    "fips": "3201",
+    "congress": "119",
+    "state": "NV",
+    "lat": 35.9405,
+    "lng": -114.9309
+  },
+  {
+    "id": "NV02",
+    "name": "NV02 District",
+    "fips": "3202",
+    "congress": "119",
+    "state": "NV",
+    "lat": 39.9587,
+    "lng": -117.7733
+  },
+  {
+    "id": "NV04",
+    "name": "NV04 District",
+    "fips": "3204",
+    "congress": "119",
+    "state": "NV",
+    "lat": 37.54,
+    "lng": -116.4596
+  },
+  {
+    "id": "CO01",
+    "name": "CO01 District",
+    "fips": "0801",
+    "congress": "119",
+    "state": "CO",
+    "lat": 39.7587,
+    "lng": -104.8484
+  },
+  {
+    "id": "CO02",
+    "name": "CO02 District",
+    "fips": "0802",
+    "congress": "119",
+    "state": "CO",
+    "lat": 40.0477,
+    "lng": -106.0225
+  },
+  {
+    "id": "CO03",
+    "name": "CO03 District",
+    "fips": "0803",
+    "congress": "119",
+    "state": "CO",
+    "lat": 38.739,
+    "lng": -106.2438
+  },
+  {
+    "id": "CO04",
+    "name": "CO04 District",
+    "fips": "0804",
+    "congress": "119",
+    "state": "CO",
+    "lat": 39.3368,
+    "lng": -104.0958
+  },
+  {
+    "id": "CO05",
+    "name": "CO05 District",
+    "fips": "0805",
+    "congress": "119",
+    "state": "CO",
+    "lat": 38.8495,
+    "lng": -104.6077
+  },
+  {
+    "id": "CO06",
+    "name": "CO06 District",
+    "fips": "0806",
+    "congress": "119",
+    "state": "CO",
+    "lat": 39.6766,
+    "lng": -104.8148
+  },
+  {
+    "id": "CO07",
+    "name": "CO07 District",
+    "fips": "0807",
+    "congress": "119",
+    "state": "CO",
+    "lat": 39.036,
+    "lng": -105.6673
+  },
+  {
+    "id": "CO08",
+    "name": "CO08 District",
+    "fips": "0808",
+    "congress": "119",
+    "state": "CO",
+    "lat": 40.152,
+    "lng": -104.8373
+  },
+  {
+    "id": "CA42",
+    "name": "CA42 District",
+    "fips": "0642",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.4591,
+    "lng": -118.2375
+  },
+  {
+    "id": "CA40",
+    "name": "CA40 District",
+    "fips": "0640",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.6935,
+    "lng": -117.5021
+  },
+  {
+    "id": "CA49",
+    "name": "CA49 District",
+    "fips": "0649",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.2589,
+    "lng": -117.3284
+  },
+  {
+    "id": "CA47",
+    "name": "CA47 District",
+    "fips": "0647",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.6228,
+    "lng": -117.7429
+  },
+  {
+    "id": "CA23",
+    "name": "CA23 District",
+    "fips": "0623",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.7048,
+    "lng": -116.0481
+  },
+  {
+    "id": "CA48",
+    "name": "CA48 District",
+    "fips": "0648",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.3827,
+    "lng": -116.7566
+  },
+  {
+    "id": "CA25",
+    "name": "CA25 District",
+    "fips": "0625",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.5914,
+    "lng": -115.9311
+  },
+  {
+    "id": "CA24",
+    "name": "CA24 District",
+    "fips": "0624",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.5725,
+    "lng": -120.0007
+  },
+  {
+    "id": "CA52",
+    "name": "CA52 District",
+    "fips": "0652",
+    "congress": "119",
+    "state": "CA",
+    "lat": 32.7202,
+    "lng": -116.6997
+  },
+  {
+    "id": "CA51",
+    "name": "CA51 District",
+    "fips": "0651",
+    "congress": "119",
+    "state": "CA",
+    "lat": 32.882,
+    "lng": -116.8533
+  },
+  {
+    "id": "CA50",
+    "name": "CA50 District",
+    "fips": "0650",
+    "congress": "119",
+    "state": "CA",
+    "lat": 32.9554,
+    "lng": -117.0785
+  },
+  {
+    "id": "CA35",
+    "name": "CA35 District",
+    "fips": "0635",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.0201,
+    "lng": -117.6317
+  },
+  {
+    "id": "CA39",
+    "name": "CA39 District",
+    "fips": "0639",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.8866,
+    "lng": -117.2814
+  },
+  {
+    "id": "CA33",
+    "name": "CA33 District",
+    "fips": "0633",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.0933,
+    "lng": -117.3594
+  },
+  {
+    "id": "CA28",
+    "name": "CA28 District",
+    "fips": "0628",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.234,
+    "lng": -117.8615
+  },
+  {
+    "id": "CA05",
+    "name": "CA05 District",
+    "fips": "0605",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.2548,
+    "lng": -119.332
+  },
+  {
+    "id": "CA04",
+    "name": "CA04 District",
+    "fips": "0604",
+    "congress": "119",
+    "state": "CA",
+    "lat": 38.864,
+    "lng": -122.0081
+  },
+  {
+    "id": "CA01",
+    "name": "CA01 District",
+    "fips": "0601",
+    "congress": "119",
+    "state": "CA",
+    "lat": 39.5003,
+    "lng": -122.3579
+  },
+  {
+    "id": "CA19",
+    "name": "CA19 District",
+    "fips": "0619",
+    "congress": "119",
+    "state": "CA",
+    "lat": 36.3874,
+    "lng": -121.4491
+  },
+  {
+    "id": "CA18",
+    "name": "CA18 District",
+    "fips": "0618",
+    "congress": "119",
+    "state": "CA",
+    "lat": 36.7584,
+    "lng": -121.3292
+  },
+  {
+    "id": "CA13",
+    "name": "CA13 District",
+    "fips": "0613",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.3339,
+    "lng": -120.9056
+  },
+  {
+    "id": "CA09",
+    "name": "CA09 District",
+    "fips": "0609",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.9241,
+    "lng": -121.455
+  },
+  {
+    "id": "CA10",
+    "name": "CA10 District",
+    "fips": "0610",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.912,
+    "lng": -121.9316
+  },
+  {
+    "id": "CA14",
+    "name": "CA14 District",
+    "fips": "0614",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.6045,
+    "lng": -121.8807
+  },
+  {
+    "id": "CA11",
+    "name": "CA11 District",
+    "fips": "0611",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.7421,
+    "lng": -122.4455
+  },
+  {
+    "id": "CA08",
+    "name": "CA08 District",
+    "fips": "0608",
+    "congress": "119",
+    "state": "CA",
+    "lat": 38.1865,
+    "lng": -121.8821
+  },
+  {
+    "id": "CA12",
+    "name": "CA12 District",
+    "fips": "0612",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.7898,
+    "lng": -122.226
+  },
+  {
+    "id": "CA15",
+    "name": "CA15 District",
+    "fips": "0615",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.5742,
+    "lng": -122.3075
+  },
+  {
+    "id": "CA16",
+    "name": "CA16 District",
+    "fips": "0616",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.3407,
+    "lng": -122.1623
+  },
+  {
+    "id": "CA17",
+    "name": "CA17 District",
+    "fips": "0617",
+    "congress": "119",
+    "state": "CA",
+    "lat": 37.4254,
+    "lng": -121.9594
+  },
+  {
+    "id": "CA21",
+    "name": "CA21 District",
+    "fips": "0621",
+    "congress": "119",
+    "state": "CA",
+    "lat": 36.5956,
+    "lng": -119.5308
+  },
+  {
+    "id": "CA20",
+    "name": "CA20 District",
+    "fips": "0620",
+    "congress": "119",
+    "state": "CA",
+    "lat": 35.9317,
+    "lng": -118.9467
+  },
+  {
+    "id": "CA22",
+    "name": "CA22 District",
+    "fips": "0622",
+    "congress": "119",
+    "state": "CA",
+    "lat": 36.0109,
+    "lng": -119.5487
+  },
+  {
+    "id": "CA29",
+    "name": "CA29 District",
+    "fips": "0629",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.237,
+    "lng": -118.4164
+  },
+  {
+    "id": "CA36",
+    "name": "CA36 District",
+    "fips": "0636",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.9124,
+    "lng": -118.3995
+  },
+  {
+    "id": "CA32",
+    "name": "CA32 District",
+    "fips": "0632",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.1603,
+    "lng": -118.6358
+  },
+  {
+    "id": "CA26",
+    "name": "CA26 District",
+    "fips": "0626",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.4517,
+    "lng": -118.8721
+  },
+  {
+    "id": "CA27",
+    "name": "CA27 District",
+    "fips": "0627",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.5178,
+    "lng": -118.3269
+  },
+  {
+    "id": "CA30",
+    "name": "CA30 District",
+    "fips": "0630",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.2927,
+    "lng": -118.2585
+  },
+  {
+    "id": "CA34",
+    "name": "CA34 District",
+    "fips": "0634",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.0674,
+    "lng": -118.2116
+  },
+  {
+    "id": "CA46",
+    "name": "CA46 District",
+    "fips": "0646",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.7948,
+    "lng": -117.8889
+  },
+  {
+    "id": "CA45",
+    "name": "CA45 District",
+    "fips": "0645",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.8032,
+    "lng": -117.9924
+  },
+  {
+    "id": "CA38",
+    "name": "CA38 District",
+    "fips": "0638",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.9886,
+    "lng": -117.9509
+  },
+  {
+    "id": "CA31",
+    "name": "CA31 District",
+    "fips": "0631",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.0843,
+    "lng": -117.8309
+  },
+  {
+    "id": "CA41",
+    "name": "CA41 District",
+    "fips": "0641",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.887,
+    "lng": -118.0492
+  },
+  {
+    "id": "CA44",
+    "name": "CA44 District",
+    "fips": "0644",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.8684,
+    "lng": -118.2322
+  },
+  {
+    "id": "CA43",
+    "name": "CA43 District",
+    "fips": "0643",
+    "congress": "119",
+    "state": "CA",
+    "lat": 33.9083,
+    "lng": -118.3211
+  },
+  {
+    "id": "CA37",
+    "name": "CA37 District",
+    "fips": "0637",
+    "congress": "119",
+    "state": "CA",
+    "lat": 34.0014,
+    "lng": -118.3197
+  },
+  {
+    "id": "CA06",
+    "name": "CA06 District",
+    "fips": "0606",
+    "congress": "119",
+    "state": "CA",
+    "lat": 38.6632,
+    "lng": -121.4322
+  },
+  {
+    "id": "CA03",
+    "name": "CA03 District",
+    "fips": "0603",
+    "congress": "119",
+    "state": "CA",
+    "lat": 38.8765,
+    "lng": -120.8286
+  },
+  {
+    "id": "CA07",
+    "name": "CA07 District",
+    "fips": "0607",
+    "congress": "119",
+    "state": "CA",
+    "lat": 38.4797,
+    "lng": -121.1467
+  },
+  {
+    "id": "CA02",
+    "name": "CA02 District",
+    "fips": "0602",
+    "congress": "119",
+    "state": "CA",
+    "lat": 40.118,
+    "lng": -122.9074
+  },
+  {
+    "id": "GA02",
+    "name": "GA02 District",
+    "fips": "1302",
+    "congress": "119",
+    "state": "GA",
+    "lat": 32.0899,
+    "lng": -84.4201
+  },
+  {
+    "id": "GA03",
+    "name": "GA03 District",
+    "fips": "1303",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.1618,
+    "lng": -84.6049
+  },
+  {
+    "id": "GA01",
+    "name": "GA01 District",
+    "fips": "1301",
+    "congress": "119",
+    "state": "GA",
+    "lat": 31.4017,
+    "lng": -81.7093
+  },
+  {
+    "id": "GA08",
+    "name": "GA08 District",
+    "fips": "1308",
+    "congress": "119",
+    "state": "GA",
+    "lat": 32.2029,
+    "lng": -83.2735
+  },
+  {
+    "id": "GA12",
+    "name": "GA12 District",
+    "fips": "1312",
+    "congress": "119",
+    "state": "GA",
+    "lat": 32.892,
+    "lng": -82.2633
+  },
+  {
+    "id": "GA14",
+    "name": "GA14 District",
+    "fips": "1314",
+    "congress": "119",
+    "state": "GA",
+    "lat": 34.4647,
+    "lng": -84.9926
+  },
+  {
+    "id": "GA06",
+    "name": "GA06 District",
+    "fips": "1306",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.6843,
+    "lng": -84.5518
+  },
+  {
+    "id": "GA11",
+    "name": "GA11 District",
+    "fips": "1311",
+    "congress": "119",
+    "state": "GA",
+    "lat": 34.246,
+    "lng": -84.622
+  },
+  {
+    "id": "GA05",
+    "name": "GA05 District",
+    "fips": "1305",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.6821,
+    "lng": -84.3811
+  },
+  {
+    "id": "GA04",
+    "name": "GA04 District",
+    "fips": "1304",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.857,
+    "lng": -84.2068
+  },
+  {
+    "id": "GA13",
+    "name": "GA13 District",
+    "fips": "1313",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.6388,
+    "lng": -84.1125
+  },
+  {
+    "id": "GA07",
+    "name": "GA07 District",
+    "fips": "1307",
+    "congress": "119",
+    "state": "GA",
+    "lat": 34.3023,
+    "lng": -84.1589
+  },
+  {
+    "id": "GA09",
+    "name": "GA09 District",
+    "fips": "1309",
+    "congress": "119",
+    "state": "GA",
+    "lat": 34.4875,
+    "lng": -83.8172
+  },
+  {
+    "id": "GA10",
+    "name": "GA10 District",
+    "fips": "1310",
+    "congress": "119",
+    "state": "GA",
+    "lat": 33.7116,
+    "lng": -83.379
+  },
+  {
+    "id": "CT01",
+    "name": "CT01 District",
+    "fips": "0901",
+    "congress": "119",
+    "state": "CT",
+    "lat": 41.782,
+    "lng": -72.7809
+  },
+  {
+    "id": "CT02",
+    "name": "CT02 District",
+    "fips": "0902",
+    "congress": "119",
+    "state": "CT",
+    "lat": 41.4938,
+    "lng": -72.449
+  },
+  {
+    "id": "CT03",
+    "name": "CT03 District",
+    "fips": "0903",
+    "congress": "119",
+    "state": "CT",
+    "lat": 41.2765,
+    "lng": -72.9504
+  },
+  {
+    "id": "CT04",
+    "name": "CT04 District",
+    "fips": "0904",
+    "congress": "119",
+    "state": "CT",
+    "lat": 41.246,
+    "lng": -73.3297
+  },
+  {
+    "id": "CT05",
+    "name": "CT05 District",
+    "fips": "0905",
+    "congress": "119",
+    "state": "CT",
+    "lat": 41.6427,
+    "lng": -73.059
+  },
+  {
+    "id": "OK01",
+    "name": "OK01 District",
+    "fips": "4001",
+    "congress": "119",
+    "state": "OK",
+    "lat": 36.0497,
+    "lng": -95.8027
+  },
+  {
+    "id": "OK02",
+    "name": "OK02 District",
+    "fips": "4002",
+    "congress": "119",
+    "state": "OK",
+    "lat": 34.383,
+    "lng": -95.7809
+  },
+  {
+    "id": "OK03",
+    "name": "OK03 District",
+    "fips": "4003",
+    "congress": "119",
+    "state": "OK",
+    "lat": 35.7715,
+    "lng": -99.2217
+  },
+  {
+    "id": "OK04",
+    "name": "OK04 District",
+    "fips": "4004",
+    "congress": "119",
+    "state": "OK",
+    "lat": 34.2781,
+    "lng": -97.8053
+  },
+  {
+    "id": "OK05",
+    "name": "OK05 District",
+    "fips": "4005",
+    "congress": "119",
+    "state": "OK",
+    "lat": 35.4163,
+    "lng": -97.081
+  },
+  {
+    "id": "OH01",
+    "name": "OH01 District",
+    "fips": "3901",
+    "congress": "119",
+    "state": "OH",
+    "lat": 39.243,
+    "lng": -84.4096
+  },
+  {
+    "id": "OH10",
+    "name": "OH10 District",
+    "fips": "3910",
+    "congress": "119",
+    "state": "OH",
+    "lat": 39.8169,
+    "lng": -83.9942
+  },
+  {
+    "id": "OH11",
+    "name": "OH11 District",
+    "fips": "3911",
+    "congress": "119",
+    "state": "OH",
+    "lat": 41.4773,
+    "lng": -81.606
+  },
+  {
+    "id": "OH12",
+    "name": "OH12 District",
+    "fips": "3912",
+    "congress": "119",
+    "state": "OH",
+    "lat": 39.9191,
+    "lng": -81.9751
+  },
+  {
+    "id": "OH13",
+    "name": "OH13 District",
+    "fips": "3913",
+    "congress": "119",
+    "state": "OH",
+    "lat": 40.9723,
+    "lng": -81.4765
+  },
+  {
+    "id": "OH14",
+    "name": "OH14 District",
+    "fips": "3914",
+    "congress": "119",
+    "state": "OH",
+    "lat": 41.4989,
+    "lng": -81.1384
+  },
+  {
+    "id": "OH15",
+    "name": "OH15 District",
+    "fips": "3915",
+    "congress": "119",
+    "state": "OH",
+    "lat": 39.9258,
+    "lng": -83.6193
+  },
+  {
+    "id": "OH02",
+    "name": "OH02 District",
+    "fips": "3902",
+    "congress": "119",
+    "state": "OH",
+    "lat": 38.9964,
+    "lng": -82.8604
+  },
+  {
+    "id": "OH03",
+    "name": "OH03 District",
+    "fips": "3903",
+    "congress": "119",
+    "state": "OH",
+    "lat": 40.023,
+    "lng": -82.9402
+  },
+  {
+    "id": "OH04",
+    "name": "OH04 District",
+    "fips": "3904",
+    "congress": "119",
+    "state": "OH",
+    "lat": 40.5844,
+    "lng": -83.3499
+  },
+  {
+    "id": "OH05",
+    "name": "OH05 District",
+    "fips": "3905",
+    "congress": "119",
+    "state": "OH",
+    "lat": 41.11,
+    "lng": -83.4099
+  },
+  {
+    "id": "OH06",
+    "name": "OH06 District",
+    "fips": "3906",
+    "congress": "119",
+    "state": "OH",
+    "lat": 40.0687,
+    "lng": -81.248
+  },
+  {
+    "id": "OH07",
+    "name": "OH07 District",
+    "fips": "3907",
+    "congress": "119",
+    "state": "OH",
+    "lat": 41.1636,
+    "lng": -81.8402
+  },
+  {
+    "id": "OH08",
+    "name": "OH08 District",
+    "fips": "3908",
+    "congress": "119",
+    "state": "OH",
+    "lat": 39.5932,
+    "lng": -84.527
+  },
+  {
+    "id": "OH09",
+    "name": "OH09 District",
+    "fips": "3909",
+    "congress": "119",
+    "state": "OH",
+    "lat": 41.4588,
+    "lng": -83.3053
+  },
+  {
+    "id": "KS01",
+    "name": "KS01 District",
+    "fips": "2001",
+    "congress": "119",
+    "state": "KS",
+    "lat": 38.5348,
+    "lng": -98.2741
+  },
+  {
+    "id": "KS02",
+    "name": "KS02 District",
+    "fips": "2002",
+    "congress": "119",
+    "state": "KS",
+    "lat": 39.0073,
+    "lng": -95.5635
+  },
+  {
+    "id": "KS03",
+    "name": "KS03 District",
+    "fips": "2003",
+    "congress": "119",
+    "state": "KS",
+    "lat": 38.7013,
+    "lng": -94.981
+  },
+  {
+    "id": "KS04",
+    "name": "KS04 District",
+    "fips": "2004",
+    "congress": "119",
+    "state": "KS",
+    "lat": 37.504,
+    "lng": -98.145
+  },
+  {
+    "id": "SC01",
+    "name": "SC01 District",
+    "fips": "4501",
+    "congress": "119",
+    "state": "SC",
+    "lat": 32.7556,
+    "lng": -80.277
+  },
+  {
+    "id": "SC02",
+    "name": "SC02 District",
+    "fips": "4502",
+    "congress": "119",
+    "state": "SC",
+    "lat": 33.7245,
+    "lng": -81.1821
+  },
+  {
+    "id": "SC03",
+    "name": "SC03 District",
+    "fips": "4503",
+    "congress": "119",
+    "state": "SC",
+    "lat": 34.4548,
+    "lng": -82.3988
+  },
+  {
+    "id": "SC04",
+    "name": "SC04 District",
+    "fips": "4504",
+    "congress": "119",
+    "state": "SC",
+    "lat": 34.9204,
+    "lng": -82.2309
+  },
+  {
+    "id": "SC05",
+    "name": "SC05 District",
+    "fips": "4505",
+    "congress": "119",
+    "state": "SC",
+    "lat": 34.3755,
+    "lng": -80.8567
+  },
+  {
+    "id": "SC06",
+    "name": "SC06 District",
+    "fips": "4506",
+    "congress": "119",
+    "state": "SC",
+    "lat": 33.2481,
+    "lng": -80.5813
+  },
+  {
+    "id": "SC07",
+    "name": "SC07 District",
+    "fips": "4507",
+    "congress": "119",
+    "state": "SC",
+    "lat": 33.9176,
+    "lng": -79.6529
+  },
+  {
+    "id": "KY04",
+    "name": "KY04 District",
+    "fips": "2104",
+    "congress": "119",
+    "state": "KY",
+    "lat": 38.528,
+    "lng": -84.3622
+  },
+  {
+    "id": "KY06",
+    "name": "KY06 District",
+    "fips": "2106",
+    "congress": "119",
+    "state": "KY",
+    "lat": 38.0545,
+    "lng": -84.2166
+  },
+  {
+    "id": "KY05",
+    "name": "KY05 District",
+    "fips": "2105",
+    "congress": "119",
+    "state": "KY",
+    "lat": 37.5621,
+    "lng": -83.5363
+  },
+  {
+    "id": "KY01",
+    "name": "KY01 District",
+    "fips": "2101",
+    "congress": "119",
+    "state": "KY",
+    "lat": 37.2974,
+    "lng": -86.8113
+  },
+  {
+    "id": "KY02",
+    "name": "KY02 District",
+    "fips": "2102",
+    "congress": "119",
+    "state": "KY",
+    "lat": 37.567,
+    "lng": -86.3606
+  },
+  {
+    "id": "KY03",
+    "name": "KY03 District",
+    "fips": "2103",
+    "congress": "119",
+    "state": "KY",
+    "lat": 38.1995,
+    "lng": -85.7118
+  },
+  {
+    "id": "OR01",
+    "name": "OR01 District",
+    "fips": "4101",
+    "congress": "119",
+    "state": "OR",
+    "lat": 45.7168,
+    "lng": -123.3725
+  },
+  {
+    "id": "OR02",
+    "name": "OR02 District",
+    "fips": "4102",
+    "congress": "119",
+    "state": "OR",
+    "lat": 43.904,
+    "lng": -120.6044
+  },
+  {
+    "id": "OR03",
+    "name": "OR03 District",
+    "fips": "4103",
+    "congress": "119",
+    "state": "OR",
+    "lat": 45.4672,
+    "lng": -122.1786
+  },
+  {
+    "id": "OR04",
+    "name": "OR04 District",
+    "fips": "4104",
+    "congress": "119",
+    "state": "OR",
+    "lat": 43.4346,
+    "lng": -123.3954
+  },
+  {
+    "id": "OR05",
+    "name": "OR05 District",
+    "fips": "4105",
+    "congress": "119",
+    "state": "OR",
+    "lat": 44.6267,
+    "lng": -122.2363
+  },
+  {
+    "id": "OR06",
+    "name": "OR06 District",
+    "fips": "4106",
+    "congress": "119",
+    "state": "OR",
+    "lat": 45.123,
+    "lng": -123.0632
+  },
+  {
+    "id": "SD00",
+    "name": "SD00 District",
+    "fips": "4600",
+    "congress": "119",
+    "state": "SD",
+    "lat": 43.7731,
+    "lng": -98.7138
+  },
+  {
+    "id": "DE00",
+    "name": "DE00 District",
+    "fips": "1000",
+    "congress": "119",
+    "state": "DE",
+    "lat": 39.3745,
+    "lng": -75.4733
+  },
+  {
+    "id": "DC98",
+    "name": "DC98 District",
+    "fips": "1198",
+    "congress": "119",
+    "state": "DC",
+    "lat": 38.8744,
+    "lng": -77.0412
+  },
+  {
+    "id": "HI01",
+    "name": "HI01 District",
+    "fips": "1501",
+    "congress": "119",
+    "state": "HI",
+    "lat": 21.351,
+    "lng": -157.8892
+  },
+  {
+    "id": "HI02",
+    "name": "HI02 District",
+    "fips": "1502",
+    "congress": "119",
+    "state": "HI",
+    "lat": 20.7743,
+    "lng": -157.0721
+  },
+  {
+    "id": "TX01",
+    "name": "TX01 District",
+    "fips": "4801",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.2149,
+    "lng": -94.4192
+  },
+  {
+    "id": "TX02",
+    "name": "TX02 District",
+    "fips": "4802",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.0596,
+    "lng": -95.3995
+  },
+  {
+    "id": "TX03",
+    "name": "TX03 District",
+    "fips": "4803",
+    "congress": "119",
+    "state": "TX",
+    "lat": 33.2169,
+    "lng": -95.6497
+  },
+  {
+    "id": "TX04",
+    "name": "TX04 District",
+    "fips": "4804",
+    "congress": "119",
+    "state": "TX",
+    "lat": 33.6536,
+    "lng": -95.6082
+  },
+  {
+    "id": "TX05",
+    "name": "TX05 District",
+    "fips": "4805",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.2859,
+    "lng": -96.0455
+  },
+  {
+    "id": "TX06",
+    "name": "TX06 District",
+    "fips": "4806",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.4457,
+    "lng": -96.8053
+  },
+  {
+    "id": "TX07",
+    "name": "TX07 District",
+    "fips": "4807",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.6895,
+    "lng": -95.5749
+  },
+  {
+    "id": "TX08",
+    "name": "TX08 District",
+    "fips": "4808",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.1227,
+    "lng": -95.6932
+  },
+  {
+    "id": "TX09",
+    "name": "TX09 District",
+    "fips": "4809",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.9211,
+    "lng": -95.0757
+  },
+  {
+    "id": "TX10",
+    "name": "TX10 District",
+    "fips": "4810",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.7066,
+    "lng": -96.3147
+  },
+  {
+    "id": "TX11",
+    "name": "TX11 District",
+    "fips": "4811",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.9589,
+    "lng": -98.8114
+  },
+  {
+    "id": "TX12",
+    "name": "TX12 District",
+    "fips": "4812",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.7471,
+    "lng": -97.5453
+  },
+  {
+    "id": "TX13",
+    "name": "TX13 District",
+    "fips": "4813",
+    "congress": "119",
+    "state": "TX",
+    "lat": 34.3745,
+    "lng": -99.1803
+  },
+  {
+    "id": "TX14",
+    "name": "TX14 District",
+    "fips": "4814",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.3949,
+    "lng": -95.1865
+  },
+  {
+    "id": "TX15",
+    "name": "TX15 District",
+    "fips": "4815",
+    "congress": "119",
+    "state": "TX",
+    "lat": 27.8322,
+    "lng": -97.6672
+  },
+  {
+    "id": "TX16",
+    "name": "TX16 District",
+    "fips": "4816",
+    "congress": "119",
+    "state": "TX",
+    "lat": 31.8231,
+    "lng": -106.4709
+  },
+  {
+    "id": "TX17",
+    "name": "TX17 District",
+    "fips": "4817",
+    "congress": "119",
+    "state": "TX",
+    "lat": 31.2755,
+    "lng": -97.0611
+  },
+  {
+    "id": "TX18",
+    "name": "TX18 District",
+    "fips": "4818",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.733,
+    "lng": -95.3589
+  },
+  {
+    "id": "TX19",
+    "name": "TX19 District",
+    "fips": "4819",
+    "congress": "119",
+    "state": "TX",
+    "lat": 33.2148,
+    "lng": -101.4914
+  },
+  {
+    "id": "TX20",
+    "name": "TX20 District",
+    "fips": "4820",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.4469,
+    "lng": -98.6024
+  },
+  {
+    "id": "TX21",
+    "name": "TX21 District",
+    "fips": "4821",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.7771,
+    "lng": -98.9323
+  },
+  {
+    "id": "TX22",
+    "name": "TX22 District",
+    "fips": "4822",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.4041,
+    "lng": -95.6538
+  },
+  {
+    "id": "TX23",
+    "name": "TX23 District",
+    "fips": "4823",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.849,
+    "lng": -101.2821
+  },
+  {
+    "id": "TX24",
+    "name": "TX24 District",
+    "fips": "4824",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.889,
+    "lng": -97.0087
+  },
+  {
+    "id": "TX25",
+    "name": "TX25 District",
+    "fips": "4825",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.6137,
+    "lng": -97.8875
+  },
+  {
+    "id": "TX26",
+    "name": "TX26 District",
+    "fips": "4826",
+    "congress": "119",
+    "state": "TX",
+    "lat": 33.549,
+    "lng": -97.2132
+  },
+  {
+    "id": "TX27",
+    "name": "TX27 District",
+    "fips": "4827",
+    "congress": "119",
+    "state": "TX",
+    "lat": 28.957,
+    "lng": -96.9005
+  },
+  {
+    "id": "TX28",
+    "name": "TX28 District",
+    "fips": "4828",
+    "congress": "119",
+    "state": "TX",
+    "lat": 27.4035,
+    "lng": -99.2217
+  },
+  {
+    "id": "TX29",
+    "name": "TX29 District",
+    "fips": "4829",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.9127,
+    "lng": -95.3973
+  },
+  {
+    "id": "TX30",
+    "name": "TX30 District",
+    "fips": "4830",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.6545,
+    "lng": -96.8333
+  },
+  {
+    "id": "TX31",
+    "name": "TX31 District",
+    "fips": "4831",
+    "congress": "119",
+    "state": "TX",
+    "lat": 31.0298,
+    "lng": -98.1273
+  },
+  {
+    "id": "TX32",
+    "name": "TX32 District",
+    "fips": "4832",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.8556,
+    "lng": -95.8048
+  },
+  {
+    "id": "TX33",
+    "name": "TX33 District",
+    "fips": "4833",
+    "congress": "119",
+    "state": "TX",
+    "lat": 32.7898,
+    "lng": -96.7986
+  },
+  {
+    "id": "TX34",
+    "name": "TX34 District",
+    "fips": "4834",
+    "congress": "119",
+    "state": "TX",
+    "lat": 27.2461,
+    "lng": -97.5382
+  },
+  {
+    "id": "TX35",
+    "name": "TX35 District",
+    "fips": "4835",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.3706,
+    "lng": -98.2629
+  },
+  {
+    "id": "TX36",
+    "name": "TX36 District",
+    "fips": "4836",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.4171,
+    "lng": -94.4262
+  },
+  {
+    "id": "TX37",
+    "name": "TX37 District",
+    "fips": "4837",
+    "congress": "119",
+    "state": "TX",
+    "lat": 30.2674,
+    "lng": -97.7289
+  },
+  {
+    "id": "TX38",
+    "name": "TX38 District",
+    "fips": "4838",
+    "congress": "119",
+    "state": "TX",
+    "lat": 29.9266,
+    "lng": -95.5946
+  },
+  {
+    "id": "LA01",
+    "name": "LA01 District",
+    "fips": "2201",
+    "congress": "119",
+    "state": "LA",
+    "lat": 29.7665,
+    "lng": -89.873
+  },
+  {
+    "id": "LA02",
+    "name": "LA02 District",
+    "fips": "2202",
+    "congress": "119",
+    "state": "LA",
+    "lat": 30.0177,
+    "lng": -90.6883
+  },
+  {
+    "id": "LA03",
+    "name": "LA03 District",
+    "fips": "2203",
+    "congress": "119",
+    "state": "LA",
+    "lat": 29.7904,
+    "lng": -91.8991
+  },
+  {
+    "id": "LA04",
+    "name": "LA04 District",
+    "fips": "2204",
+    "congress": "119",
+    "state": "LA",
+    "lat": 31.4441,
+    "lng": -93.2378
+  },
+  {
+    "id": "LA05",
+    "name": "LA05 District",
+    "fips": "2205",
+    "congress": "119",
+    "state": "LA",
+    "lat": 31.5878,
+    "lng": -91.367
+  },
+  {
+    "id": "LA06",
+    "name": "LA06 District",
+    "fips": "2206",
+    "congress": "119",
+    "state": "LA",
+    "lat": 31.2427,
+    "lng": -92.4668
+  },
+  {
+    "id": "TN01",
+    "name": "TN01 District",
+    "fips": "4701",
+    "congress": "119",
+    "state": "TN",
+    "lat": 36.1122,
+    "lng": -82.851
+  },
+  {
+    "id": "TN02",
+    "name": "TN02 District",
+    "fips": "4702",
+    "congress": "119",
+    "state": "TN",
+    "lat": 36.0115,
+    "lng": -83.9715
+  },
+  {
+    "id": "TN03",
+    "name": "TN03 District",
+    "fips": "4703",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.6517,
+    "lng": -84.6143
+  },
+  {
+    "id": "TN04",
+    "name": "TN04 District",
+    "fips": "4704",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.5248,
+    "lng": -85.991
+  },
+  {
+    "id": "TN05",
+    "name": "TN05 District",
+    "fips": "4705",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.8,
+    "lng": -86.8912
+  },
+  {
+    "id": "TN06",
+    "name": "TN06 District",
+    "fips": "4706",
+    "congress": "119",
+    "state": "TN",
+    "lat": 36.1307,
+    "lng": -85.6332
+  },
+  {
+    "id": "TN07",
+    "name": "TN07 District",
+    "fips": "4707",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.9436,
+    "lng": -87.4736
+  },
+  {
+    "id": "TN08",
+    "name": "TN08 District",
+    "fips": "4708",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.7582,
+    "lng": -89.2268
+  },
+  {
+    "id": "TN09",
+    "name": "TN09 District",
+    "fips": "4709",
+    "congress": "119",
+    "state": "TN",
+    "lat": 35.2824,
+    "lng": -89.9605
+  },
+  {
+    "id": "PA02",
+    "name": "PA02 District",
+    "fips": "4202",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.0165,
+    "lng": -75.0673
+  },
+  {
+    "id": "PA08",
+    "name": "PA08 District",
+    "fips": "4208",
+    "congress": "119",
+    "state": "PA",
+    "lat": 41.3311,
+    "lng": -75.4466
+  },
+  {
+    "id": "PA07",
+    "name": "PA07 District",
+    "fips": "4207",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.8173,
+    "lng": -75.4269
+  },
+  {
+    "id": "PA03",
+    "name": "PA03 District",
+    "fips": "4203",
+    "congress": "119",
+    "state": "PA",
+    "lat": 39.9863,
+    "lng": -75.1838
+  },
+  {
+    "id": "PA01",
+    "name": "PA01 District",
+    "fips": "4201",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.3119,
+    "lng": -75.1106
+  },
+  {
+    "id": "PA04",
+    "name": "PA04 District",
+    "fips": "4204",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.2574,
+    "lng": -75.5323
+  },
+  {
+    "id": "PA05",
+    "name": "PA05 District",
+    "fips": "4205",
+    "congress": "119",
+    "state": "PA",
+    "lat": 39.9053,
+    "lng": -75.3871
+  },
+  {
+    "id": "PA06",
+    "name": "PA06 District",
+    "fips": "4206",
+    "congress": "119",
+    "state": "PA",
+    "lat": 39.9834,
+    "lng": -75.7384
+  },
+  {
+    "id": "PA09",
+    "name": "PA09 District",
+    "fips": "4209",
+    "congress": "119",
+    "state": "PA",
+    "lat": 41.0284,
+    "lng": -76.3666
+  },
+  {
+    "id": "PA11",
+    "name": "PA11 District",
+    "fips": "4211",
+    "congress": "119",
+    "state": "PA",
+    "lat": 39.9907,
+    "lng": -76.5502
+  },
+  {
+    "id": "PA10",
+    "name": "PA10 District",
+    "fips": "4210",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.2077,
+    "lng": -76.9429
+  },
+  {
+    "id": "PA17",
+    "name": "PA17 District",
+    "fips": "4217",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.5114,
+    "lng": -80.0326
+  },
+  {
+    "id": "PA12",
+    "name": "PA12 District",
+    "fips": "4212",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.3699,
+    "lng": -79.8525
+  },
+  {
+    "id": "PA14",
+    "name": "PA14 District",
+    "fips": "4214",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.326,
+    "lng": -79.4837
+  },
+  {
+    "id": "PA13",
+    "name": "PA13 District",
+    "fips": "4213",
+    "congress": "119",
+    "state": "PA",
+    "lat": 40.3034,
+    "lng": -77.6799
+  },
+  {
+    "id": "PA16",
+    "name": "PA16 District",
+    "fips": "4216",
+    "congress": "119",
+    "state": "PA",
+    "lat": 41.5247,
+    "lng": -79.9255
+  },
+  {
+    "id": "PA15",
+    "name": "PA15 District",
+    "fips": "4215",
+    "congress": "119",
+    "state": "PA",
+    "lat": 41.1615,
+    "lng": -78.2082
+  },
+  {
+    "id": "VA01",
+    "name": "VA01 District",
+    "fips": "5101",
+    "congress": "119",
+    "state": "VA",
+    "lat": 37.8593,
+    "lng": -76.7841
+  },
+  {
+    "id": "VA02",
+    "name": "VA02 District",
+    "fips": "5102",
+    "congress": "119",
+    "state": "VA",
+    "lat": 37.1697,
+    "lng": -76.2061
+  },
+  {
+    "id": "VA03",
+    "name": "VA03 District",
+    "fips": "5103",
+    "congress": "119",
+    "state": "VA",
+    "lat": 36.9626,
+    "lng": -76.367
+  },
+  {
+    "id": "VA04",
+    "name": "VA04 District",
+    "fips": "5104",
+    "congress": "119",
+    "state": "VA",
+    "lat": 37.1582,
+    "lng": -77.2778
+  },
+  {
+    "id": "VA05",
+    "name": "VA05 District",
+    "fips": "5105",
+    "congress": "119",
+    "state": "VA",
+    "lat": 37.4864,
+    "lng": -78.4616
+  },
+  {
+    "id": "VA06",
+    "name": "VA06 District",
+    "fips": "5106",
+    "congress": "119",
+    "state": "VA",
+    "lat": 38.1546,
+    "lng": -79.2316
+  },
+  {
+    "id": "VA07",
+    "name": "VA07 District",
+    "fips": "5107",
+    "congress": "119",
+    "state": "VA",
+    "lat": 38.3352,
+    "lng": -77.4451
+  },
+  {
+    "id": "VA08",
+    "name": "VA08 District",
+    "fips": "5108",
+    "congress": "119",
+    "state": "VA",
+    "lat": 38.817,
+    "lng": -77.1076
+  },
+  {
+    "id": "VA09",
+    "name": "VA09 District",
+    "fips": "5109",
+    "congress": "119",
+    "state": "VA",
+    "lat": 37.183,
+    "lng": -80.9375
+  },
+  {
+    "id": "VA10",
+    "name": "VA10 District",
+    "fips": "5110",
+    "congress": "119",
+    "state": "VA",
+    "lat": 38.8546,
+    "lng": -77.7424
+  },
+  {
+    "id": "VA11",
+    "name": "VA11 District",
+    "fips": "5111",
+    "congress": "119",
+    "state": "VA",
+    "lat": 38.8391,
+    "lng": -77.2916
+  },
+  {
+    "id": "AK99",
+    "name": "AK99 District",
+    "fips": "0299",
+    "congress": "119",
+    "state": "AK",
+    "lat": 58.3858,
+    "lng": -143.4992
+  },
+  {
+    "id": "AL01",
+    "name": "01 District",
+    "fips": "0101",
+    "congress": "119",
+    "state": "01",
+    "lat": 30.924,
+    "lng": -87.1601
+  },
+  {
+    "id": "AL02",
+    "name": "02 District",
+    "fips": "0102",
+    "congress": "119",
+    "state": "02",
+    "lat": 31.6773,
+    "lng": -86.7371
+  },
+  {
+    "id": "AL03",
+    "name": "03 District",
+    "fips": "0103",
+    "congress": "119",
+    "state": "03",
+    "lat": 33.3596,
+    "lng": -85.8922
+  },
+  {
+    "id": "AL04",
+    "name": "04 District",
+    "fips": "0104",
+    "congress": "119",
+    "state": "04",
+    "lat": 34.1338,
+    "lng": -86.9816
+  },
+  {
+    "id": "AL05",
+    "name": "05 District",
+    "fips": "0105",
+    "congress": "119",
+    "state": "05",
+    "lat": 34.6529,
+    "lng": -86.6977
+  },
+  {
+    "id": "AL06",
+    "name": "06 District",
+    "fips": "0106",
+    "congress": "119",
+    "state": "06",
+    "lat": 33.0338,
+    "lng": -86.6471
+  },
+  {
+    "id": "AL07",
+    "name": "07 District",
+    "fips": "0107",
+    "congress": "119",
+    "state": "07",
+    "lat": 32.7807,
+    "lng": -87.2528
+  },
+  {
+    "id": "AR01",
+    "name": "AR01 District",
+    "fips": "0501",
+    "congress": "119",
+    "state": "AR",
+    "lat": 34.7616,
+    "lng": -90.9713
+  },
+  {
+    "id": "AR02",
+    "name": "AR02 District",
+    "fips": "0502",
+    "congress": "119",
+    "state": "AR",
+    "lat": 34.9874,
+    "lng": -92.2909
+  },
+  {
+    "id": "AR03",
+    "name": "AR03 District",
+    "fips": "0503",
+    "congress": "119",
+    "state": "AR",
+    "lat": 35.6988,
+    "lng": -93.9948
+  },
+  {
+    "id": "AR04",
+    "name": "AR04 District",
+    "fips": "0504",
+    "congress": "119",
+    "state": "AR",
+    "lat": 34.389,
+    "lng": -93.2047
+  },
+  {
+    "id": "VT00",
+    "name": "VT00 District",
+    "fips": "5000",
+    "congress": "119",
+    "state": "VT",
+    "lat": 43.7293,
+    "lng": -72.4887
+  },
+  {
+    "id": "IL01",
+    "name": "IL01 District",
+    "fips": "1701",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.5235,
+    "lng": -87.8325
+  },
+  {
+    "id": "IL02",
+    "name": "IL02 District",
+    "fips": "1702",
+    "congress": "119",
+    "state": "IL",
+    "lat": 40.8964,
+    "lng": -87.9348
+  },
+  {
+    "id": "IL03",
+    "name": "IL03 District",
+    "fips": "1703",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.9385,
+    "lng": -87.9926
+  },
+  {
+    "id": "IL04",
+    "name": "IL04 District",
+    "fips": "1704",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.8406,
+    "lng": -87.8169
+  },
+  {
+    "id": "IL05",
+    "name": "IL05 District",
+    "fips": "1705",
+    "congress": "119",
+    "state": "IL",
+    "lat": 42.0617,
+    "lng": -87.9492
+  },
+  {
+    "id": "IL06",
+    "name": "IL06 District",
+    "fips": "1706",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.7503,
+    "lng": -87.8851
+  },
+  {
+    "id": "IL07",
+    "name": "IL07 District",
+    "fips": "1707",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.8529,
+    "lng": -87.7388
+  },
+  {
+    "id": "IL08",
+    "name": "IL08 District",
+    "fips": "1708",
+    "congress": "119",
+    "state": "IL",
+    "lat": 42.0245,
+    "lng": -88.1525
+  },
+  {
+    "id": "IL09",
+    "name": "IL09 District",
+    "fips": "1709",
+    "congress": "119",
+    "state": "IL",
+    "lat": 42.1375,
+    "lng": -87.9822
+  },
+  {
+    "id": "IL10",
+    "name": "IL10 District",
+    "fips": "1710",
+    "congress": "119",
+    "state": "IL",
+    "lat": 42.3074,
+    "lng": -88.0471
+  },
+  {
+    "id": "IL11",
+    "name": "IL11 District",
+    "fips": "1711",
+    "congress": "119",
+    "state": "IL",
+    "lat": 42.0163,
+    "lng": -88.3314
+  },
+  {
+    "id": "IL12",
+    "name": "IL12 District",
+    "fips": "1712",
+    "congress": "119",
+    "state": "IL",
+    "lat": 38.1577,
+    "lng": -88.8459
+  },
+  {
+    "id": "IL13",
+    "name": "IL13 District",
+    "fips": "1713",
+    "congress": "119",
+    "state": "IL",
+    "lat": 39.4116,
+    "lng": -89.4505
+  },
+  {
+    "id": "IL14",
+    "name": "IL14 District",
+    "fips": "1714",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.5624,
+    "lng": -88.6287
+  },
+  {
+    "id": "IL15",
+    "name": "IL15 District",
+    "fips": "1715",
+    "congress": "119",
+    "state": "IL",
+    "lat": 39.8396,
+    "lng": -89.6178
+  },
+  {
+    "id": "IL16",
+    "name": "IL16 District",
+    "fips": "1716",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.5043,
+    "lng": -89.3327
+  },
+  {
+    "id": "IL17",
+    "name": "IL17 District",
+    "fips": "1717",
+    "congress": "119",
+    "state": "IL",
+    "lat": 41.2501,
+    "lng": -89.8947
+  },
+  {
+    "id": "IN01",
+    "name": "IN01 District",
+    "fips": "1801",
+    "congress": "119",
+    "state": "IN",
+    "lat": 41.477,
+    "lng": -87.1929
+  },
+  {
+    "id": "IN02",
+    "name": "IN02 District",
+    "fips": "1802",
+    "congress": "119",
+    "state": "IN",
+    "lat": 41.0829,
+    "lng": -86.2469
+  },
+  {
+    "id": "IN03",
+    "name": "IN03 District",
+    "fips": "1803",
+    "congress": "119",
+    "state": "IN",
+    "lat": 40.8692,
+    "lng": -85.2126
+  },
+  {
+    "id": "IN04",
+    "name": "IN04 District",
+    "fips": "1804",
+    "congress": "119",
+    "state": "IN",
+    "lat": 40.3954,
+    "lng": -86.8993
+  },
+  {
+    "id": "IN05",
+    "name": "IN05 District",
+    "fips": "1805",
+    "congress": "119",
+    "state": "IN",
+    "lat": 40.3118,
+    "lng": -85.8462
+  },
+  {
+    "id": "IN06",
+    "name": "IN06 District",
+    "fips": "1806",
+    "congress": "119",
+    "state": "IN",
+    "lat": 39.717,
+    "lng": -85.5569
+  },
+  {
+    "id": "IN07",
+    "name": "IN07 District",
+    "fips": "1807",
+    "congress": "119",
+    "state": "IN",
+    "lat": 39.8304,
+    "lng": -86.1519
+  },
+  {
+    "id": "IN08",
+    "name": "IN08 District",
+    "fips": "1808",
+    "congress": "119",
+    "state": "IN",
+    "lat": 38.4989,
+    "lng": -87.2983
+  },
+  {
+    "id": "IN09",
+    "name": "IN09 District",
+    "fips": "1809",
+    "congress": "119",
+    "state": "IN",
+    "lat": 38.7043,
+    "lng": -85.6766
+  },
+  {
+    "id": "IA01",
+    "name": "IA01 District",
+    "fips": "1901",
+    "congress": "119",
+    "state": "IA",
+    "lat": 41.3419,
+    "lng": -91.3671
+  },
+  {
+    "id": "IA02",
+    "name": "IA02 District",
+    "fips": "1902",
+    "congress": "119",
+    "state": "IA",
+    "lat": 42.6947,
+    "lng": -91.7729
+  },
+  {
+    "id": "IA03",
+    "name": "IA03 District",
+    "fips": "1903",
+    "congress": "119",
+    "state": "IA",
+    "lat": 41.2611,
+    "lng": -93.9111
+  },
+  {
+    "id": "IA04",
+    "name": "IA04 District",
+    "fips": "1904",
+    "congress": "119",
+    "state": "IA",
+    "lat": 41.9879,
+    "lng": -95.668
+  },
+  {
+    "id": "AZ01",
+    "name": "AZ01 District",
+    "fips": "0401",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 33.6894,
+    "lng": -111.6829
+  },
+  {
+    "id": "AZ02",
+    "name": "AZ02 District",
+    "fips": "0402",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 34.4952,
+    "lng": -111.7297
+  },
+  {
+    "id": "AZ03",
+    "name": "AZ03 District",
+    "fips": "0403",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 33.4477,
+    "lng": -112.1558
+  },
+  {
+    "id": "AZ04",
+    "name": "AZ04 District",
+    "fips": "0404",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 33.3915,
+    "lng": -111.8757
+  },
+  {
+    "id": "AZ05",
+    "name": "AZ05 District",
+    "fips": "0405",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 33.337,
+    "lng": -111.6384
+  },
+  {
+    "id": "AZ06",
+    "name": "AZ06 District",
+    "fips": "0406",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 32.4348,
+    "lng": -110.5171
+  },
+  {
+    "id": "AZ07",
+    "name": "AZ07 District",
+    "fips": "0407",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 32.384,
+    "lng": -112.0648
+  },
+  {
+    "id": "AZ08",
+    "name": "AZ08 District",
+    "fips": "0408",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 33.7773,
+    "lng": -112.2125
+  },
+  {
+    "id": "AZ09",
+    "name": "AZ09 District",
+    "fips": "0409",
+    "congress": "119",
+    "state": "AZ",
+    "lat": 34.6345,
+    "lng": -113.8247
+  },
+  {
+    "id": "ID01",
+    "name": "ID01 District",
+    "fips": "1601",
+    "congress": "119",
+    "state": "ID",
+    "lat": 45.1705,
+    "lng": -115.7157
+  },
+  {
+    "id": "ID02",
+    "name": "ID02 District",
+    "fips": "1602",
+    "congress": "119",
+    "state": "ID",
+    "lat": 44.1794,
+    "lng": -113.9157
+  },
+  {
+    "id": "ME01",
+    "name": "ME01 District",
+    "fips": "2301",
+    "congress": "119",
+    "state": "ME",
+    "lat": 43.9417,
+    "lng": -69.8996
+  },
+  {
+    "id": "ME02",
+    "name": "ME02 District",
+    "fips": "2302",
+    "congress": "119",
+    "state": "ME",
+    "lat": 44.9692,
+    "lng": -68.9945
+  },
+  {
+    "id": "MD01",
+    "name": "MD01 District",
+    "fips": "2401",
+    "congress": "119",
+    "state": "MD",
+    "lat": 38.7556,
+    "lng": -76.0684
+  },
+  {
+    "id": "MD02",
+    "name": "MD02 District",
+    "fips": "2402",
+    "congress": "119",
+    "state": "MD",
+    "lat": 39.4372,
+    "lng": -76.749
+  },
+  {
+    "id": "MD03",
+    "name": "MD03 District",
+    "fips": "2403",
+    "congress": "119",
+    "state": "MD",
+    "lat": 39.1857,
+    "lng": -76.782
+  },
+  {
+    "id": "MD04",
+    "name": "MD04 District",
+    "fips": "2404",
+    "congress": "119",
+    "state": "MD",
+    "lat": 38.9137,
+    "lng": -76.9283
+  },
+  {
+    "id": "MD05",
+    "name": "MD05 District",
+    "fips": "2405",
+    "congress": "119",
+    "state": "MD",
+    "lat": 38.5497,
+    "lng": -76.7439
+  },
+  {
+    "id": "MD06",
+    "name": "MD06 District",
+    "fips": "2406",
+    "congress": "119",
+    "state": "MD",
+    "lat": 39.4353,
+    "lng": -77.9947
+  },
+  {
+    "id": "MD07",
+    "name": "MD07 District",
+    "fips": "2407",
+    "congress": "119",
+    "state": "MD",
+    "lat": 39.2861,
+    "lng": -76.6066
+  },
+  {
+    "id": "MD08",
+    "name": "MD08 District",
+    "fips": "2408",
+    "congress": "119",
+    "state": "MD",
+    "lat": 39.0936,
+    "lng": -77.1447
+  },
+  {
+    "id": "MA01",
+    "name": "MA01 District",
+    "fips": "2501",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.3189,
+    "lng": -72.6245
+  },
+  {
+    "id": "MA02",
+    "name": "MA02 District",
+    "fips": "2502",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.3578,
+    "lng": -72.1014
+  },
+  {
+    "id": "MA03",
+    "name": "MA03 District",
+    "fips": "2503",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.6054,
+    "lng": -71.4838
+  },
+  {
+    "id": "MA04",
+    "name": "MA04 District",
+    "fips": "2504",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.0457,
+    "lng": -71.2535
+  },
+  {
+    "id": "MA05",
+    "name": "MA05 District",
+    "fips": "2505",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.3964,
+    "lng": -71.1724
+  },
+  {
+    "id": "MA06",
+    "name": "MA06 District",
+    "fips": "2506",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.6384,
+    "lng": -70.9967
+  },
+  {
+    "id": "MA07",
+    "name": "MA07 District",
+    "fips": "2507",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.3437,
+    "lng": -71.0698
+  },
+  {
+    "id": "MA08",
+    "name": "MA08 District",
+    "fips": "2508",
+    "congress": "119",
+    "state": "MA",
+    "lat": 42.1909,
+    "lng": -71.084
+  },
+  {
+    "id": "MA09",
+    "name": "MA09 District",
+    "fips": "2509",
+    "congress": "119",
+    "state": "MA",
+    "lat": 41.7305,
+    "lng": -70.5238
+  },
+  {
+    "id": "UT01",
+    "name": "UT01 District",
+    "fips": "4901",
+    "congress": "119",
+    "state": "UT",
+    "lat": 41.1872,
+    "lng": -111.7842
+  },
+  {
+    "id": "UT02",
+    "name": "UT02 District",
+    "fips": "4902",
+    "congress": "119",
+    "state": "UT",
+    "lat": 38.893,
+    "lng": -111.6298
+  },
+  {
+    "id": "UT03",
+    "name": "UT03 District",
+    "fips": "4903",
+    "congress": "119",
+    "state": "UT",
+    "lat": 39.2017,
+    "lng": -110.6308
+  },
+  {
+    "id": "UT04",
+    "name": "UT04 District",
+    "fips": "4904",
+    "congress": "119",
+    "state": "UT",
+    "lat": 40.0056,
+    "lng": -111.7937
+  },
+  {
+    "id": "MO01",
+    "name": "MO01 District",
+    "fips": "2901",
+    "congress": "119",
+    "state": "MO",
+    "lat": 38.727,
+    "lng": -90.2971
+  },
+  {
+    "id": "MO02",
+    "name": "MO02 District",
+    "fips": "2902",
+    "congress": "119",
+    "state": "MO",
+    "lat": 38.614,
+    "lng": -90.675
+  },
+  {
+    "id": "MO03",
+    "name": "MO03 District",
+    "fips": "2903",
+    "congress": "119",
+    "state": "MO",
+    "lat": 38.5857,
+    "lng": -91.344
+  },
+  {
+    "id": "MO04",
+    "name": "MO04 District",
+    "fips": "2904",
+    "congress": "119",
+    "state": "MO",
+    "lat": 38.6457,
+    "lng": -93.2521
+  },
+  {
+    "id": "MO05",
+    "name": "MO05 District",
+    "fips": "2905",
+    "congress": "119",
+    "state": "MO",
+    "lat": 39.0933,
+    "lng": -94.4203
+  },
+  {
+    "id": "MO06",
+    "name": "MO06 District",
+    "fips": "2906",
+    "congress": "119",
+    "state": "MO",
+    "lat": 39.6184,
+    "lng": -93.4297
+  },
+  {
+    "id": "MO07",
+    "name": "MO07 District",
+    "fips": "2907",
+    "congress": "119",
+    "state": "MO",
+    "lat": 37.0203,
+    "lng": -93.5845
+  },
+  {
+    "id": "MO08",
+    "name": "MO08 District",
+    "fips": "2908",
+    "congress": "119",
+    "state": "MO",
+    "lat": 37.2161,
+    "lng": -90.202
+  },
+  {
+    "id": "MN01",
+    "name": "MN01 District",
+    "fips": "2701",
+    "congress": "119",
+    "state": "MN",
+    "lat": 44.1517,
+    "lng": -93.2107
+  },
+  {
+    "id": "MN02",
+    "name": "MN02 District",
+    "fips": "2702",
+    "congress": "119",
+    "state": "MN",
+    "lat": 44.5995,
+    "lng": -93.3512
+  },
+  {
+    "id": "MN03",
+    "name": "MN03 District",
+    "fips": "2703",
+    "congress": "119",
+    "state": "MN",
+    "lat": 45.0329,
+    "lng": -93.4514
+  },
+  {
+    "id": "MN04",
+    "name": "MN04 District",
+    "fips": "2704",
+    "congress": "119",
+    "state": "MN",
+    "lat": 44.9853,
+    "lng": -92.9607
+  },
+  {
+    "id": "MN05",
+    "name": "MN05 District",
+    "fips": "2705",
+    "congress": "119",
+    "state": "MN",
+    "lat": 44.9898,
+    "lng": -93.2695
+  },
+  {
+    "id": "MN06",
+    "name": "MN06 District",
+    "fips": "2706",
+    "congress": "119",
+    "state": "MN",
+    "lat": 45.2506,
+    "lng": -93.8585
+  },
+  {
+    "id": "MN07",
+    "name": "MN07 District",
+    "fips": "2707",
+    "congress": "119",
+    "state": "MN",
+    "lat": 46.6145,
+    "lng": -95.7341
+  },
+  {
+    "id": "MN08",
+    "name": "MN08 District",
+    "fips": "2708",
+    "congress": "119",
+    "state": "MN",
+    "lat": 47.4803,
+    "lng": -92.8937
+  },
+  {
+    "id": "MI01",
+    "name": "MI01 District",
+    "fips": "2601",
+    "congress": "119",
+    "state": "MI",
+    "lat": 45.9359,
+    "lng": -86.1927
+  },
+  {
+    "id": "MI02",
+    "name": "MI02 District",
+    "fips": "2602",
+    "congress": "119",
+    "state": "MI",
+    "lat": 43.5612,
+    "lng": -85.5943
+  },
+  {
+    "id": "MI03",
+    "name": "MI03 District",
+    "fips": "2603",
+    "congress": "119",
+    "state": "MI",
+    "lat": 43.162,
+    "lng": -86.2
+  },
+  {
+    "id": "MI04",
+    "name": "MI04 District",
+    "fips": "2604",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.4354,
+    "lng": -86.2212
+  },
+  {
+    "id": "MI05",
+    "name": "MI05 District",
+    "fips": "2605",
+    "congress": "119",
+    "state": "MI",
+    "lat": 41.9794,
+    "lng": -84.7335
+  },
+  {
+    "id": "MI06",
+    "name": "MI06 District",
+    "fips": "2606",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.2319,
+    "lng": -83.4958
+  },
+  {
+    "id": "MI07",
+    "name": "MI07 District",
+    "fips": "2607",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.6795,
+    "lng": -84.3431
+  },
+  {
+    "id": "MI08",
+    "name": "MI08 District",
+    "fips": "2608",
+    "congress": "119",
+    "state": "MI",
+    "lat": 43.4461,
+    "lng": -83.9526
+  },
+  {
+    "id": "MI09",
+    "name": "MI09 District",
+    "fips": "2609",
+    "congress": "119",
+    "state": "MI",
+    "lat": 43.2157,
+    "lng": -83.0488
+  },
+  {
+    "id": "MI10",
+    "name": "MI10 District",
+    "fips": "2610",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.599,
+    "lng": -82.9794
+  },
+  {
+    "id": "MI11",
+    "name": "MI11 District",
+    "fips": "2611",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.5382,
+    "lng": -83.3495
+  },
+  {
+    "id": "MI12",
+    "name": "MI12 District",
+    "fips": "2612",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.3618,
+    "lng": -83.273
+  },
+  {
+    "id": "MI13",
+    "name": "MI13 District",
+    "fips": "2613",
+    "congress": "119",
+    "state": "MI",
+    "lat": 42.303,
+    "lng": -83.1617
+  },
+  {
+    "id": "MT01",
+    "name": "MT01 District",
+    "fips": "3001",
+    "congress": "119",
+    "state": "MT",
+    "lat": 46.2042,
+    "lng": -113.1954
+  },
+  {
+    "id": "MT02",
+    "name": "MT02 District",
+    "fips": "3002",
+    "congress": "119",
+    "state": "MT",
+    "lat": 46.6004,
+    "lng": -108.9625
+  },
+  {
+    "id": "MS01",
+    "name": "MS01 District",
+    "fips": "2801",
+    "congress": "119",
+    "state": "MS",
+    "lat": 34.185,
+    "lng": -89.2864
+  },
+  {
+    "id": "MS02",
+    "name": "MS02 District",
+    "fips": "2802",
+    "congress": "119",
+    "state": "MS",
+    "lat": 32.9614,
+    "lng": -90.8103
+  },
+  {
+    "id": "MS03",
+    "name": "MS03 District",
+    "fips": "2803",
+    "congress": "119",
+    "state": "MS",
+    "lat": 32.2702,
+    "lng": -89.6981
+  },
+  {
+    "id": "MS04",
+    "name": "MS04 District",
+    "fips": "2804",
+    "congress": "119",
+    "state": "MS",
+    "lat": 30.8023,
+    "lng": -89.2218
+  }
+]

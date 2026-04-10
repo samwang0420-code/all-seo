@@ -1,0 +1,73 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import neighborhoods from '../../../data/neighborhoods.json';
+
+export function getStaticPaths() {
+  return Object.entries(neighborhoods.cities).map(([cityKey, cityData]) => ({
+    params: { 
+      city: cityKey.toLowerCase().replace(/\s+/g, '-')
+    },
+    props: { cityData }
+  }));
+}
+
+const { cityData } = Astro.props;
+const { city, state, neighborhoods: allNeighborhoods } = cityData;
+
+const pageTitle = `${city}, ${state} Neighborhoods - Complete Guide`;
+const canonicalUrl = `https://getuscompliance.com/neighborhood/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}/`;
+---
+
+<Layout title={pageTitle} description={`Explore all ${allNeighborhoods.length} neighborhoods in ${city}, ${state}. Find ZIP codes, maps, and local information.`}>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-600 mb-4">
+      <a href="/" class="hover:underline">Home</a> / 
+      <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}`} class="hover:underline">{city}, {state}</a> / 
+      <span class="text-gray-900">Neighborhoods</span>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-2">{city}, {state}</h1>
+    <p class="text-xl text-gray-600 mb-6">{allNeighborhoods.length} Neighborhoods</p>
+
+    <!-- Alphabetical Index -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">All Neighborhoods (A-Z)</h2>
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="grid md:grid-cols-3 gap-4">
+          {allNeighborhoods.sort((a, b) => a.name.localeCompare(b.name)).map(n => (
+            <a href={`/neighborhood/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}/${n.url_name || n.name.toLowerCase().replace(/\s+/g, '-')}`}
+               class="block p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
+              <h3 class="font-semibold">{n.name}</h3>
+              {n.zips && <p class="text-xs text-gray-500 mt-1">ZIP: {n.zips}</p>}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- By ZIP Code -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Browse by ZIP Code</h2>
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="flex flex-wrap gap-2">
+          {(() => {
+            const zips = [...new Set(allNeighborhoods.flatMap(n => n.zips ? n.zips.split(' ').filter(z => z) : []))].sort();
+            return zips.map(zip => (
+              <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}?zip=${zip}`}
+                 class="px-3 py-1 bg-blue-100 hover:bg-blue-200 rounded text-sm">
+                {zip}
+              </a>
+            ));
+          })()}
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to City -->
+    <a href={`/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state.toLowerCase().replace(/\s+/g, '-')}`}
+       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+      ← Back to {city} City Page
+    </a>
+  </main>
+</Layout>

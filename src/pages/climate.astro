@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+const stateClimate = {};
+for (const city of cities) {
+    const state = city.state;
+    if (!stateClimate[state]) {
+        stateClimate[state] = {
+            name: state,
+            cities: [],
+            climates: new Set(),
+            avg_high: [],
+            avg_low: [],
+            rainfall: []
+        };
+    }
+    stateClimate[state].cities.push(city.city);
+    if (city.climate) stateClimate[state].climates.add(city.climate);
+    if (city.avg_high) stateClimate[state].avg_high.push(city.avg_high);
+    if (city.avg_low) stateClimate[state].avg_low.push(city.avg_low);
+    if (city.rainfall) stateClimate[state].rainfall.push(city.rainfall);
+}
+
+const states = Object.values(stateClimate).map(s => ({
+    name: s.name,
+    climate: Array.from(s.climates).join(', '),
+    avg_high: s.avg_high.length ? Math.round(sum(s.avg_high) / s.avg_high.length) : null,
+    avg_low: s.avg_low.length ? Math.round(sum(s.avg_low) / s.avg_low.length) : null,
+    rainfall: s.rainfall.length ? Math.round(sum(s.rainfall) / s.rainfall.length) : null,
+    city_count: s.cities.length
+})).sort((a, b) => a.name.localeCompare(b.name));
+
+function sum(arr) { return arr.reduce((a, b) => a + b, 0); }
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "US Climate by State - Weather, Temperature & Weather Patterns",
+  "description": "Climate data and weather patterns for all 50 US states."
+};
+---
+
+<Layout title="US Climate by State (2026) - Temperature, Weather & Climate Zones" description="Complete guide to US state climates with average temperatures and weather patterns.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">US Climate by State</h1>
+      <p class="text-xl text-gray-600">Average temperatures, climate zones, and weather patterns</p>
+    </header>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-green-600 text-white">
+          <tr>
+            <th class="p-4 text-left">State</th>
+            <th class="p-4 text-left">Climate Zone</th>
+            <th class="p-4 text-right">Avg High (°F)</th>
+            <th class="p-4 text-right">Avg Low (°F)</th>
+            <th class="p-4 text-right">Rainfall (in)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {states.map((state, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/state/${state.name.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:underline font-semibold">
+                  {state.name}
+                </a>
+              </td>
+              <td class="p-4">{state.climate}</td>
+              <td class="p-4 text-right">{state.avg_high}°F</td>
+              <td class="p-4 text-right">{state.avg_low}°F</td>
+              <td class="p-4 text-right">{state.rainfall}"</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>

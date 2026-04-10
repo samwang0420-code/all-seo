@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Best livability scores
+const livable = cities.filter(c => c.livability_score && c.population > 30000).sort((a, b) => b.livability_score - a.livability_score).slice(0, 30);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Most Livable Cities in US - Best Quality of Life",
+  "description": "Most livable US cities with highest quality of life scores. Find the best places to live."
+};
+---
+
+<Layout title="Most Livable Cities in US (2026) - Best Quality of Life" description="Most livable US cities with highest quality of life scores.">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Most Livable Cities in US</h1>
+      <p class="text-xl text-gray-600">Highest quality of life scores - best places to live</p>
+    </header>
+
+    <div class="bg-purple-50 p-6 rounded-lg mb-8">
+      <p class="text-lg">⭐ <strong>Livability Score:</strong> 0-10 scale based on safety, cost, amenities, and environment.</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-purple-600 text-white">
+          <tr>
+            <th class="p-4 text-left">Rank</th>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Livability</th>
+            <th class="p-4 text-right">Population</th>
+            <th class="p-4 text-right">Median Home</th>
+            <th class="p-4 text-right">Crime Index</th>
+          </tr>
+        </thead>
+        <tbody>
+          {livable.map((city, i) => (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4 font-bold text-purple-600">{i + 1}</td>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right font-bold text-purple-600">{city.livability_score}/10</td>
+              <td class="p-4 text-right">{city.population?.toLocaleString()}</td>
+              <td class="p-4 text-right">${(city.median_home_value || 0).toLocaleString()}</td>
+              <td class="p-4 text-right">{city.crime_index || 'N/A'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <div class="mt-8 bg-gray-50 p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">📊 Livability Methodology</h2>
+      <p class="text-gray-600">Our livability score combines multiple factors: safety (crime rates), cost of living (home prices and rent), amenities (schools, healthcare, recreation), and environment (climate, walkability). Cities with populations over 30,000 are included for reliable data.</p>
+    </div>
+  </div>
+</Layout>

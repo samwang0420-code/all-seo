@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cities from '../data/cities.json';
+
+// Top cities for cost comparison
+const topCities = cities
+  .filter(c => c.population > 100000)
+  .sort((a, b) => (b.population || 0) - (a.population || 0))
+  .slice(0, 50);
+
+const nationalAvg = {
+  income: Math.round(topCities.reduce((a, c) => a + (c.median_income || 60000), 0) / topCities.length),
+  home: Math.round(topCities.reduce((a, c) => a + (c.median_home_value || 300000), 0) / topCities.length),
+  rent: Math.round(topCities.reduce((a, c) => a + (c.median_rent || 1400), 0) / topCities.length),
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cost of Living Index - US Cities Compared to National Average",
+  "description": "Compare cost of living in US cities. See how your city ranks compared to national average."
+};
+---
+
+<Layout title="Cost of Living Index (2026) - US Cities Compared to National Average" description="Compare cost of living in US cities. Index shows percentage relative to national average (100).">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Cost of Living Index</h1>
+      <p class="text-xl text-gray-600">US cities compared to national average (100)</p>
+    </header>
+
+    <div class="bg-blue-50 p-6 rounded-lg mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 National Averages</h2>
+      <div class="grid md:grid-cols-3 gap-4 text-center">
+        <div>
+          <p class="text-sm text-gray-600">Median Income</p>
+          <p class="text-2xl font-bold">${nationalAvg.income.toLocaleString()}</p>
+        </div>
+        <div>
+          <p class="text-sm text-gray-600">Median Home</p>
+          <p class="text-2xl font-bold">${nationalAvg.home.toLocaleString()}</p>
+        </div>
+        <div>
+          <p class="text-sm text-gray-600">Median Rent</p>
+          <p class="text-2xl font-bold">${nationalAvg.rent}/mo</p>
+        </div>
+      </div>
+      <p class="text-sm text-gray-500 mt-4">Index = 100 means equal to national average. Above 100 = more expensive.</p>
+    </div>
+
+    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-orange-600 text-white">
+          <tr>
+            <th class="p-4 text-left">City</th>
+            <th class="p-4 text-right">Home Index</th>
+            <th class="p-4 text-right">Rent Index</th>
+            <th class="p-4 text-right">Income Index</th>
+            <th class="p-4 text-left">Cost Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          {topCities.map((city, i) => {
+            const homeIdx = Math.round((city.median_home_value / nationalAvg.home) * 100);
+            const rentIdx = Math.round((city.median_rent / nationalAvg.rent) * 100);
+            const incomeIdx = Math.round((city.median_income / nationalAvg.income) * 100);
+            const avgIdx = Math.round((homeIdx + rentIdx) / 2);
+            const costLevel = avgIdx > 150 ? 'Very High' : avgIdx > 120 ? 'High' : avgIdx > 80 ? 'Average' : 'Low';
+            return (
+            <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              <td class="p-4">
+                <a href={`/city/${city.city.toLowerCase().replace(/\s+/g, '-')}-${city.state_abbr.toLowerCase()}`} class="text-blue-600 hover:underline font-semibold">
+                  {city.city}, {city.state_abbr}
+                </a>
+              </td>
+              <td class="p-4 text-right">{homeIdx}</td>
+              <td class="p-4 text-right">{rentIdx}</td>
+              <td class="p-4 text-right">{incomeIdx}</td>
+              <td class="p-4">{costLevel}</td>
+            </tr>
+          )})}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>
