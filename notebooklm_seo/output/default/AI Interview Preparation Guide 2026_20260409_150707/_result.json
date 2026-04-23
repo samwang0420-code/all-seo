@@ -1,0 +1,8 @@
+{
+  "task": "https://jianfacv.com/blog/ai-interview-preparation-guide/",
+  "notebook": "jianfacv-interviews",
+  "output": "/root/.openclaw/workspace-crm/notebooklm_seo/output/default/AI Interview Preparation Guide 2026_20260409_150707",
+  "generate_results": {},
+  "success": false,
+  "error": "Authentication expired or invalid. Redirected to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&dsh=S1698044628%3A1775747228472625&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_XZejOnDTkQE9hY5dD_yUZcTLJm9NW_QYEf4bfjpezHE-po9trmvLjsIDaqaZAQZvxf7krycg\nRun 'notebooklm login' to re-authenticate."
+}

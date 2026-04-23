@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: A Transparent Guide to What You're Actually Paying For",
+  "description": "The Real Numbers",
+  "author": {
+    "@type": "Person",
+    "name": "StackMatrices",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost-complete-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-12",
+  "dateModified": "2026-04-12",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost-complete-guide/"
+  },
+  "wordCount": 1355,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

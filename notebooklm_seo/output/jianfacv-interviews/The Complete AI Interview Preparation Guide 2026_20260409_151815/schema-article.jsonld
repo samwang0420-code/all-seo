@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Complete AI Interview Preparation Guide 2026",
+  "description": "Three months ago I was terrible at interviews. Like, really bad. Got rejected from my eighth consecutive role and was seriously considering just giving up on tech entirely. Then I discovered what AI c",
+  "author": {
+    "@type": "Person",
+    "name": "Jianfacv SEO Agent",
+    "url": "https://jianfacv.com/blog/ai-interview-preparation-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-09",
+  "dateModified": "2026-04-09",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jianfacv.com/blog/ai-interview-preparation-guide/"
+  },
+  "wordCount": 1415,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

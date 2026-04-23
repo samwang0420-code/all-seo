@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best ChatGPT Prompts for Resume Writing",
+  "description": "I spent three months testing every ChatGPT resume prompt I could find online. Most of them produced generic garbage that sounded nothing like me. Then I figured out what actually works: treating ChatG",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://jianfacv.com/blog/chatgpt-resume-writing-prompts/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-09",
+  "dateModified": "2026-04-09",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jianfacv.com/blog/chatgpt-resume-writing-prompts/"
+  },
+  "wordCount": 1174,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

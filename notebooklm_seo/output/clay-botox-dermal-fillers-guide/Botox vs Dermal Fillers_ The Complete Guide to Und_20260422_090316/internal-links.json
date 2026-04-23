@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: The Complete Guide to Understanding the Differences",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-complete-guide/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 26
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 25
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 24
+    },
+    {
+      "keyword": "patients",
+      "frequency": 22
+    },
+    {
+      "keyword": "filler",
+      "frequency": 15
+    },
+    {
+      "keyword": "months",
+      "frequency": 14
+    },
+    {
+      "keyword": "facial",
+      "frequency": 13
+    },
+    {
+      "keyword": "volume",
+      "frequency": 11
+    },
+    {
+      "keyword": "acid",
+      "frequency": 10
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 9
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 9
+    },
+    {
+      "keyword": "lines",
+      "frequency": 9
+    },
+    {
+      "keyword": "typically",
+      "frequency": 9
+    },
+    {
+      "keyword": "over",
+      "frequency": 8
+    },
+    {
+      "keyword": "muscle",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 26 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "months",
+      "suggested_target": "/blog/months/",
+      "reason": "\"months\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "facial",
+      "suggested_target": "/blog/facial/",
+      "reason": "\"facial\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 11 times in this article"
+    }
+  ]
+}

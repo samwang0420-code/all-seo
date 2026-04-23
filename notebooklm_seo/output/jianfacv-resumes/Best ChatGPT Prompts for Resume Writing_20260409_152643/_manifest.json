@@ -1,0 +1,24 @@
+{
+  "title": "Best ChatGPT Prompts for Resume Writing",
+  "url": "https://jianfacv.com/blog/chatgpt-resume-writing-prompts/",
+  "notebook": "jianfacv-resumes",
+  "output_dir": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643",
+  "files": {
+    "chart-comparison.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/chart-comparison.png",
+    "infographic.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/infographic.png",
+    "schema-breadcrumb.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/schema-breadcrumb.jsonld",
+    "internal-links.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/internal-links.json",
+    "schema-faq.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/schema-faq.jsonld",
+    "quiz.html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/quiz.html",
+    "schema-article.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/schema-article.jsonld"
+  },
+  "results": {
+    "schemas": true,
+    "charts": [
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/chart-comparison.png",
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/infographic.png"
+    ],
+    "quiz": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/quiz.html",
+    "internal_links": "/root/.openclaw/workspace-crm/notebooklm_seo/output/jianfacv-resumes/Best ChatGPT Prompts for Resume Writing_20260409_152643/internal-links.json"
+  }
+}

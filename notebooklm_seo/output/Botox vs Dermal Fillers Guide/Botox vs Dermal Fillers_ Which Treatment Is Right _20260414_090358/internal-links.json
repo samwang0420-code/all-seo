@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Which Treatment Is Right for You?",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 25
+    },
+    {
+      "keyword": "patients",
+      "frequency": 17
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 16
+    },
+    {
+      "keyword": "filler",
+      "frequency": 16
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 14
+    },
+    {
+      "keyword": "most",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 10
+    },
+    {
+      "keyword": "concerns",
+      "frequency": 10
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 9
+    },
+    {
+      "keyword": "volume",
+      "frequency": 9
+    },
+    {
+      "keyword": "american",
+      "frequency": 8
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 7
+    },
+    {
+      "keyword": "when",
+      "frequency": 7
+    },
+    {
+      "keyword": "your",
+      "frequency": 7
+    },
+    {
+      "keyword": "facial",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "most",
+      "suggested_target": "/blog/most/",
+      "reason": "\"most\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "treatments",
+      "suggested_target": "/blog/treatments/",
+      "reason": "\"treatments\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "concerns",
+      "suggested_target": "/blog/concerns/",
+      "reason": "\"concerns\" appears 10 times in this article"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool DE error code on dryer. Causes and step-by-
 brand: whirlpool
 category: dryer
 code: DE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/dryer/DE/

@@ -4,7 +4,7 @@ description: "Troubleshoot Amana IE error code on dryer. Causes and step-by-step
 brand: amana
 category: dryer
 code: IE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/dryer/IE/

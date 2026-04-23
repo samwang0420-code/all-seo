@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire HE1 error code on washer. Causes and step-
 brand: frigidaire
 category: washer
 code: HE1
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/washer/HE1/

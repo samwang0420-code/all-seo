@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: What You Need to Know Before Getting Treatment",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "dental",
+      "frequency": 26
+    },
+    {
+      "keyword": "implant",
+      "frequency": 24
+    },
+    {
+      "keyword": "cost",
+      "frequency": 23
+    },
+    {
+      "keyword": "implants",
+      "frequency": 19
+    },
+    {
+      "keyword": "costs",
+      "frequency": 14
+    },
+    {
+      "keyword": "your",
+      "frequency": 11
+    },
+    {
+      "keyword": "than",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 9
+    },
+    {
+      "keyword": "more",
+      "frequency": 9
+    },
+    {
+      "keyword": "typically",
+      "frequency": 8
+    },
+    {
+      "keyword": "investment",
+      "frequency": 7
+    },
+    {
+      "keyword": "often",
+      "frequency": 7
+    },
+    {
+      "keyword": "bone",
+      "frequency": 7
+    },
+    {
+      "keyword": "offer",
+      "frequency": 7
+    },
+    {
+      "keyword": "patients",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 26 times in this article"
+    },
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "than",
+      "suggested_target": "/blog/than/",
+      "reason": "\"than\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 9 times in this article"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source_article": "Best ChatGPT Prompts for Resume Writing",
+  "source_url": "https://jianfacv.com/blog/chatgpt-resume-writing-prompts/",
+  "top_keywords": [
+    {
+      "keyword": "resume",
+      "frequency": 15
+    },
+    {
+      "keyword": "specific",
+      "frequency": 13
+    },
+    {
+      "keyword": "chatgpt",
+      "frequency": 12
+    },
+    {
+      "keyword": "like",
+      "frequency": 12
+    },
+    {
+      "keyword": "prompt",
+      "frequency": 11
+    },
+    {
+      "keyword": "summary",
+      "frequency": 9
+    },
+    {
+      "keyword": "prompts",
+      "frequency": 8
+    },
+    {
+      "keyword": "generic",
+      "frequency": 8
+    },
+    {
+      "keyword": "your",
+      "frequency": 8
+    },
+    {
+      "keyword": "actually",
+      "frequency": 7
+    },
+    {
+      "keyword": "skills",
+      "frequency": 7
+    },
+    {
+      "keyword": "when",
+      "frequency": 6
+    },
+    {
+      "keyword": "context",
+      "frequency": 6
+    },
+    {
+      "keyword": "sound",
+      "frequency": 6
+    },
+    {
+      "keyword": "then",
+      "frequency": 5
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "resume",
+      "suggested_target": "/blog/resume/",
+      "reason": "\"resume\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "specific",
+      "suggested_target": "/blog/specific/",
+      "reason": "\"specific\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "chatgpt",
+      "suggested_target": "/blog/chatgpt/",
+      "reason": "\"chatgpt\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "like",
+      "suggested_target": "/blog/like/",
+      "reason": "\"like\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "prompt",
+      "suggested_target": "/blog/prompt/",
+      "reason": "\"prompt\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "summary",
+      "suggested_target": "/blog/summary/",
+      "reason": "\"summary\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "prompts",
+      "suggested_target": "/blog/prompts/",
+      "reason": "\"prompts\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "generic",
+      "suggested_target": "/blog/generic/",
+      "reason": "\"generic\" appears 8 times in this article"
+    }
+  ]
+}

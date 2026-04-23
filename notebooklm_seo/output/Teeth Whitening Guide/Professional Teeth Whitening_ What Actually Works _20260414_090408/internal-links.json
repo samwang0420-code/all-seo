@@ -1,0 +1,108 @@
+{
+  "source_article": "Professional Teeth Whitening: What Actually Works and What Costs",
+  "source_url": "https://stackmatrices.com/blog/teeth-whitening-guide/",
+  "top_keywords": [
+    {
+      "keyword": "whitening",
+      "frequency": 54
+    },
+    {
+      "keyword": "professional",
+      "frequency": 24
+    },
+    {
+      "keyword": "stains",
+      "frequency": 15
+    },
+    {
+      "keyword": "over",
+      "frequency": 14
+    },
+    {
+      "keyword": "results",
+      "frequency": 14
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 13
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 11
+    },
+    {
+      "keyword": "office",
+      "frequency": 11
+    },
+    {
+      "keyword": "cost",
+      "frequency": 11
+    },
+    {
+      "keyword": "home",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 10
+    },
+    {
+      "keyword": "maintenance",
+      "frequency": 10
+    },
+    {
+      "keyword": "staining",
+      "frequency": 9
+    },
+    {
+      "keyword": "toothpaste",
+      "frequency": 9
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "whitening",
+      "suggested_target": "/blog/whitening/",
+      "reason": "\"whitening\" appears 54 times in this article"
+    },
+    {
+      "anchor_text": "professional",
+      "suggested_target": "/blog/professional/",
+      "reason": "\"professional\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "stains",
+      "suggested_target": "/blog/stains/",
+      "reason": "\"stains\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "over",
+      "suggested_target": "/blog/over/",
+      "reason": "\"over\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "results",
+      "suggested_target": "/blog/results/",
+      "reason": "\"results\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "teeth",
+      "suggested_target": "/blog/teeth/",
+      "reason": "\"teeth\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 11 times in this article"
+    }
+  ]
+}

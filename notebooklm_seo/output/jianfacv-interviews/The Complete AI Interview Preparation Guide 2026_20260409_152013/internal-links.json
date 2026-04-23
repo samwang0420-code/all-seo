@@ -1,0 +1,108 @@
+{
+  "source_article": "The Complete AI Interview Preparation Guide 2026",
+  "source_url": "https://jianfacv.com/blog/ai-interview-preparation-guide/",
+  "top_keywords": [
+    {
+      "keyword": "interview",
+      "frequency": 21
+    },
+    {
+      "keyword": "practice",
+      "frequency": 17
+    },
+    {
+      "keyword": "questions",
+      "frequency": 13
+    },
+    {
+      "keyword": "actually",
+      "frequency": 12
+    },
+    {
+      "keyword": "feedback",
+      "frequency": 11
+    },
+    {
+      "keyword": "question",
+      "frequency": 11
+    },
+    {
+      "keyword": "like",
+      "frequency": 10
+    },
+    {
+      "keyword": "your",
+      "frequency": 10
+    },
+    {
+      "keyword": "when",
+      "frequency": 9
+    },
+    {
+      "keyword": "answer",
+      "frequency": 9
+    },
+    {
+      "keyword": "three",
+      "frequency": 8
+    },
+    {
+      "keyword": "prep",
+      "frequency": 8
+    },
+    {
+      "keyword": "here",
+      "frequency": 8
+    },
+    {
+      "keyword": "ripple",
+      "frequency": 8
+    },
+    {
+      "keyword": "problem",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "interview",
+      "suggested_target": "/blog/interview/",
+      "reason": "\"interview\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "practice",
+      "suggested_target": "/blog/practice/",
+      "reason": "\"practice\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "questions",
+      "suggested_target": "/blog/questions/",
+      "reason": "\"questions\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "actually",
+      "suggested_target": "/blog/actually/",
+      "reason": "\"actually\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "feedback",
+      "suggested_target": "/blog/feedback/",
+      "reason": "\"feedback\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "question",
+      "suggested_target": "/blog/question/",
+      "reason": "\"question\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "like",
+      "suggested_target": "/blog/like/",
+      "reason": "\"like\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 10 times in this article"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense LE1 error code on dryer. Causes and step-by-s
 brand: hisense
 category: dryer
 code: LE1
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/LE1/

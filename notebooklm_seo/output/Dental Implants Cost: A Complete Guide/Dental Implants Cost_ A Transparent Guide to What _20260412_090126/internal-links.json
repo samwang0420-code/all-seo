@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: A Transparent Guide to What You're Actually Paying For",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost-complete-guide/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 22
+    },
+    {
+      "keyword": "implants",
+      "frequency": 19
+    },
+    {
+      "keyword": "costs",
+      "frequency": 15
+    },
+    {
+      "keyword": "dental",
+      "frequency": 14
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 11
+    },
+    {
+      "keyword": "cost",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 9
+    },
+    {
+      "keyword": "patients",
+      "frequency": 8
+    },
+    {
+      "keyword": "provide",
+      "frequency": 8
+    },
+    {
+      "keyword": "crown",
+      "frequency": 7
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 7
+    },
+    {
+      "keyword": "years",
+      "frequency": 7
+    },
+    {
+      "keyword": "quality",
+      "frequency": 7
+    },
+    {
+      "keyword": "insurance",
+      "frequency": 7
+    },
+    {
+      "keyword": "investment",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "teeth",
+      "suggested_target": "/blog/teeth/",
+      "reason": "\"teeth\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 8 times in this article"
+    }
+  ]
+}

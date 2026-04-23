@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: Understanding What Actually Works for Your Face",
+  "description": "Walk into any med spa or dermatologist's office and you'll face a decision that gets framed as simple but rarely explained well: Botox or dermal fillers? The answer matters because these treatments wo",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-18",
+  "dateModified": "2026-04-18",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "wordCount": 1668,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

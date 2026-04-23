@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Understanding What Actually Works for Your Face",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 25
+    },
+    {
+      "keyword": "lines",
+      "frequency": 24
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 21
+    },
+    {
+      "keyword": "your",
+      "frequency": 17
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 13
+    },
+    {
+      "keyword": "results",
+      "frequency": 12
+    },
+    {
+      "keyword": "volume",
+      "frequency": 11
+    },
+    {
+      "keyword": "these",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 10
+    },
+    {
+      "keyword": "filler",
+      "frequency": 10
+    },
+    {
+      "keyword": "face",
+      "frequency": 9
+    },
+    {
+      "keyword": "when",
+      "frequency": 9
+    },
+    {
+      "keyword": "injector",
+      "frequency": 9
+    },
+    {
+      "keyword": "forehead",
+      "frequency": 8
+    },
+    {
+      "keyword": "than",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "results",
+      "suggested_target": "/blog/results/",
+      "reason": "\"results\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "these",
+      "suggested_target": "/blog/these/",
+      "reason": "\"these\" appears 10 times in this article"
+    }
+  ]
+}

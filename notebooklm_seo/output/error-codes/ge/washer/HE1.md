@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances HE1 error code on washer. Causes and st
 brand: ge
 category: washer
 code: HE1
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/HE1/

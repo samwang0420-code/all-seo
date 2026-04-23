@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # Complete HVAC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # Complete HVAC is that What Real Homeowners Need to."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # Complete HVAC work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "What Real Homeowners Need to is the core mechanism behind # Complete HVAC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # Complete HVAC important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# Complete HVAC matters because What Real Homeowners Need to."
+      }
+    }
+  ]
+}

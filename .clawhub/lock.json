@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "human-writing": {
+      "version": "1.0.0",
+      "installedAt": 1775726187325
+    },
+    "copywriting-pro": {
+      "version": "1.0.0",
+      "installedAt": 1775726234402
+    }
+  }
+}

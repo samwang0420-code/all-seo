@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # HVAC Replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # HVAC Replacement is that A Cost Analysis for Homeowners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # HVAC Replacement work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Cost Analysis for Homeowners is the core mechanism behind # HVAC Replacement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # HVAC Replacement important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# HVAC Replacement matters because A Cost Analysis for Homeowners."
+      }
+    }
+  ]
+}

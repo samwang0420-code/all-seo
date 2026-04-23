@@ -1,0 +1,40 @@
+2026-04-09 14:52:48,226 [INFO] 👁️  开始监听 queue 目录: /root/.openclaw/workspace-crm/notebooklm_seo/queue (每 30s 检查一次)
+2026-04-09 14:52:48,227 [INFO] 📥 发现新任务: https://jianfacv.com/blog/how-to-write-ats-approved-resume/|jianfacv-ATS|How to 
+2026-04-09 14:52:48,570 [INFO] HTTP Request: GET https://notebooklm.google.com/ "HTTP/1.1 200 OK"
+2026-04-09 14:52:49,086 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=wXbhsf&source-path=%2F&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:52:49,096 [INFO]   使用已有 notebook: jianfacv-ATS (0496e9a5-013...)
+2026-04-09 14:52:50,174 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:52:50,179 [ERROR] RPC ADD_SOURCE failed after 1.083s
+2026-04-09 14:52:50,180 [WARNING]   ⚠️ URL 上传失败，尝试下载内容: Failed to add source: https://jianfacv.com/blog/how-to-write-ats-approved-resume/
+Possible causes:
+  - URL is invalid or inaccessible
+  - Content is behind a paywall or requires authentication
+  - Page content is empty or could not be parsed
+  - Rate limiting or quota exceeded
+2026-04-09 14:52:50,304 [INFO] HTTP Request: GET https://jianfacv.com/blog/how-to-write-ats-approved-resume/ "HTTP/1.1 308 Permanent Redirect"
+2026-04-09 14:52:50,344 [INFO] HTTP Request: GET https://jianfacv.com/blog/how-to-write-ats-approved-resume "HTTP/1.1 200 OK"
+2026-04-09 14:52:50,348 [INFO]   页面下载成功，提取 6296 chars 文本
+2026-04-09 14:52:56,882 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:52:57,133 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:52:57,137 [INFO]   ✅ 页面下载+文本上传成功: https://jianfacv.com/blog/how-to-write-ats-approved-resume/
+2026-04-09 14:52:57,137 [INFO]   开始生成内容: quiz
+2026-04-09 14:52:57,386 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:52:59,674 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=R7cb6c&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:00,060 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:02,337 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:06,578 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:14,893 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:25,218 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:35,584 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:35,853 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=gArtLc&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:36,305 [INFO] HTTP Request: POST https://notebooklm.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=v9rmvd&source-path=%2Fnotebook%2F0496e9a5-0133-4032-95b7-ec8bc3514b01&f.sid=-1934524432100587984&rt=c "HTTP/1.1 200 OK"
+2026-04-09 14:53:36,441 [INFO]   ✅ quiz: quiz.json (12.7 KB)
+2026-04-09 14:53:36,442 [INFO] ✅ 任务完成: https://jianfacv.com/blog/how-to-write-ats-approved-resume/ (48s)
+2026-04-09 15:07:07,178 [INFO] 📥 发现新任务: https://jianfacv.com/blog/ai-interview-preparation-guide/|jianfacv-interviews|AI
+2026-04-09 15:07:07,418 [INFO] HTTP Request: GET https://notebooklm.google.com/ "HTTP/1.1 302 Found"
+2026-04-09 15:07:07,469 [INFO] HTTP Request: GET https://notebooklm.google.com/login?continue=https://notebooklm.google.com/ "HTTP/1.1 302 Found"
+2026-04-09 15:07:07,556 [INFO] HTTP Request: GET https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://notebooklm.google.com/login?continue%3Dhttps://notebooklm.google.com/&followup=https://notebooklm.google.com/login?continue%3Dhttps://notebooklm.google.com/ "HTTP/1.1 302 Found"
+2026-04-09 15:07:07,611 [INFO] HTTP Request: GET https://accounts.google.com/InteractiveLogin?continue=https://notebooklm.google.com/login?continue%3Dhttps://notebooklm.google.com/&followup=https://notebooklm.google.com/login?continue%3Dhttps://notebooklm.google.com/&osid=1&passive=1209600&dsh=S1698044628:1775747228472625 "HTTP/1.1 302 Moved Temporarily"
+2026-04-09 15:07:07,702 [INFO] HTTP Request: GET https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&dsh=S1698044628%3A1775747228472625&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_XZejOnDTkQE9hY5dD_yUZcTLJm9NW_QYEf4bfjpezHE-po9trmvLjsIDaqaZAQZvxf7krycg "HTTP/1.1 200 OK"
+2026-04-09 15:07:07,806 [ERROR] ❌ 任务失败: https://jianfacv.com/blog/ai-interview-preparation-guide/ — Authentication expired or invalid. Redirected to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&dsh=S1698044628%3A1775747228472625&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_XZejOnDTkQE9hY5dD_yUZcTLJm9NW_QYEf4bfjpezHE-po9trmvLjsIDaqaZAQZvxf7krycg
+Run 'notebooklm login' to re-authenticate.

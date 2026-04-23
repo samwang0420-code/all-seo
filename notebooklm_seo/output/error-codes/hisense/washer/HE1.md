@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense HE1 error code on washer. Causes and step-by-
 brand: hisense
 category: washer
 code: HE1
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/washer/HE1/

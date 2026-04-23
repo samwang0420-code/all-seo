@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool TE error code on dryer. Causes and step-by-
 brand: whirlpool
 category: dryer
 code: TE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/dryer/TE/

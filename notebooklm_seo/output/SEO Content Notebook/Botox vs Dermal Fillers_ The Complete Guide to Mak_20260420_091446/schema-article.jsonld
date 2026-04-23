@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: The Complete Guide to Making the Right Choice in 2026",
+  "description": "The decision between Botox and dermal fillers represents one of the most common dilemmas facing aesthetic patients today. While both treatments involve injections and target facial wrinkles, the simil",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-guide-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-20",
+  "dateModified": "2026-04-20",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-guide-2026/"
+  },
+  "wordCount": 1373,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

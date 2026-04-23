@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore PE error code on washer. Causes and step-by-s
 brand: kenmore
 category: washer
 code: PE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/washer/PE/

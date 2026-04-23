@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch HE error code on dryer. Causes and step-by-step
 brand: bosch
 category: dryer
 code: HE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/dryer/HE/

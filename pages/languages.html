@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>语言列表 - OpsPilot</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#001f3f',
+            'primary-dim': '#00152b',
+            surface: '#fcf9f8',
+            'surface-dim': '#dbdad9',
+          },
+          fontFamily: {
+            headline: ['Manrope', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            label: ['Space Grotesk', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #fcf9f8; font-family: 'Inter', sans-serif; }
+    .font-headline { font-family: 'Manrope', sans-serif; }
+    .font-label { font-family: 'Space Grotesk', monospace; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-4">
+        <img src="/logo-clean.png" alt="OpsPilot" class="h-10">
+        <span class="font-headline text-xl font-bold tracking-tight">OpsPilot</span>
+      </a>
+      <nav class="font-label text-sm tracking-wider flex items-center gap-6">
+        <a href="countries.html" class="text-white/70 hover:text-white">国家/地区</a>
+        <a href="languages.html" class="text-white/70 hover:text-white">语言列表</a>
+        <a href="tech-companies.html" class="text-white/70 hover:text-white">科技公司</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-primary text-white py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h1 class="font-headline text-3xl md:text-5xl font-extrabold tracking-tight mb-4">
+        🗣️ 语言列表
+      </h1>
+      <p class="text-white/70">YouTube 语言代码映射表</p>
+    </div>
+  </section>
+
+  <!-- Search & Content -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <div class="mb-8">
+      <input type="text" id="search" placeholder="搜索语言..." 
+        class="w-full md:w-96 px-6 py-4 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none font-body text-lg bg-white">
+    </div>
+    <div class="stats font-label text-slate-500 mb-6" id="stats"></div>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="grid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-24 py-12 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-6 text-center text-slate-400 font-label text-sm">
+      <p>© 2024 OpsPilot.cc - Industrial Grade Automation</p>
+    </div>
+  </footer>
+
+  <script>
+    fetch('/data/youtube_language_lookup.json')
+      .then(r => r.json())
+      .then(data => {
+        const items = Object.entries(data).map(([code, name]) => ({ code, name }));
+        const grid = document.getElementById('grid');
+        const search = document.getElementById('search');
+        const stats = document.getElementById('stats');
+        
+        function render(list) {
+          grid.innerHTML = list.map(item => `
+            <div class="bg-white p-4 rounded-xl border border-slate-100 hover:border-primary/30 hover:shadow-lg transition-all flex justify-between items-center">
+              <span class="font-body text-slate-700">${item.name}</span>
+              <span class="font-label text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">${item.code}</span>
+            </div>
+          `).join('');
+          stats.textContent = `共 ${list.length} 种语言`;
+        }
+        
+        render(items);
+        
+        search.addEventListener('input', (e) => {
+          const q = e.target.value.toLowerCase();
+          const filtered = items.filter(item => item.name.toLowerCase().includes(q) || item.code.toLowerCase().includes(q));
+          render(filtered);
+        });
+      });
+  </script>
+</body>
+</html>

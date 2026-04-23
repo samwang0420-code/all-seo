@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung LE1 error code on washer. Causes and step-by-
 brand: samsung
 category: washer
 code: LE1
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/washer/LE1/

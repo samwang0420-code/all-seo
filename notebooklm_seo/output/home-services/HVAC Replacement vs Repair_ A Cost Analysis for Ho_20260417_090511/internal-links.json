@@ -1,0 +1,108 @@
+{
+  "source_article": "HVAC Replacement vs Repair: A Cost Analysis for Homeowners in 2026",
+  "source_url": "https://stackmatrices.com/blog/hvac-replacement-vs-repair-cost-analysis-2026/",
+  "top_keywords": [
+    {
+      "keyword": "system",
+      "frequency": 43
+    },
+    {
+      "keyword": "repair",
+      "frequency": 38
+    },
+    {
+      "keyword": "replacement",
+      "frequency": 24
+    },
+    {
+      "keyword": "years",
+      "frequency": 22
+    },
+    {
+      "keyword": "costs",
+      "frequency": 21
+    },
+    {
+      "keyword": "efficiency",
+      "frequency": 16
+    },
+    {
+      "keyword": "seer",
+      "frequency": 16
+    },
+    {
+      "keyword": "your",
+      "frequency": 14
+    },
+    {
+      "keyword": "hvac",
+      "frequency": 12
+    },
+    {
+      "keyword": "cost",
+      "frequency": 12
+    },
+    {
+      "keyword": "energy",
+      "frequency": 12
+    },
+    {
+      "keyword": "systems",
+      "frequency": 11
+    },
+    {
+      "keyword": "over",
+      "frequency": 10
+    },
+    {
+      "keyword": "maintenance",
+      "frequency": 9
+    },
+    {
+      "keyword": "refrigerant",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "system",
+      "suggested_target": "/blog/system/",
+      "reason": "\"system\" appears 43 times in this article"
+    },
+    {
+      "anchor_text": "repair",
+      "suggested_target": "/blog/repair/",
+      "reason": "\"repair\" appears 38 times in this article"
+    },
+    {
+      "anchor_text": "replacement",
+      "suggested_target": "/blog/replacement/",
+      "reason": "\"replacement\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "years",
+      "suggested_target": "/blog/years/",
+      "reason": "\"years\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "efficiency",
+      "suggested_target": "/blog/efficiency/",
+      "reason": "\"efficiency\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "seer",
+      "suggested_target": "/blog/seer/",
+      "reason": "\"seer\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 14 times in this article"
+    }
+  ]
+}

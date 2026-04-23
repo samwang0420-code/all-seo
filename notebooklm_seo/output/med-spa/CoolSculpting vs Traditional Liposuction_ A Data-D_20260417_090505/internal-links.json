@@ -1,0 +1,108 @@
+{
+  "source_article": "CoolSculpting vs Traditional Liposuction: A Data-Driven Analysis for 2026",
+  "source_url": "https://stackmatrices.com/blog/coolsculpting-vs-liposuction-2026/",
+  "top_keywords": [
+    {
+      "keyword": "liposuction",
+      "frequency": 25
+    },
+    {
+      "keyword": "patients",
+      "frequency": 22
+    },
+    {
+      "keyword": "coolsculpting",
+      "frequency": 19
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 13
+    },
+    {
+      "keyword": "areas",
+      "frequency": 11
+    },
+    {
+      "keyword": "body",
+      "frequency": 9
+    },
+    {
+      "keyword": "more",
+      "frequency": 8
+    },
+    {
+      "keyword": "traditional",
+      "frequency": 7
+    },
+    {
+      "keyword": "analysis",
+      "frequency": 7
+    },
+    {
+      "keyword": "patient",
+      "frequency": 7
+    },
+    {
+      "keyword": "costs",
+      "frequency": 7
+    },
+    {
+      "keyword": "cells",
+      "frequency": 7
+    },
+    {
+      "keyword": "area",
+      "frequency": 6
+    },
+    {
+      "keyword": "results",
+      "frequency": 6
+    },
+    {
+      "keyword": "within",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "liposuction",
+      "suggested_target": "/blog/liposuction/",
+      "reason": "\"liposuction\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "coolsculpting",
+      "suggested_target": "/blog/coolsculpting/",
+      "reason": "\"coolsculpting\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "areas",
+      "suggested_target": "/blog/areas/",
+      "reason": "\"areas\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "body",
+      "suggested_target": "/blog/body/",
+      "reason": "\"body\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "more",
+      "suggested_target": "/blog/more/",
+      "reason": "\"more\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "traditional",
+      "suggested_target": "/blog/traditional/",
+      "reason": "\"traditional\" appears 7 times in this article"
+    }
+  ]
+}

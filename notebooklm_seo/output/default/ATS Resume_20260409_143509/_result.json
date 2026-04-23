@@ -1,0 +1,8 @@
+{
+  "task": "https://jianfacv.com/blog/how-to-write-ats-approved-resume/",
+  "notebook": "jianfacv-ATS",
+  "output": "/root/.openclaw/workspace-crm/notebooklm_seo/output/default/ATS Resume_20260409_143509",
+  "generate_results": {},
+  "success": false,
+  "error": "'str' object has no attribute 'exists'"
+}

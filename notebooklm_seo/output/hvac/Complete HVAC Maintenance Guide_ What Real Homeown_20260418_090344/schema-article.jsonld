@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Complete HVAC Maintenance Guide: What Real Homeowners Need to Know",
+  "description": "Your heating and cooling system works around the clock to keep your home comfortable, yet it's the most ignored appliance in most households. Unlike a leaky faucet or a flickering light, an underperfo",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/hvac-maintenance-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-04-18",
+  "dateModified": "2026-04-18",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/hvac-maintenance-guide/"
+  },
+  "wordCount": 1600,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

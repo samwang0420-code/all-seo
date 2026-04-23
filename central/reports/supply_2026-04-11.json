@@ -1,0 +1,11 @@
+{
+  "agent": "supply",
+  "workspace": "workspace-geo-suppler",
+  "date": "2026-04-11",
+  "status": "ok",
+  "pages_total": 78,
+  "deploy_method": "cloudflare_pages",
+  "errors": [],
+  "blockers": [],
+  "needs_attention": false
+}

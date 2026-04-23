@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost in 2026",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 23
+    },
+    {
+      "keyword": "crown",
+      "frequency": 16
+    },
+    {
+      "keyword": "quote",
+      "frequency": 15
+    },
+    {
+      "keyword": "your",
+      "frequency": 11
+    },
+    {
+      "keyword": "runs",
+      "frequency": 11
+    },
+    {
+      "keyword": "practices",
+      "frequency": 10
+    },
+    {
+      "keyword": "patients",
+      "frequency": 9
+    },
+    {
+      "keyword": "than",
+      "frequency": 9
+    },
+    {
+      "keyword": "implants",
+      "frequency": 8
+    },
+    {
+      "keyword": "dental",
+      "frequency": 7
+    },
+    {
+      "keyword": "price",
+      "frequency": 7
+    },
+    {
+      "keyword": "bone",
+      "frequency": 7
+    },
+    {
+      "keyword": "graft",
+      "frequency": 7
+    },
+    {
+      "keyword": "most",
+      "frequency": 7
+    },
+    {
+      "keyword": "year",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "crown",
+      "suggested_target": "/blog/crown/",
+      "reason": "\"crown\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "quote",
+      "suggested_target": "/blog/quote/",
+      "reason": "\"quote\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "runs",
+      "suggested_target": "/blog/runs/",
+      "reason": "\"runs\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "practices",
+      "suggested_target": "/blog/practices/",
+      "reason": "\"practices\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "than",
+      "suggested_target": "/blog/than/",
+      "reason": "\"than\" appears 9 times in this article"
+    }
+  ]
+}

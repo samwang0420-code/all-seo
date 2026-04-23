@@ -1,0 +1,108 @@
+{
+  "source_article": "Complete HVAC Maintenance Guide: What Real Homeowners Need to Know",
+  "source_url": "https://stackmatrices.com/blog/hvac-maintenance-guide/",
+  "top_keywords": [
+    {
+      "keyword": "your",
+      "frequency": 25
+    },
+    {
+      "keyword": "system",
+      "frequency": 24
+    },
+    {
+      "keyword": "filter",
+      "frequency": 14
+    },
+    {
+      "keyword": "coil",
+      "frequency": 13
+    },
+    {
+      "keyword": "maintenance",
+      "frequency": 12
+    },
+    {
+      "keyword": "cooling",
+      "frequency": 12
+    },
+    {
+      "keyword": "energy",
+      "frequency": 11
+    },
+    {
+      "keyword": "heat",
+      "frequency": 10
+    },
+    {
+      "keyword": "before",
+      "frequency": 9
+    },
+    {
+      "keyword": "most",
+      "frequency": 8
+    },
+    {
+      "keyword": "hvac",
+      "frequency": 7
+    },
+    {
+      "keyword": "condenser",
+      "frequency": 7
+    },
+    {
+      "keyword": "replacement",
+      "frequency": 7
+    },
+    {
+      "keyword": "efficiency",
+      "frequency": 7
+    },
+    {
+      "keyword": "professional",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "system",
+      "suggested_target": "/blog/system/",
+      "reason": "\"system\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "filter",
+      "suggested_target": "/blog/filter/",
+      "reason": "\"filter\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "coil",
+      "suggested_target": "/blog/coil/",
+      "reason": "\"coil\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "maintenance",
+      "suggested_target": "/blog/maintenance/",
+      "reason": "\"maintenance\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "cooling",
+      "suggested_target": "/blog/cooling/",
+      "reason": "\"cooling\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "energy",
+      "suggested_target": "/blog/energy/",
+      "reason": "\"energy\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "heat",
+      "suggested_target": "/blog/heat/",
+      "reason": "\"heat\" appears 10 times in this article"
+    }
+  ]
+}

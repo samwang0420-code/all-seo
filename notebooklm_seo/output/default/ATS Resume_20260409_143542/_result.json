@@ -1,0 +1,8 @@
+{
+  "task": "https://jianfacv.com/blog/how-to-write-ats-approved-resume/",
+  "notebook": "jianfacv-ATS",
+  "output": "/root/.openclaw/workspace-crm/notebooklm_seo/output/default/ATS Resume_20260409_143542",
+  "generate_results": {},
+  "success": false,
+  "error": "Authentication expired or invalid. Redirected to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&dsh=S-2146706676%3A1775745343790567&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_X2RbflJa82iYh_zcLtHiW0X-qtQ4X3ZpD4xJkxisjUKc79oeeacc-7UIy7g30V1cmxlqGrjg\nRun 'notebooklm login' to re-authenticate."
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire LE error code on dryer. Causes and step-by
 brand: frigidaire
 category: dryer
 code: LE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/dryer/LE/

@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics OE error code on dryer. Causes and ste
 brand: lg
 category: dryer
 code: OE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/dryer/OE/

@@ -1,0 +1,265 @@
+{
+  "title": "Resume Quiz",
+  "questions": [
+    {
+      "question": "What is the primary reason the source recommends submitting a resume in .docx format rather than PDF unless specified otherwise?",
+      "answerOptions": [
+        {
+          "text": "The file size is significantly smaller for storage.",
+          "isCorrect": false,
+          "rationale": "While file size varies, the main concern for ATS is the ability to accurately extract text data rather than storage efficiency."
+        },
+        {
+          "text": "Many ATS platforms struggle to accurately parse text within PDFs.",
+          "isCorrect": true,
+          "rationale": "ATS software functions by pattern matching, and some systems have difficulty reading text structures in certain PDF designs."
+        },
+        {
+          "text": ".docx files allow for more creative and complex formatting.",
+          "isCorrect": false,
+          "rationale": "The source actually advises against complex formatting, emphasizing that a simple, parseable structure is superior."
+        },
+        {
+          "text": "Recruiters prefer .docx so they can edit the resume themselves.",
+          "isCorrect": false,
+          "rationale": "The focus of the recommendation is on ensuring the automated system can read the content, not on recruiter editing permissions."
+        }
+      ],
+      "hint": "Consider how the ATS software interacts with different file structures to extract information."
+    },
+    {
+      "question": "Why should job seekers avoid using 'creative' section headers like 'My Career Journey'?",
+      "answerOptions": [
+        {
+          "text": "Recruiters generally find creative titles to be unprofessional.",
+          "isCorrect": false,
+          "rationale": "While professionalism is important, the primary technical issue lies with the software's ability to categorize the data."
+        },
+        {
+          "text": "The ATS parser may fail to categorize the information into the correct data buckets.",
+          "isCorrect": true,
+          "rationale": "ATS systems are programmed to look for standard headers to organize information like work history and skills."
+        },
+        {
+          "text": "Creative headers usually take up too much vertical space on the page.",
+          "isCorrect": false,
+          "rationale": "Spacing is a minor concern compared to the risk of the system ignoring entire sections of the resume."
+        },
+        {
+          "text": "Standard headers are required by federal hiring regulations.",
+          "isCorrect": false,
+          "rationale": "There are no legal requirements for header names, but there are practical requirements for software compatibility."
+        }
+      ],
+      "hint": "Think about how an automated system tries to map your resume data into its own database fields."
+    },
+    {
+      "question": "Regarding the 'Keyword Game,' what does the '60% rule' suggest?",
+      "answerOptions": [
+        {
+          "text": "You should only apply to jobs where you meet 60% of the requirements.",
+          "isCorrect": false,
+          "rationale": "The rule discussed in the text pertains to the density and presence of keywords within the resume document itself."
+        },
+        {
+          "text": "Include approximately 60% of the keywords found in the job description.",
+          "isCorrect": true,
+          "rationale": "This targets a high enough match for the system without resulting in 'keyword stuffing' that could trigger filters."
+        },
+        {
+          "text": "At least 60% of your resume should consist of technical keywords.",
+          "isCorrect": false,
+          "rationale": "Resumes still require narrative, context, and standard sections beyond just a list of technical terms."
+        },
+        {
+          "text": "60% of your keywords should be placed in the professional summary.",
+          "isCorrect": false,
+          "rationale": "The source advises weaving keywords naturally throughout the bullet points rather than concentrating them in one section."
+        }
+      ],
+      "hint": "This rule focuses on the balance between matching the job description and maintaining a natural reading flow."
+    },
+    {
+      "question": "According to the recommended bullet point formula, what is the final essential component of an effective bullet?",
+      "answerOptions": [
+        {
+          "text": "A list of the software tools used during the task.",
+          "isCorrect": false,
+          "rationale": "While tools are important, they are part of the 'how' rather than the concluding impact of the statement."
+        },
+        {
+          "text": "A reference to a colleague who can verify the work.",
+          "isCorrect": false,
+          "rationale": "References are typically handled separately from the achievement-based bullet points in the work experience section."
+        },
+        {
+          "text": "A result or impact supported by specific numbers.",
+          "isCorrect": true,
+          "rationale": "Quantifiable results demonstrate business value and allow recruiters to measure the scale of your success."
+        },
+        {
+          "text": "The exact date the project was completed.",
+          "isCorrect": false,
+          "rationale": "Specific project dates are less critical than the overall outcome and value generated for the company."
+        }
+      ],
+      "hint": "Think about how you demonstrate the concrete value of your work to a potential employer."
+    },
+    {
+      "question": "Which of the following layout choices is described as an 'ATS Death Trap'?",
+      "answerOptions": [
+        {
+          "text": "Using a single-column layout.",
+          "isCorrect": false,
+          "rationale": "Single-column layouts are actually recommended because they align with how ATS systems scan text."
+        },
+        {
+          "text": "Formatting with two-column layouts.",
+          "isCorrect": true,
+          "rationale": "ATS software often reads from left to right across the whole page, which can scramble the text in a two-column design."
+        },
+        {
+          "text": "Including a 'Skills' section with bullet points.",
+          "isCorrect": false,
+          "rationale": "Standard sections like 'Skills' are expected by the system and help in the categorization process."
+        },
+        {
+          "text": "Using bold text for job titles.",
+          "isCorrect": false,
+          "rationale": "Standard styling like bolding usually does not interfere with the parsing of plain text content."
+        }
+      ],
+      "hint": "Consider the direction in which a simple computer program might read a page of text."
+    },
+    {
+      "question": "What is the recommended range for the number of bullet points per position held?",
+      "answerOptions": [
+        {
+          "text": "1 to 3 bullets.",
+          "isCorrect": false,
+          "rationale": "Too few bullets may fail to provide enough context or keywords to satisfy the ATS or the recruiter."
+        },
+        {
+          "text": "4 to 6 bullets.",
+          "isCorrect": true,
+          "rationale": "This range provides enough detail to show impact without diluting the most important achievements."
+        },
+        {
+          "text": "8 to 10 bullets.",
+          "isCorrect": false,
+          "rationale": "Exceeding the recommended limit can lead to a loss of focus and make the resume difficult for a human to scan quickly."
+        },
+        {
+          "text": "At least 12 bullets.",
+          "isCorrect": false,
+          "rationale": "An excessive number of bullets often suggests a lack of prioritization of one's most significant accomplishments."
+        }
+      ],
+      "hint": "The goal is to be concise while ensuring every second of the recruiter's limited attention counts."
+    },
+    {
+      "question": "What threshold score should you aim for when testing your resume with an ATS scanner like Jobscan?",
+      "answerOptions": [
+        {
+          "text": "50% match rate.",
+          "isCorrect": false,
+          "rationale": "A 50% score is generally considered too low to reliably pass through competitive automated filters."
+        },
+        {
+          "text": "70% or higher match rate.",
+          "isCorrect": true,
+          "rationale": "Setting a goal of at least 70% ensures that the most critical keywords and requirements are well-represented."
+        },
+        {
+          "text": "Exactly 100% match rate.",
+          "isCorrect": false,
+          "rationale": "Achieving a perfect 100% is often unrealistic and might lead to unnatural keyword stuffing."
+        },
+        {
+          "text": "The match rate does not matter as long as the formatting is correct.",
+          "isCorrect": false,
+          "rationale": "Formatting ensures the resume is read, but the match rate ensures the content is deemed relevant to the role."
+        }
+      ],
+      "hint": "This target represents a balance between being highly relevant and remaining a natural, human-readable document."
+    },
+    {
+      "question": "Which of these is a common mistake identified in the source regarding resume submission strategy?",
+      "answerOptions": [
+        {
+          "text": "Tailoring every resume to specific job descriptions.",
+          "isCorrect": false,
+          "rationale": "Tailoring is actually identified as one of the key actions that get results."
+        },
+        {
+          "text": "Applying to a very large number of jobs with a generic resume.",
+          "isCorrect": true,
+          "rationale": "Quality over quantity is emphasized; sending hundreds of generic applications often results in consistent rejections."
+        },
+        {
+          "text": "Using standard system fonts like Arial or Calibri.",
+          "isCorrect": false,
+          "rationale": "Using standard system fonts is recommended to ensure the ATS can recognize the characters correctly."
+        },
+        {
+          "text": "Following all the specific instructions in the job posting.",
+          "isCorrect": false,
+          "rationale": "Ignoring instructions is the mistake; following them is crucial for a successful application."
+        }
+      ],
+      "hint": "Think about the trade-off between the volume of applications and the effort put into each individual one."
+    },
+    {
+      "question": "Why are images and icons considered 'death traps' for an ATS-approved resume?",
+      "answerOptions": [
+        {
+          "text": "They make the file size too large for most portals.",
+          "isCorrect": false,
+          "rationale": "While they do increase size, the technical inability of the parser to interpret them is a more significant hurdle."
+        },
+        {
+          "text": "They might trigger spam filters or be completely unreadable to the parser.",
+          "isCorrect": true,
+          "rationale": "ATS systems focus on text; non-text elements can confuse the software or cause the resume to be flagged."
+        },
+        {
+          "text": "Recruiters find visual elements to be distracting from the text.",
+          "isCorrect": false,
+          "rationale": "Recruiters might like visuals, but if the ATS cannot read the document, the recruiter will never see it."
+        },
+        {
+          "text": "Images are generally considered a violation of copyright laws.",
+          "isCorrect": false,
+          "rationale": "Copyright is not the primary concern; the issue is the technical limitation of the automated parsing software."
+        }
+      ],
+      "hint": "Consider the capabilities and limitations of software designed to extract text data."
+    },
+    {
+      "question": "The professional summary should be viewed as which of the following?",
+      "answerOptions": [
+        {
+          "text": "A comprehensive list of every job duty you have ever performed.",
+          "isCorrect": false,
+          "rationale": "A summary is intended to be a brief overview, not an exhaustive historical record of duties."
+        },
+        {
+          "text": "A detailed explanation of why you are currently looking for a new job.",
+          "isCorrect": false,
+          "rationale": "The focus should be on what you offer the employer, rather than your personal reasons for a career change."
+        },
+        {
+          "text": "A 15-second elevator pitch that highlights your specific value.",
+          "isCorrect": true,
+          "rationale": "This section needs to quickly convince the reader that the rest of the resume is worth their time."
+        },
+        {
+          "text": "A section to list personal hobbies and interests.",
+          "isCorrect": false,
+          "rationale": "Hobbies are generally irrelevant to an ATS summary, which should focus on professional expertise and results."
+        }
+      ],
+      "hint": "Think about how you would briefly sell your professional self in a very short period of time."
+    }
+  ]
+}

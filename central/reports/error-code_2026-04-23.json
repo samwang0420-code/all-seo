@@ -1,0 +1,11 @@
+{
+  "agent": "error-code",
+  "workspace": "workspace-geo-arch",
+  "date": "2026-04-23",
+  "status": "ok",
+  "pages_generated": 3036,
+  "deploy_method": "github_cloudflare",
+  "errors": [],
+  "blockers": [],
+  "needs_attention": false
+}

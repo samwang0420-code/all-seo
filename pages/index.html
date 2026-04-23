@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据展示 - OpsPilot</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#001f3f',
+            'primary-dim': '#00152b',
+            surface: '#fcf9f8',
+            'surface-dim': '#dbdad9',
+          },
+          fontFamily: {
+            headline: ['Manrope', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            label: ['Space Grotesk', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #fcf9f8; font-family: 'Inter', sans-serif; }
+    .font-headline { font-family: 'Manrope', sans-serif; }
+    .font-label { font-family: 'Space Grotesk', monospace; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="/logo-clean.png" alt="OpsPilot" class="h-10">
+        <span class="font-headline text-xl font-bold tracking-tight">OpsPilot</span>
+      </div>
+      <nav class="font-label text-sm tracking-wider">
+        <a href="https://opspilot.cc" class="hover:underline">返回主站</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-primary text-white py-24 pb-32">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h1 class="font-headline text-4xl md:text-7xl font-extrabold tracking-tight mb-6">
+        数据查询平台
+      </h1>
+      <p class="text-lg md:text-xl text-white/70 max-w-2xl mx-auto">
+        YouTube 数据查询 - 国家代码、语言代码、技术栈 lookup 表
+      </p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section class="max-w-5xl mx-auto px-6 -mt-16 relative z-10">
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Countries -->
+      <a href="countries.html" class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 group">
+        <div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+          <span class="text-3xl">🌍</span>
+        </div>
+        <h2 class="font-headline text-2xl font-bold text-primary mb-3">国家/地区</h2>
+        <p class="text-slate-500 mb-4">YouTube 国家代码映射表</p>
+        <div class="font-label text-sm text-primary/60">200+ 国家/地区 →</div>
+      </a>
+
+      <!-- Languages -->
+      <a href="languages.html" class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 group">
+        <div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+          <span class="text-3xl">🗣️</span>
+        </div>
+        <h2 class="font-headline text-2xl font-bold text-primary mb-3">语言列表</h2>
+        <p class="text-slate-500 mb-4">YouTube 语言代码映射表</p>
+        <div class="font-label text-sm text-primary/60">80+ 语言 →</div>
+      </a>
+
+      <!-- Tech -->
+      <a href="tech-companies.html" class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 group">
+        <div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+          <span class="text-3xl">💻</span>
+        </div>
+        <h2 class="font-headline text-2xl font-bold text-primary mb-3">科技公司</h2>
+        <p class="text-slate-500 mb-4">技术平台 lookup 表</p>
+        <div class="font-label text-sm text-primary/60">数百家公司 →</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-24 py-12 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-6 text-center text-slate-400 font-label text-sm">
+      <p>© 2024 OpsPilot.cc - Industrial Grade Automation</p>
+    </div>
+  </footer>
+</body>
+</html>

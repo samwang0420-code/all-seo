@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: The Complete Guide to Choosing the Right Injectable Treatment",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-the-complete-guide/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 22
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 16
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 15
+    },
+    {
+      "keyword": "filler",
+      "frequency": 11
+    },
+    {
+      "keyword": "facial",
+      "frequency": 9
+    },
+    {
+      "keyword": "patients",
+      "frequency": 9
+    },
+    {
+      "keyword": "results",
+      "frequency": 8
+    },
+    {
+      "keyword": "muscle",
+      "frequency": 8
+    },
+    {
+      "keyword": "volume",
+      "frequency": 8
+    },
+    {
+      "keyword": "your",
+      "frequency": 8
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 7
+    },
+    {
+      "keyword": "lines",
+      "frequency": 7
+    },
+    {
+      "keyword": "forehead",
+      "frequency": 7
+    },
+    {
+      "keyword": "aesthetic",
+      "frequency": 6
+    },
+    {
+      "keyword": "when",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "facial",
+      "suggested_target": "/blog/facial/",
+      "reason": "\"facial\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "results",
+      "suggested_target": "/blog/results/",
+      "reason": "\"results\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "muscle",
+      "suggested_target": "/blog/muscle/",
+      "reason": "\"muscle\" appears 8 times in this article"
+    }
+  ]
+}

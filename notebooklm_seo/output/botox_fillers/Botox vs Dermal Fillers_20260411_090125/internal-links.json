@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "your",
+      "frequency": 29
+    },
+    {
+      "keyword": "botox",
+      "frequency": 24
+    },
+    {
+      "keyword": "filler",
+      "frequency": 22
+    },
+    {
+      "keyword": "face",
+      "frequency": 17
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 13
+    },
+    {
+      "keyword": "when",
+      "frequency": 11
+    },
+    {
+      "keyword": "lines",
+      "frequency": 10
+    },
+    {
+      "keyword": "injector",
+      "frequency": 9
+    },
+    {
+      "keyword": "volume",
+      "frequency": 8
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 7
+    },
+    {
+      "keyword": "most",
+      "frequency": 7
+    },
+    {
+      "keyword": "cheeks",
+      "frequency": 7
+    },
+    {
+      "keyword": "between",
+      "frequency": 6
+    },
+    {
+      "keyword": "forehead",
+      "frequency": 6
+    },
+    {
+      "keyword": "syringe",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 29 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "face",
+      "suggested_target": "/blog/face/",
+      "reason": "\"face\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "when",
+      "suggested_target": "/blog/when/",
+      "reason": "\"when\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "injector",
+      "suggested_target": "/blog/injector/",
+      "reason": "\"injector\" appears 9 times in this article"
+    }
+  ]
+}

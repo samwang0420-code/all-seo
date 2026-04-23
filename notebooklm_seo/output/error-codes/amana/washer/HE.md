@@ -4,7 +4,7 @@ description: "Troubleshoot Amana HE error code on washer. Causes and step-by-ste
 brand: amana
 category: washer
 code: HE
-date: 2026-04-10
+date: 2026-04-23
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/washer/HE/
