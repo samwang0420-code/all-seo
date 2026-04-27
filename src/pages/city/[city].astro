@@ -200,7 +200,7 @@ const climate = climateData[state_abbr] || { climate: "Moderate", avgHigh: 70, a
 // Comprehensive JSON-LD Knowledge Graph
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "City",
+  "@type": ["City", "Place", "TouristDestination"],
   "name": `${city}, ${state_abbr}`,
   "description": `Comprehensive guide to ${city}, ${state} including cost of living, demographics, geography, transportation, and local information.`,
   "url": `https://getuscompliance.com/city/${city.toLowerCase().replace(/\s+/g, '-')}-${state_abbr.toLowerCase()}`,
