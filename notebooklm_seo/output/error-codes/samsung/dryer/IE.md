@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung IE error code on dryer. Causes and step-by-st
 brand: samsung
 category: dryer
 code: IE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/dryer/IE/

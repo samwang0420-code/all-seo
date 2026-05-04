@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Comprehensive Guide to Making the Right Choice",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-guide/",
+  "top_keywords": [
+    {
+      "keyword": "fillers",
+      "frequency": 18
+    },
+    {
+      "keyword": "botox",
+      "frequency": 15
+    },
+    {
+      "keyword": "your",
+      "frequency": 14
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 13
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 9
+    },
+    {
+      "keyword": "hundred",
+      "frequency": 9
+    },
+    {
+      "keyword": "between",
+      "frequency": 8
+    },
+    {
+      "keyword": "most",
+      "frequency": 8
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 8
+    },
+    {
+      "keyword": "when",
+      "frequency": 8
+    },
+    {
+      "keyword": "results",
+      "frequency": 8
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 7
+    },
+    {
+      "keyword": "volume",
+      "frequency": 7
+    },
+    {
+      "keyword": "muscle",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "hundred",
+      "suggested_target": "/blog/hundred/",
+      "reason": "\"hundred\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "between",
+      "suggested_target": "/blog/between/",
+      "reason": "\"between\" appears 8 times in this article"
+    }
+  ]
+}

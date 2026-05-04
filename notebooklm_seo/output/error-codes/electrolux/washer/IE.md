@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux IE error code on washer. Causes and step-b
 brand: electrolux
 category: washer
 code: IE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/washer/IE/

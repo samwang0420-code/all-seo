@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux CL error code on dryer. Causes and step-by
 brand: electrolux
 category: dryer
 code: CL
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/dryer/CL/

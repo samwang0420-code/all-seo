@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics DE error code on washer. Causes and st
 brand: lg
 category: washer
 code: DE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/washer/DE/

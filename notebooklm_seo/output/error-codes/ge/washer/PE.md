@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances PE error code on washer. Causes and ste
 brand: ge
 category: washer
 code: PE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/PE/

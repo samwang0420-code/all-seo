@@ -3,6 +3,7 @@
   "workspace": "workspace-geo-suppler",
   "date": "2026-04-10",
   "status": "ok",
+  "pages_generated": 6,
   "pages_total": 78,
   "deploy_method": "cloudflare_pages",
   "errors": [],

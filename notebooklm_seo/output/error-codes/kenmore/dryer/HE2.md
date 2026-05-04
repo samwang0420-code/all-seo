@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore HE2 error code on dryer. Causes and step-by-s
 brand: kenmore
 category: dryer
 code: HE2
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/HE2/

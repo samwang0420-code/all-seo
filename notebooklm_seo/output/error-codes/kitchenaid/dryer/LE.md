@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid LE error code on dryer. Causes and step-by
 brand: kitchenaid
 category: dryer
 code: LE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/dryer/LE/

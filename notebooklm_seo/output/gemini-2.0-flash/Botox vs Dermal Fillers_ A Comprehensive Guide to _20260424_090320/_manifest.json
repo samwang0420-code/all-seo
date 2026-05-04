@@ -1,0 +1,24 @@
+{
+  "title": "Botox vs Dermal Fillers: A Comprehensive Guide to Making the Right Choice",
+  "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-guide/",
+  "notebook": "gemini-2.0-flash",
+  "output_dir": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320",
+  "files": {
+    "chart-comparison.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/chart-comparison.png",
+    "infographic.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/infographic.png",
+    "schema-breadcrumb.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/schema-breadcrumb.jsonld",
+    "internal-links.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/internal-links.json",
+    "schema-faq.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/schema-faq.jsonld",
+    "quiz.html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/quiz.html",
+    "schema-article.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/schema-article.jsonld"
+  },
+  "results": {
+    "schemas": true,
+    "charts": [
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/chart-comparison.png",
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/infographic.png"
+    ],
+    "quiz": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/quiz.html",
+    "internal_links": "/root/.openclaw/workspace-crm/notebooklm_seo/output/gemini-2.0-flash/Botox vs Dermal Fillers_ A Comprehensive Guide to _20260424_090320/internal-links.json"
+  }
+}

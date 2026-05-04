@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag HE1 error code on washer. Causes and step-by-s
 brand: maytag
 category: washer
 code: HE1
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/washer/HE1/

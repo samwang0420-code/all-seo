@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool OE error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: OE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/OE/

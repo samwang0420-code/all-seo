@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore HE error code on dryer. Causes and step-by-st
 brand: kenmore
 category: dryer
 code: HE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/HE/

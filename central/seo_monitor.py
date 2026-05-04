@@ -78,9 +78,13 @@ def check_internal_links(html_dir, site_url):
         for link in links:
             if "sitemap" in link or "contact" in link:
                 pass  # 正常
-            # 截断链接检查
+            # 截断链接检查 - 支持目录索引 (如 /brand/kitchenaid/ → brand/kitchenaid/index.html)
             target = Path(html_dir + link)
-            if not target.exists() and link.endswith("/"):
+            if link.endswith("/"):
+                # 目录链接：检查目录本身或目录内的 index.html
+                if not target.exists() and not Path(str(target).rstrip("/") + "/index.html").exists():
+                    results["broken_suspicious"].append(f"{f.name} -> {link}")
+            elif not target.exists():
                 results["broken_suspicious"].append(f"{f.name} -> {link}")
 
     return results
@@ -100,14 +104,36 @@ def geo_analysis(html_dir, site_type):
             if "area-code" in content or "area_codes" in content:
                 results["geo_signals"].append(f"{f.name}: 有区号信息")
 
-        results["missing"].append("Place Schema（替代 City Schema）")
-        results["missing"].append("GeoCoordinates（经纬度）")
-        results["missing"].append("TouristDestination Schema（旅游城市）")
+        # 实际检测 - City/Place/TouristDestination/GeoCoordinates
+        has_place = any("Place" in f.read_text(errors="ignore") for f in html_files[:5])
+        has_tdest = any("TouristDestination" in f.read_text(errors="ignore") for f in html_files[:5])
+        has_geo = any("GeoCoordinates" in f.read_text(errors="ignore") or "latitude" in f.read_text(errors="ignore").lower() for f in html_files[:5])
+        if not has_place:
+            results["missing"].append("Place Schema")
+        if not has_tdest:
+            results["missing"].append("TouristDestination Schema")
+        if not has_geo:
+            results["missing"].append("GeoCoordinates（经纬度）")
 
     elif site_type == "supply":
-        results["missing"].append("LocalBusiness Schema（中文采购服务）")
-        results["missing"].append("FAQ on shipping/to customs")
-        results["missing"].append("City-specific content（新塘/广州等中国城市详情）")
+        html_files = list(Path(html_dir).glob("**/*.html"))[:10]
+        has_lb = any("LocalBusiness" in f.read_text(errors="ignore") for f in html_files)
+        has_faq_shipping = any(
+            "FAQPage" in f.read_text(errors="ignore") and
+            ("shipping" in f.read_text(errors="ignore").lower() or "customs" in f.read_text(errors="ignore").lower())
+            for f in html_files
+        )
+        has_city_content = any(
+            f.name in ["shenzhen.html", "guangzhou.html", "ningbo.html", "yiwu.html", "dongguan.html", "qingdao.html"] or
+            any(c in f.name for c in ["shenzhen", "guangzhou", "ningbo", "yiwu", "dongguan", "qingdao"])
+            for f in html_files
+        )
+        if not has_lb:
+            results["missing"].append("LocalBusiness Schema（中文采购服务）")
+        if not has_faq_shipping:
+            results["missing"].append("FAQ on shipping/to customs")
+        if not has_city_content:
+            results["missing"].append("City-specific content（新塘/广州等中国城市详情）")
 
     return results
 

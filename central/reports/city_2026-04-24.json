@@ -1,0 +1,16 @@
+{
+  "agent": "city",
+  "workspace": "workspace-geo-all",
+  "date": "2026-04-24",
+  "status": "ok",
+  "pages_total": 1028,
+  "sitemap_coverage": "100%",
+  "deploy_method": "cloudflare_pages",
+  "deploy_url": "https://master.all-seo.pages.dev",
+  "files_uploaded": 1000,
+  "errors": [],
+  "blockers": [],
+  "new_cities_found": 0,
+  "sitemap_cities": 1000,
+  "needs_attention": false
+}

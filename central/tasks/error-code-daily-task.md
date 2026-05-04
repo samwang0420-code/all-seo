@@ -1,27 +1,22 @@
 # 错误码站 Agent 每日任务卡
 
 ## 部署方式
-GitHub（Cloudflare Pages 的 Next.js 构建会处理）
+GitHub → Cloudflare Pages（Next.js 构建）
 
 ## 当前状态
 - 站点：uscomplianceguard.com
-- 现有：3036 个 TSX 页面（已全部修复格式）
+- 输出：`/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes/`
+- 现有：1082 个 HTML 错误码页面
+- 新增：13 个品牌索引页（/brand/kitchenaid/ 等）+ 6 个品类索引页
 
 ## 今日任务
 
-### 任务 1：生成 + 推送（一条命令搞定）
-```bash
-cd /root/.openclaw/workspace-geo-arch/error-code-hub
-bash scripts/daily-error-pages.sh
-```
+### 任务 1：检查文件是否就绪
+brand 索引页：`notebooklm_seo/output/brand/*/index.html`（13 个）
+category 索引页：`notebooklm_seo/output/category/*.html`（6 个）
 
-这个脚本会：
-1. 生成所有 brand × category × code 组合（3036 页）
-2. 修复 TSX 格式（每行分开，TypeScript 编译器能识别）
-3. 更新 sitemap.xml
-4. Git push 到 GitHub（触发 Cloudflare Pages 自动构建）
-5. 写入日报到 `/root/.openclaw/workspace-crm/central/reports/error-code_日期.json`
+### 任务 2：触发部署
+推送到 GitHub，Cloudflare Pages 自动构建。
 
-## 验收标准
-- GitHub push 成功（Cloudflare Pages 自动构建完成）
-- 日报写入 `/root/.openclaw/workspace-crm/central/reports/error-code_日期.json`
+### 任务 3：验证内链
+部署后抽检 3 个错误码页，确认 /brand/X/ 和 /category/Y/ 不再 404。

@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch CL error code on washer. Causes and step-by-ste
 brand: bosch
 category: washer
 code: CL
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/washer/CL/

@@ -5,7 +5,6 @@
   "status": "ok",
   "pages_total": 1028,
   "sitemap_coverage": "100%",
-  "sitemap_cities": 1000,
   "deploy_method": "cloudflare_pages",
   "errors": [],
   "blockers": [],

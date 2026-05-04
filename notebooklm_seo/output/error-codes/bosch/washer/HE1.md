@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch HE1 error code on washer. Causes and step-by-st
 brand: bosch
 category: washer
 code: HE1
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/washer/HE1/

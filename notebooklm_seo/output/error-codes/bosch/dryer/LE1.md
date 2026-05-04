@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch LE1 error code on dryer. Causes and step-by-ste
 brand: bosch
 category: dryer
 code: LE1
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/dryer/LE1/

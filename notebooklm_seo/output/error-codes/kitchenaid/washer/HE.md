@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid HE error code on washer. Causes and step-b
 brand: kitchenaid
 category: washer
 code: HE
-date: 2026-04-23
+date: 2026-04-24
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/washer/HE/
