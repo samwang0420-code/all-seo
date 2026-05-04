@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool UE error code on dryer. Causes and step-by-
 brand: whirlpool
 category: dryer
 code: UE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/dryer/UE/

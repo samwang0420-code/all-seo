@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid UE error code on washer. Causes and step-b
 brand: kitchenaid
 category: washer
 code: UE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/washer/UE/

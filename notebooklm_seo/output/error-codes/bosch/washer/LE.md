@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch LE error code on washer. Causes and step-by-ste
 brand: bosch
 category: washer
 code: LE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/washer/LE/

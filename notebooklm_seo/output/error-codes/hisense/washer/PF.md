@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense PF error code on washer. Causes and step-by-s
 brand: hisense
 category: washer
 code: PF
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/washer/PF/

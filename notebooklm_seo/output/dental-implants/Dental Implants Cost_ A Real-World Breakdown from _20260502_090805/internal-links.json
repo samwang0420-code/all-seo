@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: A Real-World Breakdown from 3 Cities",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 27
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 18
+    },
+    {
+      "keyword": "cost",
+      "frequency": 15
+    },
+    {
+      "keyword": "crown",
+      "frequency": 13
+    },
+    {
+      "keyword": "more",
+      "frequency": 11
+    },
+    {
+      "keyword": "implants",
+      "frequency": 10
+    },
+    {
+      "keyword": "dental",
+      "frequency": 8
+    },
+    {
+      "keyword": "when",
+      "frequency": 7
+    },
+    {
+      "keyword": "costs",
+      "frequency": 7
+    },
+    {
+      "keyword": "your",
+      "frequency": 7
+    },
+    {
+      "keyword": "bone",
+      "frequency": 7
+    },
+    {
+      "keyword": "years",
+      "frequency": 6
+    },
+    {
+      "keyword": "price",
+      "frequency": 6
+    },
+    {
+      "keyword": "missing",
+      "frequency": 6
+    },
+    {
+      "keyword": "real",
+      "frequency": 5
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 27 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "crown",
+      "suggested_target": "/blog/crown/",
+      "reason": "\"crown\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "more",
+      "suggested_target": "/blog/more/",
+      "reason": "\"more\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "when",
+      "suggested_target": "/blog/when/",
+      "reason": "\"when\" appears 7 times in this article"
+    }
+  ]
+}

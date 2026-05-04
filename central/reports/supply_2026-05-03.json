@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-03",
+  "agent": "supply",
+  "status": "PARTIAL",
+  "deployment": {
+    "project": "suppler-geo",
+    "url": "https://master.suppler-geo.pages.dev",
+    "filesUploaded": 122,
+    "result": "success"
+  },
+  "verification": {
+    "localbusinessSchema": "present",
+    "faqCount": 1,
+    "expectedFaq": 8,
+    "note": "FAQ 数量不足，仅 1 条"
+  },
+  "summary": "部署成功，但产品页 FAQ Schema 数量不足",
+  "timestamp": "2026-05-03T18:08Z"
+}

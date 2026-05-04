@@ -1,0 +1,39 @@
+============================================================
+🩺 SEO/GEO 健康检查
+============================================================
+
+📋 错误码站 (/root/.openclaw/workspace-crm/notebooklm_seo/output/error-codes)
+  HTML 文件: 1082
+  FAQ Schema 覆盖率: 100%
+  Author Schema 覆盖率: 100%
+  内链数量: 90 (抽查10个)
+
+📋 供应站 (/root/.openclaw/workspace-crm/notebooklm_seo/output/supply-chain)
+  HTML 文件: 78
+  FAQ Schema 覆盖率: 100%
+  Author Schema 覆盖率: 100%
+  内链数量: 30 (抽查10个)
+  📍 GEO 缺失: ['LocalBusiness Schema（中文采购服务）', 'FAQ on shipping/to customs', 'City-specific content（新塘/广州等中国城市详情）']
+
+📋 城市站 (/root/.openclaw/workspace-crm/notebooklm_seo/output/city-data)
+  HTML 文件: 1028
+  FAQ Schema 覆盖率: 100%
+  Author Schema 覆盖率: 100%
+  内链数量: 20 (抽查10个)
+  📍 GEO 缺失: ['Place Schema（替代 City Schema）', 'GeoCoordinates（经纬度）', 'TouristDestination Schema（旅游城市）']
+
+📁 报告: /root/.openclaw/workspace-crm/central/reports/seo_health_2026-04-28.json
+
+============================================================
+🔧 优先修复项
+============================================================
+
+【供应站】
+  📍 GEO: LocalBusiness Schema（中文采购服务）
+  📍 GEO: FAQ on shipping/to customs
+  📍 GEO: City-specific content（新塘/广州等中国城市详情）
+
+【城市站】
+  📍 GEO: Place Schema（替代 City Schema）
+  📍 GEO: GeoCoordinates（经纬度）
+  📍 GEO: TouristDestination Schema（旅游城市）

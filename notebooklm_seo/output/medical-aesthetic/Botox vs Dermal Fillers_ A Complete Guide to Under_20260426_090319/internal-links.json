@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Complete Guide to Understanding the Key Differences",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-understanding-differences/",
+  "top_keywords": [
+    {
+      "keyword": "treatment",
+      "frequency": 27
+    },
+    {
+      "keyword": "toxin",
+      "frequency": 24
+    },
+    {
+      "keyword": "botulinum",
+      "frequency": 22
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 21
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 16
+    },
+    {
+      "keyword": "volume",
+      "frequency": 13
+    },
+    {
+      "keyword": "facial",
+      "frequency": 12
+    },
+    {
+      "keyword": "filler",
+      "frequency": 12
+    },
+    {
+      "keyword": "your",
+      "frequency": 11
+    },
+    {
+      "keyword": "typically",
+      "frequency": 11
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 10
+    },
+    {
+      "keyword": "results",
+      "frequency": 10
+    },
+    {
+      "keyword": "lines",
+      "frequency": 10
+    },
+    {
+      "keyword": "face",
+      "frequency": 10
+    },
+    {
+      "keyword": "months",
+      "frequency": 9
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 27 times in this article"
+    },
+    {
+      "anchor_text": "toxin",
+      "suggested_target": "/blog/toxin/",
+      "reason": "\"toxin\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "botulinum",
+      "suggested_target": "/blog/botulinum/",
+      "reason": "\"botulinum\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "facial",
+      "suggested_target": "/blog/facial/",
+      "reason": "\"facial\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 12 times in this article"
+    }
+  ]
+}

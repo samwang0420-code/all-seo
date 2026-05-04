@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Complete Guide to Facial Injectables",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 23
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 14
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "filler",
+      "frequency": 12
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 11
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 10
+    },
+    {
+      "keyword": "lines",
+      "frequency": 9
+    },
+    {
+      "keyword": "over",
+      "frequency": 8
+    },
+    {
+      "keyword": "aging",
+      "frequency": 8
+    },
+    {
+      "keyword": "more",
+      "frequency": 8
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 7
+    },
+    {
+      "keyword": "aesthetic",
+      "frequency": 7
+    },
+    {
+      "keyword": "these",
+      "frequency": 7
+    },
+    {
+      "keyword": "satisfaction",
+      "frequency": 7
+    },
+    {
+      "keyword": "average",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "treatments",
+      "suggested_target": "/blog/treatments/",
+      "reason": "\"treatments\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "over",
+      "suggested_target": "/blog/over/",
+      "reason": "\"over\" appears 8 times in this article"
+    }
+  ]
+}

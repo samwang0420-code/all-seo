@@ -1,12 +1,22 @@
 {
-  "agent": "error-code",
-  "workspace": "workspace-geo-arch",
   "date": "2026-04-10",
-  "status": "ok",
-  "pages_generated": 3036,
-  "pages_total": 3036,
-  "deploy_method": "github_cloudflare",
-  "errors": [],
-  "blockers": [],
-  "needs_attention": false
+  "workspace": "error-code",
+  "task": "brand-category-index-deployment",
+  "files_ready": {
+    "brand_index_pages": 13,
+    "category_index_pages": 6,
+    "existing_html_pages": 2254
+  },
+  "deployment": {
+    "status": "not_executed",
+    "reason": "GitHub-Cloudflare deployment requires Git credentials",
+    "note": "Manual push needed"
+  },
+  "internal_links_check": {
+    "status": "pending",
+    "note": "Requires deployment first"
+  },
+  "pages_generated_today": 0,
+  "errors": ["Deployment requires GitHub authentication"],
+  "blockers": ["Git credentials not configured in this environment"]
 }

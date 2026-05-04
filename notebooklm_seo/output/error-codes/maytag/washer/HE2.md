@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag HE2 error code on washer. Causes and step-by-s
 brand: maytag
 category: washer
 code: HE2
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/washer/HE2/

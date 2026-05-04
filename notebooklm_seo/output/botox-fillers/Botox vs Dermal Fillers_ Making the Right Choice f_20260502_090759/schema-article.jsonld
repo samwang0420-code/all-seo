@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: Making the Right Choice for Your Face",
+  "description": "A plastic surgeon's office in Beverly Hills sees three patients on a Tuesday morning. The first is a 38-year-old woman complaining that her crow's feet have deepened over the past year. The second is ",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-02",
+  "dateModified": "2026-05-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "wordCount": 1292,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

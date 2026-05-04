@@ -1,0 +1,211 @@
+<!-- SEO Quiz Component -->
+<style>
+.seo-quiz {
+  border: 2px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 720px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+.seo-quiz h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  color: #1E3A8A;
+}
+.seo-quiz .quiz-meta {
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 24px;
+}
+.seo-quiz .question-block {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.seo-quiz .question-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1E293B;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.seo-quiz .options label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1.5px solid #E2E8F0;
+  font-size: 14px;
+  color: #334155;
+}
+.seo-quiz .options label:hover {
+  border-color: #3B82F6;
+  background: #EFF6FF;
+}
+.seo-quiz .options input { margin-top: 3px; accent-color: #2563EB; }
+.seo-quiz .options.correct label.selected {
+  border-color: #16A34A;
+  background: #DCFCE7;
+  color: #15803D;
+}
+.seo-quiz .options.incorrect label.selected {
+  border-color: #DC2626;
+  background: #FEE2E2;
+  color: #B91C1C;
+}
+.seo-quiz .options.show-correct label.correct-answer {
+  border-color: #16A34A;
+  background: #DCFCE7;
+  color: #15803D;
+  font-weight: 600;
+}
+.seo-quiz .rationale {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #F8F9FA;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #475569;
+  display: none;
+  border-left: 3px solid #3B82F6;
+}
+.seo-quiz .rationale.visible { display: block; }
+.seo-quiz .submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s;
+}
+.seo-quiz .submit-btn:hover {
+  background: linear-gradient(135deg, #1D4ED8, #1E40AF);
+  transform: translateY(-1px);
+}
+.seo-quiz .result-box {
+  text-align: center;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: none;
+}
+.seo-quiz .result-box.visible { display: block; }
+.seo-quiz .result-box.excellent { background: linear-gradient(135deg, #DCFCE7, #BBF7D0); }
+.seo-quiz .result-box.good { background: linear-gradient(135deg, #FEF9C3, #FDE047); }
+.seo-quiz .result-box.retry { background: linear-gradient(135deg, #FEE2E2, #FECACA); }
+.seo-quiz .score { font-size: 48px; font-weight: 800; }
+.seo-quiz .score-label { font-size: 16px; color: #475569; margin-top: 4px; }
+.seo-quiz .score-message { font-size: 18px; font-weight: 700; margin-top: 8px; }
+.seo-quiz .progress-bar {
+  height: 6px;
+  background: #E2E8F0;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.seo-quiz .progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #2563EB, #7C3AED);
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+</style>
+
+<div class="seo-quiz" id="seo-quiz-Botox-vs-Dermal-Fill">
+  <div class="progress-bar"><div class="progress-fill" style="width:0%"></div></div>
+  <h3>📝 Knowledge Quiz: Botox vs Dermal Fillers: Choosing the Right Treatm...</h3>
+  <div class="quiz-meta">Test your understanding · 5 questions</div>
+  <div id="quiz-questions"></div>
+  <button class="submit-btn" onclick="submitQuiz(this)">Submit Answers</button>
+  <div class="result-box" id="quiz-result"></div>
+</div>
+
+<script>
+const quizData = [{"question": "What is a key benefit of dermal fillers mentioned in this article?", "options": ["According to the article, dermal fillers.", "The article does not mention dermal fillers.", "dermal fillers has no relevance to this topic.", "The article suggests avoiding dermal fillers."], "correctIndex": 0, "rationale": "The article specifically mentions that dermal fillers is an important factor for SEO success."}, {"question": "According to the article, botox dermal is important because:", "options": ["According to the article, botox dermal.", "The article does not mention botox dermal.", "The article suggests avoiding botox dermal.", "botox dermal has no relevance to this topic."], "correctIndex": 0, "rationale": "The article specifically mentions that botox dermal is an important factor for SEO success."}, {"question": "Which of the following is TRUE about fillers address?", "options": ["According to the article, fillers address.", "The article does not mention fillers address.", "The article suggests avoiding fillers address.", "fillers address has no relevance to this topic."], "correctIndex": 0, "rationale": "The article specifically mentions that fillers address is an important factor for SEO success."}, {"question": "The article suggests that treated areas should be:", "options": ["According to the article, treated areas.", "The article does not mention treated areas.", "treated areas has no relevance to this topic.", "The article suggests avoiding treated areas."], "correctIndex": 0, "rationale": "The article specifically mentions that treated areas is an important factor for SEO success."}, {"question": "Based on the article, botox patients primarily helps with:", "options": ["According to the article, botox patients.", "The article suggests avoiding botox patients.", "botox patients has no relevance to this topic.", "The article does not mention botox patients."], "correctIndex": 0, "rationale": "The article specifically mentions that botox patients is an important factor for SEO success."}];
+
+function initQuiz(container) {
+  const qContainer = container.querySelector('#quiz-questions');
+  quizData.forEach((q, i) => {
+    const block = document.createElement('div');
+    block.className = 'question-block';
+    const rationale = q.rationale ? `<div class="rationale">💡 ${q.rationale}</div>` : '';
+    block.innerHTML = `
+      <div class="question-text">${i+1}. ${q.question}</div>
+      <div class="options" data-correct="${q.correctIndex}">
+        ${q.options.map((opt, j) => `
+          <label><input type="radio" name="q${i}" value="${j}">${opt}</label>
+        `).join('')}
+      </div>
+      ${rationale}
+    `;
+    qContainer.appendChild(block);
+  });
+  
+  container.querySelectorAll('input[type=radio]').forEach(input => {
+    input.addEventListener('change', () => {
+      input.closest('.options').querySelectorAll('label').forEach(l => l.classList.remove('selected'));
+      input.closest('label').classList.add('selected');
+    });
+  });
+}
+
+function submitQuiz(btn) {
+  const container = btn.closest('.seo-quiz');
+  const resultBox = container.querySelector('#quiz-result');
+  let correct = 0;
+  let total = quizData.length;
+  
+  container.querySelectorAll('.question-block').forEach((block, i) => {
+    const options = block.querySelector('.options');
+    const selected = options.querySelector('input:checked');
+    const correctIdx = parseInt(options.dataset.correct);
+    
+    if (selected) {
+      const selIdx = parseInt(selected.value);
+      if (selIdx === correctIdx) {
+        correct++;
+        options.classList.add('correct');
+      } else {
+        options.classList.add('incorrect');
+        options.querySelectorAll('label')[correctIdx].classList.add('correct-answer');
+      }
+    } else {
+      options.classList.add('show-correct');
+      options.querySelectorAll('label')[correctIdx].classList.add('correct-answer');
+    }
+    
+    const rationale = block.querySelector('.rationale');
+    if (rationale) rationale.classList.add('visible');
+  });
+  
+  btn.style.display = 'none';
+  const pct = Math.round(correct / total * 100);
+  let cls = pct >= 80 ? 'excellent' : pct >= 60 ? 'good' : 'retry';
+  let msg = pct >= 90 ? '🏆 Perfect!' : pct >= 80 ? '🎉 Excellent!' : pct >= 60 ? '👍 Good job!' : '💪 Keep learning!';
+  
+  resultBox.className = `result-box visible ${cls}`;
+  resultBox.innerHTML = `
+    <div class="score">${pct}%</div>
+    <div class="score-label">${correct} / ${total} correct</div>
+    <div class="score-message">${msg}</div>
+  `;
+  
+  container.scrollIntoView({behavior: 'smooth', block: 'center'});
+}
+
+// Init all quizzes on page
+document.querySelectorAll('.seo-quiz').forEach(initQuiz);
+</script>

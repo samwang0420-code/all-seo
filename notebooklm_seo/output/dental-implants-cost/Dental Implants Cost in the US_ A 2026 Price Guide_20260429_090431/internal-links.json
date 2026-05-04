@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost in the US: A 2026 Price Guide with Real Data",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost-us-2026/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 24
+    },
+    {
+      "keyword": "dental",
+      "frequency": 18
+    },
+    {
+      "keyword": "cost",
+      "frequency": 18
+    },
+    {
+      "keyword": "implants",
+      "frequency": 17
+    },
+    {
+      "keyword": "bone",
+      "frequency": 11
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 10
+    },
+    {
+      "keyword": "average",
+      "frequency": 10
+    },
+    {
+      "keyword": "your",
+      "frequency": 8
+    },
+    {
+      "keyword": "patients",
+      "frequency": 7
+    },
+    {
+      "keyword": "crowns",
+      "frequency": 7
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 6
+    },
+    {
+      "keyword": "costs",
+      "frequency": 6
+    },
+    {
+      "keyword": "crown",
+      "frequency": 6
+    },
+    {
+      "keyword": "typically",
+      "frequency": 6
+    },
+    {
+      "keyword": "single",
+      "frequency": 5
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "bone",
+      "suggested_target": "/blog/bone/",
+      "reason": "\"bone\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "teeth",
+      "suggested_target": "/blog/teeth/",
+      "reason": "\"teeth\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "average",
+      "suggested_target": "/blog/average/",
+      "reason": "\"average\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 8 times in this article"
+    }
+  ]
+}

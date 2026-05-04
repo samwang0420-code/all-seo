@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: A Complete Guide to Facial Injectables",
+  "description": "The global aesthetic injectable market reached $15.1 billion in 2024, with Botox and dermal fillers accounting for over 80% of all non-surgical facial procedures performed worldwide. Yet despite their",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-01",
+  "dateModified": "2026-05-01",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "wordCount": 1277,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid HE1 error code on dryer. Causes and step-b
 brand: kitchenaid
 category: dryer
 code: HE1
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/dryer/HE1/

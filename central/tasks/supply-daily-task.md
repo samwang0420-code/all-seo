@@ -15,8 +15,13 @@ Cloudflare Pages API
 - 73 个产品页（LocalBusiness + Shipping FAQ）
 - 6 个城市页（深圳/广州/义乌/宁波/东莞/青岛）
 
-### 任务 2：触发部署
-同步到 `workspace-geo-suppler/suppler-geo/`，使用 Cloudflare Pages API 部署。
+### 任务 2：部署
+```bash
+cd /root/.openclaw/workspace-geo-suppler/suppler-geo
+export CLOUDFLARE_API_TOKEN="X-3jRM7vU05v4XKinPscNTaq66haXS_kXVm6dsaD"
+export CLOUDFLARE_ACCOUNT_ID="5d298b12fa6d0f4da3cd751fed7ab2e1"
+npx wrangler pages deploy . --project-name=suppler-geo --commit-dirty=true
+```
 
 ### 任务 3：验证
 部署后抽检 2 个产品页，确认 LocalBusiness Schema + 8 条 FAQ 完整。

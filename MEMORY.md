@@ -15,8 +15,11 @@
 ## Deployment
 - 所有站点通过 Cloudflare Pages 部署（非 git push）
 - 各 agent 独立运行，中枢（我）只管文件层
+- CF API token 藏在 `all-seo/scripts/auto_update.sh`（`X-3jRM7vU05v4XKinPscNTaq66haXS_kXVm6dsaD`）
+- CF Account ID：`5d298b12fa6d0f4da3cd751fed7ab2e1`
+- 部署命令：`CLOUDFLARE_API_TOKEN=X TOKEN CLOUDFLARE_ACCOUNT_ID=ID npx wrangler pages deploy dist --project-name=NAME --commit-dirty=true`
 - 文件同步路径：
-  - 城市站 GEO → `workspace-geo-all/notebooklm_seo/output/city-data/`
+  - 城市站 GEO → `workspace-geo-all/all-seo/`（Astro rebuild 后 CF deploy）
   - 供应站 GEO → `workspace-geo-suppler/suppler-geo/`
   - 错误码站内链 → `workspace-geo-arch/notebooklm_seo/output/brand/`, `category/`
 

@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-02",
+  "timestamp": "2026-05-02T18:04UTC",
+  "summary": {
+    "error-code": {
+      "pages": 3036,
+      "breakdown": "22 brands, 6 categories, 23 error codes",
+      "status": "completed"
+    },
+    "supply": {
+      "pages": 122,
+      "breakdown": "35 product pages, 6 city pages",
+      "status": "completed"
+    },
+    "city": {
+      "pages": 1001,
+      "breakdown": "7000+ city pages with enhanced schema",
+      "status": "completed"
+    }
+  },
+  "issues": [
+    "【供应站】GEO缺失: LocalBusiness Schema（中文采购服务）",
+    "【供应站】GEO缺失: FAQ on shipping/to customs",
+    "【供应站】GEO缺失: City-specific content（新塘/广州等中国城市详情）",
+    "【城市站】GEO缺失: Place Schema",
+    "【城市站】GEO缺失: GeoCoordinates（经纬度）",
+    "【城市站】GEO缺失: TouristDestination Schema"
+  ],
+  "status": "ok"
+}

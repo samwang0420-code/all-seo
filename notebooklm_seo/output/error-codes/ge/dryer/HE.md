@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances HE error code on dryer. Causes and step
 brand: ge
 category: dryer
 code: HE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/HE/

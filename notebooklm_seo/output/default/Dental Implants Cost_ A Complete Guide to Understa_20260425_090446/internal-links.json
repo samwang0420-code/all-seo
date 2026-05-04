@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: A Complete Guide to Understanding Your Investment",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost-complete-guide/",
+  "top_keywords": [
+    {
+      "keyword": "implants",
+      "frequency": 33
+    },
+    {
+      "keyword": "implant",
+      "frequency": 32
+    },
+    {
+      "keyword": "cost",
+      "frequency": 25
+    },
+    {
+      "keyword": "dental",
+      "frequency": 22
+    },
+    {
+      "keyword": "costs",
+      "frequency": 20
+    },
+    {
+      "keyword": "patients",
+      "frequency": 19
+    },
+    {
+      "keyword": "bone",
+      "frequency": 17
+    },
+    {
+      "keyword": "procedure",
+      "frequency": 11
+    },
+    {
+      "keyword": "many",
+      "frequency": 11
+    },
+    {
+      "keyword": "offer",
+      "frequency": 11
+    },
+    {
+      "keyword": "when",
+      "frequency": 11
+    },
+    {
+      "keyword": "often",
+      "frequency": 10
+    },
+    {
+      "keyword": "procedures",
+      "frequency": 10
+    },
+    {
+      "keyword": "replacement",
+      "frequency": 10
+    },
+    {
+      "keyword": "investment",
+      "frequency": 9
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 33 times in this article"
+    },
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 32 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "bone",
+      "suggested_target": "/blog/bone/",
+      "reason": "\"bone\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "procedure",
+      "suggested_target": "/blog/procedure/",
+      "reason": "\"procedure\" appears 11 times in this article"
+    }
+  ]
+}

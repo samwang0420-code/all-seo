@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-28",
+  "agent": "supply",
+  "status": "success",
+  "deployment": {
+    "url": "https://master.suppler-geo.pages.dev",
+    "files": 121,
+    "project": "suppler-geo"
+  },
+  "verification": {
+    "activewear": {
+      "has_faq_schema": true,
+      "question_count": 4,
+      "has_service_schema": true,
+      "has_person_schema": true
+    },
+    "electronics": {
+      "has_faq_schema": false,
+      "question_count": 0,
+      "has_service_schema": true,
+      "has_person_schema": true
+    }
+  },
+  "notes": "Deployed latest content from notebooklm_seo output. FAQ schema confirmed on activewear (4 questions). Some product pages may have reduced FAQ entries."
+}

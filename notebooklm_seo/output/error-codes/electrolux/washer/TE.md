@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux TE error code on washer. Causes and step-b
 brand: electrolux
 category: washer
 code: TE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/washer/TE/

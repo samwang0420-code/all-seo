@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: The Complete Guide to What's Worth Your Money",
+  "description": "Most people walking into a med spa have no idea what they actually need. They hear \"Botox\" and \"dermal fillers\" used interchangeably, assume they're basically the same thing, and then end up with a tr",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-complete-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-03",
+  "dateModified": "2026-05-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-complete-guide/"
+  },
+  "wordCount": 1539,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances HE2 error code on washer. Causes and st
 brand: ge
 category: washer
 code: HE2
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/HE2/

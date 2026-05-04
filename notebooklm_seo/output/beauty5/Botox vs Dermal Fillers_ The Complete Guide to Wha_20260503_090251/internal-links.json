@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: The Complete Guide to What's Worth Your Money",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-complete-guide/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 26
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 19
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 18
+    },
+    {
+      "keyword": "your",
+      "frequency": 16
+    },
+    {
+      "keyword": "patients",
+      "frequency": 12
+    },
+    {
+      "keyword": "lines",
+      "frequency": 11
+    },
+    {
+      "keyword": "most",
+      "frequency": 8
+    },
+    {
+      "keyword": "areas",
+      "frequency": 8
+    },
+    {
+      "keyword": "both",
+      "frequency": 8
+    },
+    {
+      "keyword": "results",
+      "frequency": 8
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 7
+    },
+    {
+      "keyword": "volume",
+      "frequency": 7
+    },
+    {
+      "keyword": "filler",
+      "frequency": 7
+    },
+    {
+      "keyword": "months",
+      "frequency": 7
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 26 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "most",
+      "suggested_target": "/blog/most/",
+      "reason": "\"most\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "areas",
+      "suggested_target": "/blog/areas/",
+      "reason": "\"areas\" appears 8 times in this article"
+    }
+  ]
+}

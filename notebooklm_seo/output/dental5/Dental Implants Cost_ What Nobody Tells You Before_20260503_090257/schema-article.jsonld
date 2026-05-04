@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: What Nobody Tells You Before You Sign the Papers",
+  "description": "The average dental implant patient spends $8,000 to $14,000 per arch and walks out without knowing what actually drove that number. Somewhere in that range is a reasonable quote. Somewhere else is som",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-03",
+  "dateModified": "2026-05-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost-guide/"
+  },
+  "wordCount": 1476,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

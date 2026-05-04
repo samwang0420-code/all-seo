@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid IE error code on dryer. Causes and step-by
 brand: kitchenaid
 category: dryer
 code: IE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/dryer/IE/

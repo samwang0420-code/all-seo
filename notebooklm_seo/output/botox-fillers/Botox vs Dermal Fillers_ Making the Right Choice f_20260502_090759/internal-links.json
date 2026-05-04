@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Making the Right Choice for Your Face",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 22
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 20
+    },
+    {
+      "keyword": "your",
+      "frequency": 18
+    },
+    {
+      "keyword": "face",
+      "frequency": 14
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 13
+    },
+    {
+      "keyword": "volume",
+      "frequency": 10
+    },
+    {
+      "keyword": "year",
+      "frequency": 8
+    },
+    {
+      "keyword": "when",
+      "frequency": 8
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 8
+    },
+    {
+      "keyword": "lines",
+      "frequency": 7
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 6
+    },
+    {
+      "keyword": "three",
+      "frequency": 6
+    },
+    {
+      "keyword": "jawline",
+      "frequency": 6
+    },
+    {
+      "keyword": "look",
+      "frequency": 6
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "your",
+      "suggested_target": "/blog/your/",
+      "reason": "\"your\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "face",
+      "suggested_target": "/blog/face/",
+      "reason": "\"face\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "year",
+      "suggested_target": "/blog/year/",
+      "reason": "\"year\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "when",
+      "suggested_target": "/blog/when/",
+      "reason": "\"when\" appears 8 times in this article"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # Dental Implants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # Dental Implants is that the US: A 2026 Price."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # Dental Implants work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "the US: A 2026 Price is the core mechanism behind # Dental Implants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # Dental Implants important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# Dental Implants matters because the US: A 2026 Price."
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore DE error code on dryer. Causes and step-by-st
 brand: kenmore
 category: dryer
 code: DE
-date: 2026-04-24
+date: 2026-05-01
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/DE/

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: A Real-World Breakdown from 3 Cities",
+  "description": "Marcus Chen, 52, lost his upper left molar to decay fifteen years ago. He's been chewing on his right side ever since—a habit that now causes jaw pain and has begun shifting his bite. His dentist says",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-02",
+  "dateModified": "2026-05-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "wordCount": 1270,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}
