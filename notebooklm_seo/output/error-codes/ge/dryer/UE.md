@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances UE error code on dryer. Causes and step
 brand: ge
 category: dryer
 code: UE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/UE/

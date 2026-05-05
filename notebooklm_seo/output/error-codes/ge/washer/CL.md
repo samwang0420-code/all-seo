@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances CL error code on washer. Causes and ste
 brand: ge
 category: washer
 code: CL
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/CL/

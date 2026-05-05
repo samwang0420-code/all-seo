@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances HE1 error code on dryer. Causes and ste
 brand: ge
 category: dryer
 code: HE1
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/HE1/

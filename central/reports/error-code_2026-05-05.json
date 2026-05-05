@@ -1,0 +1,13 @@
+{
+  "date": "2026-05-05",
+  "status": "ok",
+  "site": "uscomplianceguard.com",
+  "total_pages": 1082,
+  "brand_pages": 13,
+  "category_pages": 6,
+  "tasks": {
+    "check_files": "done",
+    "deploy": "done",
+    "verify_links": "pending"
+  }
+}

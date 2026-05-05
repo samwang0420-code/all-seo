@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux LE1 error code on dryer. Causes and step-b
 brand: electrolux
 category: dryer
 code: LE1
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/dryer/LE1/

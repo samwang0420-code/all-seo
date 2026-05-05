@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore LE1 error code on dryer. Causes and step-by-s
 brand: kenmore
 category: dryer
 code: LE1
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/LE1/

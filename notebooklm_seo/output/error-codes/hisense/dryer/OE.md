@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense OE error code on dryer. Causes and step-by-st
 brand: hisense
 category: dryer
 code: OE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/OE/

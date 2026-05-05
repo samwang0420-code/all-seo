@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid LE error code on washer. Causes and step-b
 brand: kitchenaid
 category: washer
 code: LE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/washer/LE/

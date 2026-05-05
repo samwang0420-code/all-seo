@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag PE error code on dryer. Causes and step-by-ste
 brand: maytag
 category: dryer
 code: PE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/dryer/PE/

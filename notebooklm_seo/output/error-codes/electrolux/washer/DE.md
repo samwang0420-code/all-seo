@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux DE error code on washer. Causes and step-b
 brand: electrolux
 category: washer
 code: DE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/washer/DE/

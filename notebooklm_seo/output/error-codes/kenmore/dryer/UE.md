@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore UE error code on dryer. Causes and step-by-st
 brand: kenmore
 category: dryer
 code: UE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/UE/

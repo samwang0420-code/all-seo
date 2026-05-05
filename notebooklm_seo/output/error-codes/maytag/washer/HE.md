@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag HE error code on washer. Causes and step-by-st
 brand: maytag
 category: washer
 code: HE
-date: 2026-05-01
+date: 2026-05-05
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/washer/HE/
