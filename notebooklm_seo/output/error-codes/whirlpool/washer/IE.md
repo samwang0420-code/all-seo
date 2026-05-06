@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool IE error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: IE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/IE/

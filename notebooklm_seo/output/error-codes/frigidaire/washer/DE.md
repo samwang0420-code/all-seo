@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire DE error code on washer. Causes and step-b
 brand: frigidaire
 category: washer
 code: DE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/washer/DE/

@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch HE2 error code on washer. Causes and step-by-st
 brand: bosch
 category: washer
 code: HE2
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/washer/HE2/

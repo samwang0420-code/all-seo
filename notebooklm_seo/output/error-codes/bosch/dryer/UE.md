@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch UE error code on dryer. Causes and step-by-step
 brand: bosch
 category: dryer
 code: UE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/dryer/UE/

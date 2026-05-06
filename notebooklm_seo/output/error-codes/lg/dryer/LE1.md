@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics LE1 error code on dryer. Causes and st
 brand: lg
 category: dryer
 code: LE1
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/dryer/LE1/

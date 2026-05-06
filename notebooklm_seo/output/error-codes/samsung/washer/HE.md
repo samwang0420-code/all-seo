@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung HE error code on washer. Causes and step-by-s
 brand: samsung
 category: washer
 code: HE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/washer/HE/

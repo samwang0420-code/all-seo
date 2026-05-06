@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics PF error code on dryer. Causes and ste
 brand: lg
 category: dryer
 code: PF
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/dryer/PF/

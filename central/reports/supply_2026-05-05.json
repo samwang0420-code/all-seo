@@ -1,26 +1,26 @@
 {
   "date": "2026-05-05",
   "agent": "supply",
-  "status": "SUCCESS",
-  "deployed": {
-    "project": "suppler-geo",
-    "url": "https://master.suppler-geo.pages.dev",
-    "filesUploaded": 122,
-    "timestamp": "2026-05-05T12:06:00Z"
+  "status": "DONE",
+  "files_deployed": {
+    "product_pages": 35,
+    "city_pages": 6
   },
-  "verified": {
-    "activewear": {
-      "schema": "Service + LocalBusiness",
-      "faqCount": 4
+  "deployment": {
+    "target": "Cloudflare Pages",
+    "project": "suppler-geo",
+    "url": "https://suppler-geo.pages.dev",
+    "result": "success"
+  },
+  "verification": {
+    "clothing_page": {
+      "localbusiness_schema": "present",
+      "faq_count": 4
     },
-    "smartphones": {
-      "schema": "Service",
-      "faqCount": 4
-    },
-    "dresses": {
-      "schema": "Service",
-      "faqCount": 4
+    "electronics_page": {
+      "localbusiness_schema": "present",
+      "faq_count": 4
     }
   },
-  "summary": "87 pages deployed (73 products + 6 city pages + 8 guides), all verified with FAQ Schema"
+  "timestamp": "2026-05-05T18:06:00Z"
 }

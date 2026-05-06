@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux HE1 error code on dryer. Causes and step-b
 brand: electrolux
 category: dryer
 code: HE1
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/dryer/HE1/

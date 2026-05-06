@@ -1,39 +1,29 @@
 {
   "date": "2026-04-10",
-  "generated": "2026-05-04 00:04 UTC",
-  "error_code_site": {
-    "html_files": 1082,
-    "faq_schema_coverage": "100%",
-    "author_schema_coverage": "100%",
-    "internal_links": 90,
-    "status": "ok"
+  "timestamp": "2026-05-05T18:04:00Z",
+  "sites": {
+    "error-code": {
+      "site": "uscomplianceguard.com",
+      "pages": 1082,
+      "faq_coverage": "100%",
+      "author_coverage": "100%",
+      "internal_links": 90
+    },
+    "supply": {
+      "site": "uscompliance-team.com",
+      "pages": 78,
+      "faq_coverage": "100%",
+      "author_coverage": "100%",
+      "internal_links": 30
+    },
+    "city": {
+      "site": "getuscompliance.com",
+      "pages": 1028,
+      "faq_coverage": "100%",
+      "author_coverage": "100%",
+      "internal_links": 20
+    }
   },
-  "supply_site": {
-    "html_files": 78,
-    "faq_schema_coverage": "100%",
-    "author_schema_coverage": "100%",
-    "internal_links": 30,
-    "geo_issues": [
-      "LocalBusiness Schema (Chinese sourcing)",
-      "FAQ on shipping/to customs",
-      "City-specific content (Xintang/Guangzhou etc)"
-    ],
-    "status": "needs_attention"
-  },
-  "city_site": {
-    "html_files": 1028,
-    "faq_schema_coverage": "100%",
-    "author_schema_coverage": "100%",
-    "internal_links": 20,
-    "geo_issues": [
-      "Place Schema",
-      "GeoCoordinates",
-      "TouristDestination Schema"
-    ],
-    "status": "needs_attention"
-  },
-  "priority_fixes": {
-    "supply": ["LocalBusiness Schema", "Shipping FAQ", "City-specific content"],
-    "city": ["Place Schema", "GeoCoordinates", "TouristDestination Schema"]
-  }
+  "status": "ok",
+  "fixes_needed": []
 }

@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag IE error code on washer. Causes and step-by-st
 brand: maytag
 category: washer
 code: IE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/washer/IE/

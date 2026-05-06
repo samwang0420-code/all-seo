@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung TE error code on dryer. Causes and step-by-st
 brand: samsung
 category: dryer
 code: TE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/dryer/TE/

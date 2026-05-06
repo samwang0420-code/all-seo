@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense HE2 error code on dryer. Causes and step-by-s
 brand: hisense
 category: dryer
 code: HE2
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/HE2/

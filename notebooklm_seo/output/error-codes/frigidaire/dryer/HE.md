@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire HE error code on dryer. Causes and step-by
 brand: frigidaire
 category: dryer
 code: HE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/dryer/HE/

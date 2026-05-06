@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics UE error code on washer. Causes and st
 brand: lg
 category: washer
 code: UE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/washer/UE/

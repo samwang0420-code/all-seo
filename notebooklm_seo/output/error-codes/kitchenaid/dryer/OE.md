@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid OE error code on dryer. Causes and step-by
 brand: kitchenaid
 category: dryer
 code: OE
-date: 2026-05-05
+date: 2026-05-06
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/dryer/OE/
