@@ -1,0 +1,108 @@
+{
+  "source_article": "Emergency Plumber Guide 2026: What Homeowners Need to Know",
+  "source_url": "https://stackmatrices.com/blog/emergency-plumber-guide-2026/",
+  "top_keywords": [
+    {
+      "keyword": "water",
+      "frequency": 39
+    },
+    {
+      "keyword": "emergency",
+      "frequency": 29
+    },
+    {
+      "keyword": "plumbing",
+      "frequency": 18
+    },
+    {
+      "keyword": "damage",
+      "frequency": 17
+    },
+    {
+      "keyword": "before",
+      "frequency": 14
+    },
+    {
+      "keyword": "home",
+      "frequency": 14
+    },
+    {
+      "keyword": "homeowners",
+      "frequency": 12
+    },
+    {
+      "keyword": "costs",
+      "frequency": 12
+    },
+    {
+      "keyword": "repair",
+      "frequency": 11
+    },
+    {
+      "keyword": "typically",
+      "frequency": 11
+    },
+    {
+      "keyword": "maintenance",
+      "frequency": 11
+    },
+    {
+      "keyword": "plumber",
+      "frequency": 10
+    },
+    {
+      "keyword": "most",
+      "frequency": 10
+    },
+    {
+      "keyword": "rates",
+      "frequency": 10
+    },
+    {
+      "keyword": "heater",
+      "frequency": 10
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "water",
+      "suggested_target": "/blog/water/",
+      "reason": "\"water\" appears 39 times in this article"
+    },
+    {
+      "anchor_text": "emergency",
+      "suggested_target": "/blog/emergency/",
+      "reason": "\"emergency\" appears 29 times in this article"
+    },
+    {
+      "anchor_text": "plumbing",
+      "suggested_target": "/blog/plumbing/",
+      "reason": "\"plumbing\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "damage",
+      "suggested_target": "/blog/damage/",
+      "reason": "\"damage\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "before",
+      "suggested_target": "/blog/before/",
+      "reason": "\"before\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "home",
+      "suggested_target": "/blog/home/",
+      "reason": "\"home\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "homeowners",
+      "suggested_target": "/blog/homeowners/",
+      "reason": "\"homeowners\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 12 times in this article"
+    }
+  ]
+}

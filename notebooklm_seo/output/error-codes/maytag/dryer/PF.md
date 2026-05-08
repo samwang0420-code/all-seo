@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag PF error code on dryer. Causes and step-by-ste
 brand: maytag
 category: dryer
 code: PF
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/dryer/PF/

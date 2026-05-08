@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung UE error code on washer. Causes and step-by-s
 brand: samsung
 category: washer
 code: UE
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/washer/UE/

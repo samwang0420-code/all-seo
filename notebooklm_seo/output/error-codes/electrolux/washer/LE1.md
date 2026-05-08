@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux LE1 error code on washer. Causes and step-
 brand: electrolux
 category: washer
 code: LE1
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/washer/LE1/

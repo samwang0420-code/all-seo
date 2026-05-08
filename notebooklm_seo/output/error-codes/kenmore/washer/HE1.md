@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore HE1 error code on washer. Causes and step-by-
 brand: kenmore
 category: washer
 code: HE1
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/washer/HE1/

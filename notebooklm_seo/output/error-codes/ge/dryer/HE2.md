@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances HE2 error code on dryer. Causes and ste
 brand: ge
 category: dryer
 code: HE2
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/HE2/

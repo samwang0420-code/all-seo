@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics HE1 error code on dryer. Causes and st
 brand: lg
 category: dryer
 code: HE1
-date: 2026-05-06
+date: 2026-05-07
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/dryer/HE1/
