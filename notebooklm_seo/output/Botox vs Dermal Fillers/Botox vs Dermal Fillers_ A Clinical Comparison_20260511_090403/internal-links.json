@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Clinical Comparison",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "treatment",
+      "frequency": 20
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 19
+    },
+    {
+      "keyword": "botox",
+      "frequency": 17
+    },
+    {
+      "keyword": "filler",
+      "frequency": 15
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 11
+    },
+    {
+      "keyword": "volume",
+      "frequency": 11
+    },
+    {
+      "keyword": "lines",
+      "frequency": 11
+    },
+    {
+      "keyword": "product",
+      "frequency": 10
+    },
+    {
+      "keyword": "hundred",
+      "frequency": 10
+    },
+    {
+      "keyword": "specific",
+      "frequency": 8
+    },
+    {
+      "keyword": "three",
+      "frequency": 8
+    },
+    {
+      "keyword": "different",
+      "frequency": 8
+    },
+    {
+      "keyword": "most",
+      "frequency": 8
+    },
+    {
+      "keyword": "than",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 11 times in this article"
+    }
+  ]
+}

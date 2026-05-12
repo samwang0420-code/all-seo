@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch OE error code on dryer. Causes and step-by-step
 brand: bosch
 category: dryer
 code: OE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/dryer/OE/

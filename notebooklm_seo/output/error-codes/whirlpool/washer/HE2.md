@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool HE2 error code on washer. Causes and step-b
 brand: whirlpool
 category: washer
 code: HE2
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/HE2/

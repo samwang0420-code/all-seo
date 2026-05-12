@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: A Comprehensive Breakdown of What Patients Actually Pay in 2025",
+  "description": "Dental implants represent the closest approximation to natural teeth currently available in restorative dentistry. Unlike bridges or dentures, implants integrate directly with the jawbone through a pr",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-10",
+  "dateModified": "2026-05-10",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "wordCount": 2285,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

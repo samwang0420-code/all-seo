@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics IE error code on dryer. Causes and ste
 brand: lg
 category: dryer
 code: IE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/dryer/IE/

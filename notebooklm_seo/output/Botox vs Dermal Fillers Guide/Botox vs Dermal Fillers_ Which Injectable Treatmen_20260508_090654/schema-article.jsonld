@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: Which Injectable Treatment Is Right for You in 2026",
+  "description": "title: \"Botox vs Dermal Fillers: Which Injectable Treatment Is Right for You in 2026\" description: \"A data-driven comparison of Botox and dermal fillers covering costs, longevity, side effects, and re",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-08",
+  "dateModified": "2026-05-08",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "wordCount": 2066,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

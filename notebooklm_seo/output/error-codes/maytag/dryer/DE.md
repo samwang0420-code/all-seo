@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag DE error code on dryer. Causes and step-by-ste
 brand: maytag
 category: dryer
 code: DE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/dryer/DE/

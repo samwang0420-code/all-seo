@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool CL error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: CL
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/CL/

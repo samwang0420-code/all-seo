@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire LE1 error code on dryer. Causes and step-b
 brand: frigidaire
 category: dryer
 code: LE1
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/dryer/LE1/

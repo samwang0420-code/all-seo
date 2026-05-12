@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Data-Driven Comparison of Two Leading Aesthetic Treatments",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "treatment",
+      "frequency": 33
+    },
+    {
+      "keyword": "botox",
+      "frequency": 24
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 19
+    },
+    {
+      "keyword": "filler",
+      "frequency": 19
+    },
+    {
+      "keyword": "patients",
+      "frequency": 19
+    },
+    {
+      "keyword": "volume",
+      "frequency": 18
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 16
+    },
+    {
+      "keyword": "lines",
+      "frequency": 15
+    },
+    {
+      "keyword": "most",
+      "frequency": 14
+    },
+    {
+      "keyword": "acid",
+      "frequency": 11
+    },
+    {
+      "keyword": "than",
+      "frequency": 11
+    },
+    {
+      "keyword": "clinical",
+      "frequency": 10
+    },
+    {
+      "keyword": "hyaluronic",
+      "frequency": 10
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 9
+    },
+    {
+      "keyword": "these",
+      "frequency": 9
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 33 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "treatments",
+      "suggested_target": "/blog/treatments/",
+      "reason": "\"treatments\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 15 times in this article"
+    }
+  ]
+}

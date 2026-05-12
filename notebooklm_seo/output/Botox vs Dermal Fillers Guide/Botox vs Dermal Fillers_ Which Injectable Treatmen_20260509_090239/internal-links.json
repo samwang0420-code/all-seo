@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Which Injectable Treatment Is Right for You?",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 21
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 20
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 19
+    },
+    {
+      "keyword": "patients",
+      "frequency": 18
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 12
+    },
+    {
+      "keyword": "cost",
+      "frequency": 9
+    },
+    {
+      "keyword": "facial",
+      "frequency": 9
+    },
+    {
+      "keyword": "volume",
+      "frequency": 9
+    },
+    {
+      "keyword": "months",
+      "frequency": 9
+    },
+    {
+      "keyword": "satisfaction",
+      "frequency": 9
+    },
+    {
+      "keyword": "data",
+      "frequency": 8
+    },
+    {
+      "keyword": "results",
+      "frequency": 8
+    },
+    {
+      "keyword": "clinical",
+      "frequency": 7
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 7
+    },
+    {
+      "keyword": "when",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "facial",
+      "suggested_target": "/blog/facial/",
+      "reason": "\"facial\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "volume",
+      "suggested_target": "/blog/volume/",
+      "reason": "\"volume\" appears 9 times in this article"
+    }
+  ]
+}

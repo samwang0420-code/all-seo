@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore LE error code on dryer. Causes and step-by-st
 brand: kenmore
 category: dryer
 code: LE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/dryer/LE/

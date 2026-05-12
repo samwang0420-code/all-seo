@@ -4,7 +4,7 @@ description: "Troubleshoot Electrolux IE error code on dryer. Causes and step-by
 brand: electrolux
 category: dryer
 code: IE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/electrolux/dryer/IE/

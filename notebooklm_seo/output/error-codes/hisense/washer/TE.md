@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense TE error code on washer. Causes and step-by-s
 brand: hisense
 category: washer
 code: TE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/washer/TE/

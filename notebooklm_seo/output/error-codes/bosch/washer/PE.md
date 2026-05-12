@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch PE error code on washer. Causes and step-by-ste
 brand: bosch
 category: washer
 code: PE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/washer/PE/

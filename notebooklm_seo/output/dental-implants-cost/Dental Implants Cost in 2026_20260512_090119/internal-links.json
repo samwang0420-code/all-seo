@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost in 2026",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 36
+    },
+    {
+      "keyword": "cost",
+      "frequency": 24
+    },
+    {
+      "keyword": "dental",
+      "frequency": 23
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 23
+    },
+    {
+      "keyword": "thousand",
+      "frequency": 23
+    },
+    {
+      "keyword": "implants",
+      "frequency": 20
+    },
+    {
+      "keyword": "bone",
+      "frequency": 19
+    },
+    {
+      "keyword": "costs",
+      "frequency": 19
+    },
+    {
+      "keyword": "dollars",
+      "frequency": 19
+    },
+    {
+      "keyword": "patients",
+      "frequency": 14
+    },
+    {
+      "keyword": "when",
+      "frequency": 13
+    },
+    {
+      "keyword": "hundred",
+      "frequency": 12
+    },
+    {
+      "keyword": "three",
+      "frequency": 11
+    },
+    {
+      "keyword": "crown",
+      "frequency": 10
+    },
+    {
+      "keyword": "grafting",
+      "frequency": 10
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 36 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 24 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "thousand",
+      "suggested_target": "/blog/thousand/",
+      "reason": "\"thousand\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "bone",
+      "suggested_target": "/blog/bone/",
+      "reason": "\"bone\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 19 times in this article"
+    }
+  ]
+}

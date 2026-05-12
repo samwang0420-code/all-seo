@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances PF error code on dryer. Causes and step
 brand: ge
 category: dryer
 code: PF
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/PF/

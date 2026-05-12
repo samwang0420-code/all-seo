@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool DE error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: DE
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/DE/

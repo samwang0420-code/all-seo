@@ -4,7 +4,7 @@ description: "Troubleshoot LG Electronics HE2 error code on washer. Causes and s
 brand: lg
 category: washer
 code: HE2
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/lg/washer/HE2/

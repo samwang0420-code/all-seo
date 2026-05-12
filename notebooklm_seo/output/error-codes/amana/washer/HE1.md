@@ -4,7 +4,7 @@ description: "Troubleshoot Amana HE1 error code on washer. Causes and step-by-st
 brand: amana
 category: washer
 code: HE1
-date: 2026-05-07
+date: 2026-05-12
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/washer/HE1/
