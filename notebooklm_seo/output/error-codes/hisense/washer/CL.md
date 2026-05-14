@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense CL error code on washer. Causes and step-by-s
 brand: hisense
 category: washer
 code: CL
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/washer/CL/

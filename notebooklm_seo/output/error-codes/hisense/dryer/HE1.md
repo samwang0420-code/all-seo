@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense HE1 error code on dryer. Causes and step-by-s
 brand: hisense
 category: dryer
 code: HE1
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/HE1/

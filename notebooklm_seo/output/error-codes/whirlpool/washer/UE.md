@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool UE error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: UE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/UE/

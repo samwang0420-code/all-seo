@@ -4,7 +4,7 @@ description: "Troubleshoot Bosch TE error code on dryer. Causes and step-by-step
 brand: bosch
 category: dryer
 code: TE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/bosch/dryer/TE/

@@ -4,7 +4,7 @@ description: "Troubleshoot Amana HE2 error code on dryer. Causes and step-by-ste
 brand: amana
 category: dryer
 code: HE2
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/dryer/HE2/

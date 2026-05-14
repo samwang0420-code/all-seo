@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: A Comparative Guide",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "treatment",
+      "frequency": 20
+    },
+    {
+      "keyword": "botox",
+      "frequency": 15
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 14
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 12
+    },
+    {
+      "keyword": "filler",
+      "frequency": 12
+    },
+    {
+      "keyword": "typically",
+      "frequency": 9
+    },
+    {
+      "keyword": "patients",
+      "frequency": 9
+    },
+    {
+      "keyword": "facial",
+      "frequency": 8
+    },
+    {
+      "keyword": "most",
+      "frequency": 7
+    },
+    {
+      "keyword": "both",
+      "frequency": 7
+    },
+    {
+      "keyword": "though",
+      "frequency": 7
+    },
+    {
+      "keyword": "aesthetic",
+      "frequency": 6
+    },
+    {
+      "keyword": "lines",
+      "frequency": 6
+    },
+    {
+      "keyword": "cost",
+      "frequency": 6
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "typically",
+      "suggested_target": "/blog/typically/",
+      "reason": "\"typically\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "facial",
+      "suggested_target": "/blog/facial/",
+      "reason": "\"facial\" appears 8 times in this article"
+    }
+  ]
+}

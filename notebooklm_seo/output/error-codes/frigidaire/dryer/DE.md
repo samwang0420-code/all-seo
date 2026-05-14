@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire DE error code on dryer. Causes and step-by
 brand: frigidaire
 category: dryer
 code: DE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/dryer/DE/

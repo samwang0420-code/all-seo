@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag TE error code on washer. Causes and step-by-st
 brand: maytag
 category: washer
 code: TE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/washer/TE/

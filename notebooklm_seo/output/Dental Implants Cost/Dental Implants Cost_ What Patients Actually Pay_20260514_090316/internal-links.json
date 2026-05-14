@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: What Patients Actually Pay",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 31
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 19
+    },
+    {
+      "keyword": "dental",
+      "frequency": 18
+    },
+    {
+      "keyword": "implants",
+      "frequency": 13
+    },
+    {
+      "keyword": "cost",
+      "frequency": 12
+    },
+    {
+      "keyword": "patients",
+      "frequency": 8
+    },
+    {
+      "keyword": "replacement",
+      "frequency": 8
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 8
+    },
+    {
+      "keyword": "bone",
+      "frequency": 7
+    },
+    {
+      "keyword": "costs",
+      "frequency": 7
+    },
+    {
+      "keyword": "offer",
+      "frequency": 7
+    },
+    {
+      "keyword": "before",
+      "frequency": 6
+    },
+    {
+      "keyword": "typically",
+      "frequency": 6
+    },
+    {
+      "keyword": "including",
+      "frequency": 6
+    },
+    {
+      "keyword": "crown",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 31 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "replacement",
+      "suggested_target": "/blog/replacement/",
+      "reason": "\"replacement\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "teeth",
+      "suggested_target": "/blog/teeth/",
+      "reason": "\"teeth\" appears 8 times in this article"
+    }
+  ]
+}

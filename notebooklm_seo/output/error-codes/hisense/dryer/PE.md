@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense PE error code on dryer. Causes and step-by-st
 brand: hisense
 category: dryer
 code: PE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/PE/

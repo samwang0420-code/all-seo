@@ -4,7 +4,7 @@ description: "Troubleshoot Amana LE1 error code on washer. Causes and step-by-st
 brand: amana
 category: washer
 code: LE1
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/washer/LE1/

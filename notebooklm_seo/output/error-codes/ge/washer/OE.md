@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances OE error code on washer. Causes and ste
 brand: ge
 category: washer
 code: OE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/OE/

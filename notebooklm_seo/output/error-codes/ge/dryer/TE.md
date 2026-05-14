@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances TE error code on dryer. Causes and step
 brand: ge
 category: dryer
 code: TE
-date: 2026-05-12
+date: 2026-05-14
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/dryer/TE/
