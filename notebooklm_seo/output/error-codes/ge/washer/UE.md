@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances UE error code on washer. Causes and ste
 brand: ge
 category: washer
 code: UE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/UE/

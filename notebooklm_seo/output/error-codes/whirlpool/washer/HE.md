@@ -4,7 +4,7 @@ description: "Troubleshoot Whirlpool HE error code on washer. Causes and step-by
 brand: whirlpool
 category: washer
 code: HE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/whirlpool/washer/HE/

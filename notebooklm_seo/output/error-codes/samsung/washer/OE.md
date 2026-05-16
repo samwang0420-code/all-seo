@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung OE error code on washer. Causes and step-by-s
 brand: samsung
 category: washer
 code: OE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/washer/OE/

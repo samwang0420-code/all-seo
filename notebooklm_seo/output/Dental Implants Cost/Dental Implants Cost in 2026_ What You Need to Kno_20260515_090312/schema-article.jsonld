@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost in 2026: What You Need to Know Before Getting Started",
+  "description": "title: Dental Implants Cost in 2026: What You Need to Know Before Getting Started description: A detailed breakdown of dental implant costs including single implants, full-mouth restorations, insuranc",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-15",
+  "dateModified": "2026-05-15",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "wordCount": 1633,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

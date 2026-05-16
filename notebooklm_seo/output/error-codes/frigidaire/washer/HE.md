@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire HE error code on washer. Causes and step-b
 brand: frigidaire
 category: washer
 code: HE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/washer/HE/

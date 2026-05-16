@@ -4,7 +4,7 @@ description: "Troubleshoot Amana HE1 error code on dryer. Causes and step-by-ste
 brand: amana
 category: dryer
 code: HE1
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/dryer/HE1/

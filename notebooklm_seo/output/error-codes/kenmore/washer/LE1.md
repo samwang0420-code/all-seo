@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore LE1 error code on washer. Causes and step-by-
 brand: kenmore
 category: washer
 code: LE1
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/washer/LE1/

@@ -4,7 +4,7 @@ description: "Troubleshoot Kenmore HE2 error code on washer. Causes and step-by-
 brand: kenmore
 category: washer
 code: HE2
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kenmore/washer/HE2/

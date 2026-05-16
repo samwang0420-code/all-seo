@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid OE error code on washer. Causes and step-b
 brand: kitchenaid
 category: washer
 code: OE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/washer/OE/

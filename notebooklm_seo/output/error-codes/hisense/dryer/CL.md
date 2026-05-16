@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense CL error code on dryer. Causes and step-by-st
 brand: hisense
 category: dryer
 code: CL
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/dryer/CL/

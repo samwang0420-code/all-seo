@@ -4,7 +4,7 @@ description: "Troubleshoot KitchenAid PE error code on dryer. Causes and step-by
 brand: kitchenaid
 category: dryer
 code: PE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/kitchenaid/dryer/PE/

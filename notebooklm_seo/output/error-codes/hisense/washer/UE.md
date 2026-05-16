@@ -4,7 +4,7 @@ description: "Troubleshoot Hisense UE error code on washer. Causes and step-by-s
 brand: hisense
 category: washer
 code: UE
-date: 2026-05-14
+date: 2026-05-15
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/hisense/washer/UE/
