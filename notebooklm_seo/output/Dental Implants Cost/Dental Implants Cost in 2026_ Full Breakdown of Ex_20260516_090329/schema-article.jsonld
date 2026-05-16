@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost in 2026: Full Breakdown of Expenses by Procedure Type",
+  "description": "The True Cost of Dental Implant Treatment",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-16",
+  "dateModified": "2026-05-16",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "wordCount": 1574,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

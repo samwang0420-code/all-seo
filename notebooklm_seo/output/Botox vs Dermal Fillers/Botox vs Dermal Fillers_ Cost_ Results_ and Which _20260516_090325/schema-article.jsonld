@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers: Cost, Results, and Which Treatment Is Right for You",
+  "description": "Understanding the Fundamental Differences Between Botox and Dermal Fillers",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-16",
+  "dateModified": "2026-05-16",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/"
+  },
+  "wordCount": 1688,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}
