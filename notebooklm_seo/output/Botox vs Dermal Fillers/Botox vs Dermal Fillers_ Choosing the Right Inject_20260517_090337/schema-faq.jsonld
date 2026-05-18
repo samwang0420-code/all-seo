@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is --- title: Botox?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about --- title: Botox is that Fillers — A 2026 Guide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does --- title: Botox work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fillers — A 2026 Guide is the core mechanism behind --- title: Botox."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is --- title: Botox important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "--- title: Botox matters because Fillers — A 2026 Guide."
+      }
+    }
+  ]
+}

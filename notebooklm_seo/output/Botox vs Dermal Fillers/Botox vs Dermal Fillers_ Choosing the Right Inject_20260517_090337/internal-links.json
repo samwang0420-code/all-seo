@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Choosing the Right Injectable Treatment",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-2026/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 23
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 21
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 18
+    },
+    {
+      "keyword": "filler",
+      "frequency": 17
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 16
+    },
+    {
+      "keyword": "patients",
+      "frequency": 15
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 12
+    },
+    {
+      "keyword": "between",
+      "frequency": 12
+    },
+    {
+      "keyword": "lines",
+      "frequency": 10
+    },
+    {
+      "keyword": "volume",
+      "frequency": 10
+    },
+    {
+      "keyword": "specific",
+      "frequency": 9
+    },
+    {
+      "keyword": "wrinkles",
+      "frequency": 9
+    },
+    {
+      "keyword": "acid",
+      "frequency": 9
+    },
+    {
+      "keyword": "both",
+      "frequency": 8
+    },
+    {
+      "keyword": "hyaluronic",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 23 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "treatments",
+      "suggested_target": "/blog/treatments/",
+      "reason": "\"treatments\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "between",
+      "suggested_target": "/blog/between/",
+      "reason": "\"between\" appears 12 times in this article"
+    }
+  ]
+}
