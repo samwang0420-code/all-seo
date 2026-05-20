@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers: Which Injectable Treatment Is Right for You?",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers/",
+  "top_keywords": [
+    {
+      "keyword": "fillers",
+      "frequency": 26
+    },
+    {
+      "keyword": "botox",
+      "frequency": 19
+    },
+    {
+      "keyword": "lines",
+      "frequency": 14
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 12
+    },
+    {
+      "keyword": "dermal",
+      "frequency": 9
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 9
+    },
+    {
+      "keyword": "between",
+      "frequency": 8
+    },
+    {
+      "keyword": "face",
+      "frequency": 8
+    },
+    {
+      "keyword": "these",
+      "frequency": 8
+    },
+    {
+      "keyword": "both",
+      "frequency": 7
+    },
+    {
+      "keyword": "when",
+      "frequency": 7
+    },
+    {
+      "keyword": "different",
+      "frequency": 7
+    },
+    {
+      "keyword": "your",
+      "frequency": 7
+    },
+    {
+      "keyword": "muscles",
+      "frequency": 7
+    },
+    {
+      "keyword": "volume",
+      "frequency": 7
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 26 times in this article"
+    },
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "dermal",
+      "suggested_target": "/blog/dermal/",
+      "reason": "\"dermal\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "treatments",
+      "suggested_target": "/blog/treatments/",
+      "reason": "\"treatments\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "between",
+      "suggested_target": "/blog/between/",
+      "reason": "\"between\" appears 8 times in this article"
+    },
+    {
+      "anchor_text": "face",
+      "suggested_target": "/blog/face/",
+      "reason": "\"face\" appears 8 times in this article"
+    }
+  ]
+}

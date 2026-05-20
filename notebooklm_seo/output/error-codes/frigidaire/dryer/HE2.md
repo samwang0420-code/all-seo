@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire HE2 error code on dryer. Causes and step-b
 brand: frigidaire
 category: dryer
 code: HE2
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/dryer/HE2/

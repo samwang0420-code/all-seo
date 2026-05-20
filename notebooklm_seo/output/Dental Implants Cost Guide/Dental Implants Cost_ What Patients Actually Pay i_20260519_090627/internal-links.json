@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost: What Patients Actually Pay in 2025",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost/",
+  "top_keywords": [
+    {
+      "keyword": "dental",
+      "frequency": 25
+    },
+    {
+      "keyword": "implant",
+      "frequency": 25
+    },
+    {
+      "keyword": "cost",
+      "frequency": 22
+    },
+    {
+      "keyword": "implants",
+      "frequency": 19
+    },
+    {
+      "keyword": "patients",
+      "frequency": 14
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 12
+    },
+    {
+      "keyword": "costs",
+      "frequency": 9
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 8
+    },
+    {
+      "keyword": "typically",
+      "frequency": 8
+    },
+    {
+      "keyword": "more",
+      "frequency": 7
+    },
+    {
+      "keyword": "bone",
+      "frequency": 7
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 6
+    },
+    {
+      "keyword": "jawbone",
+      "frequency": 6
+    },
+    {
+      "keyword": "dentures",
+      "frequency": 5
+    },
+    {
+      "keyword": "total",
+      "frequency": 5
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 25 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "implants",
+      "suggested_target": "/blog/implants/",
+      "reason": "\"implants\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "costs",
+      "suggested_target": "/blog/costs/",
+      "reason": "\"costs\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 8 times in this article"
+    }
+  ]
+}

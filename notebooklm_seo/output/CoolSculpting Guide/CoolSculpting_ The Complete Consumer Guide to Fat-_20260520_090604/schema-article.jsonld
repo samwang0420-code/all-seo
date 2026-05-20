@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "CoolSculpting: The Complete Consumer Guide to Fat-Freezing Technology",
+  "description": "When Dr. Roxanne logo appeared on a late-night talk show in 2010 describing a device that could eliminate stubborn fat deposits without surgery, viewers dismissed it as another wellness trend. Twelve ",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/coolsculpting-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-20",
+  "dateModified": "2026-05-20",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/coolsculpting-guide/"
+  },
+  "wordCount": 1712,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

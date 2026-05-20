@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # Teeth Whitening:?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # Teeth Whitening: is that Works and What Wastes Your."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # Teeth Whitening: work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Works and What Wastes Your is the core mechanism behind # Teeth Whitening:."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # Teeth Whitening: important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# Teeth Whitening: matters because Works and What Wastes Your."
+      }
+    }
+  ]
+}

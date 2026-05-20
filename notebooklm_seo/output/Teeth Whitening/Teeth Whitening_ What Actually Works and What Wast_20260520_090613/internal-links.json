@@ -1,0 +1,108 @@
+{
+  "source_article": "Teeth Whitening: What Actually Works and What Wastes Your Money",
+  "source_url": "https://stackmatrices.com/blog/teeth-whitening/",
+  "top_keywords": [
+    {
+      "keyword": "whitening",
+      "frequency": 36
+    },
+    {
+      "keyword": "peroxide",
+      "frequency": 29
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 19
+    },
+    {
+      "keyword": "enamel",
+      "frequency": 19
+    },
+    {
+      "keyword": "professional",
+      "frequency": 17
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 16
+    },
+    {
+      "keyword": "products",
+      "frequency": 13
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "dental",
+      "frequency": 12
+    },
+    {
+      "keyword": "results",
+      "frequency": 11
+    },
+    {
+      "keyword": "surface",
+      "frequency": 11
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 10
+    },
+    {
+      "keyword": "treatments",
+      "frequency": 10
+    },
+    {
+      "keyword": "office",
+      "frequency": 9
+    },
+    {
+      "keyword": "chemical",
+      "frequency": 9
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "whitening",
+      "suggested_target": "/blog/whitening/",
+      "reason": "\"whitening\" appears 36 times in this article"
+    },
+    {
+      "anchor_text": "peroxide",
+      "suggested_target": "/blog/peroxide/",
+      "reason": "\"peroxide\" appears 29 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "enamel",
+      "suggested_target": "/blog/enamel/",
+      "reason": "\"enamel\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "professional",
+      "suggested_target": "/blog/professional/",
+      "reason": "\"professional\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "products",
+      "suggested_target": "/blog/products/",
+      "reason": "\"products\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    }
+  ]
+}

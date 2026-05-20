@@ -1,0 +1,108 @@
+{
+  "source_article": "Dental Implants Cost in 2026",
+  "source_url": "https://stackmatrices.com/blog/dental-implants-cost-2026/",
+  "top_keywords": [
+    {
+      "keyword": "implant",
+      "frequency": 29
+    },
+    {
+      "keyword": "patients",
+      "frequency": 18
+    },
+    {
+      "keyword": "practices",
+      "frequency": 12
+    },
+    {
+      "keyword": "dental",
+      "frequency": 11
+    },
+    {
+      "keyword": "percent",
+      "frequency": 11
+    },
+    {
+      "keyword": "cost",
+      "frequency": 10
+    },
+    {
+      "keyword": "crown",
+      "frequency": 10
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 9
+    },
+    {
+      "keyword": "implants",
+      "frequency": 8
+    },
+    {
+      "keyword": "single",
+      "frequency": 8
+    },
+    {
+      "keyword": "three",
+      "frequency": 7
+    },
+    {
+      "keyword": "board",
+      "frequency": 7
+    },
+    {
+      "keyword": "most",
+      "frequency": 7
+    },
+    {
+      "keyword": "oral",
+      "frequency": 6
+    },
+    {
+      "keyword": "bone",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "implant",
+      "suggested_target": "/blog/implant/",
+      "reason": "\"implant\" appears 29 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "practices",
+      "suggested_target": "/blog/practices/",
+      "reason": "\"practices\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "dental",
+      "suggested_target": "/blog/dental/",
+      "reason": "\"dental\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "percent",
+      "suggested_target": "/blog/percent/",
+      "reason": "\"percent\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "cost",
+      "suggested_target": "/blog/cost/",
+      "reason": "\"cost\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "crown",
+      "suggested_target": "/blog/crown/",
+      "reason": "\"crown\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 9 times in this article"
+    }
+  ]
+}

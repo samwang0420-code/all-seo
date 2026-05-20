@@ -1,0 +1,108 @@
+{
+  "source_article": "CoolSculpting: The Complete Consumer Guide to Fat-Freezing Technology",
+  "source_url": "https://stackmatrices.com/blog/coolsculpting-guide/",
+  "top_keywords": [
+    {
+      "keyword": "treatment",
+      "frequency": 22
+    },
+    {
+      "keyword": "patients",
+      "frequency": 19
+    },
+    {
+      "keyword": "coolsculpting",
+      "frequency": 17
+    },
+    {
+      "keyword": "cells",
+      "frequency": 12
+    },
+    {
+      "keyword": "reduction",
+      "frequency": 11
+    },
+    {
+      "keyword": "body",
+      "frequency": 10
+    },
+    {
+      "keyword": "than",
+      "frequency": 9
+    },
+    {
+      "keyword": "weight",
+      "frequency": 9
+    },
+    {
+      "keyword": "area",
+      "frequency": 8
+    },
+    {
+      "keyword": "outcomes",
+      "frequency": 7
+    },
+    {
+      "keyword": "cycles",
+      "frequency": 6
+    },
+    {
+      "keyword": "while",
+      "frequency": 6
+    },
+    {
+      "keyword": "treated",
+      "frequency": 6
+    },
+    {
+      "keyword": "areas",
+      "frequency": 6
+    },
+    {
+      "keyword": "exercise",
+      "frequency": 6
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 22 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "coolsculpting",
+      "suggested_target": "/blog/coolsculpting/",
+      "reason": "\"coolsculpting\" appears 17 times in this article"
+    },
+    {
+      "anchor_text": "cells",
+      "suggested_target": "/blog/cells/",
+      "reason": "\"cells\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "reduction",
+      "suggested_target": "/blog/reduction/",
+      "reason": "\"reduction\" appears 11 times in this article"
+    },
+    {
+      "anchor_text": "body",
+      "suggested_target": "/blog/body/",
+      "reason": "\"body\" appears 10 times in this article"
+    },
+    {
+      "anchor_text": "than",
+      "suggested_target": "/blog/than/",
+      "reason": "\"than\" appears 9 times in this article"
+    },
+    {
+      "anchor_text": "weight",
+      "suggested_target": "/blog/weight/",
+      "reason": "\"weight\" appears 9 times in this article"
+    }
+  ]
+}

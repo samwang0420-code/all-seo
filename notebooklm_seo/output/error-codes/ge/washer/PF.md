@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances PF error code on washer. Causes and ste
 brand: ge
 category: washer
 code: PF
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/PF/

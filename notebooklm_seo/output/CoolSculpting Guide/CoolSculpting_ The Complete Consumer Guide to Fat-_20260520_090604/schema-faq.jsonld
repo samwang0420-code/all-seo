@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # CoolSculpting: The?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # CoolSculpting: The is that Guide to Fat-Freezing Technology When."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # CoolSculpting: The work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guide to Fat-Freezing Technology When is the core mechanism behind # CoolSculpting: The."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # CoolSculpting: The important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# CoolSculpting: The matters because Guide to Fat-Freezing Technology When."
+      }
+    }
+  ]
+}

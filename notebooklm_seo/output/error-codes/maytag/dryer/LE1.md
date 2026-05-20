@@ -4,7 +4,7 @@ description: "Troubleshoot Maytag LE1 error code on dryer. Causes and step-by-st
 brand: maytag
 category: dryer
 code: LE1
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/maytag/dryer/LE1/

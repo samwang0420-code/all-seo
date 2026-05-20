@@ -1,0 +1,108 @@
+{
+  "source_article": "Botox vs Dermal Fillers in 2026",
+  "source_url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-2026/",
+  "top_keywords": [
+    {
+      "keyword": "botox",
+      "frequency": 20
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 19
+    },
+    {
+      "keyword": "patients",
+      "frequency": 15
+    },
+    {
+      "keyword": "provider",
+      "frequency": 13
+    },
+    {
+      "keyword": "filler",
+      "frequency": 13
+    },
+    {
+      "keyword": "fillers",
+      "frequency": 12
+    },
+    {
+      "keyword": "lines",
+      "frequency": 12
+    },
+    {
+      "keyword": "patient",
+      "frequency": 12
+    },
+    {
+      "keyword": "forehead",
+      "frequency": 11
+    },
+    {
+      "keyword": "practices",
+      "frequency": 11
+    },
+    {
+      "keyword": "unit",
+      "frequency": 11
+    },
+    {
+      "keyword": "syringe",
+      "frequency": 11
+    },
+    {
+      "keyword": "results",
+      "frequency": 10
+    },
+    {
+      "keyword": "costs",
+      "frequency": 10
+    },
+    {
+      "keyword": "most",
+      "frequency": 10
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "botox",
+      "suggested_target": "/blog/botox/",
+      "reason": "\"botox\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "provider",
+      "suggested_target": "/blog/provider/",
+      "reason": "\"provider\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "filler",
+      "suggested_target": "/blog/filler/",
+      "reason": "\"filler\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "fillers",
+      "suggested_target": "/blog/fillers/",
+      "reason": "\"fillers\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "lines",
+      "suggested_target": "/blog/lines/",
+      "reason": "\"lines\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "patient",
+      "suggested_target": "/blog/patient/",
+      "reason": "\"patient\" appears 12 times in this article"
+    }
+  ]
+}

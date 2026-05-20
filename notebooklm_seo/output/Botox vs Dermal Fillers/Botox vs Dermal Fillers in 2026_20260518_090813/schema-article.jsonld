@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Botox vs Dermal Fillers in 2026",
+  "description": "A woman in her late thirties walks into a med spa for a consultation. She tells the provider she wants to look \"less tired\" and \"smoother.\" The provider suggests Botox for her forehead lines and fille",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-18",
+  "dateModified": "2026-05-18",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/botox-vs-dermal-fillers-2026/"
+  },
+  "wordCount": 1761,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

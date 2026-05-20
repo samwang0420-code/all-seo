@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire UE error code on washer. Causes and step-b
 brand: frigidaire
 category: washer
 code: UE
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/washer/UE/

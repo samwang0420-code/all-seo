@@ -4,7 +4,7 @@ description: "Troubleshoot Amana CL error code on washer. Causes and step-by-ste
 brand: amana
 category: washer
 code: CL
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/amana/washer/CL/

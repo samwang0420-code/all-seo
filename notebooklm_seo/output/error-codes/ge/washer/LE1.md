@@ -4,7 +4,7 @@ description: "Troubleshoot GE Appliances LE1 error code on washer. Causes and st
 brand: ge
 category: washer
 code: LE1
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/ge/washer/LE1/

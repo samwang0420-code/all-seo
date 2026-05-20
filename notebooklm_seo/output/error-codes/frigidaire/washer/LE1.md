@@ -4,7 +4,7 @@ description: "Troubleshoot Frigidaire LE1 error code on washer. Causes and step-
 brand: frigidaire
 category: washer
 code: LE1
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/frigidaire/washer/LE1/

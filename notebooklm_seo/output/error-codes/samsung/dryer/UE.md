@@ -4,7 +4,7 @@ description: "Troubleshoot Samsung UE error code on dryer. Causes and step-by-st
 brand: samsung
 category: dryer
 code: UE
-date: 2026-05-15
+date: 2026-05-20
 difficulty: medium
 diy: true
 canonical: https://uscomplianceguard.com/error/samsung/dryer/UE/

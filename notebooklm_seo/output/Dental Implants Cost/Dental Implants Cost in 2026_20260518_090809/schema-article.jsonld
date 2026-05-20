@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost in 2026",
+  "description": "Maria Chen, a 44-year-old accountant from Phoenix, spent three years avoiding mirrors. Missing teeth from a cycling accident had changed how she ate, how she spoke, and how she felt walking into confe",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-18",
+  "dateModified": "2026-05-18",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost-2026/"
+  },
+  "wordCount": 1527,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

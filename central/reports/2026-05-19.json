@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-19",
+  "timestamp": "2026-05-19T09:00:01.389757",
+  "agents": [
+    {
+      "agent": "error-code",
+      "site": "uscomplianceguard.com",
+      "total_generated": 528,
+      "total_errors": 0,
+      "error_samples": [],
+      "status": "OK"
+    },
+    {
+      "agent": "supply",
+      "site": "uscompliance-team.com",
+      "total_generated": 22,
+      "total_errors": 0,
+      "error_samples": [],
+      "status": "OK"
+    },
+    {
+      "agent": "city",
+      "site": "getuscompliance.com",
+      "total_generated": 1000,
+      "total_errors": 0,
+      "error_samples": [],
+      "status": "OK"
+    }
+  ],
+  "summary": {
+    "total_pages": 1550,
+    "total_errors": 0,
+    "problem_agents": [],
+    "needs_attention": false
+  }
+}
