@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: What the Research Actually Shows in 2026",
+  "description": "The sticker price for a single dental implant ranges from $3,000 to $6,000 in most metropolitan US markets, according to data from the American Academy of Implant Dentistry. But that number represents",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost-2026/"
+  },
+  "wordCount": 1713,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

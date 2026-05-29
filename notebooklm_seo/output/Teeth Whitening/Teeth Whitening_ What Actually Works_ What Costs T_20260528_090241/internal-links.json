@@ -1,0 +1,108 @@
+{
+  "source_article": "Teeth Whitening: What Actually Works, What Costs Too Much, and What Poses Real Risks",
+  "source_url": "https://stackmatrices.com/blog/teeth-whitening-2026/",
+  "top_keywords": [
+    {
+      "keyword": "whitening",
+      "frequency": 43
+    },
+    {
+      "keyword": "tooth",
+      "frequency": 20
+    },
+    {
+      "keyword": "teeth",
+      "frequency": 19
+    },
+    {
+      "keyword": "peroxide",
+      "frequency": 18
+    },
+    {
+      "keyword": "enamel",
+      "frequency": 15
+    },
+    {
+      "keyword": "results",
+      "frequency": 14
+    },
+    {
+      "keyword": "patients",
+      "frequency": 13
+    },
+    {
+      "keyword": "office",
+      "frequency": 11
+    },
+    {
+      "keyword": "tray",
+      "frequency": 11
+    },
+    {
+      "keyword": "color",
+      "frequency": 9
+    },
+    {
+      "keyword": "dentin",
+      "frequency": 9
+    },
+    {
+      "keyword": "over",
+      "frequency": 9
+    },
+    {
+      "keyword": "percent",
+      "frequency": 9
+    },
+    {
+      "keyword": "bleaching",
+      "frequency": 9
+    },
+    {
+      "keyword": "discoloration",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "whitening",
+      "suggested_target": "/blog/whitening/",
+      "reason": "\"whitening\" appears 43 times in this article"
+    },
+    {
+      "anchor_text": "tooth",
+      "suggested_target": "/blog/tooth/",
+      "reason": "\"tooth\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "teeth",
+      "suggested_target": "/blog/teeth/",
+      "reason": "\"teeth\" appears 19 times in this article"
+    },
+    {
+      "anchor_text": "peroxide",
+      "suggested_target": "/blog/peroxide/",
+      "reason": "\"peroxide\" appears 18 times in this article"
+    },
+    {
+      "anchor_text": "enamel",
+      "suggested_target": "/blog/enamel/",
+      "reason": "\"enamel\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "results",
+      "suggested_target": "/blog/results/",
+      "reason": "\"results\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 13 times in this article"
+    },
+    {
+      "anchor_text": "office",
+      "suggested_target": "/blog/office/",
+      "reason": "\"office\" appears 11 times in this article"
+    }
+  ]
+}
