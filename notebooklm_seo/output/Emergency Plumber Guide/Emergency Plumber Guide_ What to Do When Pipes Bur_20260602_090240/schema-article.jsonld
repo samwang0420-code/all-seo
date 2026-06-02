@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Emergency Plumber Guide: What to Do When Pipes Burst at 2 AM",
+  "description": "A burst pipe never happens at a convenient time. According to the Insurance Information Institute, water damage claims average $11,650 per incident, and burst pipes rank among the most common causes o",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/emergency-plumber-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-06-02",
+  "dateModified": "2026-06-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/emergency-plumber-guide/"
+  },
+  "wordCount": 1813,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

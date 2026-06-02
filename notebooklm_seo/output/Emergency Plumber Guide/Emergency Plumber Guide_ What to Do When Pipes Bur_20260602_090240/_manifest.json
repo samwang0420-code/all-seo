@@ -1,0 +1,24 @@
+{
+  "title": "Emergency Plumber Guide: What to Do When Pipes Burst at 2 AM",
+  "url": "https://stackmatrices.com/blog/emergency-plumber-guide/",
+  "notebook": "Emergency Plumber Guide",
+  "output_dir": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240",
+  "files": {
+    "chart-comparison.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/chart-comparison.png",
+    "infographic.png": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/infographic.png",
+    "schema-breadcrumb.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/schema-breadcrumb.jsonld",
+    "internal-links.json": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/internal-links.json",
+    "schema-faq.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/schema-faq.jsonld",
+    "quiz.html": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/quiz.html",
+    "schema-article.jsonld": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/schema-article.jsonld"
+  },
+  "results": {
+    "schemas": true,
+    "charts": [
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/chart-comparison.png",
+      "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/infographic.png"
+    ],
+    "quiz": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/quiz.html",
+    "internal_links": "/root/.openclaw/workspace-crm/notebooklm_seo/output/Emergency Plumber Guide/Emergency Plumber Guide_ What to Do When Pipes Bur_20260602_090240/internal-links.json"
+  }
+}

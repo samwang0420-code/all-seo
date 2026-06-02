@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dental Implants Cost: A Complete Guide to What You Actually Pay in 2026",
+  "description": "The total cost of dental implants in the United States typically ranges from $3,000 to $6,500 per implant when factoring in the implant fixture, abutment, and crown. Full-mouth reconstructions can exc",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-06-02",
+  "dateModified": "2026-06-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/dental-implants-cost/"
+  },
+  "wordCount": 2174,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is # CoolSculpting Guide:?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key insight about # CoolSculpting Guide: is that Freezing Actually Does and What."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does # CoolSculpting Guide: work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freezing Actually Does and What is the core mechanism behind # CoolSculpting Guide:."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is # CoolSculpting Guide: important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "# CoolSculpting Guide: matters because Freezing Actually Does and What."
+      }
+    }
+  ]
+}

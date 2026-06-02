@@ -1,0 +1,108 @@
+{
+  "source_article": "Emergency Plumber Guide: What to Do When Pipes Burst at 2 AM",
+  "source_url": "https://stackmatrices.com/blog/emergency-plumber-guide/",
+  "top_keywords": [
+    {
+      "keyword": "water",
+      "frequency": 35
+    },
+    {
+      "keyword": "pipe",
+      "frequency": 30
+    },
+    {
+      "keyword": "pipes",
+      "frequency": 21
+    },
+    {
+      "keyword": "burst",
+      "frequency": 20
+    },
+    {
+      "keyword": "damage",
+      "frequency": 16
+    },
+    {
+      "keyword": "emergency",
+      "frequency": 14
+    },
+    {
+      "keyword": "when",
+      "frequency": 12
+    },
+    {
+      "keyword": "valve",
+      "frequency": 12
+    },
+    {
+      "keyword": "most",
+      "frequency": 9
+    },
+    {
+      "keyword": "typically",
+      "frequency": 9
+    },
+    {
+      "keyword": "your",
+      "frequency": 9
+    },
+    {
+      "keyword": "repair",
+      "frequency": 9
+    },
+    {
+      "keyword": "main",
+      "frequency": 8
+    },
+    {
+      "keyword": "shutoff",
+      "frequency": 8
+    },
+    {
+      "keyword": "before",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "water",
+      "suggested_target": "/blog/water/",
+      "reason": "\"water\" appears 35 times in this article"
+    },
+    {
+      "anchor_text": "pipe",
+      "suggested_target": "/blog/pipe/",
+      "reason": "\"pipe\" appears 30 times in this article"
+    },
+    {
+      "anchor_text": "pipes",
+      "suggested_target": "/blog/pipes/",
+      "reason": "\"pipes\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "burst",
+      "suggested_target": "/blog/burst/",
+      "reason": "\"burst\" appears 20 times in this article"
+    },
+    {
+      "anchor_text": "damage",
+      "suggested_target": "/blog/damage/",
+      "reason": "\"damage\" appears 16 times in this article"
+    },
+    {
+      "anchor_text": "emergency",
+      "suggested_target": "/blog/emergency/",
+      "reason": "\"emergency\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "when",
+      "suggested_target": "/blog/when/",
+      "reason": "\"when\" appears 12 times in this article"
+    },
+    {
+      "anchor_text": "valve",
+      "suggested_target": "/blog/valve/",
+      "reason": "\"valve\" appears 12 times in this article"
+    }
+  ]
+}

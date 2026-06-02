@@ -1,0 +1,108 @@
+{
+  "source_article": "CoolSculpting Guide: What Fat Freezing Actually Does and What It Cannot Do",
+  "source_url": "https://stackmatrices.com/blog/coolsculpting-guide/",
+  "top_keywords": [
+    {
+      "keyword": "coolsculpting",
+      "frequency": 30
+    },
+    {
+      "keyword": "patients",
+      "frequency": 21
+    },
+    {
+      "keyword": "treatment",
+      "frequency": 21
+    },
+    {
+      "keyword": "area",
+      "frequency": 21
+    },
+    {
+      "keyword": "results",
+      "frequency": 15
+    },
+    {
+      "keyword": "than",
+      "frequency": 15
+    },
+    {
+      "keyword": "most",
+      "frequency": 14
+    },
+    {
+      "keyword": "applicator",
+      "frequency": 14
+    },
+    {
+      "keyword": "reduction",
+      "frequency": 12
+    },
+    {
+      "keyword": "treated",
+      "frequency": 11
+    },
+    {
+      "keyword": "because",
+      "frequency": 10
+    },
+    {
+      "keyword": "session",
+      "frequency": 10
+    },
+    {
+      "keyword": "percent",
+      "frequency": 9
+    },
+    {
+      "keyword": "layer",
+      "frequency": 9
+    },
+    {
+      "keyword": "body",
+      "frequency": 8
+    }
+  ],
+  "internal_link_opportunities": [
+    {
+      "anchor_text": "coolsculpting",
+      "suggested_target": "/blog/coolsculpting/",
+      "reason": "\"coolsculpting\" appears 30 times in this article"
+    },
+    {
+      "anchor_text": "patients",
+      "suggested_target": "/blog/patients/",
+      "reason": "\"patients\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "treatment",
+      "suggested_target": "/blog/treatment/",
+      "reason": "\"treatment\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "area",
+      "suggested_target": "/blog/area/",
+      "reason": "\"area\" appears 21 times in this article"
+    },
+    {
+      "anchor_text": "results",
+      "suggested_target": "/blog/results/",
+      "reason": "\"results\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "than",
+      "suggested_target": "/blog/than/",
+      "reason": "\"than\" appears 15 times in this article"
+    },
+    {
+      "anchor_text": "most",
+      "suggested_target": "/blog/most/",
+      "reason": "\"most\" appears 14 times in this article"
+    },
+    {
+      "anchor_text": "applicator",
+      "suggested_target": "/blog/applicator/",
+      "reason": "\"applicator\" appears 14 times in this article"
+    }
+  ]
+}

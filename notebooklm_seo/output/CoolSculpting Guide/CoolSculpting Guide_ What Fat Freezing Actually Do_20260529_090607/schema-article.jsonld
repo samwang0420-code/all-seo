@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "CoolSculpting Guide: What Fat Freezing Actually Does and What It Cannot Do",
+  "description": "CoolSculpting, whose clinical name is cryolipolysis, received FDA clearance in 2010 and has since become one of the most performed non-invasive body contouring procedures in the United States, with ov",
+  "author": {
+    "@type": "Person",
+    "name": "SEO Writer",
+    "url": "https://stackmatrices.com/blog/coolsculpting-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEO Content",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://your-site.com/logo.png"
+    }
+  },
+  "datePublished": "2026-05-29",
+  "dateModified": "2026-05-29",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stackmatrices.com/blog/coolsculpting-guide/"
+  },
+  "wordCount": 2074,
+  "articleSection": "SEO Guide",
+  "inLanguage": "en-US"
+}
